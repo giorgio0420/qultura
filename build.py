@@ -84,7 +84,8 @@ def run():
                 continue
             seen.add(link)
             try:
-                c = curate(title, text, src["category"], src.get("out_lang", "en"))
+                c = curate(title, text, src["category"], src.get("out_lang", "en"),
+                           src.get("focus"))
             except QuotaExceeded as e:
                 # Out of daily allowance: every further call fails the same way, so
                 # stop and keep what we have instead of grinding through the backoff.

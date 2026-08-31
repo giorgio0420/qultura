@@ -57,9 +57,11 @@ Limiti noti da tenere presenti nell'implementazione:
   YouTube completo (152 canali, disponibile su richiesta).
 
 ### 2. Musica (rap/hip-hop IT+US, con apertura a rock/cantautorato italiano)
-- **Scritte**: Rockit, Rolling Stone Italia (IT) — Pitchfork, Complex, HipHopDX (US/intl)
-- **Artisti di riferimento** (per tarare la selezione, non per notifiche dirette): Fabri Fibra,
-  Marracash, Guè, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West; dalle playlist personali
+- **Scritte**: Rockit, Rolling Stone Italia, Rumore (IT) — Pitchfork, HipHopDX (US/intl).
+  Complex non ha piu un feed RSS raggiungibile, escluso. Esse Magazine
+  (essemagazine.it) e attivo ma non pubblica RSS: resta fuori dall'automazione.
+- **Artisti di riferimento** (per tarare la selezione, non per notifiche dirette): Nayt,
+  Fabri Fibra, Marracash, Guè, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West; dalle playlist personali
   emergono anche Neffa, Green Day, Negrita, Jovanotti — il gusto musicale è più ampio del solo
   rap/hip-hop.
 - Jazz/soul "vecchia scuola": categoria aperta, fonti da definire.
@@ -81,7 +83,8 @@ Limiti noti da tenere presenti nell'implementazione:
   Movement (corpo libero)
 
 ### 6. Filosofia / Stoicismo / Cultura
-- **Scritte**: Il Tascabile (Treccani — saggistica ampia: filosofia, scienza, cultura)
+- **Scritte**: Il Tascabile (Treccani — saggistica ampia: filosofia, scienza, cultura),
+  ArteSettima (https://artesettima.it — cinema come lettura del presente)
 - **YouTube (via trascrizione)**: Rick DuFer / BarbaSophia (Matteo Saudino), Nova Lectio
 
 ## Livello di curatela (AI layer)

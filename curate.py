@@ -50,17 +50,19 @@ SCHEMA = {
 }
 
 
-def curate(title, text, category, lang="en"):
+def curate(title, text, category, lang="en", focus=None):
     """Return the curated record for one piece of content."""
     name = LANGS.get(lang, lang)
+    care = ("The reader follows these closely: " + focus + "." + chr(10)) if focus else ""
     prompt = f"""Category: {category}
 Original title: {title}
 
 Content:
 {text[:MAX_CHARS]}
 
-Summarize in 2-3 sentences, then 3-6 bullets of concrete substance.
-Rate relevance 1-5 on the anchored scale.
+{care}Summarize in 2-3 sentences, then 3-6 bullets of concrete substance.
+Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
+is worth one point more, but an announcement with no substance stays low.
 Write in {name}: the title, the summary and every bullet must be in {name},
 translated if the source is in another language."""
     body = {

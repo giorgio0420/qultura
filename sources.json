@@ -130,7 +130,8 @@
   "category": "musica",
   "weight": 2,
   "url": "https://www.rockit.it/rss",
-  "out_lang": "it"
+  "out_lang": "it",
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
  },
  {
   "name": "Rolling Stone Italia",
@@ -138,21 +139,33 @@
   "category": "musica",
   "weight": 2,
   "url": "https://www.rollingstone.it/feed/",
-  "out_lang": "it"
+  "out_lang": "it",
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
  },
  {
   "name": "Pitchfork Reviews",
   "kind": "rss",
   "category": "musica",
   "weight": 2,
-  "url": "https://pitchfork.com/feed/feed-album-reviews/rss"
+  "url": "https://pitchfork.com/feed/feed-album-reviews/rss",
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
  },
  {
   "name": "HipHopDX",
   "kind": "rss",
   "category": "musica",
   "weight": 2,
-  "url": "https://hiphopdx.com/rss/news.xml"
+  "url": "https://hiphopdx.com/rss/news.xml",
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
+ },
+ {
+  "name": "Rumore",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.rumoremag.com/feed/",
+  "out_lang": "it",
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
  },
  {
   "name": "L'Ultimo Uomo",
@@ -361,5 +374,14 @@
    "it"
   ],
   "out_lang": "it"
+ },
+ {
+  "name": "ArteSettima",
+  "kind": "rss",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "https://artesettima.it/feed/",
+  "out_lang": "it",
+  "site": "https://artesettima.it"
  }
 ]
