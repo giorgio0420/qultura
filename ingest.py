@@ -48,7 +48,7 @@ def strip_html(html):
 
 def fetch_rss(source, seen=(), limit=3):
     """Yield (title, link, text) for the latest entries of an RSS feed."""
-    for e in feedparser.parse(source["url"]).entries[:limit]:
+    for e in feedparser.parse(source["url"]).entries[:source.get("limit", limit)]:
         body = e["content"][0].get("value", "") if e.get("content") else ""
         title, link = e.get("title", ""), e.get("link", "")
         if link in seen:

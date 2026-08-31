@@ -50,7 +50,18 @@ Limiti noti da tenere presenti nell'implementazione:
 ## Categorie e fonti
 
 ### 1. AI / Robotica / Elettronica (priorità massima)
-- **Scritte**: IEEE Spectrum, MIT Technology Review, Ars Technica
+- **Scritte (testate)**: IEEE Spectrum, MIT Technology Review, Ars Technica, The Robot Report,
+  SpaceNews
+- **Scritte (aziende e istituzioni del settore)**: NVIDIA Developer Blog
+  (https://developer.nvidia.com/blog) e NVIDIA Blog (https://blogs.nvidia.com),
+  OpenAI (https://openai.com/news), Google DeepMind (https://deepmind.google/blog),
+  Google Research (https://research.google/blog), Hugging Face (https://huggingface.co/blog),
+  Waymo (https://waymo.com/blog); italiane: Comau (https://www.comau.com) e
+  Agenzia Spaziale Italiana (https://www.asi.it).
+  Senza RSS, quindi non automatizzabili: Tesla (403 sul feed), SpaceX, Boston Dynamics,
+  Anthropic, Figure, Agility Robotics, IIT, Leonardo, STMicroelectronics, Datalogic, Avio,
+  Telespazio, D-Orbit. Le loro notizie arrivano comunque via The Robot Report (robotica
+  industriale e umanoidi) e SpaceNews (spazio).
 - **YouTube (via trascrizione)**: Kevin Wood | Robotics & AI, IBM Technology, RoboticaPedia,
   Polimi OpenKnowledge, MATLAB, EPICODE Institute of Technology, TED/TEDx, Amedeo Balbi, Geopop,
   Salvatore Sanfilippo, Stepwise Chemistry, e altri canali tech/scienza dall'elenco iscrizioni

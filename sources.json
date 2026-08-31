@@ -125,6 +125,106 @@
   "out_lang": "it"
  },
  {
+  "name": "NVIDIA Developer Blog",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://developer.nvidia.com/blog",
+  "limit": 2,
+  "url": "https://developer.nvidia.com/blog/feed/"
+ },
+ {
+  "name": "NVIDIA Blog",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://blogs.nvidia.com",
+  "limit": 2,
+  "url": "https://blogs.nvidia.com/feed/"
+ },
+ {
+  "name": "The Robot Report",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://www.therobotreport.com",
+  "url": "https://www.therobotreport.com/feed/"
+ },
+ {
+  "name": "OpenAI",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://openai.com/news",
+  "limit": 2,
+  "url": "https://openai.com/news/rss.xml"
+ },
+ {
+  "name": "Google DeepMind",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://deepmind.google/blog",
+  "limit": 2,
+  "url": "https://deepmind.google/blog/rss.xml"
+ },
+ {
+  "name": "Google Research",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://research.google/blog",
+  "limit": 2,
+  "url": "https://research.google/blog/rss/"
+ },
+ {
+  "name": "Hugging Face",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://huggingface.co/blog",
+  "limit": 2,
+  "url": "https://huggingface.co/blog/feed.xml"
+ },
+ {
+  "name": "Waymo",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://waymo.com/blog",
+  "limit": 2,
+  "url": "https://waymo.com/blog/rss.xml"
+ },
+ {
+  "name": "SpaceNews",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://spacenews.com",
+  "limit": 2,
+  "url": "https://spacenews.com/feed/"
+ },
+ {
+  "name": "Comau",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://www.comau.com",
+  "out_lang": "it",
+  "limit": 2,
+  "url": "https://www.comau.com/feed/"
+ },
+ {
+  "name": "Agenzia Spaziale Italiana",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "site": "https://www.asi.it",
+  "out_lang": "it",
+  "limit": 2,
+  "url": "https://www.asi.it/feed/"
+ },
+ {
   "name": "Rockit",
   "kind": "rss",
   "category": "musica",
