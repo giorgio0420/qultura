@@ -1,0 +1,365 @@
+[
+ {
+  "name": "IEEE Spectrum",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://spectrum.ieee.org/feeds/feed.rss"
+ },
+ {
+  "name": "MIT Technology Review",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://www.technologyreview.com/feed/"
+ },
+ {
+  "name": "Ars Technica",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://feeds.arstechnica.com/arstechnica/index"
+ },
+ {
+  "name": "IBM Technology",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCKWaEZ-_VweaEx1j62do_vQ",
+  "handle": "@IBMTechnology",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "Kevin Wood | Robotics & AI",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UC0jeEKE9IzfYKDuIbQLJIog",
+  "handle": "@KevinWoodRobotics",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "MATLAB",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCgdHSFcXvkN6O3NXvif0-pA",
+  "handle": "@MATLAB",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "TED",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCAuUUnT6oDeKwE6v1NGQxug",
+  "handle": "@TED",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "Polimi OpenKnowledge",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCOKtBGblWKlkE-KIf-S0Fvg",
+  "handle": "@PolimiOpenKnowledge",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Salvatore Sanfilippo",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCDDG9vOcmgwlslJJpCWjqOg",
+  "handle": "@antirez",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Amedeo Balbi",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCvG_mqHj_wmFZiM1SkoZccw",
+  "handle": "@amedeobalbi",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Geopop",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCx7EWheHmjCW3vX8K2d09vg",
+  "handle": "@geopop",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Stepwise Chemistry",
+  "kind": "yt",
+  "category": "ai",
+  "weight": 3,
+  "url": "UCErF9HdSixuZvqem-xOU-xA",
+  "handle": "@StepwiseChemistry",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Rockit",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.rockit.it/rss",
+  "out_lang": "it"
+ },
+ {
+  "name": "Rolling Stone Italia",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.rollingstone.it/feed/",
+  "out_lang": "it"
+ },
+ {
+  "name": "Pitchfork Reviews",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://pitchfork.com/feed/feed-album-reviews/rss"
+ },
+ {
+  "name": "HipHopDX",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://hiphopdx.com/rss/news.xml"
+ },
+ {
+  "name": "L'Ultimo Uomo",
+  "kind": "rss",
+  "category": "calcio",
+  "weight": 2,
+  "url": "https://www.ultimouomo.com/feed/",
+  "out_lang": "it"
+ },
+ {
+  "name": "ForzaRoma",
+  "kind": "rss",
+  "category": "calcio",
+  "weight": 2,
+  "url": "https://www.forzaroma.info/feed/",
+  "out_lang": "it"
+ },
+ {
+  "name": "Corriere dello Sport",
+  "kind": "rss",
+  "category": "calcio",
+  "weight": 2,
+  "url": "https://www.corrieredellosport.it/rss/calcio",
+  "out_lang": "it",
+  "match": "roma"
+ },
+ {
+  "name": "Cronache di Spogliatoio",
+  "kind": "yt",
+  "category": "calcio",
+  "weight": 2,
+  "url": "UCfmCGVXfpAMSi4PP8kqWlbA",
+  "handle": "@CronacheDiSpogliatoio",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Il Critico Calcistico",
+  "kind": "yt",
+  "category": "calcio",
+  "weight": 2,
+  "url": "UCR-oaVSNNPCWQ7h8o_SOXag",
+  "handle": "@ilcriticocalcistico",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "AS Roma",
+  "kind": "yt",
+  "category": "calcio",
+  "weight": 2,
+  "url": "UCLttSYJ6kPtlcurY96kXkQw",
+  "handle": "@ASRoma",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "ChessBase",
+  "kind": "rss",
+  "category": "scacchi",
+  "weight": 1,
+  "url": "https://en.chessbase.com/feed"
+ },
+ {
+  "name": "FIDE",
+  "kind": "rss",
+  "category": "scacchi",
+  "weight": 1,
+  "url": "https://www.fide.com/rss"
+ },
+ {
+  "name": "Chess.com Italiano",
+  "kind": "yt",
+  "category": "scacchi",
+  "weight": 1,
+  "url": "UCALzYnzoVxM6PrMEMaFKeLg",
+  "handle": "@chesscomIT",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Anna Cramling",
+  "kind": "yt",
+  "category": "scacchi",
+  "weight": 1,
+  "url": "UCOVfq3NNYjlYCz1iou69FwQ",
+  "handle": "@AnnaCramling",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "MontyMagnus Scacchi",
+  "kind": "yt",
+  "category": "scacchi",
+  "weight": 1,
+  "url": "UClSYRE16uogmW-dqWxCF9Yw",
+  "handle": "@MontyMagnus",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Runner's World",
+  "kind": "rss",
+  "category": "running",
+  "weight": 1,
+  "url": "https://www.runnersworld.com/rss/all.xml/"
+ },
+ {
+  "name": "iRunFar",
+  "kind": "rss",
+  "category": "running",
+  "weight": 1,
+  "url": "https://www.irunfar.com/feed"
+ },
+ {
+  "name": "LetsRun",
+  "kind": "rss",
+  "category": "running",
+  "weight": 1,
+  "url": "https://www.letsrun.com/feed/"
+ },
+ {
+  "name": "Vo2max Productions (Sage Canaday)",
+  "kind": "yt",
+  "category": "running",
+  "weight": 1,
+  "url": "UCh_w_vLvlZNBeTAP8qaWhoA",
+  "handle": "@Vo2maxProductions",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "Chris Heria",
+  "kind": "yt",
+  "category": "running",
+  "weight": 1,
+  "url": "UCaBqRxHEMomgFU-AkSfodCw",
+  "handle": "@CHRISHERIA",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "Calisthenic Movement",
+  "kind": "yt",
+  "category": "running",
+  "weight": 1,
+  "url": "UCZIIRX8rkNjVpP-oLMHpeDw",
+  "handle": "@calimove",
+  "lang": [
+   "en"
+  ]
+ },
+ {
+  "name": "Il Tascabile",
+  "kind": "rss",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "https://www.iltascabile.com/feed/",
+  "out_lang": "it"
+ },
+ {
+  "name": "Daily Cogito (Rick DuFer)",
+  "kind": "yt",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "UC-Eg38eLnX8OTP6zlQL5PsA",
+  "handle": "@DailyCogito",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "BarbaSophia (Matteo Saudino)",
+  "kind": "yt",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "UCczAmcE87UncfJLyrfA2wUA",
+  "handle": "@MatteoSaudino",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Nova Lectio",
+  "kind": "yt",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "UCRCWJCFoZUvkkWzIqzfBy6g",
+  "handle": "@NovaLectio",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ }
+]
