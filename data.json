@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:36:12.157388+00:00",
+ "generated_at": "2026-08-31T12:45:29.940237+00:00",
  "items": [
   {
    "title": "Synchronal Bimodal Nuclear Rocket Design for Deep Space Exploration",
@@ -161,6 +161,27 @@
    "relevance": 5,
    "score": 15,
    "seen_at": "2026-08-31T10:50:46.047374+00:00"
+  },
+  {
+   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+   "original_title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+   "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This guide covers training and finetuning ColBERT-style multi-vector embedding models using Sentence Transformers. By finetuning unsupervised checkpoints on domain-specific data with long document contexts, practitioners can significantly outperform general-purpose dense, sparse, and lexical retrieval models.",
+   "bullets": [
+    "Multi-vector models utilize a token-level late-interaction architecture with the MaxSim operator, preserving fine-grained retrieval signals that single-vector dense models average out.",
+    "Unsupervised checkpoints (such as lightonai/mLateOn-unsupervised) adapt to new domains much better during finetuning than fully supervised general-purpose checkpoints, which often stagnate or regress.",
+    "Training scripts should lift default document length caps (e.g., 180 to 512 tokens) to match the actual length of domain documents, avoiding severe truncation penalties.",
+    "Using CachedMultiVectorMultipleNegativesRankingLoss with an effective batch size of 128 and a mini_batch_size of 16 enables memory-efficient training via GradCache.",
+    "A custom medical retrieval model trained on 1M pairs in 14.5 hours on an RTX 3090 achieved 0.9139 NDCG@10, outperforming the strongest zero-shot dense, sparse, and lexical models.",
+    "Multi-vector encoder training supports multi-dataset training via dictionary inputs and flexible batch sampling strategies like round-robin or proportional sampling."
+   ],
+   "relevance": 5,
+   "score": 15,
+   "seen_at": "2026-08-31T12:43:31.816673+00:00"
   },
   {
    "title": "Jernej Barbič on Ziva VFX and Physics-Based Tissue Simulation",
@@ -443,6 +464,251 @@
    "seen_at": "2026-08-31T10:50:39.610612+00:00"
   },
   {
+   "title": "NVIDIA TensorRT Model Connect",
+   "original_title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+   "link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/",
+   "source": "NVIDIA Developer Blog",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "NVIDIA TensorRT Model Connect introduces reference implementations and a Python CLI tool to convert open-source model checkpoints into deployment bundles for native C++ TensorRT inference in two commands. It provides semantic and module-level APIs, integrates custom GPU kernels via TVM FFI, and utilizes AI-native coding agents to rapidly scale model support.",
+   "bullets": [
+    "Deployment splits into building a bundle via CLI (trtmc build Qwen/Qwen3-0.6B -o qwen3-0.6B.bundle) and loading it in native C++ without requiring PyTorch or Python at runtime.",
+    "Offers two C++ API levels: a semantic API for task-level inputs like prompts and images, and a module-level API for working directly with named tensors and TensorRT components.",
+    "Uses TVM FFI to allow targeted replacement of model segments with custom GPU kernels while TensorRT executes the rest of the pipeline.",
+    "Built using AI-native workflows where coding agents generate implementation code, tests, and documentation under human supervision to accelerate model coverage."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:41:41.747358+00:00"
+  },
+  {
+   "title": "NVIDIA NVLink Fusion and NVHBM for Custom AI Accelerators",
+   "original_title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
+   "link": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure/",
+   "source": "NVIDIA Developer Blog",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "NVIDIA introduced NVLink Fusion and NVHBM to help hyperscalers integrate custom AI accelerators (XPUs) into NVIDIA's rack-scale infrastructure. The technologies combine to deliver increased memory bandwidth, lower power consumption, and expanded compute die area.",
+   "bullets": [
+    "NVHBM provides up to 30% more memory bandwidth per stack compared to standard HBM4e.",
+    "A redesigned physical memory interface (PHY) reduces interface and support area by up to 67%, freeing up to 30% more main-die silicon for compute.",
+    "NVHBM reduces HBM power usage by up to 15% compared to standard HBM4e, creating thermal and power headroom.",
+    "NVLink Fusion uses the sixth-generation NVLink fabric and NVLink-C2C to bridge custom XPUs and CPUs into a single scale-up domain.",
+    "Combined architectural improvements yield an estimated 30% overall end-to-end performance increase per XPU."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:41:47.132334+00:00"
+  },
+  {
+   "title": "NVIDIA Ships First Vera CPUs Built for Agentic AI Infrastructure",
+   "original_title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+   "link": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+   "source": "NVIDIA Blog",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "NVIDIA is shipping its first custom CPU, the Vera CPU, designed specifically for agentic AI workloads, sandboxes, and tool calls. Early hardware recipients include AWS, Oracle Cloud Infrastructure, Anthropic, OpenAI, and SpaceXAI, with AWS and OCI planning massive deployments.",
+   "bullets": [
+    "Vera features 88 custom NVIDIA-designed Olympus cores, 1.2TB/s of memory bandwidth, and delivers up to 1.8x faster per-core performance on agentic AI workloads.",
+    "AWS received its first NVIDIA Vera CPU server and Vera Rubin GPU, hand-delivered in Seattle, alongside plans for 2 million additional NVIDIA GPUs.",
+    "Oracle Cloud Infrastructure (OCI) plans to deploy hundreds of thousands of NVIDIA Vera CPUs beginning in 2026 for high-throughput reasoning workloads.",
+    "SpaceXAI is evaluating Vera for reinforcement learning workloads and agent-based simulation pipelines.",
+    "In the Vera Rubin NVL72 system, Vera pairs via second-generation NVIDIA NVLink-C2C to a pair of Rubin GPUs using a unified memory architecture."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:41:59.315211+00:00"
+  },
+  {
+   "title": "Overcoming the Edge AI Wall Through Structural Complexity Management",
+   "original_title": "The edge AI wall: Why embodied AI requires new mathematics",
+   "link": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
+   "source": "The Robot Report",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Embodied AI systems face a severe \"edge AI wall\" driven by physical energy constraints and the mathematical inevitability of combinatorial explosion in real-time planning. To bypass this, independent researcher Zhengis Tileubay proposes the Duality-Nonequilibrium (DN) model and a Combinatorial Compression Engine (CCE) to actively compress decision trees rather than relying on brute-force hardware scaling or high-latency cloud computing.",
+   "bullets": [
+    "Linear scaling laws from cloud AI fail for physical AI due to rigid onboard energy, thermal, and millisecond latency constraints.",
+    "Combinatorial explosion governs physical planning spaces following the power law N = A^L, where an action space of 10 and a planning depth of 20 yields a 10^20 search space.",
+    "Cloud robotics solutions introduce unacceptable safety risks due to wireless network dropouts and round-trip latency exceeding 50 milliseconds.",
+    "The Combinatorial Compression Engine (CCE) targets structural compression of the search space during execution, rather than model pruning or distillation.",
+    "Simulations of the DeltaCore-Robot-Sim DN regulator under random chaos cut near-collision events by over 90% and entirely eliminated behavioral oscillations in symmetrical ambiguity tests.",
+    "The DN regulator operates via the equation dS/dt, balancing external nonequilibrium (ΔN) and internal duality (ΔD) to dynamically shift behavioral modes."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:42:05.321394+00:00"
+  },
+  {
+   "title": "Centralized vs. Decentralized Power Architectures in Swarm Robotics",
+   "original_title": "The differences between decentralized and centralized power in swarm robotics",
+   "link": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
+   "source": "The Robot Report",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Swarm robotics performance depends heavily on power architecture trade-offs between centralized orchestration and decentralized autonomy. Centralized models offer high synchronization precision and efficiency in structured warehouse environments, whereas decentralized approaches maximize fault tolerance at the cost of communication congestion.",
+   "bullets": [
+    "Centralized power models use unified orchestration to optimize routing and energy distribution, working well in predictable industrial environments like Amazon's fulfillment centers.",
+    "Centralized systems risk single points of failure, scalability limits, and communication bottlenecks.",
+    "Decentralized power models distribute energy management and decision-making to individual agents, improving fault tolerance and scalability during network disruptions.",
+    "Decentralized networks suffer from communication congestion as message traffic scales with the number of nodes, impacting real-time responsiveness.",
+    "Hybrid architectures combine centralized oversight with decentralized edge AI processing and energy autonomy to balance large-scale efficiency with localized adaptability.",
+    "Real-world deployments include Amazon Robotics managing over one million centralized mobile robots and Ocado Technology utilizing grid-based centralized fulfillment systems to pick 50-item baskets in under five minutes."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:42:11.183480+00:00"
+  },
+  {
+   "title": "OpenAI winds down Cursor contract following SpaceX acquisition",
+   "original_title": "Our decision on Cursor following its acquisition by SpaceX",
+   "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI notified SpaceX that it will terminate its contract providing OpenAI models to Cursor by November 12, 2026. The decision stems from a lack of confidence that SpaceX will adhere to terms of service, citing past contract breaches by Elon Musk's companies including Twitter and xAI.",
+   "bullets": [
+    "OpenAI gave the maximum contractual notice period to maximize developer access before the November 12, 2026 shutoff date.",
+    "The cancellation is driven by past experiences with Elon Musk's companies violating contracts, including Twitter and xAI.",
+    "Musk admitted under oath that xAI violated OpenAI terms of service.",
+    "The change of control triggered by the SpaceX acquisition allowed OpenAI to exercise a limited time window to cancel the custom agreement.",
+    "OpenAI cited a new level of accountability regarding its upcoming model, Astra, to ensure proper terms of service compliance."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:42:23.074979+00:00"
+  },
+  {
+   "title": "Google Announces Gemini Omni 1.1 Flash for Generative Video",
+   "original_title": "Gemini Omni 1.1 Flash lets you build with more control",
+   "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has released Gemini Omni 1.1 Flash via the Gemini API in Google AI Studio, introducing new production-ready generative video capabilities. The update brings features such as extended scene generation, start and end keyframe specification, 360p drafting, 4K upscaling, and multimodal video referencing.",
+   "bullets": [
+    "Scene extension allows the model to analyze up to 10 seconds of prior context to generate continuous footage in 10-second increments up to a total of 40 seconds.",
+    "Keyframe control lets developers specify the starting and ending frames to produce smooth transitions, camera orbits, loops, and whip-pans.",
+    "New 360p drafting mode delivers up to 60% faster generation speeds and one-third the cost of 720p for rapid prototyping.",
+    "Supports professional upscaling to 1080p and 4K resolution for production-ready outputs.",
+    "Multimodal input allows referencing up to three seconds of video to maintain character consistency and visual context.",
+    "Available via the Gemini API in Google AI Studio, the Agent Platform API, and Google Flow for subscribers."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:01.469442+00:00"
+  },
+  {
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "original_title": "Piloting the world's first double-blind AI evaluations",
+   "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has piloted the world's first double-blind evaluation of a proprietary frontier AI model using cryptographically secure environments. Partnering with organizations like the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons, the method tests a Gemini Flash Lite model against confidential benchmarks without risking benchmark contamination or model weight exposure.",
+   "bullets": [
+    "Addressed benchmark contamination, where models inadvertently or intentionally see test questions in advance, artificially inflating scores.",
+    "Used Google Cloud's Confidential Space to create a cryptographic box ensuring neither the evaluator sees the model weights nor Google sees the test prompts.",
+    "Partnered with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons for the pilot test of a Gemini Flash Lite model.",
+    "Eliminated the historical tradeoff between evaluators risking test prompt confidentiality and model providers risking intellectual property through weight exposure.",
+    "Enabled independent organizations to conduct rigorous testing for sensitive domains like cybersecurity and government oversight without compromising data sovereignty."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:06.848786+00:00"
+  },
+  {
+   "title": "Google Research introduces the Planetary Prediction Engine for automated geospatial modeling",
+   "original_title": "Planetary prediction engine: Automating global models via Earth AI",
+   "link": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+   "source": "Google Research",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google Research has introduced the planetary prediction engine (PPE) as part of Google Earth AI. The autonomous AI system handles the full geospatial modeling workflow from data discovery to evaluation, reducing model creation time from weeks to minutes while outperforming manual baselines across public health, food security, and environmental risk tasks.",
+   "bullets": [
+    "The PPE operates in three modular stages orchestrated by an LLM, passing data artifacts via opaque handles to avoid LLM context-window limits.",
+    "Evaluated across 21 CDC health indicators, PPE achieved a mean R² of 76.8% compared to 60.0% for a manual expert pipeline.",
+    "For FEMA national risk and Social Vulnerability Index indicators, PPE achieved mean R² scores of 64.9% and 66.2%, respectively, outperforming baselines.",
+    "In data-scarce regions, PPE doubled food security prediction accuracy when downscaling from provincial to local government levels in Nigeria (R² 66.1% vs. 31.5%).",
+    "During the 2026 Bundibugyo ebolavirus outbreak in the DRC, PPE achieved an 83.3% Recall@10, improving over the 73% Bayesian baseline.",
+    "Ablation studies show that combining structured statistical covariates with latent foundation model embeddings like Population Dynamics and AlphaEarth Foundations drives the performance gains."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:13.133977+00:00"
+  },
+  {
+   "title": "GlucoFM: A Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+   "original_title": "GlucoFM: Foundation model for continuous glucose monitoring",
+   "link": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+   "source": "Google Research",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google Research has developed GlucoFM, a lightweight, self-supervised foundation model for continuous glucose monitoring (CGM). By using a dual-stream architecture that separates slower glycemic baselines from short-term deviations, the model outperforms existing baselines across diverse metabolic prediction tasks, cross-dataset transfers, and few-shot evaluation settings.",
+   "bullets": [
+    "Pre-trained on 109,066 hours of unlabeled CGM data from the Wear-CGM corpus, aligning records to a 24-hour, 5-minute grid with observation masks.",
+    "Dual-stream encoder separates lower-frequency state components (trends) from residual event components (short-term deviations from meals, activity, or artifacts).",
+    "Achieved an average PR-AUC across 14 cohort-task evaluations that was 5.8 percentage points higher than the best-performing evaluated GluFormer variant.",
+    "Led or tied in all diabetes-risk and beta-cell-dysfunction evaluations, and 3 of 4 insulin-resistance evaluations across CGMacros, Stanford, Hall, and ShanghaiT2DM cohorts.",
+    "Achieved the lowest mean absolute error (21.88 mg/dL) for two-hour postprandial glycemic response forecasting when combined with pre-meal CGM, meal nutrition, and patient status.",
+    "Maintained superior task-averaged PR-AUC in few-shot settings, performing strongly even under extreme constraints like one labeled participant per class or 1% observation fractions."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:19.069305+00:00"
+  },
+  {
+   "title": "The Open ASR Leaderboard Adds Monsoon Datasets for Indian English and Hindi",
+   "original_title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The Open ASR Leaderboard has introduced its first Global South language evaluation sets, featuring Monsoon en-IN (Indian English) and Monsoon hi-IN (Hindi). These evaluation sets include extensive speaker metadata and multi-variant orthographic lattices to address performance biases across demographics and spelling variations.",
+   "bullets": [
+    "Introduces public and private speaker-disjoint evaluation sets comprising 4,888 speakers across 428 districts for Indian English and 295 districts for Hindi.",
+    "Captures 18 columns of metadata per segment, including 12 speaker attributes like gender, age, native geography, education, occupation, and device details.",
+    "Replaces standard single-string WER for Hindi with the Orthographically-Informed Word Error Rate (OIWER) using a multi-variant spelling lattice to prevent penalizing valid orthographic choices.",
+    "Demonstrates that models with nearly identical overall WERs can exhibit up to a fourfold variance in accuracy when evaluated across different regional zones.",
+    "Uses unscripted dual-channel spontaneous conversations recorded on contributors' personal handsets across diverse environments rather than isolated studio hardware."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:25.695476+00:00"
+  },
+  {
+   "title": "Ten AI Lessons from Waymo's Autonomous Driving Operations",
+   "original_title": "10 AI Lessons from Driving 200+ Million Fully Autonomous Miles",
+   "link": "https://waymo.com/blog/2026/08/10ailessons",
+   "source": "Waymo",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Waymo shares ten fundamental AI and engineering insights gathered from driving over 200 million fully autonomous miles. The learnings cover sensor architecture, foundation models, validation layers, simulation strategies, and the necessity of real-world L4 deployment experience.",
+   "bullets": [
+    "Multimodal sensor fusion combining cameras (semantics), lidar (3D geometry with millimeter precision), and radar (velocity and weather penetration) is required for safe, scalable autonomy.",
+    "HD maps act as a powerful prior memory, allowing onboard computers to dedicate real-time processing power entirely to dynamic changes and unexpected road events.",
+    "Waymo consolidated specialized modules into fewer, high-capacity foundation models to leverage scaling laws, avoiding modular spaghetti while using teacher-student models for efficiency.",
+    "To prevent black-box failures, an independent AI safety layer monitors every proposed trajectory against hard physics constraints and traffic laws.",
+    "Closed-loop simulation is essential for testing rare edge cases because it mimics real-world cause and effect where surrounding traffic reacts to the vehicle's actions.",
+    "A dual-architecture approach ('thinking fast and slow') pairs rapid sensor-fusion control with Vision-Language Models (VLMs) like Gemini for high-level semantic reasoning during long-tail scenarios."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T12:43:38.498568+00:00"
+  },
+  {
    "title": "Mastodon's Marrow Deep",
    "original_title": "Marrow Deep",
    "link": "https://pitchfork.com/reviews/albums/mastodon-marrow-deep/",
@@ -644,6 +910,146 @@
    "seen_at": "2026-08-31T12:34:40.550117+00:00"
   },
   {
+   "title": "NVIDIA Announces GeForce NOW Updates at Gamescom 2026",
+   "original_title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
+   "source": "NVIDIA Blog",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "NVIDIA announced major feature updates and upcoming game integrations for GeForce NOW at Gamescom 2026. The platform is introducing DLSS 4.5 cloud controls, expanded browser and device support, single sign-on options, and several day-one AAA game releases.",
+   "bullets": [
+    "Introduction of DLSS 4.5 cloud controls for Ultimate members, featuring Super Resolution, Dynamic Frame Generation, and Ray Reconstruction overrides.",
+    "Expanded hardware and platform compatibility including Steam Machine with Steam Controller support, GOG single sign-on integration, native Firefox browser streaming up to 1440p/120fps, and Amazon Fire TV Stick 4K Select integration.",
+    "Upcoming day-one cloud game releases including Control Resonant, Gears of War: E-Day, Onimusha: Way of the Sword, The Blood of Dawnwalker, and STAR WARS Zero Company.",
+    "Control Resonant bundled for a limited time with the purchase of a 12-month GeForce NOW Ultimate membership starting August 25, 2026.",
+    "Weekly library additions featuring new titles like Aliens: Fireteam Elite 2, alongside GOG integrations for games such as Cyberpunk 2077 and The Witcher 3: Wild Hunt."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:41:53.474757+00:00"
+  },
+  {
+   "title": "Brain Corp CTO John Black on Scaling Autonomous Mobile Robots",
+   "original_title": "From teach and repeat to SelfPath AI: The next robotics leap",
+   "link": "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/",
+   "source": "The Robot Report",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "John Black, CTO of Brain Corp, discusses scaling autonomous mobile robot fleets and operating safely in public spaces. The episode also highlights recent industry funding rounds and edge AI hardware performance updates.",
+   "bullets": [
+    "Brain Corp has commercialized over 50,000 autonomous mobile robots powered by BrainOS, logging more than 25 million hours of safe real-world operation.",
+    "XPeng Motors spun out its humanoid robot unit, and Dogotix raised $900 million.",
+    "Generalist secured an additional $200 million in funding while updating its model.",
+    "NVIDIA announced that the Jetson Orin Nano 2 doubles inference performance for robotics at the edge.",
+    "Interact Analysis ranked Symbotic as the number one player in warehouse automation."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:42:16.483608+00:00"
+  },
+  {
+   "title": "OpenAI and Thai Ministry Launch AI Accelerator for Local Startups",
+   "original_title": "Supporting Thailand’s next generation of AI startups",
+   "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI and Thailand's Ministry of Higher Education, Science, Research and Innovation (MHESI) launched an eight-week accelerator for ten Thai startups focusing on health and education. The program provides each team with $2,000 in API credits, technical mentorship, and access to frontier models to bridge the gap between prototypes and real-world deployment.",
+   "bullets": [
+    "The cohort includes ten startups divided equally between health/wellness (CARIVA, Wello Food, Dietz, Precisionize, FitSloth) and education (Curico, insKru, Floaino, EasyKids Robotics, Globish).",
+    "Thailand ranks among the top 20 countries globally for ChatGPT weekly active users, with Codex usage growing over 350-fold since the start of 2026.",
+    "OpenAI provides participants with $2,000 in API credits, access to latest models, and a dedicated mentor for weekly sessions on engineering, product design, automated testing, responsible AI, and fundraising.",
+    "Partner organizations include the National Innovation Agency (NIA), Mahidol University, and Techsauce, connecting teams to research, talent, and funding ecosystems.",
+    "CARIVA is building a multilingual voice agent for hospital phone lines to handle appointments and identify medical emergencies, targeting a live hospital pilot.",
+    "Curico is developing AI-powered learning tools aiming for pilots in over 200 Bangkok Metropolitan Administration childcare centers and teacher training workshops."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:42:37.551651+00:00"
+  },
+  {
+   "title": "Waymo Expands to Munich, Germany for Autonomous Ride-Hailing",
+   "original_title": "Servus München: Waymo is Coming to Germany",
+   "link": "https://waymo.com/blog/2026/08/waymo-in-munich",
+   "source": "Waymo",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Waymo has announced plans to launch its fully autonomous ride-hailing service in Munich, Germany, targeting public commercial operations by the end of 2027. The phased rollout will begin with manual driving, high-definition mapping, and testing with safety specialists.",
+   "bullets": [
+    "Waymo aims to open commercial robotaxi operations to the public in Munich toward the end of 2027.",
+    "Initial operations involve manual driving, high-definition mapping of local streets, and testing with autonomous specialists.",
+    "Waymo reports its global fleet has completed over 20 million trips and over 350 million fully autonomous kilometers.",
+    "Safety data cited by Waymo indicates 16x fewer serious injury crashes, 14x fewer pedestrian injury crashes, and 6x fewer cyclist injury crashes compared to human drivers."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:43:43.687557+00:00"
+  },
+  {
+   "title": "LatConnect 60 and Phi Earth Partner for Satellite and Field Data Integration",
+   "original_title": "LatConnect 60 and Phi Earth Partner to Connect Space and Soil",
+   "link": "https://spacenews.com/latconnect-60-and-phi-earth-partner-to-connect-space-and-soil/",
+   "source": "SpaceNews",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "LatConnect 60 and Phi Earth Technologies have formed a strategic partnership to integrate satellite Earth Observation with digital Monitoring, Reporting and Verification (dMRV) platforms. The collaboration aims to build Earth Observation-enabled digital twins for nature-based projects, combining space-based intelligence with ground-truthed field data in Malaysia and Australia.",
+   "bullets": [
+    "Phi Earth Technologies and LatConnect 60 (LC60) are integrating satellite Earth Observation with Phi Earth's audit-ready dMRV platform to create an Earth Observation-enabled Digital Twin.",
+    "The partnership initially targets projects in Malaysia and Australia across biomass and regenerative agriculture, specifically covering crops like napier grass, sweet sorghum and agave.",
+    "LC60 utilizes its Short Wave Infra Red (SWIR) Satellite Earth Observation constellation (SWIRSAT) to generate datasets on biomass growth, moisture, and carbon sequestration.",
+    "LC60's technology roadmap includes launching two SWIRSATs in Q1 2027, scaling up to an 18-satellite constellation by 2029.",
+    "The SWIRSAT program is supported by the Australian Space Agency and the Government of Western Australia."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:43:54.690635+00:00"
+  },
+  {
+   "title": "Comau acquisisce Invent Smart Intralogistics Solutions",
+   "original_title": "Comau extends its intralogistics platform by acquiring Invent Smart Intralogistics Solutions",
+   "link": "https://www.comau.com/en/2026/07/07/comau-has-acquired-invent-smart-intralogistics-solutions/",
+   "source": "Comau",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Comau ha completato l'acquisizione del 100% della società brasiliana Invent Smart Intralogistics Solutions per rafforzare la propria offerta nell'intralogistica e nell'automazione dei magazzini. L'operazione integra le competenze software di Invent con le tecnologie di Automha e Comau, ampliando il portafoglio nei settori della gestione scatole, preparazione ordini e mercati strategici in America Latina e Stati Uniti.",
+   "bullets": [
+    "Comau ha acquisito il 100% di Invent Smart Intralogistics Solutions, specialista brasiliano in tecnologie per magazzini e intralogistica.",
+    "L'acquisizione integra il software di orchestrazione intelligente e le capacità di intelligenza artificiale di Invent nell'ecosistema Comau-Automha.",
+    "Invent apporta competenze avanzate nella gestione di scatole, preparazione degli ordini e orchestrazione logistica, complementari alla gestione pallet di Automha.",
+    "Il mercato dell'intralogistica è previsto in crescita annua del 13% nei prossimi tre-cinque anni, con punte del 15% negli Stati Uniti e del 17% in Brasile.",
+    "Invent manterrà la propria struttura di gestione e il modello di business attuale sotto la guida del CEO Leonardo Araki."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:44:06.896676+00:00"
+  },
+  {
+   "title": "Dimissioni nel Consiglio di Amministrazione dell'ASI e rischio commissariamento",
+   "original_title": "Agenzia Spaziale Italiana: dimissioni di tre componenti del Consiglio di Amministrazione",
+   "link": "https://www.asi.it/2026/08/agenzia-spaziale-italiana-dimissioni-di-tre-componenti-del-consiglio-di-amministrazione/",
+   "source": "Agenzia Spaziale Italiana",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La vicepresidente vicaria Elda Turco Bulgherini e i consiglieri Stefano Gualandris e Stefano Arcifa si sono dimessi dal CdA dell'Agenzia Spaziale Italiana, provocandone la decadenza. Le dimissioni mirano a permettere una rapida nomina di un nuovo presidente e di un nuovo consiglio, dato che il vertice era vacante per la scomparsa di Teodoro Valente. Il ministro Adolfo Urso ha informato il Consiglio dei ministri sugli sviluppi istituzionali e sul conseguente avvio del commissariamento.",
+   "bullets": [
+    "Elda Turco Bulgherini, Stefano Gualandris e Stefano Arcifa hanno rassegnato le dimissioni dal Consiglio di amministrazione dell'ASI.",
+    "Le dimissioni determinano la decadenza dell'intero CdA e aprono la strada al commissariamento dell'Ente.",
+    "La presidenza dell'Agenzia era già priva della sua figura apicale a causa della prematura scomparsa del presidente Teodoro Valente.",
+    "La mossa punta a consentire all'ASI di tornare rapidamente nel pieno delle funzioni in vista di importanti eventi nazionali, europei e multilaterali.",
+    "Il ministro delle Imprese e del Made in Italy, Adolfo Urso, ha riferito la situazione durante l'ultima riunione del Consiglio dei ministri."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:44:24.412499+00:00"
+  },
+  {
    "title": "Costruirsi un nuovo corpo per fare musica",
    "original_title": "Costruirsi un nuovo corpo per fare musica",
    "link": "https://www.rockit.it/articolo/costruirsi-nuovo-corpo-fare-musica",
@@ -782,6 +1188,26 @@
    "relevance": 4,
    "score": 8,
    "seen_at": "2026-08-31T12:35:00.387939+00:00"
+  },
+  {
+   "title": "Il record di CarnyJared su Guitar Hero",
+   "original_title": "Il diavolo di Guitar Hero",
+   "link": "https://www.ultimouomo.com/carny-jared-record-diavolo-di-guitar-hero",
+   "source": "L'Ultimo Uomo",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il giocatore statunitense CarnyJared ha completato Through the Fire and Flames dei DragonForce al 200% della velocità su Clone Hero, toccando quasi diciassette note al secondo dopo oltre 50.000 tentativi. Il suo stile di gioco estremo, basato su sessioni di streaming massacranti e tecniche non ortodosse, lo ha reso un caso unico nella community dei videogiochi musicali.",
+   "bullets": [
+    "CarnyJared ha completato Through the Fire and Flames al 200% della velocità originale, suonando a una media di quasi diciassette note al secondo.",
+    "Per raggiungere il risultato ha impiegato oltre 50.000 tentativi, utilizzando tecniche come lo slide e l'uso di entrambe le mani sui tasti anziché la sola pennata.",
+    "Lavora dal 2024 alla canzone Cosmic Embassy, un pezzo estremo derivato dalla black MIDI che raggiunge undici note al secondo, mancando la Full Combo per soli quattro errori.",
+    "Le sue lunghe dirette streaming sono caratterizzate da un consumo ossessivo di caffè e da frequenti scatti d'ira in cui distrugge periferiche o rompe oggetti.",
+    "La sua figura è distaccata dalla community di Clone Hero a causa di vecchie polemiche interne e per il suo stile di gioco ritenuto dai puristi meno tecnico e più basato sulla forza bruta."
+   ],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-08-31T12:44:44.782859+00:00"
   },
   {
    "title": "President Trump Dials Into NASA Nancy Grace Roman Space Telescope News Conference",
