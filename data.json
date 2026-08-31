@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:45:29.940237+00:00",
+ "generated_at": "2026-08-31T13:23:54.119369+00:00",
  "items": [
   {
    "title": "Synchronal Bimodal Nuclear Rocket Design for Deep Space Exploration",
@@ -709,6 +709,88 @@
    "seen_at": "2026-08-31T12:43:38.498568+00:00"
   },
   {
+   "title": "The Real AI Risk is Inside the Labs",
+   "original_title": "The real AI risk is inside the labs",
+   "link": "http://antirez.com/news/172",
+   "source": "antirez (Salvatore Sanfilippo)",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The primary risks of advanced AI stem from internal lab accidents, insider leaks of closed models, and unvetted decisions made by a handful of tech executives, rather than from open-weight releases or geopolitical competition. While AI safety regulations and joint global oversight are necessary, attempting to permanently lock in technological supremacy or restricting open-weight models fails to address the actual vectors of catastrophic risk.",
+   "bullets": [
+    "The first serious AI incidents are likely to occur inside frontier labs during testing or due to human error among employees with model access.",
+    "Closed models pose a greater leak risk than open-weight releases because a single insider can exfiltrate terabytes of proprietary weights before public safety testing occurs.",
+    "Withholding defensive cybersecurity LLMs from open-source maintainers creates a weaponized imbalance, as bad actors easily access frontier models for offensive exploits.",
+    "Slowing down AI development carries hidden security costs by delaying medical discoveries that could prevent future human suffering.",
+    "The greatest systemic dangers are individual actors accidentally triggering an apocalypse or AI escaping human control, compounded by unaccountable tech CEOs making unilateral safety decisions."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T13:21:58.402213+00:00"
+  },
+  {
+   "title": "Being Linus Torvalds: The Role of the Developer in the Age of AI",
+   "original_title": "Being Linux Torvalds",
+   "link": "http://antirez.com/news/171",
+   "source": "antirez (Salvatore Sanfilippo)",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Linus Torvalds' true genius lies not in writing the initial Linux kernel, but in shifting away from coding early on to become a project leader who defines design concepts and coordinates direction. With the advent of AI, expert programmers must adopt this same orchestration role, managing LLMs and agents as architectural maintainers rather than relying on passive vibe coding.",
+   "bullets": [
+    "Writing a minimal Unix kernel, while difficult, is a feat accomplished by thousands of capable programmers; Linus's true differentiator was his evolution into a project leader.",
+    "Early in Linux's history, Linus stopped writing code to focus on maintaining a coherent long-term vision, communicating with subsystem maintainers, and dictating architectural direction.",
+    "Projects like Redis or SQLite maintained smaller scopes where creators could keep writing code themselves, but Linux required delegation due to its vast scope.",
+    "When using AI tools, expert developers must adopt Linus's role as orchestra directors and design maintainers rather than passive prompters.",
+    "Effective AI-assisted programming requires treating LLMs and agents like fast subsystem maintainers, demanding architectural hints, training, and strict design governance."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T13:22:04.149024+00:00"
+  },
+  {
+   "title": "Evaluating LLMs Before Production",
+   "original_title": "How to evaluate LLMs before production",
+   "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+   "source": "GitHub Blog - AI & ML",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This article outlines a practical framework for evaluating LLM-based systems before production deployment, drawing from GitHub's experience with secret scanning. It emphasizes aligning evaluations with product decisions, treating offline testing like integration tests, and maintaining data closely mirroring real production workflows.",
+   "bullets": [
+    "Define evaluation criteria across three levels: primary outcomes (user benefit/precision), safety constraints (recall), and operational guardrails (latency, cost, reliability).",
+    "Treat offline evaluation like integration testing by rerunning it upon meaningful changes to prompts, models, or pipeline logic, while isolating variables to change only one major component at a time.",
+    "Ensure offline evaluation environments closely mimic production by including surrounding context, ambiguous inputs, and distracting variables rather than relying solely on clean, isolated benchmarks.",
+    "Treat production labels as signals rather than absolute ground truth, using manual review for ambiguous subsets because resolved alerts often represent workflow outcomes rather than true classifications.",
+    "Perform systematic error analysis by categorizing false positives and negatives into sources like the model, prompt, input, pipeline, dataset, or label to diagnose root issues.",
+    "Deploy LLM-as-judge setups for triage to automate low-risk cases, flag potential mislabels, and route complex edge cases to human reviewers."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T13:22:15.394118+00:00"
+  },
+  {
+   "title": "Maintaining and Securing OpenClaw: Lessons from the Viral AI Assistant Project",
+   "original_title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+   "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+   "source": "GitHub Blog",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Peter Steinberger and the maintainers of OpenClaw discuss the scaling and security challenges of managing a viral open-source AI assistant project. They address how AI-generated 'prompt requests' overwhelmed traditional code review, the evolution of trust signals, and strategies for securing agent capabilities and dependencies.",
+   "bullets": [
+    "OpenClaw reached approximately 388,000 GitHub stars, 81,000 forks, and 80,000 commits by August 2026 after starting as a weekend project in November 2025.",
+    "Maintainers faced floods of automated pull requests—termed 'prompt requests'—requiring them to use AI tools like GitHub Copilot to assist in code reviews and directly edit submitted code.",
+    "Contribution trust signals shifted from simple counts to requiring evidence of thought, such as agent transcripts, screenshots, and test results.",
+    "Bad actors manipulated contribution history by duplicating existing pull requests to manufacture merge counts and build false credibility.",
+    "The project reduced core dependencies and built direct relationships with upstream maintainers to mitigate software supply chain risks.",
+    "Participation in the GitHub Secure Open Source Fund provided maintainers with community support, security practices, and guidance on prompting agents effectively."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-08-31T13:22:21.780245+00:00"
+  },
+  {
    "title": "Mastodon's Marrow Deep",
    "original_title": "Marrow Deep",
    "link": "https://pitchfork.com/reviews/albums/mastodon-marrow-deep/",
@@ -1048,6 +1130,45 @@
    "relevance": 3,
    "score": 9,
    "seen_at": "2026-08-31T12:44:24.412499+00:00"
+  },
+  {
+   "title": "Comau e Invent presentano soluzioni integrate di automazione e intralogistica",
+   "original_title": "Comau and Invent presented automation and intralogistics solutions at a premier technology and automation summit in Brazil",
+   "link": "https://www.comau.com/en/2026/08/07/comau-and-invent-presented-automation-and-logistics-solutions-in-brazil/",
+   "source": "Comau",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Durante il vertice Brasil em Código 2026, Comau e la recente acquisizione Invent hanno mostrato la loro offerta congiunta per la trasformazione industriale. L'integrazione unisce la robotica avanzata e i sistemi di intralogistica per ottimizzare i flussi della catena di approvvigionamento.",
+   "bullets": [
+    "Presentazione della famiglia di esoscheletri robotici MATE di Comau, privi di batterie o motori.",
+    "L'esoscheletro MATE riduce lo sforzo fisico fino al 50% migliorando ergonomia, comfort e riducendo l'assenteismo.",
+    "Invent ha esposto soluzioni di intralogistica basate su software di gestione WMS/YMS e robotica mobile.",
+    "L'integrazione tecnologica mira a unire robotica di nuova generazione e flussi di magazzino per accelerare le operazioni industriali."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T13:21:41.421780+00:00"
+  },
+  {
+   "title": "Automating Dependabot PR Triage with GitHub Copilot",
+   "original_title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+   "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+   "source": "GitHub Blog - AI & ML",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This tutorial details how to use GitHub Copilot app automations to streamline the triage of Dependabot pull requests. By setting up a scheduled natural language prompt, developers can automatically group updates by risk, verify CI status, and receive daily summaries.",
+   "bullets": [
+    "Configure a GitHub Copilot app automation with a daily or hourly schedule to run either in the cloud or locally.",
+    "Use natural language prompts to instruct Copilot to review open Dependabot PRs, group them by risk level, and verify CI status.",
+    "Copilot categorizes updates into safe patch updates, minor/major upgrades, and flags dependencies requiring deeper investigation.",
+    "Developers can launch a new Copilot session directly from the automation results to tackle major upgrades with pre-existing context.",
+    "All automation runs are saved in a history log to maintain transparency over past actions and results."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T13:22:09.533484+00:00"
   },
   {
    "title": "Costruirsi un nuovo corpo per fare musica",
@@ -1429,6 +1550,27 @@
    "seen_at": "2026-08-31T12:35:32.263140+00:00"
   },
   {
+   "title": "Lecce-Roma: le probabili formazioni e le ultime da Trigoria",
+   "original_title": "Cronaca Lecce-Roma LIVE ore 18.30: Lulli e Mora verso un'altra maglia da titolari",
+   "link": "https://www.forzaroma.info/partite/partite-in-diretta/cronaca-lecce-roma-live-ore-18-30-lulli-e-mora-verso-unaltra-maglia-da-titolari/",
+   "source": "ForzaRoma",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La Roma affronta il Lecce nella seconda giornata di Serie A con l'obiettivo di confermare la vittoria per 4-0 contro la Fiorentina. Gasperini orientato a confermare la formazione titolare, con i nuovi Balerdi e De Roon convocati e Vaz in uscita verso l'Hull City.",
+   "bullets": [
+    "Gasperini potrebbe confermare l'undici sceso in campo contro la Fiorentina, con Svilar in porta e il terzetto difensivo Mancini, Ndicka e Hermoso.",
+    "Ballottaggio a destra tra Lulli e Molina, mentre a centrocampo Mora è in vantaggio su Soulé.",
+    "In attacco confermata la coppia formata da Malen e Dybala.",
+    "Prima convocazione per i nuovi acquisti Balerdi e De Roon; Rensch e Pellegrini indisponibili per infortunio.",
+    "Vaz escluso dai convocati ed è a un passo dal trasferimento all'Hull City per motivi di mercato.",
+    "La Roma ha vinto le ultime sei partite di Serie A e punta alla settima vittoria consecutiva, traguardo raggiunto l'ultima volta tra febbraio e marzo 2025 con Claudio Ranieri."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-08-31T13:22:40.185316+00:00"
+  },
+  {
    "title": "This Week In Running: August 31, 2026",
    "original_title": "This Week In Running: August 31, 2026",
    "link": "https://www.irunfar.com/this-week-in-running-august-31-2026",
@@ -1791,6 +1933,26 @@
    "seen_at": "2026-08-31T10:56:47.424244+00:00"
   },
   {
+   "title": "L'ultima notte dei Beatles al Candlestick Park",
+   "original_title": "L’ultima notte dei Beatles",
+   "link": "https://lucysullacultura.com/lultima-notte-dei-beatles/",
+   "source": "Lucy sulla cultura",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il 29 agosto 1966 i Beatles tennero il loro ultimo concerto dal vivo al Candlestick Park di San Francisco davanti a 25.000 spettatori. Provati dai tour incessanti, dalle minacce di morte e da impianti audio inadeguati, i quattro scelsero di chiudere con la dimensione live per dedicarsi alla sperimentazione in studio, segnando la fine di un'era e l'inizio del progressivo scioglimento del gruppo.",
+   "bullets": [
+    "Il concerto al Candlestick Park di San Francisco del 29 agosto 1966 durò trenta minuti esatti, con una scaletta di undici brani e senza alcun bis.",
+    "Il palco era alto un metro e mezzo, circondato da una rete, e il gruppo utilizzava modesti amplificatori Vox da 100 watt del tutto incapaci di superare i 130 decibel di urla del pubblico.",
+    "L'entourage del tour era ridotto al minimo e comprendeva l'addetto stampa Tony Barrow, il roadie Mal Evans e l'autista Alf Bicknell, mentre il manager Brian Epstein rimase a Hollywood.",
+    "Sul palco, consapevoli che fosse l'ultima esibizione, John Lennon e Paul McCartney portarono delle macchine fotografiche e si misero in posa di spalle al pubblico verso la fine del set.",
+    "Dopo il 29 agosto 1966 i Beatles presero strade separate: John andò in Spagna per un film, George in India a studiare il sitar, Paul viaggiò in Europa e Ringo tornò dalla famiglia, prima di ritrovarsi a novembre per registrare Sgt. Pepper."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-08-31T13:23:54.119116+00:00"
+  },
+  {
    "title": "Il riconoscimento in Shrek e Fiona",
    "original_title": "Shrek e Fiona: Non basta essere accettati, abbiamo bisogno di essere riconosciuti",
    "link": "https://artesettima.it/2026/08/19/shrek-e-fiona-non-basta-essere-accettati-abbiamo-bisogno-di-essere-riconosciuti/",
@@ -1827,6 +1989,27 @@
    "relevance": 3,
    "score": 3,
    "seen_at": "2026-08-31T12:36:12.157178+00:00"
+  },
+  {
+   "title": "Recognizing and Preventing Underfueling in Runners",
+   "original_title": "The Runner’s World Guide to Nutrition and Fueling: Underfueling",
+   "link": "https://www.runnersworld.com/nutrition-weight-loss/a73347054/guide-to-nutrition-and-fueling-program-underfueling/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Underfueling in runners manifests through physical and psychological symptoms such as persistent injuries, prolonged soreness, sleep difficulties, and mood changes. Distinguishing between acute low energy availability (LEA) and chronic relative energy deficiency in sports (RED-S) is crucial, as is understanding how post-run appetite suppression can lead to unintentional caloric deficits.",
+   "bullets": [
+    "Symptoms of underfueling include persistent injuries, extended soreness, sleep issues, gastrointestinal problems, mood changes, difficulty concentrating, and irregular menstrual cycles.",
+    "Low energy availability (LEA) happens after inadequate fueling during or after long runs, but can usually be resolved with proper nutrition and rest.",
+    "Consistent underfueling leads to relative energy deficiency in sports (RED-S), causing persistent injury, missed menstrual cycles, and unusual soreness.",
+    "Intuitive eating can fail runners because high mileage often suppresses post-run appetite cues, delaying hunger and causing unintentional underfueling.",
+    "Unintentional underfueling also happens when runners fail to increase caloric intake to match rising training mileage.",
+    "Intentional underfueling often stems from unhealthy stigmas like \"skinny equals fast\" and can indicate disordered eating for weight control."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-08-31T13:23:06.217520+00:00"
   },
   {
    "title": "Sydney Marathon Timing Fiasco and Race Results",
