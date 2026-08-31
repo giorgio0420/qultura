@@ -21,7 +21,7 @@ with open("sources.json", encoding="utf-8") as f:
 UA = {"User-Agent": "Mozilla/5.0"}
 MIN_TRANSCRIPT = 500  # chars: below this it is a short or a teaser, not substance
 MIN_RSS = 800  # many feeds ship only an excerpt; below this, fetch the article itself
-MAX_AGE_DAYS = 3  # only try videos this recent: older ones were handled on earlier runs
+MAX_AGE_DAYS = 7  # a weekly podcast still qualifies; `seen` stops repeat downloads
 TRANSCRIPT_PAUSE = 2  # seconds between transcript requests, to stay under YouTube's radar
 
 # YouTube blocks the whole IP once it decides we are scraping, and every later request
