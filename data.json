@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T10:58:10.671715+00:00",
+ "generated_at": "2026-08-31T12:36:12.157388+00:00",
  "items": [
   {
    "title": "Synchronal Bimodal Nuclear Rocket Design for Deep Space Exploration",
@@ -603,6 +603,47 @@
    "seen_at": "2026-08-31T10:49:32.825029+00:00"
   },
   {
+   "title": "The Origin of the Voltaic Pile and the Galvani-Volta Debate",
+   "original_title": "The First Battery Was Inspired By a Dead Frog",
+   "link": "https://spectrum.ieee.org/voltaic-pile-first-battery",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Alessandro Volta invented the first battery—the voltaic pile—in 1799 as a direct counter-argument to Luigi Galvani's theory of animal electricity. While Volta proved that electricity could be generated via dissimilar metals and wet separators, both scientists contributed to distinct fields: electrochemistry and electrophysiology.",
+   "bullets": [
+    "In 1791, Luigi Galvani published findings on frog muscle contractions, claiming they resulted from an innate 'animal electricity' stored in the nerves and muscles.",
+    "Alessandro Volta contested Galvani's conclusions, arguing that the electrical charge originated from the contact of two different metals rather than the animal tissue.",
+    "To prove his theory, Volta built the voltaic pile in 1799, stacking alternating copper and zinc discs separated by brine- or acid-soaked blotting paper to generate a sustained low-current output.",
+    "Shortly after Volta announced his invention, scientists William Nicholson and Anthony Carlisle used it to discover chemical electrolysis by splitting water into hydrogen and oxygen.",
+    "Galvani's nephew, Giovanni Aldini, used voltaic piles for public demonstrations on animal and human remains, which notably inspired Mary Shelley's 1818 novel Frankenstein.",
+    "Historically framed as a simple contest with Volta as the winner, the debate actually founded two separate disciplines: electrochemistry for Volta and electrophysiology for Galvani."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:34:34.714305+00:00"
+  },
+  {
+   "title": "Meta Launches Pocket, a Social Vibe-Coding App for Instant Game Prototypes",
+   "original_title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+   "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
+   "source": "Ars Technica",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Meta has launched Pocket, a mobile application acquired through its March purchase of Gizmo staff, allowing users to generate functional interactive games and toys entirely through text prompts. The app bypasses traditional coding interfaces like IDEs or CLIs, presenting the resulting creations in a TikTok-style social feed. However, the generated projects remain locked inside Meta's walled garden with no option to export or independently monetize the code.",
+   "bullets": [
+    "Pocket launched in the US on August 21 as a mobile app enabling users to create interactive gizmos through LLM chat prompts.",
+    "The app is built by the team behind the defunct vibe-coding app Gizmo, which Meta acquired in March.",
+    "Users have zero access to the underlying code, with no option to view, edit, or export code lines.",
+    "Created apps are shared via a TikTok-style endless scroll interface featuring likes, comments, and reposts.",
+    "All projects are trapped in Meta's ecosystem without any direct pathway to turn them into standalone software."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-08-31T12:34:40.550117+00:00"
+  },
+  {
    "title": "Costruirsi un nuovo corpo per fare musica",
    "original_title": "Costruirsi un nuovo corpo per fare musica",
    "link": "https://www.rockit.it/articolo/costruirsi-nuovo-corpo-fare-musica",
@@ -722,6 +763,25 @@
    "relevance": 4,
    "score": 8,
    "seen_at": "2026-08-31T10:53:05.599529+00:00"
+  },
+  {
+   "title": "Il ritorno dei C.S.I. a Monte Sole: cronaca del primo concerto della reunion",
+   "original_title": "I C.S.I. a Marzabotto sono un viaggio che era necessario intraprendere ancora una volta",
+   "link": "https://rumoremag.com/2026/08/29/csi-concerto-c-s-i-reunion-marzabotto-monte-sole-lindo-ferretti/",
+   "source": "Rumore",
+   "category": "musica",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "I C.S.I. al completo sono tornati a suonare a Monte Sole, Marzabotto, inaugurando il tour In Viaggio con la formazione storica composta da Giovanni Lindo Ferretti, Massimo Zamboni, Giorgio Canali, Gianni Maroccolo, Francesco Magnelli e Ginevra Di Marco. Nonostante qualche imperfezione tecnica, il concerto ha dimostrato la sorprendente attualità e compattezza del repertorio della band, privo di mere derive nostalgiche.",
+   "bullets": [
+    "Il debutto del tour a Monte Sole, Marzabotto, segna la prima vera reunion al completo della formazione dopo oltre venticinque anni, ripartendo simbolicamente dallo stesso luogo del loro ultimo atto del 2001.",
+    "La scaletta ha attinto dai capisaldi della discografia del gruppo, partendo dai brani di Ko de Mondo (Occidente, Del mondo, A tratti) fino ai passaggi più riflessivi di Linea Gotica e alle accelerazioni di Tabula rasa elettrificata.",
+    "Sul palco la dinamica tra i membri ha mostrato un forte affiatamento, con Ferretti affiancato da Ginevra Di Marco, la presenza centrale del basso di Gianni Maroccolo e le chitarre di Massimo Zamboni.",
+    "Il concerto ha evidenziato come i temi storici e politici cantati dalla band — tra guerre, fine delle ideologie e smarrimento umano — risultino tristemente attuali nei conflitti e nelle tensioni degli anni Venti del duemila."
+   ],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-08-31T12:35:00.387939+00:00"
   },
   {
    "title": "President Trump Dials Into NASA Nancy Grace Roman Space Telescope News Conference",
@@ -881,6 +941,66 @@
    "relevance": 3,
    "score": 6,
    "seen_at": "2026-08-31T10:53:11.357376+00:00"
+  },
+  {
+   "title": "Il Flow Festival di Helsinki: architettura industriale e musica tra Suvilahti e Hanasaari B",
+   "original_title": "Flow Festival in Finlandia: tre giorni dentro la Helsinki che suona",
+   "link": "https://rumoremag.com/2026/08/29/flow-festival-2026-helsinki-finlandia-geese-turnstile/",
+   "source": "Rumore",
+   "category": "musica",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il reportage del Flow Festival di Helsinki fotografa tre giorni di concerti e dj set immersi nell'archeologia industriale finlandese, tra ex centrali a carbone e gasometri. La manifestazione ha registrato 91.000 ingressi, offrendo una line-up che spazia dall'elettronica sperimentale al pop, fino al rap e al rock.",
+   "bullets": [
+    "L'edizione si è svolta nell'area di Suvilahti e ha incluso per la prima volta la centrale a carbone dismessa di Hanasaari B.",
+    "Il pubblico si divide principalmente in tre fasce: veterani delle subculture, appassionati di techno in stile Berghain e giovani legati alle tendenze pop nordiche.",
+    "Tra le esibizioni di rilievo figurano i Geese, definiti il miglior concerto del festival con il loro sound fortemente radicato nella tradizione rock di New York.",
+    "La programmazione ha visto alternarsi artisti come i Cabaret Voltaire, i Turnstile, i Clipse, Ana Frango Elétrico, le Lambrini Girls e Nick Cave and the Bad Seeds.",
+    "La logistica del festival punta sulla mobilità sostenibile, con ampi parcheggi per biciclette e punti d'acqua distribuiti in tutta l'area."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-08-31T12:35:06.269036+00:00"
+  },
+  {
+   "title": "I Fontaines D.C. in concerto a Bologna nel 2026",
+   "original_title": "I Fontaines D.C. in tour passerrano anche dall’Italia, a Bologna",
+   "link": "https://rumoremag.com/2026/08/28/tour-europeo-fontaines-dc-italia-biglietti-bologna/",
+   "source": "Rumore",
+   "category": "musica",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "I Fontaines D.C. terranno la loro unica data italiana del tour autunnale all'Unipol Arena di Bologna il 26 ottobre 2026. La band presenterà il nuovo album Dopamine Chamber, in uscita il 16 ottobre per XL Recordings e prodotto da James Ford.",
+   "bullets": [
+    "Unica data italiana del tour fissata per lunedì 26 ottobre 2026 all'Unipol Arena di Casalecchio di Reno (Bologna).",
+    "Il nuovo album Dopamine Chamber uscirà il 16 ottobre per XL Recordings.",
+    "Il disco è stato prodotto da James Ford e segna un allontanamento dalle prime sonorità verso suoni più freddi e sintetici.",
+    "Il primo singolo estratto si intitola Marianne.",
+    "In apertura si esibiranno i Chalk, freschi del loro album d'esordio Crystalpunk."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-08-31T12:35:11.690535+00:00"
+  },
+  {
+   "title": "Il Chelsea punta Manu Koné in caso di addio a Enzo Fernandez, ma la Roma fa muro",
+   "original_title": "Dalla Francia: il Chelsea vuole Koné se parte Enzo Fernandez. Ma la Roma fa muro",
+   "link": "https://www.forzaroma.info/calciomercato-as-roma/dalla-francia-il-chelsea-ci-prova-per-kone-e-il-preferito-di-xabi-alonso/",
+   "source": "ForzaRoma",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il Chelsea avrebbe messo nel mirino Manu Koné della Roma come potenziale sostituto in caso di cessione di Enzo Fernandez al Manchester City. Tuttavia, la Roma non vorrebbe cedere il centrocampista a un giorno dalla chiusura del calciomercato per la difficoltà di trovare un sostituto e per la valutazione di almeno 55 milioni di euro.",
+   "bullets": [
+    "Il Chelsea intensificherà i contatti per Manu Koné qualora Enzo Fernandez si trasferisca al Manchester City",
+    "Il giocatore è considerato un profilo ideale per rinforzare il centrocampo",
+    "La richiesta economica della Roma per cedere il centrocampista francese si aggira intorno ai 55 milioni di euro",
+    "La trattativa appare estremamente complessa a causa del poco tempo rimasto prima della fine del calciomercato",
+    "La Roma ha la ferma intenzione di trattenere il giocatore a Trigoria per non indebolire la rosa all'ultimo minuto"
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-08-31T12:35:32.263140+00:00"
   },
   {
    "title": "This Week In Running: August 31, 2026",
@@ -1243,6 +1363,44 @@
    "relevance": 4,
    "score": 4,
    "seen_at": "2026-08-31T10:56:47.424244+00:00"
+  },
+  {
+   "title": "Il riconoscimento in Shrek e Fiona",
+   "original_title": "Shrek e Fiona: Non basta essere accettati, abbiamo bisogno di essere riconosciuti",
+   "link": "https://artesettima.it/2026/08/19/shrek-e-fiona-non-basta-essere-accettati-abbiamo-bisogno-di-essere-riconosciuti/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La dinamica tra Shrek e Fiona supera la parodia delle fiabe per esplorare il passaggio cruciale dall'accettazione sociale al riconoscimento autentico dell'identità. Entrambi i personaggi abbandonano le maschere protettive e le aspettative esterne per trovare una felicità basata sulla libertà di essere se stessi.",
+   "bullets": [
+    "La palude di Shrek rappresenta un sistema di difesa per evitare il giudizio altrui legato alla sua natura di orco.",
+    "Fiona vive la condizione opposta ma complementare: è stata educata a rispettare rigidi standard estetici e comportamentali per essere scelta.",
+    "L'amore tra i due non nasce da semplici affinità, ma dalla condivisione di un'esperienza di liberazione dalle aspettative del mondo.",
+    "Il legame autentico non si fonda su una rassicurazione costante o sull'approvazione incondizionata dei difetti.",
+    "La relazione offre la possibilità di sperimentare il riconoscimento profondo anziché la mera accettazione superficiale."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-08-31T12:36:01.211916+00:00"
+  },
+  {
+   "title": "Il significato dell'Odissea di Nolan: l'arco della memoria",
+   "original_title": "Il significato dell’Odissea di Nolan: l’arco della memoria",
+   "link": "https://artesettima.it/2026/07/21/odissea-di-christopher-nolan/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il testo analizza il legame profondo tra la poetica di Christopher Nolan e l'Odissea, interpretata come una riflessione sull'identità umana e sulla memoria collettiva. I temi del viaggio, della colpa e del tempo dei precedenti film del regista convergono in questa visione del poema omerico.",
+   "bullets": [
+    "Il regista utilizza i temi dell'Odissea come filo conduttore che unisce i suoi film precedenti, da Memento a Interstellar e Oppenheimer.",
+    "Personaggi come Leonard Shelby, Cooper, Dom Cobb e Oppenheimer riflettono diverse sfaccettature del poema, tra perdita di memoria, legami familiari, erranza nei sogni e colpa per le armi distruttive.",
+    "Il poema omerico viene manipolato e rielaborato per dimostrare la potenza narrativa delle storie e l'urgenza di preservare la memoria collettiva."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-08-31T12:36:12.157178+00:00"
   },
   {
    "title": "Sydney Marathon Timing Fiasco and Race Results",
