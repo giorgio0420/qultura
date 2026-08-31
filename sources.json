@@ -225,6 +225,33 @@
   "url": "https://www.asi.it/feed/"
  },
  {
+  "name": "antirez (Salvatore Sanfilippo)",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://antirez.com/rss",
+  "site": "https://antirez.com",
+  "limit": 2
+ },
+ {
+  "name": "GitHub Blog - AI & ML",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://github.blog/ai-and-ml/feed/",
+  "site": "https://github.blog/ai-and-ml",
+  "limit": 2
+ },
+ {
+  "name": "GitHub Blog",
+  "kind": "rss",
+  "category": "ai",
+  "weight": 3,
+  "url": "https://github.blog/feed/",
+  "site": "https://github.blog",
+  "limit": 2
+ },
+ {
   "name": "Rockit",
   "kind": "rss",
   "category": "musica",
@@ -309,8 +336,8 @@
   "kind": "yt",
   "category": "calcio",
   "weight": 2,
-  "url": "UCR-oaVSNNPCWQ7h8o_SOXag",
-  "handle": "@ilcriticocalcistico",
+  "url": "UCraj1P-iStTDL2ZFZi2VMQA",
+  "handle": "@ilcriticocalcistico (id preso da un video reale del canale)",
   "lang": [
    "it"
   ],
@@ -483,5 +510,27 @@
   "url": "https://artesettima.it/feed/",
   "out_lang": "it",
   "site": "https://artesettima.it"
+ },
+ {
+  "name": "Lucy sui mondi",
+  "kind": "rss",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "https://lucysuimondi.com/feed/",
+  "site": "https://lucysuimondi.com",
+  "out_lang": "it",
+  "limit": 2,
+  "focus": "Silvia Lazzaris"
+ },
+ {
+  "name": "Lucy sulla cultura",
+  "kind": "rss",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "https://lucysullacultura.com/feed/",
+  "site": "https://lucysullacultura.com",
+  "out_lang": "it",
+  "limit": 2,
+  "focus": "Silvia Lazzaris"
  }
 ]

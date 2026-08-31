@@ -62,6 +62,9 @@ Limiti noti da tenere presenti nell'implementazione:
   Anthropic, Figure, Agility Robotics, IIT, Leonardo, STMicroelectronics, Datalogic, Avio,
   Telespazio, D-Orbit. Le loro notizie arrivano comunque via The Robot Report (robotica
   industriale e umanoidi) e SpaceNews (spazio).
+- **Ecosistema sviluppo**: GitHub Blog e GitHub Blog AI & ML (https://github.blog),
+  blog di Salvatore Sanfilippo (https://antirez.com). GitHub Trending non ha un feed
+  ufficiale: per seguire progetti specifici si usa il loro releases.atom.
 - **YouTube (via trascrizione)**: Kevin Wood | Robotics & AI, IBM Technology, RoboticaPedia,
   Polimi OpenKnowledge, MATLAB, EPICODE Institute of Technology, TED/TEDx, Amedeo Balbi, Geopop,
   Salvatore Sanfilippo, Stepwise Chemistry, e altri canali tech/scienza dall'elenco iscrizioni
@@ -80,7 +83,9 @@ Limiti noti da tenere presenti nell'implementazione:
 ### 3. Calcio/Roma
 - **Scritte**: L'Ultimo Uomo (analisi tattica seria, il taglio di riferimento), ForzaRoma.info,
   Corriere dello Sport (sezione Roma)
-- **YouTube (via trascrizione)**: Cronache di Spogliatoio, Il Critico Calcistico, canale
+- **YouTube (via trascrizione)**: Cronache di Spogliatoio, Il Critico Calcistico (attenzione:
+  l'handle @ilcriticocalcistico porta a un canale omonimo senza video, l'id giusto e
+  UCraj1P-iStTDL2ZFZi2VMQA), canale
   ufficiale AS Roma (conferenze stampa Gasperini, interviste pre/post gara)
 
 ### 4. Scacchi
@@ -96,6 +101,9 @@ Limiti noti da tenere presenti nell'implementazione:
 ### 6. Filosofia / Stoicismo / Cultura
 - **Scritte**: Il Tascabile (Treccani — saggistica ampia: filosofia, scienza, cultura),
   ArteSettima (https://artesettima.it — cinema come lettura del presente)
+- **Scritte (cultura)**: Lucy sui mondi (https://lucysuimondi.com) e Lucy sulla cultura
+  (https://lucysullacultura.com). Silvia Lazzaris scrive su Lucy: i suoi pezzi non hanno
+  un feed per autore, quindi il suo nome sta nel campo focus e alza il punteggio.
 - **YouTube (via trascrizione)**: Rick DuFer / BarbaSophia (Matteo Saudino), Nova Lectio
 
 ## Livello di curatela (AI layer)
