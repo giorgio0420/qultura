@@ -1,0 +1,32 @@
+name: yt probe
+
+# Throwaway experiment: can a GitHub runner still reach YouTube's audio and caption
+# endpoints, or does the datacenter IP get refused? Delete this file once answered.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install yt-dlp youtube-transcript-api
+      - name: Captions endpoint
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          from youtube_transcript_api import YouTubeTranscriptApi
+          try:
+              t = YouTubeTranscriptApi().fetch("xK4a3ETGzLk", languages=["it"])
+              print("CAPTIONS OK", sum(len(s.text) for s in t), "chars")
+          except Exception as e:
+              print("CAPTIONS FAIL", type(e).__name__)
+          PY
+      - name: Audio endpoint
+        continue-on-error: true
+        run: |
+          yt-dlp -f "bestaudio[ext=m4a]/bestaudio" --download-sections "*0-30" \
+                 -o probe.m4a "https://www.youtube.com/watch?v=xK4a3ETGzLk" \
+            && echo "AUDIO OK $(stat -c%s probe.m4a) bytes" || echo "AUDIO FAIL"
