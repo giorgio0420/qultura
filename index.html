@@ -112,11 +112,12 @@
   }
   .reader-body pre code { background: none; padding: 0; }
   .scrollx { overflow-x: auto; }
-  /* mermaid emette svg con height:100%: senza questo occupa mezza pagina vuota */
-  .reader-body svg { max-width: 100%; height: auto; display: block; margin: 14px auto; }
-  /* i diagrammi non si rimpiccioliscono: meglio scorrere che non leggere */
-  .mermaid-slot svg { max-width: none; margin: 0; }
-  .mermaid-slot { margin: 14px 0; }
+  /* Solo i diagrammi mermaid: KaTeX disegna i radicali in SVG e una regola
+     generica su svg gli spezza le radici quadrate. */
+  .mermaid-slot { margin: 16px 0; }
+  .mermaid-slot svg { height: auto; display: block; }
+  /* le formule a blocco larghe scorrono invece di sbordare dalla pagina */
+  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 3px 0; }
   .navbar {
     position: sticky; bottom: 0; display: flex; gap: 8px; align-items: center;
     background: var(--bg); border-top: 1px solid var(--line);
