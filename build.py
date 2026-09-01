@@ -79,7 +79,7 @@ def run():
             traceback.print_exc(limit=1)
             continue
 
-        for title, link, text in contents:
+        for title, link, text, when in contents:
             if not text.strip():
                 continue
             seen.add(link)
@@ -105,6 +105,7 @@ def run():
 
             items.append({
                 "title": c["title"],
+                "subtitle": c["subtitle"],
                 "original_title": title,
                 "link": link,
                 "source": src["name"],
@@ -116,11 +117,13 @@ def run():
                 "relevance": c["relevance"],
                 "score": score(c, src["weight"]),
                 "seen_at": datetime.now(timezone.utc).isoformat(),
+                "published_at": when.isoformat(),
             })
             added += 1
             print(f"  [keep] {c['relevance']}/5 {c['title']}", flush=True)
 
-    items.sort(key=lambda i: (i["seen_at"][:10], i["score"]), reverse=True)
+    # newest first: the reader scrolls back in time, so real publication time wins
+    items.sort(key=lambda i: i.get("published_at") or i["seen_at"], reverse=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
                    "items": items}, f, ensure_ascii=False, indent=1)

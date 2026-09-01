@@ -1,6 +1,6 @@
 // Cache the shell so the app opens offline; always try the network for data.json
 // first, so the morning's build replaces yesterday's reading as soon as it exists.
-const CACHE = "qultura-v1";
+const CACHE = "qultura-v2";
 const SHELL = ["./", "./index.html", "./app.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -22,8 +22,9 @@ self.addEventListener("fetch", (e) => {
       return res;
     })
     .catch(() => caches.match(e.request));
-  // Shell files can come from cache instantly; data.json must try the network first.
-  e.respondWith(e.request.url.includes("data.json")
-    ? fresh
-    : caches.match(e.request).then((hit) => hit || fresh));
+  // The page itself and the data must try the network first, or a redeploy keeps
+  // serving yesterday's app from cache. Icons and the manifest can come from cache.
+  const live = e.request.mode === "navigate" || /\.(html|json)$/.test(new URL(e.request.url).pathname);
+  e.respondWith(live ? fresh.catch(() => caches.match(e.request))
+                     : caches.match(e.request).then((hit) => hit || fresh));
 });

@@ -1,10 +1,11 @@
 name: daily curation
 
-# 04:00 UTC = 06:00 in Italy while summer time is in force (07:00 in winter).
+# 04:23 UTC = 06:23 in Italy while summer time is in force (07:23 in winter).
+# Off the hour on purpose: GitHub drops scheduled jobs queued at :00 under load.
 # GitHub often runs scheduled jobs a few minutes late; nothing here depends on the minute.
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "23 4 * * *"
   workflow_dispatch:
 
 permissions:

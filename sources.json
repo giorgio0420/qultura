@@ -532,5 +532,30 @@
   "out_lang": "it",
   "limit": 2,
   "focus": "Silvia Lazzaris"
+ },
+ {
+  "name": "Will Media",
+  "kind": "yt",
+  "category": "mondo",
+  "weight": 2,
+  "url": "UCZM5aON36Iw0o0ngTaQSWVA",
+  "handle": "@willmedia",
+  "site": "https://willmedia.it",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
+ },
+ {
+  "name": "Siamo Zeta",
+  "kind": "yt",
+  "category": "mondo",
+  "weight": 2,
+  "url": "UCcZZHbK4Oy1v2YeMFewDE3Q",
+  "handle": "@siamozeta",
+  "lang": [
+   "it"
+  ],
+  "out_lang": "it"
  }
 ]

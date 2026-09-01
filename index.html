@@ -6,73 +6,77 @@
 <title>Qultura</title>
 <link rel="manifest" href="app.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
 <meta name="theme-color" content="#121214">
 <style>
   :root {
-    --bg: #faf9f7; --card: #ffffff; --ink: #1a1a1c; --dim: #6b6b70;
-    --line: #e4e1db; --accent: #8a5a2b; --shadow: 0 1px 2px rgba(0,0,0,.06);
+    --bg: #faf9f7; --card: #ffffff; --ink: #16161a; --dim: #6a6a72;
+    --line: #e3e0da; --accent: #8a5a2b; --shadow: 0 1px 2px rgba(0,0,0,.05);
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #121214; --card: #1b1b1e; --ink: #e8e4dc; --dim: #9a9aa2;
-      --line: #2b2b30; --accent: #d0a070; --shadow: none;
+      --bg: #121214; --card: #1a1a1d; --ink: #e8e4dc; --dim: #92929c;
+      --line: #2a2a30; --accent: #d0a070; --shadow: none;
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--ink);
-    font: 17px/1.6 ui-serif, Georgia, "Times New Roman", serif;
+    font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, sans-serif;
     -webkit-text-size-adjust: 100%;
   }
   header {
-    position: sticky; top: 0; z-index: 2; background: var(--bg);
+    position: sticky; top: 0; z-index: 3; background: var(--bg);
     border-bottom: 1px solid var(--line);
-    padding: max(12px, env(safe-area-inset-top)) 16px 0;
+    padding: max(10px, env(safe-area-inset-top)) 16px 0;
   }
-  h1 {
-    font: 600 20px/1.2 ui-sans-serif, system-ui, sans-serif;
-    margin: 4px 0 2px; letter-spacing: -.01em;
-  }
-  .meta { font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; color: var(--dim); }
-  nav { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0 8px; scrollbar-width: none; }
+  .brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  h1 { font-size: 19px; font-weight: 650; margin: 2px 0; letter-spacing: -.01em; }
+  .meta { font-size: 12px; color: var(--dim); }
+  nav { display: flex; gap: 6px; overflow-x: auto; padding: 9px 0 8px; scrollbar-width: none; }
   nav::-webkit-scrollbar { display: none; }
   nav button {
     flex: 0 0 auto; border: 1px solid var(--line); background: transparent;
-    color: var(--dim); border-radius: 999px; padding: 6px 12px; cursor: pointer;
-    font: 500 13px/1 ui-sans-serif, system-ui, sans-serif; white-space: nowrap;
+    color: var(--dim); border-radius: 999px; padding: 5px 11px; cursor: pointer;
+    font: 500 12.5px/1 inherit; white-space: nowrap;
   }
   nav button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-  main { max-width: 42rem; margin: 0 auto; padding: 16px 16px 64px; }
+  nav.sections { padding-bottom: 0; }
+  nav.sections button { border-radius: 6px; font-weight: 600; font-size: 13px; padding: 6px 14px; }
+  main { max-width: 44rem; margin: 0 auto; padding: 8px 12px 64px; }
   .day {
-    font: 600 12px/1 ui-sans-serif, system-ui, sans-serif; text-transform: uppercase;
-    letter-spacing: .08em; color: var(--dim); margin: 26px 0 10px;
+    font: 600 11px/1 inherit; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--dim); margin: 20px 4px 8px; padding: 4px 0;
   }
-  .day:first-child { margin-top: 4px; }
-  article {
-    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-    padding: 16px 18px; margin-bottom: 12px; box-shadow: var(--shadow);
+  details {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    margin-bottom: 8px; box-shadow: var(--shadow);
   }
-  .src {
-    font: 500 12px/1 ui-sans-serif, system-ui, sans-serif; color: var(--dim);
-    display: flex; gap: 8px; align-items: center; margin-bottom: 8px;
-  }
-  .tag { border: 1px solid var(--line); border-radius: 4px; padding: 2px 5px; }
-  h2 { font-size: 20px; line-height: 1.3; margin: 0 0 8px; font-weight: 600; letter-spacing: -.01em; }
-  p.sum { margin: 0 0 12px; }
-  ul { margin: 0; padding-left: 18px; }
-  li { margin: 6px 0; font-size: 16px; }
+  details[open] { border-color: var(--dim); }
+  summary { list-style: none; cursor: pointer; padding: 12px 14px; display: block; }
+  summary::-webkit-details-marker { display: none; }
+  summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 10px; }
+  .line1 { display: flex; gap: 7px; align-items: baseline; font-size: 11.5px; color: var(--dim); flex-wrap: wrap; }
+  .line1 time { font-variant-numeric: tabular-nums; }
+  .dot { opacity: .45; }
+  h2 { font-size: 16.5px; line-height: 1.32; margin: 4px 0 3px; font-weight: 600; letter-spacing: -.01em; }
+  .sub { font-size: 14px; color: var(--dim); line-height: 1.42; }
+  .body { padding: 0 14px 14px; }
+  .body p.sum { font: 16px/1.6 ui-serif, Georgia, serif; margin: 10px 0 12px; }
+  .body ul { margin: 0; padding-left: 18px; }
+  .body li { margin: 6px 0; font: 15px/1.55 ui-serif, Georgia, serif; }
   a.orig {
-    display: inline-block; margin-top: 14px; color: var(--accent);
-    font: 500 13px/1 ui-sans-serif, system-ui, sans-serif; text-decoration: none;
+    display: inline-block; margin-top: 12px; color: var(--accent);
+    font: 500 13px/1 inherit; text-decoration: none;
   }
   a.orig:hover { text-decoration: underline; }
-  .empty { color: var(--dim); text-align: center; padding: 48px 0; }
+  .empty { color: var(--dim); text-align: center; padding: 56px 16px; font-size: 15px; line-height: 1.6; }
 </style>
 </head>
 <body>
 <header>
-  <h1>Qultura</h1>
-  <div class="meta" id="meta">caricamento…</div>
+  <div class="brand"><h1>Qultura</h1><span class="meta" id="meta">caricamento...</span></div>
+  <nav class="sections" id="sections"></nav>
   <nav id="tabs"></nav>
 </header>
 <main id="feed"></main>
@@ -81,40 +85,58 @@
 const LABELS = {
   ai: "AI & Robotica", calcio: "Calcio", musica: "Musica",
   scacchi: "Scacchi", running: "Running", filosofia: "Filosofia e cultura",
+  mondo: "Mondo",
 };
-const ORDER = ["ai", "calcio", "musica", "scacchi", "running", "filosofia"];
+const ORDER = ["ai", "mondo", "calcio", "musica", "scacchi", "running", "filosofia"];
 const feed = document.getElementById("feed");
 const tabs = document.getElementById("tabs");
-let items = [], active = "tutto";
+const sections = document.getElementById("sections");
+let items = [], active = "tutto", section = "news";
 
-const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) =>
+const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
-const day = (iso) => new Date(iso).toLocaleDateString("it-IT",
-  { weekday: "long", day: "numeric", month: "long" });
+const when = (i) => new Date(i.published_at || i.seen_at);
+const dayLabel = (d) => d.toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+const clock = (d) => d.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
+
+// items curated before subtitles existed fall back to the first sentence of the summary
+const subtitle = (i) => i.subtitle || String(i.summary || "").split(". ")[0];
 
 function card(i) {
-  const bullets = (i.bullets || []).map((b) => `<li>${esc(b)}</li>`).join("");
-  return `<article>
-    <div class="src">
-      <span>${esc(i.source)}</span>
-      <span class="tag">${esc(i.lang.toUpperCase())}</span>
-      <span class="tag">${"\u25cf".repeat(i.relevance)}</span>
-    </div>
-    <h2>${esc(i.title)}</h2>
-    <p class="sum">${esc(i.summary)}</p>
-    ${bullets ? `<ul>${bullets}</ul>` : ""}
-    <a class="orig" href="${esc(i.link)}" target="_blank" rel="noopener">Leggi l'originale &rarr;</a>
-  </article>`;
+  const d = when(i);
+  const bullets = (i.bullets || []).map((b) => "<li>" + esc(b) + "</li>").join("");
+  return '<details><summary>'
+    + '<div class="line1"><time datetime="' + esc(d.toISOString()) + '">' + esc(clock(d)) + '</time>'
+    + '<span class="dot">/</span><span>' + esc(i.source) + '</span>'
+    + '<span class="dot">/</span><span>' + "●".repeat(i.relevance) + '</span></div>'
+    + '<h2>' + esc(i.title) + '</h2>'
+    + '<div class="sub">' + esc(subtitle(i)) + '</div>'
+    + '</summary><div class="body">'
+    + '<p class="sum">' + esc(i.summary) + '</p>'
+    + (bullets ? '<ul>' + bullets + '</ul>' : '')
+    + '<a class="orig" href="' + esc(i.link) + '" target="_blank" rel="noopener">Leggi l&rsquo;originale &rarr;</a>'
+    + '</div></details>';
 }
 
 function render() {
-  const shown = items.filter((i) => active === "tutto" || i.category === active);
-  if (!shown.length) { feed.innerHTML = `<p class="empty">Niente in questa categoria.</p>`; return; }
+  if (section === "libri") {
+    tabs.hidden = true;
+    feed.innerHTML = '<p class="empty">Sezione in costruzione.<br>Qui arriveranno i moduli di studio estratti dai libri.</p>';
+    return;
+  }
+  tabs.hidden = false;
+  const shown = items
+    .filter((i) => active === "tutto" || i.category === active)
+    .sort((a, b) => when(b) - when(a));
+  if (!shown.length) {
+    feed.innerHTML = '<p class="empty">Niente in questa categoria.</p>';
+    return;
+  }
   let html = "", last = "";
   for (const i of shown) {
-    const d = day(i.seen_at);
-    if (d !== last) { html += `<div class="day">${esc(d)}</div>`; last = d; }
+    const d = dayLabel(when(i));
+    if (d !== last) { html += '<div class="day">' + esc(d) + '</div>'; last = d; }
     html += card(i);
   }
   feed.innerHTML = html;
@@ -124,15 +146,22 @@ function render() {
 function drawTabs() {
   const counts = { tutto: items.length };
   for (const i of items) counts[i.category] = (counts[i.category] || 0) + 1;
-  const keys = ["tutto", ...ORDER.filter((k) => counts[k])];
+  const keys = ["tutto"].concat(ORDER.filter((k) => counts[k]));
   tabs.innerHTML = keys.map((k) =>
-    `<button role="tab" data-k="${k}" aria-selected="${k === active}">
-       ${k === "tutto" ? "Tutto" : LABELS[k]} ${counts[k]}
-     </button>`).join("");
-  tabs.querySelectorAll("button").forEach((b) => b.onclick = () => {
-    active = b.dataset.k;
-    drawTabs();
-    render();
+    '<button role="tab" data-k="' + k + '" aria-selected="' + (k === active) + '">'
+    + (k === "tutto" ? "Tutto" : LABELS[k]) + " " + counts[k] + '</button>').join("");
+  tabs.querySelectorAll("button").forEach((b) => {
+    b.onclick = () => { active = b.dataset.k; drawTabs(); render(); };
+  });
+}
+
+function drawSections() {
+  const list = [["news", "News"], ["libri", "Libri"]];
+  sections.innerHTML = list.map((s) =>
+    '<button role="tab" data-s="' + s[0] + '" aria-selected="' + (s[0] === section) + '">'
+    + s[1] + '</button>').join("");
+  sections.querySelectorAll("button").forEach((b) => {
+    b.onclick = () => { section = b.dataset.s; drawSections(); render(); };
   });
 }
 
@@ -140,15 +169,14 @@ fetch("data.json", { cache: "no-cache" })
   .then((r) => r.json())
   .then((d) => {
     items = d.items || [];
-    const when = new Date(d.generated_at).toLocaleString("it-IT",
-      { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
-    document.getElementById("meta").textContent = `${items.length} letture · aggiornato ${when}`;
-    drawTabs();
-    render();
+    const upd = new Date(d.generated_at).toLocaleString("it-IT",
+      { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    document.getElementById("meta").textContent = items.length + " letture / agg. " + upd;
+    drawSections(); drawTabs(); render();
   })
   .catch(() => {
     document.getElementById("meta").textContent = "nessun dato";
-    feed.innerHTML = `<p class="empty">Non riesco a leggere data.json.</p>`;
+    feed.innerHTML = '<p class="empty">Non riesco a leggere data.json.</p>';
   });
 
 if ("serviceWorker" in navigator) {

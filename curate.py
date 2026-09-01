@@ -16,10 +16,29 @@ MAX_CHARS = 30000  # transcripts can be huge; free tier has token-per-minute lim
 
 LANGS = {"en": "English", "it": "Italian"}
 
+# What each category is actually about. A source can publish outside its lane -
+# a football magazine running a piece on a Guitar Hero record - and a well-written
+# off-topic article would otherwise score high on craft alone.
+SCOPE = {
+    "ai": "artificial intelligence, robotics, electronics, embedded and control systems, "
+          "semiconductors, space engineering, software engineering",
+    "calcio": "football: tactics, match and squad analysis, AS Roma, Serie A, transfers, coaching",
+    "musica": "music: criticism, analysis of records and scenes, artists and their work. "
+              "Release dates, tracklists, tour and chart announcements are not analysis: "
+              "skip them even when the artist is one the reader follows",
+    "scacchi": "chess: openings, games, players, tournaments",
+    "running": "running, endurance training, calisthenics, sports physiology",
+    "filosofia": "philosophy, culture, cinema, essays and ideas",
+    "mondo": "geopolitics, economics and current affairs explained with data, "
+             "history and mechanism - not commentary or outrage",
+}
+
 SYSTEM = """You are a ruthless editorial curator for a personal daily digest.
 Work only from the text given. Never invent facts.
 Strip intros, sponsor reads, calls to subscribe, and generic filler.
-Keep only substance: technical content, tactical analysis, arguments, numbers, names.
+Keep only substance: mechanisms, methods, numbers, names, arguments that hold up.
+The reader is an engineer. Prefer how something works over how someone feels about it.
+Opinion, gossip, lifestyle and personality pieces are chatter, not knowledge: rate them low.
 If the text is pure marketing, an announcement with no analysis, or too thin to be
 worth reading, set skip=true and leave the other fields empty.
 
@@ -42,17 +61,19 @@ SCHEMA = {
     "properties": {
         "skip": {"type": "boolean"},
         "title": {"type": "string"},
+        "subtitle": {"type": "string"},
         "summary": {"type": "string"},
         "bullets": {"type": "array", "items": {"type": "string"}},
         "relevance": {"type": "integer"},
     },
-    "required": ["skip", "title", "summary", "bullets", "relevance"],
+    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance"],
 }
 
 
 def curate(title, text, category, lang="en", focus=None):
     """Return the curated record for one piece of content."""
     name = LANGS.get(lang, lang)
+    scope = SCOPE.get(category, category)
     care = ("The reader follows these closely: " + focus + "." + chr(10)) if focus else ""
     prompt = f"""Category: {category}
 Original title: {title}
@@ -60,7 +81,10 @@ Original title: {title}
 Content:
 {text[:MAX_CHARS]}
 
-{care}Summarize in 2-3 sentences, then 3-6 bullets of concrete substance.
+This category covers: {scope}.
+If the piece falls outside that scope, set skip=true - however well written it is.
+{care}Write a subtitle of at most 100 characters saying what the reader learns here,
+concrete and specific, no teasing. Then summarize in 2-3 sentences, then 3-6 bullets.
 Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
 is worth one point more, but an announcement with no substance stays low.
 Write in {name}: the title, the summary and every bullet must be in {name},

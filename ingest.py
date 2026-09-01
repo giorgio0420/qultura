@@ -58,7 +58,7 @@ def fetch_rss(source, seen=(), limit=3):
             text = article_text(link) or text
         if not keep(source, title, text):
             continue
-        yield title, link, text
+        yield title, link, text, published(e)
 
 
 def article_text(url):
@@ -106,7 +106,7 @@ def fetch_youtube(source, seen=(), limit=2, scan=15):
         if len(text) < MIN_TRANSCRIPT or not keep(source, title, text):
             continue
         kept += 1
-        yield title, link, text
+        yield title, link, text, published(e)
 
 
 def published(entry):
