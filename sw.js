@@ -1,6 +1,6 @@
 // Cache the shell so the app opens offline; always try the network for data.json
 // first, so the morning's build replaces yesterday's reading as soon as it exists.
-const CACHE = "qultura-v4";
+const CACHE = "qultura-v5";
 const SHELL = ["./", "./index.html", "./app.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {

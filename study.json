@@ -4,6 +4,28 @@
    "slug": "controlli",
    "label": "Controlli Automatici",
    "book": "Franklin, Feedback Control of Dynamic Systems",
+   "chapters": [
+    {
+     "n": 1,
+     "title": "Panoramica e storia della retroazione"
+    },
+    {
+     "n": 2,
+     "title": "Modelli dinamici"
+    },
+    {
+     "n": 3,
+     "title": "Risposta dinamica"
+    },
+    {
+     "n": 4,
+     "title": "Prima analisi della retroazione"
+    },
+    {
+     "n": 5,
+     "title": "Il metodo del luogo delle radici"
+    }
+   ],
    "modules": [
     {
      "number": "1.1",

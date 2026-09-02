@@ -23,6 +23,23 @@ SUBJECTS = {
 }
 
 
+# titoli dei capitoli del libro: senza questi la lista mostrerebbe il titolo
+# del primo modulo, che copre solo una parte del capitolo
+CHAPTERS = {
+    "controlli": {
+        1: "Panoramica e storia della retroazione",
+        2: "Modelli dinamici",
+        3: "Risposta dinamica",
+        4: "Prima analisi della retroazione",
+        5: "Il metodo del luogo delle radici",
+        6: "Progetto in frequenza",
+        7: "Progetto nello spazio di stato",
+        8: "Controllo digitale",
+        9: "Sistemi non lineari",
+    },
+}
+
+
 def parse(path):
     """Estrae numero, titolo e corpo da un file modulo-X.Y.md."""
     text = path.read_text(encoding="utf-8")
@@ -47,8 +64,11 @@ def main():
             key=lambda mod: [int(x) for x in mod["number"].split(".")],
         )
         if modules:
+            titles = CHAPTERS.get(slug, {})
+            chapters = [{"n": c, "title": titles.get(c, f"Capitolo {c}")}
+                        for c in sorted({mod["chapter"] for mod in modules})]
             subjects.append({"slug": slug, "label": label, "book": book,
-                             "modules": modules})
+                             "chapters": chapters, "modules": modules})
     OUT.write_text(json.dumps({"subjects": subjects}, ensure_ascii=False, indent=1),
                    encoding="utf-8")
     total = sum(len(s["modules"]) for s in subjects)

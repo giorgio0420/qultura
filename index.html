@@ -36,6 +36,7 @@
   .meta { font-size: 12px; color: var(--dim); }
   nav { display: flex; gap: 6px; overflow-x: auto; padding: 9px 0 8px; scrollbar-width: none; }
   nav::-webkit-scrollbar { display: none; }
+  nav[hidden] { display: none; }   /* display:flex batte l'attributo hidden */
   nav button {
     flex: 0 0 auto; border: 1px solid var(--line); background: transparent;
     color: var(--dim); border-radius: 999px; padding: 5px 11px; cursor: pointer;
@@ -88,6 +89,13 @@
     font-weight: 650; font-size: 13px; min-width: 2.4em;
   }
   .mod .t { font-size: 15.5px; line-height: 1.35; }
+  .mod .note { display: block; font-size: 12.5px; color: var(--dim); margin-top: 3px; }
+  .mod:hover { border-color: var(--dim); }
+  .back-row {
+    display: block; width: 100%; text-align: left; background: transparent;
+    border: 0; color: var(--dim); font: 600 13px/1 inherit; cursor: pointer;
+    padding: 6px 4px 10px;
+  }
   .reader { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 18px 24px; }
   .reader h3 { margin: 0 0 4px; font-size: 20px; line-height: 1.25; letter-spacing: -.01em; }
   .reader .eyebrow {
@@ -154,7 +162,7 @@ const tabs = document.getElementById("tabs");
 const sections = document.getElementById("sections");
 
 let items = [], active = "tutto", section = "news";
-let study = null, chapter = null, reading = null;   // stato della sezione Libri
+let study = null, book = null, chapter = null, reading = null;  // stato di Libri
 
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
@@ -237,33 +245,58 @@ function loadLibs() {
   return libsReady;
 }
 
-const subject = () => (study && study.subjects && study.subjects[0]) || null;
+const books = () => (study && study.subjects) || [];
+const subject = () => books().find((s) => s.slug === book) || null;
 const chapters = () => [...new Set(subject().modules.map((m) => m.chapter))].sort((a, b) => a - b);
 const modulesOf = (c) => subject().modules.filter((m) => m.chapter === c);
 
-function drawChapterTabs() {
-  const cs = chapters();
-  tabs.hidden = false;
-  tabs.innerHTML = cs.map((c) =>
-    '<button role="tab" data-c="' + c + '" aria-selected="' + (c === chapter) + '">'
-    + "Cap. " + c + " <span style=\"opacity:.6\">" + modulesOf(c).length + "</span></button>").join("");
-  tabs.querySelectorAll("button").forEach((b) => {
-    b.onclick = () => { chapter = Number(b.dataset.c); reading = null; drawChapterTabs(); render(); };
+function row(kind, key, lead, title, note) {
+  return '<button class="mod" data-kind="' + kind + '" data-key="' + esc(key) + '">'
+    + '<span class="num">' + esc(lead) + '</span>'
+    + '<span class="t">' + esc(title)
+    + (note ? '<span class="note">' + esc(note) + '</span>' : '')
+    + '</span></button>';
+}
+
+function backRow(label, handler) {
+  return '<button class="back-row">&larr; ' + esc(label) + '</button>';
+}
+
+function bind(handlers) {
+  feed.querySelectorAll(".mod").forEach((b) => {
+    b.onclick = () => handlers[b.dataset.kind](b.dataset.key);
   });
+  const back = feed.querySelector(".back-row");
+  if (back) back.onclick = handlers.back;
+}
+
+function renderBookList() {
+  feed.innerHTML = '<p class="booknote">Note di studio, un libro per materia.</p>'
+    + books().map((s) => row("book", s.slug, s.modules.length + " mod.", s.label, s.book)).join("");
+  bind({ book: (slug) => { book = slug; render(); } });
+}
+
+function renderChapterList() {
+  const s = subject();
+  feed.innerHTML = backRow("Libri")
+    + '<p class="booknote">' + esc(s.label) + ' &middot; <em>' + esc(s.book) + '</em></p>'
+    + chapters().map((c) => {
+        const mods = modulesOf(c);
+        const meta = (s.chapters || []).find((x) => x.n === c);
+        return row("chapter", String(c), "Cap. " + c,
+                   meta ? meta.title : "Capitolo " + c,
+                   mods.length + " moduli · dal " + mods[0].number + " al " + mods[mods.length - 1].number);
+      }).join("");
+  bind({ chapter: (c) => { chapter = Number(c); render(); },
+         back: () => { book = null; chapter = null; render(); } });
 }
 
 function renderModuleList() {
-  const s = subject();
-  let html = '<p class="booknote">' + esc(s.label) + " &middot; note di studio da <em>"
-    + esc(s.book) + "</em></p>";
-  html += modulesOf(chapter).map((m) =>
-    '<button class="mod" data-n="' + esc(m.number) + '">'
-    + '<span class="num">' + esc(m.number) + '</span>'
-    + '<span class="t">' + esc(m.title) + '</span></button>').join("");
-  feed.innerHTML = html;
-  feed.querySelectorAll(".mod").forEach((b) => {
-    b.onclick = () => { reading = b.dataset.n; render(); };
-  });
+  feed.innerHTML = backRow("Capitoli")
+    + '<p class="booknote">Capitolo ' + chapter + ' &middot; ' + esc(subject().label) + '</p>'
+    + modulesOf(chapter).map((m) => row("mod", m.number, m.number, m.title)).join("");
+  bind({ mod: (n) => { reading = n; render(); },
+         back: () => { chapter = null; render(); } });
 }
 
 function renderReader() {
@@ -281,7 +314,7 @@ function renderReader() {
     + '<button id="next"' + (idx === all.length - 1 ? " disabled" : "") + '>&rarr;</button>'
     + '</div>';
 
-  const go = (j) => { reading = all[j].number; chapter = all[j].chapter; drawChapterTabs(); render(); };
+  const go = (j) => { reading = all[j].number; chapter = all[j].chapter; render(); };
   const prev = document.getElementById("prev"), next = document.getElementById("next");
   if (idx > 0) prev.onclick = () => go(idx - 1);
   if (idx < all.length - 1) next.onclick = () => go(idx + 1);
@@ -324,15 +357,17 @@ function renderReader() {
 }
 
 function renderLibri() {
+  tabs.hidden = true;                       // qui si naviga scorrendo, non a schede
   if (!study) { feed.innerHTML = '<p class="empty">Carico i moduli...</p>'; return; }
-  if (!subject()) {
-    tabs.hidden = true;
+  if (!books().length) {
     feed.innerHTML = '<p class="empty">Nessun modulo disponibile.</p>';
     return;
   }
-  if (chapter === null) chapter = chapters()[0];
-  drawChapterTabs();
-  if (reading) renderReader(); else renderModuleList();
+  if (reading) renderReader();
+  else if (chapter !== null) renderModuleList();
+  else if (book !== null) renderChapterList();
+  else renderBookList();
+  window.scrollTo(0, 0);
 }
 
 /* ---------------- routing ---------------- */
