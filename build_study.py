@@ -45,6 +45,8 @@ CHAPTERS = {
         5: "Dinamica",
         6: "Controllo del moto",
         7: "Robot mobili su ruote",
+        8: "Controllo visivo",
+        9: "Pianificazione del moto",
     },
 }
 
