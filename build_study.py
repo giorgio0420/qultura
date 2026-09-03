@@ -41,6 +41,8 @@ CHAPTERS = {
         1: "Introduzione",
         2: "Cinematica",
         3: "Cinematica differenziale e statica",
+        4: "Pianificazione di traiettoria",
+        5: "Dinamica",
     },
 }
 
