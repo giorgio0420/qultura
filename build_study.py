@@ -39,6 +39,8 @@ CHAPTERS = {
     },
     "robotica": {
         1: "Introduzione",
+        2: "Cinematica",
+        3: "Cinematica differenziale e statica",
     },
 }
 
