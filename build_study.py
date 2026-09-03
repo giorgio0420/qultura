@@ -43,6 +43,8 @@ CHAPTERS = {
         3: "Cinematica differenziale e statica",
         4: "Pianificazione di traiettoria",
         5: "Dinamica",
+        6: "Controllo del moto",
+        7: "Robot mobili su ruote",
     },
 }
 
