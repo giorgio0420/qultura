@@ -47,6 +47,8 @@ CHAPTERS = {
         7: "Robot mobili su ruote",
         8: "Controllo visivo",
         9: "Pianificazione del moto",
+        10: "Controllo di forza",
+        11: "Manipolatori con giunti elastici",
     },
 }
 
