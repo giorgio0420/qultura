@@ -15,7 +15,7 @@ OUT = pathlib.Path("study.json")
 # materia -> (etichetta mostrata, libro di riferimento)
 SUBJECTS = {
     "controlli": ("Controlli Automatici", "Franklin, Feedback Control of Dynamic Systems"),
-    "robotica": ("Robotica", "Siciliano, Villani, Oriolo - Foundations of Robotics"),
+    "robotica": ("Robotica", "Siciliano, Villani, Oriolo, De Luca - Foundations of Robotics"),
     "ml": ("Machine Learning", "Bishop - Pattern Recognition and Machine Learning"),
     "elettronica": ("Elettronica", "Embedded Systems"),
     "ros": ("ROS", "Programming Robots with ROS"),
@@ -36,6 +36,9 @@ CHAPTERS = {
         7: "Progetto nello spazio di stato",
         8: "Controllo digitale",
         9: "Sistemi non lineari",
+    },
+    "robotica": {
+        1: "Introduzione",
     },
 }
 
