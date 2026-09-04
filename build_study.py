@@ -20,6 +20,8 @@ SUBJECTS = {
     "elettronica": ("Elettronica", "Embedded Systems"),
     "ros": ("ROS", "Programming Robots with ROS"),
     "shell": ("Linux e shell", "The Linux Command Line"),
+    "consensus": ("Sistemi Multi-Agente", "Sanai Dashti, Seatzu, Franceschelli - Dynamic Consensus on the Median Value in Open Multi-Agent Systems (IEEE CDC 2019)"),
+    "aerial_manip": ("Manipolazione Aerea", "Eskandarpour, Soltanshah, Gupta, Mehrandezh - Decoupled Dynamic Modeling and Tube-Based LPV-MPC for Aerial Manipulation (IEEE TAES 2025)"),
 }
 
 
@@ -49,6 +51,12 @@ CHAPTERS = {
         9: "Pianificazione del moto",
         10: "Controllo di forza",
         11: "Manipolatori con giunti elastici",
+    },
+    "consensus": {
+        1: "Consenso dinamico sulla mediana",
+    },
+    "aerial_manip": {
+        1: "Modellazione disaccoppiata e controllo LPV-MPC",
     },
 }
 
