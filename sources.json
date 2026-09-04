@@ -14,24 +14,6 @@
   "url": "https://www.technologyreview.com/feed/"
  },
  {
-  "name": "Ars Technica",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "url": "https://feeds.arstechnica.com/arstechnica/index"
- },
- {
-  "name": "IBM Technology",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCKWaEZ-_VweaEx1j62do_vQ",
-  "handle": "@IBMTechnology",
-  "lang": [
-   "en"
-  ]
- },
- {
   "name": "Kevin Wood | Robotics & AI",
   "kind": "yt",
   "category": "ai",
@@ -54,75 +36,14 @@
   ]
  },
  {
-  "name": "TED",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCAuUUnT6oDeKwE6v1NGQxug",
-  "handle": "@TED",
-  "lang": [
-   "en"
-  ]
- },
- {
-  "name": "Polimi OpenKnowledge",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCOKtBGblWKlkE-KIf-S0Fvg",
-  "handle": "@PolimiOpenKnowledge",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
- },
- {
-  "name": "Salvatore Sanfilippo",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCDDG9vOcmgwlslJJpCWjqOg",
-  "handle": "@antirez",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
- },
- {
-  "name": "Amedeo Balbi",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCvG_mqHj_wmFZiM1SkoZccw",
-  "handle": "@amedeobalbi",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
- },
- {
   "name": "Geopop",
-  "kind": "yt",
+  "kind": "rss",
   "category": "ai",
   "weight": 3,
-  "url": "UCx7EWheHmjCW3vX8K2d09vg",
-  "handle": "@geopop",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
- },
- {
-  "name": "Stepwise Chemistry",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UCErF9HdSixuZvqem-xOU-xA",
-  "handle": "@StepwiseChemistry",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "https://www.geopop.it/feed/",
+  "out_lang": "it",
+  "site": "https://www.geopop.it",
+  "limit": 2
  },
  {
   "name": "NVIDIA Developer Blog",
@@ -187,15 +108,6 @@
   "url": "https://huggingface.co/blog/feed.xml"
  },
  {
-  "name": "Waymo",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "site": "https://waymo.com/blog",
-  "limit": 2,
-  "url": "https://waymo.com/blog/rss.xml"
- },
- {
   "name": "SpaceNews",
   "kind": "rss",
   "category": "ai",
@@ -203,16 +115,6 @@
   "site": "https://spacenews.com",
   "limit": 2,
   "url": "https://spacenews.com/feed/"
- },
- {
-  "name": "Comau",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "site": "https://www.comau.com",
-  "out_lang": "it",
-  "limit": 2,
-  "url": "https://www.comau.com/feed/"
  },
  {
   "name": "Agenzia Spaziale Italiana",
@@ -234,15 +136,6 @@
   "limit": 2
  },
  {
-  "name": "GitHub Blog - AI & ML",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "url": "https://github.blog/ai-and-ml/feed/",
-  "site": "https://github.blog/ai-and-ml",
-  "limit": 2
- },
- {
   "name": "GitHub Blog",
   "kind": "rss",
   "category": "ai",
@@ -250,65 +143,6 @@
   "url": "https://github.blog/feed/",
   "site": "https://github.blog",
   "limit": 2
- },
- {
-  "name": "Rockit",
-  "kind": "rss",
-  "category": "musica",
-  "weight": 2,
-  "url": "https://www.rockit.it/rss",
-  "out_lang": "it",
-  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
- },
- {
-  "name": "Rolling Stone Italia",
-  "kind": "rss",
-  "category": "musica",
-  "weight": 2,
-  "url": "https://www.rollingstone.it/feed/",
-  "out_lang": "it",
-  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
- },
- {
-  "name": "Pitchfork Reviews",
-  "kind": "rss",
-  "category": "musica",
-  "weight": 2,
-  "url": "https://pitchfork.com/feed/feed-album-reviews/rss",
-  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
- },
- {
-  "name": "HipHopDX",
-  "kind": "rss",
-  "category": "musica",
-  "weight": 2,
-  "url": "https://hiphopdx.com/rss/news.xml",
-  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
- },
- {
-  "name": "Rumore",
-  "kind": "rss",
-  "category": "musica",
-  "weight": 2,
-  "url": "https://www.rumoremag.com/feed/",
-  "out_lang": "it",
-  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
- },
- {
-  "name": "L'Ultimo Uomo",
-  "kind": "rss",
-  "category": "calcio",
-  "weight": 2,
-  "url": "https://www.ultimouomo.com/feed/",
-  "out_lang": "it"
- },
- {
-  "name": "ForzaRoma",
-  "kind": "rss",
-  "category": "calcio",
-  "weight": 2,
-  "url": "https://www.forzaroma.info/feed/",
-  "out_lang": "it"
  },
  {
   "name": "Corriere dello Sport",
@@ -321,15 +155,13 @@
  },
  {
   "name": "Cronache di Spogliatoio",
-  "kind": "yt",
+  "kind": "rss",
   "category": "calcio",
   "weight": 2,
-  "url": "UCfmCGVXfpAMSi4PP8kqWlbA",
-  "handle": "@CronacheDiSpogliatoio",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "https://cronachedispogliatoio.substack.com/feed",
+  "out_lang": "it",
+  "site": "https://cronachedispogliatoio.substack.com",
+  "limit": 2
  },
  {
   "name": "Il Critico Calcistico",
@@ -356,13 +188,6 @@
   "out_lang": "it"
  },
  {
-  "name": "ChessBase",
-  "kind": "rss",
-  "category": "scacchi",
-  "weight": 1,
-  "url": "https://en.chessbase.com/feed"
- },
- {
   "name": "FIDE",
   "kind": "rss",
   "category": "scacchi",
@@ -380,17 +205,6 @@
    "it"
   ],
   "out_lang": "it"
- },
- {
-  "name": "Anna Cramling",
-  "kind": "yt",
-  "category": "scacchi",
-  "weight": 1,
-  "url": "UCOVfq3NNYjlYCz1iou69FwQ",
-  "handle": "@AnnaCramling",
-  "lang": [
-   "en"
-  ]
  },
  {
   "name": "MontyMagnus Scacchi",
@@ -412,40 +226,11 @@
   "url": "https://www.runnersworld.com/rss/all.xml/"
  },
  {
-  "name": "iRunFar",
-  "kind": "rss",
-  "category": "running",
-  "weight": 1,
-  "url": "https://www.irunfar.com/feed"
- },
- {
   "name": "LetsRun",
   "kind": "rss",
   "category": "running",
   "weight": 1,
   "url": "https://www.letsrun.com/feed/"
- },
- {
-  "name": "Vo2max Productions (Sage Canaday)",
-  "kind": "yt",
-  "category": "running",
-  "weight": 1,
-  "url": "UCh_w_vLvlZNBeTAP8qaWhoA",
-  "handle": "@Vo2maxProductions",
-  "lang": [
-   "en"
-  ]
- },
- {
-  "name": "Chris Heria",
-  "kind": "yt",
-  "category": "running",
-  "weight": 1,
-  "url": "UCaBqRxHEMomgFU-AkSfodCw",
-  "handle": "@CHRISHERIA",
-  "lang": [
-   "en"
-  ]
  },
  {
   "name": "Calisthenic Movement",
@@ -459,24 +244,14 @@
   ]
  },
  {
-  "name": "Il Tascabile",
+  "name": "Daily Cogito (Rick DuFer)",
   "kind": "rss",
   "category": "filosofia",
   "weight": 1,
-  "url": "https://www.iltascabile.com/feed/",
-  "out_lang": "it"
- },
- {
-  "name": "Daily Cogito (Rick DuFer)",
-  "kind": "yt",
-  "category": "filosofia",
-  "weight": 1,
-  "url": "UC-Eg38eLnX8OTP6zlQL5PsA",
-  "handle": "@DailyCogito",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "https://dailycogito.substack.com/feed",
+  "out_lang": "it",
+  "site": "https://dailycogito.substack.com",
+  "limit": 2
  },
  {
   "name": "BarbaSophia (Matteo Saudino)",
@@ -492,15 +267,13 @@
  },
  {
   "name": "Nova Lectio",
-  "kind": "yt",
+  "kind": "rss",
   "category": "filosofia",
   "weight": 1,
-  "url": "UCRCWJCFoZUvkkWzIqzfBy6g",
-  "handle": "@NovaLectio",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "https://nova-lectio.com/feed/",
+  "out_lang": "it",
+  "site": "https://nova-lectio.com",
+  "limit": 2
  },
  {
   "name": "ArteSettima",
@@ -548,14 +321,55 @@
  },
  {
   "name": "Siamo Zeta",
-  "kind": "yt",
+  "kind": "rss",
   "category": "mondo",
   "weight": 2,
-  "url": "UCcZZHbK4Oy1v2YeMFewDE3Q",
-  "handle": "@siamozeta",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "https://siamozeta.com/feed/",
+  "out_lang": "it",
+  "site": "https://siamozeta.com",
+  "limit": 2
+ },
+ {
+  "name": "Boh Magazine",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.bohmagazine.it/feed/",
+  "site": "https://www.bohmagazine.it",
+  "out_lang": "it",
+  "limit": 2,
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
+ },
+ {
+  "name": "Il Rappuso",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.ilrappuso.com/feed/",
+  "site": "https://www.ilrappuso.com",
+  "out_lang": "it",
+  "limit": 2,
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
+ },
+ {
+  "name": "Vice Italia",
+  "kind": "rss",
+  "category": "musica",
+  "weight": 2,
+  "url": "https://www.vice.com/it/feed",
+  "site": "https://www.vice.com/it",
+  "out_lang": "it",
+  "limit": 2,
+  "focus": "Nayt, Fabri Fibra, Marracash, Gue, Ernia, Kid Yugi, Kendrick Lamar, Drake, Kanye West, Neffa, Green Day, Negrita, Jovanotti; Italian and US rap, rock and cantautorato; jazz and soul"
+ },
+ {
+  "name": "Chora",
+  "kind": "rss",
+  "category": "mondo",
+  "weight": 2,
+  "url": "https://choramedia.com/feed/",
+  "site": "https://choramedia.com",
+  "out_lang": "it",
+  "limit": 2
  }
 ]
