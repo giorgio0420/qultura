@@ -161,7 +161,7 @@ const feed = document.getElementById("feed");
 const tabs = document.getElementById("tabs");
 const sections = document.getElementById("sections");
 
-let items = [], active = "tutto", section = "news";
+let items = [], active = "tutto", section = "news", lastBatch = null;
 let study = null, book = null, chapter = null, reading = null;  // stato di Libri
 
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
@@ -206,14 +206,23 @@ function renderNews() {
 }
 
 function drawTabs() {
-  const counts = { tutto: items.length };
-  for (const i of items) counts[i.category] = (counts[i.category] || 0) + 1;
-  const keys = ["tutto"].concat(ORDER.filter((k) => counts[k]));
+  // il totale decide quali schede esistono (per poter sfogliare anche le
+  // categorie senza novita'); il numero mostrato e' solo l'ultimo aggiornamento.
+  const totals = { tutto: items.length };
+  const fresh = { tutto: 0 };
+  for (const i of items) {
+    totals[i.category] = (totals[i.category] || 0) + 1;
+    if (lastBatch && i.batch_at === lastBatch) {
+      fresh[i.category] = (fresh[i.category] || 0) + 1;
+      fresh.tutto++;
+    }
+  }
+  const keys = ["tutto"].concat(ORDER.filter((k) => totals[k]));
   tabs.innerHTML = keys.map((k) =>
     '<button role="tab" data-k="' + k + '" aria-selected="' + (k === active) + '">'
-    + (k === "tutto" ? "Tutto" : LABELS[k]) + " " + counts[k] + '</button>').join("");
+    + (k === "tutto" ? "Tutto" : LABELS[k]) + " " + (fresh[k] || 0) + '</button>').join("");
   tabs.querySelectorAll("button").forEach((b) => {
-    b.onclick = () => { active = b.dataset.k; drawTabs(); render(); };
+    b.onclick = () => { active = b.dataset.k; nav(); };
   });
 }
 
@@ -273,7 +282,7 @@ function bind(handlers) {
 function renderBookList() {
   feed.innerHTML = '<p class="booknote">Note di studio, un libro per materia.</p>'
     + books().map((s) => row("book", s.slug, s.modules.length + " mod.", s.label, s.book)).join("");
-  bind({ book: (slug) => { book = slug; render(); } });
+  bind({ book: (slug) => { book = slug; nav(); } });
 }
 
 function renderChapterList() {
@@ -287,16 +296,16 @@ function renderChapterList() {
                    meta ? meta.title : "Capitolo " + c,
                    mods.length + " moduli · dal " + mods[0].number + " al " + mods[mods.length - 1].number);
       }).join("");
-  bind({ chapter: (c) => { chapter = Number(c); render(); },
-         back: () => { book = null; chapter = null; render(); } });
+  bind({ chapter: (c) => { chapter = Number(c); nav(); },
+         back: () => { book = null; chapter = null; nav(); } });
 }
 
 function renderModuleList() {
   feed.innerHTML = backRow("Capitoli")
     + '<p class="booknote">Capitolo ' + chapter + ' &middot; ' + esc(subject().label) + '</p>'
     + modulesOf(chapter).map((m) => row("mod", m.number, m.number, m.title)).join("");
-  bind({ mod: (n) => { reading = n; render(); },
-         back: () => { chapter = null; render(); } });
+  bind({ mod: (n) => { reading = n; nav(); },
+         back: () => { chapter = null; nav(); } });
 }
 
 function renderReader() {
@@ -314,11 +323,11 @@ function renderReader() {
     + '<button id="next"' + (idx === all.length - 1 ? " disabled" : "") + '>&rarr;</button>'
     + '</div>';
 
-  const go = (j) => { reading = all[j].number; chapter = all[j].chapter; render(); };
+  const go = (j) => { reading = all[j].number; chapter = all[j].chapter; nav(); };
   const prev = document.getElementById("prev"), next = document.getElementById("next");
   if (idx > 0) prev.onclick = () => go(idx - 1);
   if (idx < all.length - 1) next.onclick = () => go(idx + 1);
-  document.getElementById("back").onclick = () => { reading = null; render(); };
+  document.getElementById("back").onclick = () => { reading = null; nav(); };
 
   const target = document.getElementById("rbody");
   loadLibs().then(() => {
@@ -384,9 +393,32 @@ function drawSections() {
     '<button role="tab" data-s="' + s[0] + '" aria-selected="' + (s[0] === section) + '">'
     + s[1] + '</button>').join("");
   sections.querySelectorAll("button").forEach((b) => {
-    b.onclick = () => { section = b.dataset.s; drawSections(); render(); };
+    b.onclick = () => { section = b.dataset.s; nav(); };
   });
 }
+
+/* ---------------- history (il tasto indietro naviga nell'app, non ne esce) --- */
+
+function snapshot() { return { section, active, book, chapter, reading }; }
+
+function applyState(s) {
+  section = s.section || "news";
+  active = s.active || "tutto";
+  book = s.book != null ? s.book : null;
+  chapter = s.chapter != null ? s.chapter : null;
+  reading = s.reading != null ? s.reading : null;
+}
+
+// da chiamare dopo ogni cambio di stato: registra una voce di history e ridisegna
+function nav() {
+  history.pushState(snapshot(), "");
+  drawSections(); drawTabs(); render();
+}
+
+window.addEventListener("popstate", (e) => {
+  applyState(e.state || {});
+  drawSections(); drawTabs(); render();
+});
 
 Promise.all([
   fetch("data.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ items: [] })),
@@ -394,6 +426,7 @@ Promise.all([
 ]).then(([d, s]) => {
   items = d.items || [];
   study = s;
+  lastBatch = d.generated_at || null;
   const upd = d.generated_at
     ? new Date(d.generated_at).toLocaleString("it-IT",
         { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })
@@ -401,6 +434,7 @@ Promise.all([
   const nmod = s && s.subjects ? s.subjects.reduce((a, x) => a + x.modules.length, 0) : 0;
   document.getElementById("meta").textContent =
     items.length + " letture / " + nmod + " moduli / agg. " + upd;
+  history.replaceState(snapshot(), "");
   drawSections(); drawTabs(); render();
 });
 

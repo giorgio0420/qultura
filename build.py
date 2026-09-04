@@ -67,6 +67,7 @@ def score(item, weight):
 
 
 def run():
+    run_started = datetime.now(timezone.utc).isoformat()
     items = fresh(load())
     seen = {i["link"] for i in items}
     added = 0
@@ -118,6 +119,7 @@ def run():
                 "score": score(c, src["weight"]),
                 "seen_at": datetime.now(timezone.utc).isoformat(),
                 "published_at": when.isoformat(),
+                "batch_at": run_started,
             })
             added += 1
             print(f"  [keep] {c['relevance']}/5 {c['title']}", flush=True)
@@ -125,7 +127,7 @@ def run():
     # newest first: the reader scrolls back in time, so real publication time wins
     items.sort(key=lambda i: i.get("published_at") or i["seen_at"], reverse=True)
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
+        json.dump({"generated_at": run_started,
                    "items": items}, f, ensure_ascii=False, indent=1)
     print(f"\n{added} new, {len(items)} total -> {OUT}")
     return added
