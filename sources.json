@@ -177,18 +177,6 @@
   "out_lang": "it"
  },
  {
-  "name": "AS Roma",
-  "kind": "yt",
-  "category": "calcio",
-  "weight": 2,
-  "url": "UCLttSYJ6kPtlcurY96kXkQw",
-  "handle": "@ASRoma",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
- },
- {
   "name": "FIDE",
   "kind": "rss",
   "category": "scacchi",
