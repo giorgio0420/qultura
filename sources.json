@@ -151,7 +151,8 @@
   "weight": 2,
   "url": "https://www.corrieredellosport.it/rss/calcio",
   "out_lang": "it",
-  "match": "roma"
+  "match": "roma",
+  "limit": 20
  },
  {
   "name": "Cronache di Spogliatoio",

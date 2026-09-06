@@ -49,15 +49,15 @@ def strip_html(html):
 def fetch_rss(source, seen=(), limit=3):
     """Yield (title, link, text) for the latest entries of an RSS feed."""
     for e in feedparser.parse(source["url"]).entries[:source.get("limit", limit)]:
-        body = e["content"][0].get("value", "") if e.get("content") else ""
         title, link = e.get("title", ""), e.get("link", "")
-        if link in seen:
+        # il filtro guarda solo il titolo: scartare prima evita di scaricare
+        # l'articolo intero per voci che verranno buttate via comunque
+        if link in seen or not keep(source, title, ""):
             continue
+        body = e["content"][0].get("value", "") if e.get("content") else ""
         text = strip_html(body or e.get("summary", ""))
         if len(text) < MIN_RSS and link:
             text = article_text(link) or text
-        if not keep(source, title, text):
-            continue
         yield title, link, text, published(e)
 
 
@@ -123,7 +123,7 @@ def keep(source, title, text):
     is for, and word boundaries keep "roma" from matching "Romania".
     """
     word = source.get("match")
-    return not word or re.search(rf"{re.escape(word)}", title, re.I) is not None
+    return not word or re.search(rf"\b{re.escape(word)}\b", title, re.I) is not None
 
 
 def fetch(source, seen=()):
