@@ -1,0 +1,16 @@
+[Unit]
+Description=qultura live transcriber
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/qultura
+EnvironmentFile=/home/ubuntu/qultura/vm/.env
+ExecStart=/home/ubuntu/qultura/.venv/bin/python vm/live_watch.py
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

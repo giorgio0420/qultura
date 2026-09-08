@@ -12,6 +12,8 @@ socket.setdefaulttimeout(30)
 
 
 def check(src):
+    if src["kind"] == "queue":
+        return True, f"skip {src['name']:<34} (queue, fed by the VM worker)"
     try:
         url = (src["url"] if src["kind"] == "rss" else
                "https://www.youtube.com/feeds/videos.xml?channel_id="
