@@ -156,13 +156,12 @@
  },
  {
   "name": "Cronache di Spogliatoio",
-  "kind": "rss",
+  "kind": "queue",
   "category": "calcio",
   "weight": 2,
-  "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=UULVfmCGVXfpAMSi4PP8kqWlbA",
+  "url": "yt_transcripts/cronache",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@cronachedispogliatoio",
-  "limit": 2
+  "site": "https://www.youtube.com/@cronachedispogliatoio"
  },
  {
   "name": "Il Critico Calcistico",
@@ -241,6 +240,15 @@
   "out_lang": "it",
   "site": "https://dailycogito.substack.com",
   "limit": 2
+ },
+ {
+  "name": "Rick DuFer (YouTube)",
+  "kind": "queue",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "yt_transcripts/rickdufer",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@rickdufer"
  },
  {
   "name": "BarbaSophia (Matteo Saudino)",

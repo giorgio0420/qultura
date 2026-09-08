@@ -40,11 +40,18 @@ jobs:
           # il data.json appena generato: e' un file rigenerato, e questo job e'
           # l'unico che lo scrive, quindi non c'e' nulla da fondere.
           cp data.json "$RUNNER_TEMP/data.json"
+          # build.py deletes queue files (yt_transcripts/**) as it consumes them; the
+          # hard reset below would silently resurrect them, so remember which ones
+          # disappeared and re-delete them after realigning to the remote.
+          consumed=$(git status --porcelain -- 'yt_transcripts' | awk '$1=="D"{print $2}')
           for attempt in 1 2 3; do
             git fetch --quiet origin main
             git reset --quiet --hard origin/main
             cp "$RUNNER_TEMP/data.json" data.json
             git add data.json
+            for f in $consumed; do
+              [ -f "$f" ] && git rm --quiet "$f"
+            done
             if git diff --staged --quiet; then
               echo "nessuna novita' oggi"
               exit 0

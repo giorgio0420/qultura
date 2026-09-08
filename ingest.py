@@ -1,6 +1,7 @@
 """Fetch raw text from every configured source. No AI, no persistence here."""
 
 import json
+import pathlib
 import re
 import sys
 import time
@@ -109,6 +110,28 @@ def fetch_youtube(source, seen=(), limit=2, scan=15):
         yield title, link, text, published(e)
 
 
+def fetch_queue(source, seen=()):
+    """Yield (title, link, text, published) from transcript files a VM worker
+    dropped in this source's queue directory (kind "queue" in sources.json).
+
+    Each file is consumed at most once: read, yielded, then deleted, so a
+    transcript never gets curated twice even if it scored too low to be kept.
+    """
+    directory = pathlib.Path(source["url"])
+    if not directory.is_dir():
+        return
+    for path in sorted(directory.glob("*.json")):
+        try:
+            item = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as err:
+            print(f"  [skip] {path}: {type(err).__name__}", file=sys.stderr)
+            continue
+        link = item.get("link", "")
+        if link not in seen:
+            yield item["title"], link, item["text"], datetime.fromisoformat(item["published_at"])
+        path.unlink(missing_ok=True)
+
+
 def published(entry):
     """Publication time of a feed entry, or the epoch when the feed omits it."""
     t = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -129,7 +152,7 @@ def keep(source, title, text):
 def fetch(source, seen=()):
     """Yield the source's new content. `seen` holds links already curated, so their
     transcript or article is never downloaded twice."""
-    grab = fetch_rss if source["kind"] == "rss" else fetch_youtube
+    grab = {"rss": fetch_rss, "yt": fetch_youtube, "queue": fetch_queue}[source["kind"]]
     return grab(source, seen)
 
 
