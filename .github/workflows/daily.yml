@@ -1,16 +1,17 @@
 name: daily curation
 
-# 3:04 UTC = 05:04 in Italia con l'ora legale (04:04 con quella solare).
+# 4:04 UTC = 06:04 in Italia con l'ora legale (05:04 con quella solare).
 # Spostato da mezzanotte per dare margine alla diretta di Cronache di Spogliatoio
-# (lun-gio, inizia le 22:30, puo' finire dopo l'una): --live-from-start scarica
-# fino alla fine dello stream, poi la trascrizione Groq puo' scaglionarsi su
-# un'ora intera se il rate limit orario del piano free scatta a meta'. Con
+# (lun-gio, inizia le 22:30, nel caso peggiore puo' finire alle 3:30):
+# --live-from-start scarica fino alla fine dello stream, poi la trascrizione
+# Groq puo' scaglionarsi su un'ora intera se il rate limit orario del piano
+# free scatta a meta' - nel caso peggiore assoluto pronta verso le 4:40. Con
 # margine anche per lo slittamento di GitHub sui job schedulati, e per essere
 # pronti prima del risveglio. Fuori dall'ora tonda perche' i job accodati a :00
 # vengono scartati piu' spesso.
 on:
   schedule:
-    - cron: "4 3 * * *"
+    - cron: "4 4 * * *"
   workflow_dispatch:
 
 permissions:
