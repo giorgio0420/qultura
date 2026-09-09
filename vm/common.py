@@ -64,13 +64,15 @@ def transcribe(audio_path, language="it"):
         return " ".join(_groq_transcribe(c, language) for c in chunks).strip()
 
 
-def _groq_transcribe(path, language, tries=20):
+def _groq_transcribe(path, language, tries=65):
     """POST one chunk to Groq, waiting out 429s rather than giving up fast.
 
     The free tier caps audio-seconds-per-HOUR (7200s) well below a single
     long live stream's total audio, so a burst of chunks right after a 3h
     broadcast ends will get rate-limited partway through - that is expected,
-    not a failure. `retry-after` tells us how long Groq wants us to wait.
+    not a failure. `retry-after` tells us how long Groq wants us to wait;
+    65 tries at a 60s fallback covers a full hour even if that header is
+    ever missing or short for this particular limit.
     """
     key = os.environ["GROQ_API_KEY"]
     for attempt in range(tries):
