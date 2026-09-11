@@ -4,5 +4,71 @@
   "handle": "@rickdufer",
   "queue_dir": "yt_transcripts/rickdufer",
   "lang": "it"
+ },
+ {
+  "name": "Lucy sulla Cultura (YouTube)",
+  "handle": "@lucysullacultura",
+  "queue_dir": "yt_transcripts/lucysullacultura",
+  "lang": "it"
+ },
+ {
+  "name": "antirez (YouTube)",
+  "handle": "@antirez",
+  "queue_dir": "yt_transcripts/antirez",
+  "lang": "it"
+ },
+ {
+  "name": "Geopop (YouTube)",
+  "handle": "@geopop",
+  "queue_dir": "yt_transcripts/geopop",
+  "lang": "it"
+ },
+ {
+  "name": "AS Roma (YouTube)",
+  "handle": "@asroma",
+  "queue_dir": "yt_transcripts/asroma",
+  "lang": "it"
+ },
+ {
+  "name": "Il Critico Calcistico",
+  "handle": "@criticocalcistico",
+  "queue_dir": "yt_transcripts/criticocalcistico",
+  "lang": "it"
+ },
+ {
+  "name": "ArteSettima (YouTube)",
+  "handle": "@artesettima",
+  "queue_dir": "yt_transcripts/artesettima",
+  "lang": "it"
+ },
+ {
+  "name": "BarbaSophia (Matteo Saudino)",
+  "handle": "@MatteoSaudino",
+  "queue_dir": "yt_transcripts/barbasophia",
+  "lang": "it"
+ },
+ {
+  "name": "Marco Montemagno (YouTube)",
+  "handle": "@mmontemagno",
+  "queue_dir": "yt_transcripts/mmontemagno",
+  "lang": "it"
+ },
+ {
+  "name": "Will Media",
+  "handle": "@willmedia",
+  "queue_dir": "yt_transcripts/willmedia",
+  "lang": "it"
+ },
+ {
+  "name": "Michele Mezzanotte (YouTube)",
+  "handle": "@michelemezzanotte",
+  "queue_dir": "yt_transcripts/michelemezzanotte",
+  "lang": "it"
+ },
+ {
+  "name": "Siamo Zeta (YouTube)",
+  "handle": "@siamozeta",
+  "queue_dir": "yt_transcripts/siamozeta",
+  "lang": "it"
  }
 ]

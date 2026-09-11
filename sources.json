@@ -46,6 +46,15 @@
   "limit": 2
  },
  {
+  "name": "Geopop (YouTube)",
+  "kind": "queue",
+  "category": "mondo",
+  "weight": 2,
+  "url": "yt_transcripts/geopop",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@geopop"
+ },
+ {
   "name": "NVIDIA Developer Blog",
   "kind": "rss",
   "category": "ai",
@@ -136,6 +145,33 @@
   "limit": 2
  },
  {
+  "name": "antirez (YouTube)",
+  "kind": "queue",
+  "category": "ai",
+  "weight": 3,
+  "url": "yt_transcripts/antirez",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@antirez"
+ },
+ {
+  "name": "Marco Montemagno (YouTube)",
+  "kind": "queue",
+  "category": "ai",
+  "weight": 2,
+  "url": "yt_transcripts/mmontemagno",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@mmontemagno"
+ },
+ {
+  "name": "Michele Mezzanotte (YouTube)",
+  "kind": "queue",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "yt_transcripts/michelemezzanotte",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@michelemezzanotte"
+ },
+ {
   "name": "GitHub Blog",
   "kind": "rss",
   "category": "ai",
@@ -165,15 +201,21 @@
  },
  {
   "name": "Il Critico Calcistico",
-  "kind": "yt",
+  "kind": "queue",
   "category": "calcio",
   "weight": 2,
-  "url": "UCraj1P-iStTDL2ZFZi2VMQA",
-  "handle": "@ilcriticocalcistico (id preso da un video reale del canale)",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "yt_transcripts/criticocalcistico",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@criticocalcistico"
+ },
+ {
+  "name": "AS Roma (YouTube)",
+  "kind": "queue",
+  "category": "calcio",
+  "weight": 2,
+  "url": "yt_transcripts/asroma",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@asroma"
  },
  {
   "name": "FIDE",
@@ -252,15 +294,12 @@
  },
  {
   "name": "BarbaSophia (Matteo Saudino)",
-  "kind": "yt",
+  "kind": "queue",
   "category": "filosofia",
   "weight": 1,
-  "url": "UCczAmcE87UncfJLyrfA2wUA",
-  "handle": "@MatteoSaudino",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "yt_transcripts/barbasophia",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@MatteoSaudino"
  },
  {
   "name": "Nova Lectio",
@@ -280,6 +319,15 @@
   "url": "https://artesettima.it/feed/",
   "out_lang": "it",
   "site": "https://artesettima.it"
+ },
+ {
+  "name": "ArteSettima (YouTube)",
+  "kind": "queue",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "yt_transcripts/artesettima",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@artesettima"
  },
  {
   "name": "Lucy sui mondi",
@@ -304,17 +352,22 @@
   "focus": "Silvia Lazzaris"
  },
  {
+  "name": "Lucy sulla Cultura (YouTube)",
+  "kind": "queue",
+  "category": "filosofia",
+  "weight": 1,
+  "url": "yt_transcripts/lucysullacultura",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@lucysullacultura"
+ },
+ {
   "name": "Will Media",
-  "kind": "yt",
+  "kind": "queue",
   "category": "mondo",
   "weight": 2,
-  "url": "UCZM5aON36Iw0o0ngTaQSWVA",
-  "handle": "@willmedia",
-  "site": "https://willmedia.it",
-  "lang": [
-   "it"
-  ],
-  "out_lang": "it"
+  "url": "yt_transcripts/willmedia",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@willmedia"
  },
  {
   "name": "Siamo Zeta",
@@ -325,6 +378,15 @@
   "out_lang": "it",
   "site": "https://siamozeta.com",
   "limit": 2
+ },
+ {
+  "name": "Siamo Zeta (YouTube)",
+  "kind": "queue",
+  "category": "mondo",
+  "weight": 2,
+  "url": "yt_transcripts/siamozeta",
+  "out_lang": "it",
+  "site": "https://www.youtube.com/@siamozeta"
  },
  {
   "name": "Boh Magazine",
