@@ -7,24 +7,6 @@
   "url": "https://spectrum.ieee.org/feeds/feed.rss"
  },
  {
-  "name": "MIT Technology Review",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "url": "https://www.technologyreview.com/feed/"
- },
- {
-  "name": "Kevin Wood | Robotics & AI",
-  "kind": "yt",
-  "category": "ai",
-  "weight": 3,
-  "url": "UC0jeEKE9IzfYKDuIbQLJIog",
-  "handle": "@KevinWoodRobotics",
-  "lang": [
-   "en"
-  ]
- },
- {
   "name": "MATLAB",
   "kind": "yt",
   "category": "ai",
@@ -53,32 +35,6 @@
   "url": "yt_transcripts/geopop",
   "out_lang": "it",
   "site": "https://www.youtube.com/@geopop"
- },
- {
-  "name": "NVIDIA Developer Blog",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "site": "https://developer.nvidia.com/blog",
-  "limit": 2,
-  "url": "https://developer.nvidia.com/blog/feed/"
- },
- {
-  "name": "NVIDIA Blog",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "site": "https://blogs.nvidia.com",
-  "limit": 2,
-  "url": "https://blogs.nvidia.com/feed/"
- },
- {
-  "name": "The Robot Report",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "site": "https://www.therobotreport.com",
-  "url": "https://www.therobotreport.com/feed/"
  },
  {
   "name": "OpenAI",
@@ -172,15 +128,6 @@
   "site": "https://www.youtube.com/@michelemezzanotte"
  },
  {
-  "name": "GitHub Blog",
-  "kind": "rss",
-  "category": "ai",
-  "weight": 3,
-  "url": "https://github.blog/feed/",
-  "site": "https://github.blog",
-  "limit": 2
- },
- {
   "name": "Corriere dello Sport",
   "kind": "rss",
   "category": "calcio",
@@ -218,13 +165,6 @@
   "site": "https://www.youtube.com/@asroma"
  },
  {
-  "name": "FIDE",
-  "kind": "rss",
-  "category": "scacchi",
-  "weight": 1,
-  "url": "https://www.fide.com/rss"
- },
- {
   "name": "Chess.com Italiano",
   "kind": "yt",
   "category": "scacchi",
@@ -254,13 +194,6 @@
   "category": "running",
   "weight": 1,
   "url": "https://www.runnersworld.com/rss/all.xml/"
- },
- {
-  "name": "LetsRun",
-  "kind": "rss",
-  "category": "running",
-  "weight": 1,
-  "url": "https://www.letsrun.com/feed/"
  },
  {
   "name": "Calisthenic Movement",
@@ -368,16 +301,6 @@
   "url": "yt_transcripts/willmedia",
   "out_lang": "it",
   "site": "https://www.youtube.com/@willmedia"
- },
- {
-  "name": "Siamo Zeta",
-  "kind": "rss",
-  "category": "mondo",
-  "weight": 2,
-  "url": "https://siamozeta.com/feed/",
-  "out_lang": "it",
-  "site": "https://siamozeta.com",
-  "limit": 2
  },
  {
   "name": "Siamo Zeta (YouTube)",
