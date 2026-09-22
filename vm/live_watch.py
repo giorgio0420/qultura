@@ -27,6 +27,10 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+
+def _ts():
+    return datetime.now().astimezone().isoformat(timespec="seconds")
+
 from common import REPO, push_transcript, transcribe
 from ingest import channel_id
 
@@ -65,7 +69,7 @@ def handle_live(item):
     video_id = item["id"]["videoId"]
     title = item["snippet"]["title"]
     link = f"https://www.youtube.com/watch?v={video_id}"
-    print(f"[live] {title} ({video_id}) started, downloading...", flush=True)
+    print(f"[live] {_ts()} {title} ({video_id}) started, downloading...", flush=True)
 
     with tempfile.TemporaryDirectory() as tmp:
         audio_path = Path(tmp) / f"{video_id}.opus"
@@ -75,19 +79,20 @@ def handle_live(item):
             "-f", "bestaudio/best", "-o", str(audio_path), link,
         ], check=True)
 
-        print(f"[live] {title} ended, transcribing...", flush=True)
+        print(f"[live] {_ts()} {title} download done, transcribing...", flush=True)
         text = transcribe(audio_path)
 
     push_transcript(QUEUE_DIR, video_id, title, link,
                      datetime.now(timezone.utc).isoformat(), text)
     mark_done(video_id)
-    print(f"[live] {title} pushed.", flush=True)
+    print(f"[live] {_ts()} {title} pushed.", flush=True)
 
 
 def main():
     api_key = os.environ["YOUTUBE_API_KEY"]
     cid = channel_id(CHANNEL_HANDLE)
-    print(f"[live] watching {CHANNEL_HANDLE} ({cid}), polling every {POLL_SECONDS}s",
+    print(f"[live] {_ts()} === SESSION START pid={os.getpid()} === "
+          f"watching {CHANNEL_HANDLE} ({cid}), polling every {POLL_SECONDS}s",
           flush=True)
     archive = load_archive()
     while True:
@@ -96,7 +101,12 @@ def main():
             if item and item["id"]["videoId"] not in archive:
                 handle_live(item)
                 archive = load_archive()
+        except KeyboardInterrupt:
+            print(f"[live] {_ts()} === SESSION END: interrupted (Ctrl+C / stop) ===",
+                  flush=True)
+            raise
         except Exception:
+            print(f"[live] {_ts()} error during poll/download cycle:", flush=True)
             traceback.print_exc()
         time.sleep(POLL_SECONDS)
 
