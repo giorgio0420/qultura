@@ -162,7 +162,8 @@
   "weight": 2,
   "url": "yt_transcripts/asroma",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@asroma"
+  "site": "https://www.youtube.com/@asroma",
+  "keep_all": true
  },
  {
   "name": "Chess.com Italiano",
