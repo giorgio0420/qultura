@@ -97,7 +97,7 @@ def run():
                 continue
             time.sleep(PAUSE)
 
-            if c["skip"] or c["relevance"] < MIN_RELEVANCE:
+            if not src.get("keep_all") and (c["skip"] or c["relevance"] < MIN_RELEVANCE):
                 print(f"  [drop] {title}", flush=True)
                 continue
             if is_dupe(c["title"], items):
