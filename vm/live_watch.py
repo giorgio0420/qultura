@@ -19,7 +19,6 @@ import json
 import os
 import subprocess
 import sys
-import tempfile
 import time
 import traceback
 import urllib.parse
@@ -37,6 +36,11 @@ from ingest import channel_id
 CHANNEL_HANDLE = os.environ.get("CHANNEL_HANDLE", "@cronachedispogliatoio")
 QUEUE_DIR = os.environ.get("QUEUE_DIR", "yt_transcripts/cronache")
 ARCHIVE = REPO / "vm" / "state" / "live_archive.txt"
+# Not a tempdir: --live-from-start postprocessing (moov-atom fixup on long DASH
+# audio) sometimes fails after a 2-3h download, and a tempdir would delete that
+# audio on the way out via the exception. Keeping it here means a failed run
+# leaves the raw download behind for inspection/retry instead of losing it.
+PENDING_DIR = REPO / "vm" / "state" / "pending"
 
 # search.list costs 100 quota units/call against a 10000/day free quota.
 # Every 15 min = 96 calls/day, leaving headroom for other API use.
@@ -71,20 +75,24 @@ def handle_live(item):
     link = f"https://www.youtube.com/watch?v={video_id}"
     print(f"[live] {_ts()} {title} ({video_id}) started, downloading...", flush=True)
 
-    with tempfile.TemporaryDirectory() as tmp:
-        audio_path = Path(tmp) / f"{video_id}.opus"
-        # Blocks for the whole stream: yt-dlp keeps appending until it ends.
-        subprocess.run([
-            "yt-dlp", "--no-part", "--live-from-start",
-            "-f", "bestaudio/best", "-o", str(audio_path), link,
-        ], check=True)
+    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    out_template = PENDING_DIR / f"{video_id}.%(ext)s"
+    # Real extension, not a forced .opus: format 140 (this channel's bestaudio)
+    # is m4a, and naming it .opus made yt-dlp insert an extra FixupM4a remux
+    # before the live-concat FixupDuplicateMoov one - one less thing to fail.
+    subprocess.run([
+        "yt-dlp", "--no-part", "--live-from-start",
+        "-f", "bestaudio/best", "-o", str(out_template), link,
+    ], check=True)
+    audio_path = next(PENDING_DIR.glob(f"{video_id}.*"))
 
-        print(f"[live] {_ts()} {title} download done, transcribing...", flush=True)
-        text = transcribe(audio_path)
+    print(f"[live] {_ts()} {title} download done, transcribing...", flush=True)
+    text = transcribe(audio_path)
 
     push_transcript(QUEUE_DIR, video_id, title, link,
                      datetime.now(timezone.utc).isoformat(), text)
     mark_done(video_id)
+    audio_path.unlink()
     print(f"[live] {_ts()} {title} pushed.", flush=True)
 
 
@@ -108,6 +116,10 @@ def main():
         except Exception:
             print(f"[live] {_ts()} error during poll/download cycle:", flush=True)
             traceback.print_exc()
+            leftover = list(PENDING_DIR.glob("*")) if PENDING_DIR.exists() else []
+            if leftover:
+                print(f"[live] {_ts()} raw audio kept for recovery: "
+                      f"{', '.join(str(p) for p in leftover)}", flush=True)
         time.sleep(POLL_SECONDS)
 
 
