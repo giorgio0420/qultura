@@ -52,6 +52,17 @@ Rate relevance on this scale, and use its whole range - most pieces are a 3:
 2 - thin: mostly recap, quotes or context you already know
 1 - vacuous: nothing an informed reader would learn"""
 
+PROSE_NOTE = """
+This piece comes from a spoken YouTube transcript, not a written article.
+Write summary as real prose, like a newspaper piece: connected sentences that
+weigh each point by how much it matters and follow one another with real
+logical sequence (this happened, which led to that, which matters because...),
+not a flat list of disconnected facts. Do not pad it into filler to sound
+thorough - say what matters and stop.
+bullets is for genuinely enumerable content only (a ranking, a list of concrete
+items named one after another) - leave it empty otherwise. Most pieces here
+should have an empty bullets array with everything in summary instead."""
+
 class QuotaExceeded(RuntimeError):
     """The daily free-tier allowance for this model is gone; retrying will not help."""
 
@@ -70,11 +81,17 @@ SCHEMA = {
 }
 
 
-def curate(title, text, category, lang="en", focus=None):
-    """Return the curated record for one piece of content."""
+def curate(title, text, category, lang="en", focus=None, prose=False):
+    """Return the curated record for one piece of content.
+
+    prose: True for YouTube-sourced (spoken) content - see PROSE_NOTE.
+    """
     name = LANGS.get(lang, lang)
     scope = SCOPE.get(category, category)
     care = ("The reader follows these closely: " + focus + "." + chr(10)) if focus else ""
+    bullets_instr = ("Then summarize in flowing prose (see the note on spoken content)."
+                      if prose else
+                      "Then summarize in 2-3 sentences, then 3-6 bullets.")
     prompt = f"""Category: {category}
 Original title: {title}
 
@@ -84,13 +101,14 @@ Content:
 This category covers: {scope}.
 If the piece falls outside that scope, set skip=true - however well written it is.
 {care}Write a subtitle of at most 100 characters saying what the reader learns here,
-concrete and specific, no teasing. Then summarize in 2-3 sentences, then 3-6 bullets.
+concrete and specific, no teasing. {bullets_instr}
 Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
 is worth one point more, but an announcement with no substance stays low.
 Write in {name}: the title, the summary and every bullet must be in {name},
 translated if the source is in another language."""
+    system = SYSTEM.format(lang=LANGS.get(lang, lang)) + (PROSE_NOTE if prose else "")
     body = {
-        "systemInstruction": {"parts": [{"text": SYSTEM.format(lang=LANGS.get(lang, lang))}]},
+        "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
