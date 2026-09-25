@@ -81,10 +81,12 @@ SCHEMA = {
 }
 
 
-def curate(title, text, category, lang="en", focus=None, prose=False):
+def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=False):
     """Return the curated record for one piece of content.
 
     prose: True for YouTube-sourced (spoken) content - see PROSE_NOTE.
+    keep_all: this source is never out of scope - skip must stay false, even
+    when the episode only briefly touches what the reader actually follows.
     """
     name = LANGS.get(lang, lang)
     scope = SCOPE.get(category, category)
@@ -92,14 +94,21 @@ def curate(title, text, category, lang="en", focus=None, prose=False):
     bullets_instr = ("Then summarize in flowing prose (see the note on spoken content)."
                       if prose else
                       "Then summarize in 2-3 sentences, then 3-6 bullets.")
+    scope_instr = (
+        "This source is always in scope for this category - never set skip=true, "
+        "whatever the episode covers. Still write a real title and summary of what "
+        "was actually said, even when it barely touches what the reader follows."
+        if keep_all else
+        f"This category covers: {scope}.\n"
+        "If the piece falls outside that scope, set skip=true - however well written it is."
+    )
     prompt = f"""Category: {category}
 Original title: {title}
 
 Content:
 {text[:MAX_CHARS]}
 
-This category covers: {scope}.
-If the piece falls outside that scope, set skip=true - however well written it is.
+{scope_instr}
 {care}Write a subtitle of at most 100 characters saying what the reader learns here,
 concrete and specific, no teasing. {bullets_instr}
 Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
