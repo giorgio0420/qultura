@@ -145,7 +145,8 @@
   "url": "yt_transcripts/cronache",
   "out_lang": "it",
   "site": "https://www.youtube.com/@cronachedispogliatoio",
-  "focus": "AS Roma - il programma copre tutta la Serie A, ma il lettore segue solo la Roma: riporta quasi solo cio' che riguarda la Roma, il resto al massimo in una riga di contesto"
+  "keep_all": true,
+  "focus": "AS Roma - il programma copre tutta la Serie A, ma il lettore segue solo la Roma: dai priorita' e spazio a cio' che riguarda la Roma, il resto in sintesi di contesto. Copri comunque la puntata anche se parla poco della Roma - non va mai scartata per questo"
  },
  {
   "name": "Il Critico Calcistico",

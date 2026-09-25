@@ -86,7 +86,8 @@ def run():
             seen.add(link)
             try:
                 c = curate(title, text, src["category"], src.get("out_lang", "en"),
-                           src.get("focus"), prose=src["kind"] in ("yt", "queue"))
+                           src.get("focus"), prose=src["kind"] in ("yt", "queue"),
+                           keep_all=src.get("keep_all", False))
             except QuotaExceeded as e:
                 # Out of daily allowance: every further call fails the same way, so
                 # stop and keep what we have instead of grinding through the backoff.
