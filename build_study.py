@@ -22,6 +22,10 @@ SUBJECTS = {
     "shell": ("Linux e shell", "The Linux Command Line"),
     "consensus": ("Sistemi Multi-Agente", "Sanai Dashti, Seatzu, Franceschelli - Dynamic Consensus on the Median Value in Open Multi-Agent Systems (IEEE CDC 2019)"),
     "aerial_manip": ("Manipolazione Aerea", "Eskandarpour, Soltanshah, Gupta, Mehrandezh - Decoupled Dynamic Modeling and Tube-Based LPV-MPC for Aerial Manipulation (IEEE TAES 2025)"),
+    "amr": ("Robotica Autonoma e Mobile", "Oriolo - Autonomous and Mobile Robotics (corso DIAG, Sapienza) + Siciliano et al., Foundations of Robotics"),
+    "amr_en": ("Autonomous and Mobile Robotics", "Oriolo - Autonomous and Mobile Robotics (DIAG, Sapienza course) + Siciliano et al., Foundations of Robotics"),
+    "controlli_es": ("Controlli Automatici - Esercizi", "Lanari, Oriolo - Controlli Automatici: Esercizi di Sintesi"),
+    "controlli_es_en": ("Automatic Control - Exercises", "Lanari, Oriolo - Controlli Automatici: Esercizi di Sintesi"),
 }
 
 
@@ -58,6 +62,63 @@ CHAPTERS = {
     "aerial_manip": {
         1: "Modellazione disaccoppiata e controllo LPV-MPC",
     },
+    "amr": {
+        1: "Introduzione: applicazioni, problemi, architetture",
+        2: "Spazio delle configurazioni",
+        3: "Robot mobili su ruote 1: meccanica",
+        4: "Robot mobili su ruote 2: modelli cinematici",
+        5: "Robot mobili su ruote 3: pianificazione di percorso/traiettoria",
+        6: "Robot mobili su ruote 4: inseguimento di traiettoria",
+        7: "Robot mobili su ruote 5: regolazione",
+        8: "Robot mobili su ruote 6: mobile manipulator",
+        9: "Percezione: sensori per robot mobili",
+        10: "Localizzazione 1: localizzazione odometrica",
+        11: "Localizzazione 2: filtro di Kalman",
+        12: "Localizzazione 3: landmark-based e SLAM",
+        13: "Pianificazione del moto 1: retrazione e cell decomposition",
+        14: "Pianificazione del moto 2: pianificazione probabilistica",
+        15: "Pianificazione del moto 3: campi potenziali artificiali",
+        16: "Robot umanoidi 1: introduzione",
+        17: "Robot umanoidi 2: architetture e whole-body control",
+        18: "Robot umanoidi 3: generazione dell'andatura",
+        19: "Locomozione umanoide: una dimostrazione",
+        20: "Casi di studio ed esame",
+    },
+    "controlli_es": {
+        1: "Analisi dei sistemi a retroazione",
+        2: "Sintesi nel dominio della frequenza",
+        3: "Sintesi con il luogo delle radici",
+        4: "Sintesi nel dominio del tempo",
+    },
+}
+
+CHAPTERS["amr_en"] = {
+    1: "Introduction: applications, problems, architectures",
+    2: "Configuration space",
+    3: "Wheeled mobile robots 1: mechanics",
+    4: "Wheeled mobile robots 2: kinematic models",
+    5: "Wheeled mobile robots 3: path/trajectory planning",
+    6: "Wheeled mobile robots 4: trajectory tracking",
+    7: "Wheeled mobile robots 5: regulation",
+    8: "Wheeled mobile robots 6: mobile manipulators",
+    9: "Perception: sensors for mobile robots",
+    10: "Localization 1: odometric localization",
+    11: "Localization 2: Kalman filter",
+    12: "Localization 3: landmark-based and SLAM",
+    13: "Motion planning 1: retraction and cell decomposition",
+    14: "Motion planning 2: probabilistic planning",
+    15: "Motion planning 3: artificial potential fields",
+    16: "Humanoid robots 1: introduction",
+    17: "Humanoid robots 2: architectures and whole-body control",
+    18: "Humanoid robots 3: gait generation",
+    19: "Humanoid locomotion: a demonstration",
+    20: "Case studies and exam problems",
+}
+CHAPTERS["controlli_es_en"] = {
+    1: "Feedback system analysis",
+    2: "Frequency-domain synthesis",
+    3: "Root-locus synthesis",
+    4: "Time-domain synthesis",
 }
 
 
