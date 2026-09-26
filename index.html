@@ -361,8 +361,7 @@ function loadLibs() {
   css("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css");
   libsReady = Promise.all([
     js("https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"),
-    js("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js")
-      .then(() => js("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js")),
+    js("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"),
     js("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js")
       .then(() => window.mermaid.initialize({
         startOnLoad: false,
@@ -453,10 +452,25 @@ function renderReader() {
     if (!window.marked) { target.textContent = m.body; return; }
     // i blocchi mermaid vanno estratti prima che marked li tratti come codice
     const diagrams = [];
-    const src = m.body.replace(/```mermaid\n([\s\S]*?)```/g, (_, code) => {
+    let src = m.body.replace(/```mermaid\n([\s\S]*?)```/g, (_, code) => {
       diagrams.push(code);
       return "\n<div class=\"mermaid-slot\" data-i=\"" + (diagrams.length - 1) + "\"></div>\n";
     });
+    // il LaTeX va estratto anche lui prima di marked: marked tratta \\ come
+    // escape e lo riduce a \, rompendo ogni \\begin{pmatrix}...\\end{pmatrix}
+    // con piu' righe (testato: succede sempre, non solo a volte). Si estrae
+    // il sorgente intatto e si passa a katex.render dopo, invece di lasciare
+    // che auto-render lo legga dal testo gia' passato per marked.
+    const mathBlocks = [];
+    src = src
+      .replace(/\$\$([\s\S]+?)\$\$/g, (_, tex) => {
+        mathBlocks.push({ tex, display: true });
+        return "\n<span class=\"math-slot\" data-i=\"" + (mathBlocks.length - 1) + "\"></span>\n";
+      })
+      .replace(/\$([^\$\n]+?)\$/g, (_, tex) => {
+        mathBlocks.push({ tex, display: false });
+        return "<span class=\"math-slot\" data-i=\"" + (mathBlocks.length - 1) + "\"></span>";
+      });
     target.innerHTML = window.marked.parse(src);
     target.querySelectorAll("table, pre").forEach((el) => {
       if (el.tagName === "TABLE") {
@@ -465,11 +479,12 @@ function renderReader() {
         el.parentNode.insertBefore(w, el); w.appendChild(el);
       }
     });
-    if (window.renderMathInElement) {
-      window.renderMathInElement(target, {
-        delimiters: [{ left: "$$", right: "$$", display: true },
-                     { left: "$", right: "$", display: false }],
-        throwOnError: false,
+    if (window.katex) {
+      target.querySelectorAll(".math-slot").forEach((slot) => {
+        const b = mathBlocks[Number(slot.dataset.i)];
+        try {
+          window.katex.render(b.tex, slot, { displayMode: b.display, throwOnError: false });
+        } catch (e) { slot.remove(); }
       });
     }
     if (window.mermaid) {
