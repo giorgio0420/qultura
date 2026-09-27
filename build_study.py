@@ -23,9 +23,7 @@ SUBJECTS = {
     "consensus": ("Sistemi Multi-Agente", "Sanai Dashti, Seatzu, Franceschelli - Dynamic Consensus on the Median Value in Open Multi-Agent Systems (IEEE CDC 2019)"),
     "aerial_manip": ("Manipolazione Aerea", "Eskandarpour, Soltanshah, Gupta, Mehrandezh - Decoupled Dynamic Modeling and Tube-Based LPV-MPC for Aerial Manipulation (IEEE TAES 2025)"),
     "amr": ("Robotica Autonoma e Mobile", "Oriolo - Autonomous and Mobile Robotics (corso DIAG, Sapienza) + Siciliano et al., Foundations of Robotics"),
-    "amr_en": ("Autonomous and Mobile Robotics", "Oriolo - Autonomous and Mobile Robotics (DIAG, Sapienza course) + Siciliano et al., Foundations of Robotics"),
     "controlli_es": ("Controlli Automatici - Esercizi", "Lanari, Oriolo - Controlli Automatici: Esercizi di Sintesi"),
-    "controlli_es_en": ("Automatic Control - Exercises", "Lanari, Oriolo - Controlli Automatici: Esercizi di Sintesi"),
 }
 
 
@@ -90,35 +88,6 @@ CHAPTERS = {
         3: "Sintesi con il luogo delle radici",
         4: "Sintesi nel dominio del tempo",
     },
-}
-
-CHAPTERS["amr_en"] = {
-    1: "Introduction: applications, problems, architectures",
-    2: "Configuration space",
-    3: "Wheeled mobile robots 1: mechanics",
-    4: "Wheeled mobile robots 2: kinematic models",
-    5: "Wheeled mobile robots 3: path/trajectory planning",
-    6: "Wheeled mobile robots 4: trajectory tracking",
-    7: "Wheeled mobile robots 5: regulation",
-    8: "Wheeled mobile robots 6: mobile manipulators",
-    9: "Perception: sensors for mobile robots",
-    10: "Localization 1: odometric localization",
-    11: "Localization 2: Kalman filter",
-    12: "Localization 3: landmark-based and SLAM",
-    13: "Motion planning 1: retraction and cell decomposition",
-    14: "Motion planning 2: probabilistic planning",
-    15: "Motion planning 3: artificial potential fields",
-    16: "Humanoid robots 1: introduction",
-    17: "Humanoid robots 2: architectures and whole-body control",
-    18: "Humanoid robots 3: gait generation",
-    19: "Humanoid locomotion: a demonstration",
-    20: "Case studies and exam problems",
-}
-CHAPTERS["controlli_es_en"] = {
-    1: "Feedback system analysis",
-    2: "Frequency-domain synthesis",
-    3: "Root-locus synthesis",
-    4: "Time-domain synthesis",
 }
 
 
