@@ -45,6 +45,10 @@ PENDING_DIR = REPO / "vm" / "state" / "pending"
 # search.list costs 100 quota units/call against a 10000/day free quota.
 # Every 15 min = 96 calls/day, leaving headroom for other API use.
 POLL_SECONDS = 900
+# --once: started by a scheduler just before the show - handle one broadcast and
+# exit, or give up after GIVE_UP_POLLS empty polls (2h) if there is no show tonight.
+ONCE = "--once" in sys.argv
+GIVE_UP_POLLS = 8
 
 
 def is_live(cid, api_key):
@@ -103,12 +107,21 @@ def main():
           f"watching {CHANNEL_HANDLE} ({cid}), polling every {POLL_SECONDS}s",
           flush=True)
     archive = load_archive()
+    empty_polls = 0
     while True:
         try:
             item = is_live(cid, api_key)
             if item and item["id"]["videoId"] not in archive:
                 handle_live(item)
                 archive = load_archive()
+                if ONCE:
+                    print(f"[live] {_ts()} === SESSION END: done (--once) ===", flush=True)
+                    return
+            elif ONCE:
+                empty_polls += 1
+                if empty_polls >= GIVE_UP_POLLS:
+                    print(f"[live] {_ts()} === SESSION END: no live tonight ===", flush=True)
+                    return
         except KeyboardInterrupt:
             print(f"[live] {_ts()} === SESSION END: interrupted (Ctrl+C / stop) ===",
                   flush=True)
