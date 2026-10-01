@@ -3,6 +3,8 @@ rem Same job as .github/workflows/daily.yml, run from a PC as a second daily pas
 rem Use a dedicated clone (not the vod/live one): hard reset below wipes local state.
 rem Needs GEMINI_API_KEY in .env at the repo root (build.py reads it).
 cd /d "%~dp0.."
+set "PY=C:\Users\giode\miniconda\python.exe"
+if not exist "%PY%" set "PY=python"
 call :main >> vm\daily.log 2>&1
 exit /b
 
@@ -10,7 +12,7 @@ exit /b
 echo === %date% %time%
 git fetch -q origin main
 git reset -q --hard origin/main
-"C:\Users\giode\miniconda\python.exe" build.py
+"%PY%" build.py
 if errorlevel 1 (
     rem build.py deletes queue files as it reads them: put them back on failure
     git checkout -q -- .
