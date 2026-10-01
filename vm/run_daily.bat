@@ -1,6 +1,7 @@
 @echo off
 rem Same job as .github/workflows/daily.yml, run from a PC as a second daily pass.
-rem Use a dedicated clone (not the vod/live one): hard reset below wipes local state.
+rem Shares the clone with the vod/live workers: schedule it so it never overlaps them
+rem (hard reset below would drop a transcript they committed but have not pushed yet).
 rem Needs GEMINI_API_KEY in .env at the repo root (build.py reads it).
 cd /d "%~dp0.."
 set "PY=C:\Users\giode\miniconda\python.exe"
