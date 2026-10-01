@@ -82,9 +82,16 @@ def main():
                 new_count += 1
                 print(f"[vod] {ch['name']}: {title} pushed.", flush=True)
             except Exception as err:
+                # capture_output hides yt-dlp's own reason: surface its last lines
+                stderr = getattr(err, "stderr", None) or ""
+                why = " | ".join(stderr.strip().splitlines()[-3:]) or err
+                if "members-only" in stderr:  # never downloadable without a membership
+                    with done_path.open("a") as f:
+                        f.write(video_id + "\n")
+                    print(f"[vod] {ch['name']}: {video_id} solo membri, saltato", flush=True)
+                    continue
                 print(f"[vod] {ch['name']}: {video_id} FALLITO "
-                      f"({type(err).__name__}: {err}) - riprovo al prossimo giro",
-                      flush=True)
+                      f"({type(err).__name__}: {why}) - riprovo al prossimo giro", flush=True)
 
 
 if __name__ == "__main__":
