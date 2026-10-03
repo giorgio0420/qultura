@@ -52,7 +52,7 @@ jobs:
             git fetch --quiet origin main
             git reset --quiet --hard origin/main
             cp "$RUNNER_TEMP/data.json" data.json
-            git add data.json
+            git add data.json yt_transcripts  # new files = items requeued after a failed curation
             for f in $consumed; do
               [ -f "$f" ] && git rm --quiet "$f"
             done
