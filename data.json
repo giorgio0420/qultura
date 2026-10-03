@@ -1,6 +1,31 @@
 {
- "generated_at": "2026-10-03T09:46:17.119601+00:00",
+ "generated_at": "2026-10-03T16:30:30.399239+00:00",
  "items": [
+  {
+   "title": "This Is the Minimum Amount of Time You Need After a Marathon to Run Your Next Race",
+   "subtitle": "Post-marathon recovery timelines and physiological checkpoints for racing again.",
+   "original_title": "This Is the Minimum Amount of Time You Need After a Marathon to Run Your Next Race",
+   "link": "https://www.runnersworld.com/training/a73982091/marathon-recovery-next-race/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This article outlines recovery timelines and physiological checkpoints for runners planning their next race after completing a marathon. Drawing on insights from two run coaches, it details the minimum rest required depending on race distance and effort level, ranging from two weeks for a hard 5K to up to 16 weeks for a fully prepped subsequent marathon. It also establishes daily and weekly recovery metrics to evaluate cellular and muscular healing before resuming intense training.",
+   "bullets": [
+    "Race effort dictates recovery time: runners who empty the tank chasing a PR require significantly more rest than those treating the marathon as a long run.",
+    "Minimum waiting periods by distance: at least 2 weeks for a hard 5K, 3 weeks for a 10K, 5 to 6 weeks for a half marathon, and 8 to 12 weeks for another marathon (with 16 weeks preferred for a full performance build).",
+    "Coaches recommend 7 to 14 days of zero running post-marathon, utilizing only gentle movement such as walking, swimming, or easy cycling.",
+    "Key physical recovery checkpoints include normalized daily movement stiffness, stabilized sleep patterns, fading joint or tendon pain, and easy paces feeling normal again.",
+    "Cellular and muscular damage occurs even if a runner feels great, meaning internal repair processes require rest beyond mere absence of soreness.",
+    "Categorizing races into A, B, and C goals allows athletes to race frequently without demanding peak performance or risking injury from every starting line."
+   ],
+   "relevance": 4,
+   "verdict": "sunto",
+   "score": 4,
+   "seen_at": "2026-10-03T16:31:22.267993+00:00",
+   "published_at": "2026-10-03T12:00:00+00:00",
+   "batch_at": "2026-10-03T16:30:30.399239+00:00"
+  },
   {
    "title": "Endrick verso la Roma: i giallorossi lavorano al prestito per gennaio",
    "subtitle": "La Roma punta al prestito di Endrick a gennaio visto lo scarso impiego nel Real Madrid.",
@@ -24,6 +49,24 @@
    "seen_at": "2026-10-03T09:47:03.635378+00:00",
    "published_at": "2026-10-03T06:01:02+00:00",
    "batch_at": "2026-10-03T09:46:17.119601+00:00"
+  },
+  {
+   "title": "Conflitto sociale in Italia e Francia",
+   "subtitle": "Analisi sociologica delle differenze nelle proteste giovanili e sindacali tra Italia e Francia",
+   "original_title": "La differenza tra le lotte in Italia e Francia!",
+   "link": "https://www.youtube.com/watch?v=iWQrVdozDpw",
+   "source": "BarbaSophia (Matteo Saudino)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il testo analizza le differenze strutturali tra le mobilitazioni sociali in Francia e in Italia, esaminando il ruolo del conflitto nella democrazia. In Francia, studenti, giovani delle periferie e lavoratori alimentano un ciclo di lotte radicato per rivendicare futuro, spazi politici e protezione dello stato sociale, contagiando anche Spagna e Belgio. Questo attivismo dal basso si scontra con il governo senza cercare la benevolenza delle istituzioni. In Italia, al contrario, le proteste come il blocco stradale degli agricoltori e autotrasportatori in Calabria assumono toni supplichevoli, chiedendo aiuto e pietà alle forze dell'ordine invece di imporre un cambiamento. L'autore evidenzia come in Italia l'opposizione politica sia debole, i sindacati confederali rinviino gli scioperi di fronte a un'inflazione al 4,2% e il conflitto sociale sia visto come un tabù. Questa assenza di mobilitazione reale lascia i governi immuni da pressioni reali, impedendo qualsiasi ridistribuzione della ricchezza o riforma strutturale.",
+   "bullets": [],
+   "relevance": 3,
+   "verdict": "sunto",
+   "score": 3,
+   "seen_at": "2026-10-03T16:31:40.506339+00:00",
+   "published_at": "2026-10-03T00:00:00+00:00",
+   "batch_at": "2026-10-03T16:30:30.399239+00:00"
   },
   {
    "title": "The Rise of AI-Generated Running Coaches on Social Media",
@@ -552,6 +595,24 @@
    "seen_at": "2026-10-03T09:46:34.314793+00:00",
    "published_at": "2026-10-02T00:00:00+00:00",
    "batch_at": "2026-10-03T09:46:17.119601+00:00"
+  },
+  {
+   "title": "Putin e Kaliningrad, il fentanyl in Italia e le immagini scientifiche del mese",
+   "subtitle": "Perché il fentanyl non dilaga in Italia e la tensione militare sull'enclave di Kaliningrad",
+   "original_title": "PUTIN userebbe QUALSIASI ARMA per proteggere KALININGRAD | The Essential",
+   "link": "https://www.youtube.com/watch?v=ysUfl4Mhee8",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il podcast analizza l'avvertimento di Vladimir Putin al Valdai Discussion Club, dove ha dichiarato che la Russia userebbe qualsiasi arma, comprese quelle nucleari, per difendere l'enclave di Kaliningrad da un blocco navale o aereo della NATO. Viene poi esaminata l'ipotesi del The Economist secondo cui le mafie italiane starebbero frenando la diffusione del fentanyl per evitare la rapida morte dei clienti e una forte repressione statale, nonostante i recenti furti ospedalieri abbiano spinto il governo ad introdurre rigidi protocolli di tracciabilità. Vengono infine presentate alcune rilevanti notizie scientifiche selezionate da Nature, tra cui filamenti di DNA fotografati nell'atto di chiudersi, coperte di lana ecologiche per preservare il ghiacciaio San Flauron in Svizzera e un grande osservatorio sotterraneo in Giappone per studiare i neutrini. In chiusura si segnala la crisi politica in Spagna dopo la bocciatura dei decreti sulla casa al Congresso dei deputati.",
+   "bullets": [],
+   "relevance": 4,
+   "verdict": "sunto",
+   "score": 8,
+   "seen_at": "2026-10-03T16:31:56.855978+00:00",
+   "published_at": "2026-10-02T00:00:00+00:00",
+   "batch_at": "2026-10-03T16:30:30.399239+00:00"
   },
   {
    "title": "Asics Gel-Kayano 33 Review",
