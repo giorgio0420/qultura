@@ -93,8 +93,8 @@ def run():
                 # stop and keep what we have instead of grinding through the backoff.
                 print("quota exhausted, stopping early: " + str(e)[:200], flush=True)
                 return save(items, added)
-            except Exception:
-                traceback.print_exc(limit=1)
+            except Exception as e:
+                print(f"  [errore] {title}: {e}", flush=True)
                 continue
             time.sleep(PAUSE)
 
