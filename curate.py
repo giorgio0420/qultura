@@ -12,7 +12,7 @@ import urllib.request
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 URL = ("https://generativelanguage.googleapis.com/v1beta/models/"
        f"{MODEL}:generateContent")
-MAX_CHARS = 30000  # transcripts can be huge; free tier has token-per-minute limits
+MAX_CHARS = 150000  # ~40k tokens: a 2h video fits whole; median transcript is ~10k chars
 
 LANGS = {"en": "English", "it": "Italian"}
 
@@ -63,6 +63,29 @@ bullets is for genuinely enumerable content only (a ranking, a list of concrete
 items named one after another) - leave it empty otherwise. Most pieces here
 should have an empty bullets array with everything in summary instead."""
 
+# How to write the summary of a spoken piece, by kind of video (sources.json "format").
+FORMATS = {
+    "lezione": "The video teaches something. Say what it explains, then the mechanism or "
+               "argument step by step with the concrete names, numbers and examples it uses, "
+               "then the one thing worth remembering.",
+    "opinione": "The video is one person's argument. State the thesis, then the supporting "
+                "arguments in the order made, with the speaker's own examples. Say plainly "
+                "where it is only assertion or opinion rather than shown.",
+    "calcio": "Football talk. Lead with tactics, numbers and concrete match facts, name "
+              "players and games, and keep verdicts apart from facts. No banter.",
+    "intervista": "An interview or press conference. Say who speaks, then the 3-5 concrete "
+                  "facts or claims, attributed. Drop pleasantries and stock phrases.",
+}
+
+VERDICTS = ("guarda", "sunto", "salta")
+VERDICT_NOTE = """
+Also set verdict, the honest answer to "should the reader spend the time on the video?":
+guarda - the video gives something the text cannot (a demonstration, a long argument worth
+hearing in full, a performance, strong delivery);
+sunto - the summary captures it, watching adds little;
+salta - nothing here worth the reader's time even as a summary."""
+
+
 class QuotaExceeded(RuntimeError):
     """The daily free-tier allowance for this model is gone; retrying will not help."""
 
@@ -76,15 +99,18 @@ SCHEMA = {
         "summary": {"type": "string"},
         "bullets": {"type": "array", "items": {"type": "string"}},
         "relevance": {"type": "integer"},
+        "verdict": {"type": "string", "enum": list(VERDICTS)},
     },
-    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance"],
+    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance", "verdict"],
 }
 
 
-def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=False):
+def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=False,
+           format=None):
     """Return the curated record for one piece of content.
 
     prose: True for YouTube-sourced (spoken) content - see PROSE_NOTE.
+    format: key of FORMATS, how to structure the summary of a spoken piece.
     keep_all: this source is never out of scope - skip must stay false, even
     when the episode only briefly touches what the reader actually follows.
     """
@@ -102,6 +128,10 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
         f"This category covers: {scope}.\n"
         "If the piece falls outside that scope, set skip=true - however well written it is."
     )
+    # ~1 summary word per 60 transcript chars: 10k chars -> 170 words, capped at 450
+    words = max(120, min(450, len(text) // 60))
+    shape = (FORMATS.get(format, "") + f" Aim for about {words} words of summary."
+             + VERDICT_NOTE if prose else "")
     prompt = f"""Category: {category}
 Original title: {title}
 
@@ -111,6 +141,7 @@ Content:
 {scope_instr}
 {care}Write a subtitle of at most 100 characters saying what the reader learns here,
 concrete and specific, no teasing. {bullets_instr}
+{shape}
 Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
 is worth one point more, but an announcement with no substance stays low.
 Write in {name}: the title, the summary and every bullet must be in {name},
