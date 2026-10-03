@@ -110,6 +110,32 @@ def fetch_youtube(source, seen=(), limit=2, scan=15):
         yield title, link, text, published(e)
 
 
+QUEUE_FILES = {}  # link -> path of the queue file just consumed, for requeue()
+MAX_TRIES = 3
+
+
+def requeue(link, title, text, when, penalty=True):
+    """Put a consumed queue item back so the next run curates it again.
+
+    fetch_queue deletes a file as soon as it is read, so a failed curation
+    would otherwise lose the transcript. Failures count (name.r1, name.r2...)
+    and stop after MAX_TRIES, so a transcript Gemini will never accept does not
+    loop forever; quota exhaustion is not the item's fault and does not count.
+    """
+    path = QUEUE_FILES.get(link)
+    if path is None:
+        return  # not a queue item: rss/yt links come back by themselves
+    base, _, n = path.stem.partition(".r")
+    tries = int(n or 0) + (1 if penalty else 0)
+    if tries >= MAX_TRIES:
+        print(f"  [rinuncio] {title}: {MAX_TRIES} tentativi falliti", file=sys.stderr)
+        return
+    out = path.with_name(f"{base}.r{tries}.json" if tries else f"{base}.json")
+    out.write_text(json.dumps({"title": title, "link": link, "text": text,
+                                "published_at": when.isoformat()},
+                               ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def fetch_queue(source, seen=()):
     """Yield (title, link, text, published) from transcript files a VM worker
     dropped in this source's queue directory (kind "queue" in sources.json).
@@ -128,6 +154,7 @@ def fetch_queue(source, seen=()):
             continue
         link = item.get("link", "")
         if link not in seen:
+            QUEUE_FILES[link] = path
             yield item["title"], link, item["text"], datetime.fromisoformat(item["published_at"])
         path.unlink(missing_ok=True)
 

@@ -31,7 +31,7 @@ def load_env(path=".env"):
 load_env()
 
 from curate import QuotaExceeded, curate
-from ingest import SOURCES, fetch
+from ingest import SOURCES, fetch, requeue
 
 OUT = "data.json"
 KEEP_DAYS = 14
@@ -80,7 +80,7 @@ def run():
             traceback.print_exc(limit=1)
             continue
 
-        for title, link, text, when in contents:
+        for pos, (title, link, text, when) in enumerate(contents):
             if not text.strip():
                 continue
             seen.add(link)
@@ -92,9 +92,12 @@ def run():
                 # Out of daily allowance: every further call fails the same way, so
                 # stop and keep what we have instead of grinding through the backoff.
                 print("quota exhausted, stopping early: " + str(e)[:200], flush=True)
+                for t, l, x, w in contents[pos:]:  # already consumed: keep for next run
+                    requeue(l, t, x, w, penalty=False)
                 return save(items, added)
             except Exception as e:
                 print(f"  [errore] {title}: {e}", flush=True)
+                requeue(link, title, text, when)
                 continue
             time.sleep(PAUSE)
 
