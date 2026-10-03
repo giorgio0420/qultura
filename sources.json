@@ -34,7 +34,8 @@
   "weight": 2,
   "url": "yt_transcripts/geopop",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@geopop"
+  "site": "https://www.youtube.com/@geopop",
+  "format": "lezione"
  },
  {
   "name": "OpenAI",
@@ -107,7 +108,8 @@
   "weight": 3,
   "url": "yt_transcripts/antirez",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@antirez"
+  "site": "https://www.youtube.com/@antirez",
+  "format": "opinione"
  },
  {
   "name": "Marco Montemagno (YouTube)",
@@ -116,7 +118,8 @@
   "weight": 2,
   "url": "yt_transcripts/mmontemagno",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@mmontemagno"
+  "site": "https://www.youtube.com/@mmontemagno",
+  "format": "opinione"
  },
  {
   "name": "Michele Mezzanotte (YouTube)",
@@ -125,7 +128,8 @@
   "weight": 1,
   "url": "yt_transcripts/michelemezzanotte",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@michelemezzanotte"
+  "site": "https://www.youtube.com/@michelemezzanotte",
+  "format": "opinione"
  },
  {
   "name": "Corriere dello Sport",
@@ -146,7 +150,8 @@
   "out_lang": "it",
   "site": "https://www.youtube.com/@cronachedispogliatoio",
   "keep_all": true,
-  "focus": "AS Roma - il programma copre tutta la Serie A, ma il lettore segue solo la Roma: dai priorita' e spazio a cio' che riguarda la Roma, il resto in sintesi di contesto. Copri comunque la puntata anche se parla poco della Roma - non va mai scartata per questo"
+  "focus": "AS Roma - il programma copre tutta la Serie A, ma il lettore segue solo la Roma: dai priorita' e spazio a cio' che riguarda la Roma, il resto in sintesi di contesto. Copri comunque la puntata anche se parla poco della Roma - non va mai scartata per questo",
+  "format": "calcio"
  },
  {
   "name": "Il Critico Calcistico",
@@ -155,7 +160,8 @@
   "weight": 2,
   "url": "yt_transcripts/criticocalcistico",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@criticocalcistico"
+  "site": "https://www.youtube.com/@criticocalcistico",
+  "format": "calcio"
  },
  {
   "name": "AS Roma (YouTube)",
@@ -165,7 +171,8 @@
   "url": "yt_transcripts/asroma",
   "out_lang": "it",
   "site": "https://www.youtube.com/@asroma",
-  "keep_all": true
+  "keep_all": true,
+  "format": "intervista"
  },
  {
   "name": "Chess.com Italiano",
@@ -226,7 +233,8 @@
   "weight": 1,
   "url": "yt_transcripts/rickdufer",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@rickdufer"
+  "site": "https://www.youtube.com/@rickdufer",
+  "format": "opinione"
  },
  {
   "name": "BarbaSophia (Matteo Saudino)",
@@ -235,7 +243,8 @@
   "weight": 1,
   "url": "yt_transcripts/barbasophia",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@MatteoSaudino"
+  "site": "https://www.youtube.com/@MatteoSaudino",
+  "format": "lezione"
  },
  {
   "name": "Nova Lectio",
@@ -263,7 +272,8 @@
   "weight": 1,
   "url": "yt_transcripts/artesettima",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@artesettima"
+  "site": "https://www.youtube.com/@artesettima",
+  "format": "lezione"
  },
  {
   "name": "Lucy sui mondi",
@@ -294,7 +304,8 @@
   "weight": 1,
   "url": "yt_transcripts/lucysullacultura",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@lucysullacultura"
+  "site": "https://www.youtube.com/@lucysullacultura",
+  "format": "opinione"
  },
  {
   "name": "Will Media",
@@ -303,7 +314,8 @@
   "weight": 2,
   "url": "yt_transcripts/willmedia",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@willmedia"
+  "site": "https://www.youtube.com/@willmedia",
+  "format": "lezione"
  },
  {
   "name": "Siamo Zeta (YouTube)",
@@ -312,7 +324,8 @@
   "weight": 2,
   "url": "yt_transcripts/siamozeta",
   "out_lang": "it",
-  "site": "https://www.youtube.com/@siamozeta"
+  "site": "https://www.youtube.com/@siamozeta",
+  "format": "lezione"
  },
  {
   "name": "Boh Magazine",

@@ -87,7 +87,7 @@ def run():
             try:
                 c = curate(title, text, src["category"], src.get("out_lang", "en"),
                            src.get("focus"), prose=src["kind"] in ("yt", "queue"),
-                           keep_all=src.get("keep_all", False))
+                           keep_all=src.get("keep_all", False), format=src.get("format"))
             except QuotaExceeded as e:
                 # Out of daily allowance: every further call fails the same way, so
                 # stop and keep what we have instead of grinding through the backoff.
@@ -120,6 +120,7 @@ def run():
                 "summary": c["summary"],
                 "bullets": c["bullets"],
                 "relevance": c["relevance"],
+                **({"verdict": c["verdict"]} if c.get("verdict") else {}),
                 "score": score(c, src["weight"]),
                 "seen_at": datetime.now(timezone.utc).isoformat(),
                 "published_at": when.isoformat(),
