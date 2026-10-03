@@ -126,6 +126,10 @@ translated if the source is in another language."""
         },
     }
     raw = _post(body)
+    if not raw.get("candidates"):
+        # blocked prompt or empty answer: say why instead of a bare KeyError
+        raise RuntimeError("Gemini returned no candidates: "
+                           + json.dumps(raw.get("promptFeedback", raw))[:300])
     return json.loads(raw["candidates"][0]["content"]["parts"][0]["text"])
 
 
