@@ -1,0 +1,5 @@
+# Keep binaries byte-exact: a rename under autocrlf once truncated a GIF to two bytes
+*.gif binary
+*.png binary
+*.jpg binary
+*.ico binary
