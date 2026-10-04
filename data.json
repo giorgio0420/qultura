@@ -1,6 +1,100 @@
 {
- "generated_at": "2026-10-03T16:30:30.399239+00:00",
+ "generated_at": "2026-10-04T10:29:34.081834+00:00",
  "items": [
+  {
+   "title": "Il significato di Profondo Rosso – Il teorema della paura",
+   "subtitle": "Analisi dell'ambiguità strutturale e formale nel capolavoro cinematografico di Dario Argento.",
+   "original_title": "Il significato di Profondo Rosso – Il teorema della paura",
+   "link": "https://artesettima.it/2026/10/04/il-significato-di-profondo-rosso-il-teorema-della-paura/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'analisi critica di Profondo Rosso evidenzia come il capolavoro di Dario Argento rifiuti categorie canoniche e morali. L'ambiguità del titolo stesso riflette la totale libertà di pensiero filmico del regista, rendendo vano ogni tentativo di ricondurre la pellicola a significati univoci.",
+   "bullets": [
+    "Il titolo del film gioca sull'ambiguità sintattica tra sostantivo e aggettivo, mettendo in crisi lo sguardo dello spettatore.",
+    "Il film rifiuta di trasmettere una morale esplicita o di farsi analizzare secondo schemi critici tradizionali.",
+    "Ogni tentativo di ridurre la pellicola a un insieme di significati concreti fallisce di fronte alla sua struttura enigmatica.",
+    "L'opera si distingue per una totale libertà di pensiero filmico che decostruisce la narrazione."
+   ],
+   "relevance": 3,
+   "verdict": "sunto",
+   "score": 3,
+   "seen_at": "2026-10-04T10:30:34.963758+00:00",
+   "published_at": "2026-10-04T09:14:02+00:00",
+   "batch_at": "2026-10-04T10:29:34.081834+00:00"
+  },
+  {
+   "title": "Bologna intitola un giardino a Joe Cassano",
+   "subtitle": "La toponomastica cittadina riconosce la figura storica del rapper bolognese.",
+   "original_title": "Joe Cassano è Bolo: un giardino, una targa e l’Hip Hop che entra nella memoria della città. Reportage con le foto di Michelangelo Fratianni",
+   "link": "https://www.ilrappuso.com/joe-cassano-e-bolo-un-giardino-una-targa-e-lhip-hop-che-entra-nella-memoria-della-citta-reportage-con-le-foto-di-michelangelo-fratianni/",
+   "source": "Il Rappuso",
+   "category": "musica",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Bologna ha intitolato ufficialmente il Giardino delle Popolarissime a Joe Cassano, segnando un precedente nella toponomastica italiana per la cultura Hip Hop. L'evento ha unito istituzioni e comunità attraverso musica, breaking e writing, celebrando l'eredità artistica del rapper scomparso nel 1999.",
+   "bullets": [
+    "Il Giardino Joe Cassano sorge nel comparto Scalo-Malvasia e rientra in un'area di circa due ettari riqualificata dal Comune di Bologna.",
+    "Joe Cassano è il primo rapper a entrare nella toponomastica di Bologna, ricordato per il suo stile e per l'album postumo Dio Lodato.",
+    "L'inaugurazione si è trasformata in una giornata di cultura Hip Hop con street basket, breaking, live writing e DJ set.",
+    "L'iniziativa istituzionale ha visto la partecipazione del sindaco Matteo Lepore e di esponenti della scena underground locale."
+   ],
+   "relevance": 4,
+   "verdict": "sunto",
+   "score": 8,
+   "seen_at": "2026-10-04T10:30:47.415893+00:00",
+   "published_at": "2026-10-04T07:38:54+00:00",
+   "batch_at": "2026-10-04T10:29:34.081834+00:00"
+  },
+  {
+   "title": "ThinkingBox: Measuring AI Agent Reliability via Database State Validation",
+   "subtitle": "Benchmark shows 79% of agent failures stem from tool handling rather than model reasoning.",
+   "original_title": "The Agent Said It Was Done. The Database Disagreed.",
+   "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "ThinkingBox is an evaluation framework built by Microsoft and Hugging Face that tests AI agents across 507 stateful business workflows using isolated MCP sessions. By inspecting terminal database states and side effects rather than relying on tool call logs or final responses, the benchmark reveals a massive gap between single-attempt success and true execution consistency.",
+   "bullets": [
+    "Across 121,680 trials, 79,853 failed executable database checks, with 67.24% of those failures terminating cleanly without tool errors.",
+    "Tool usage accounts for 79.9% of agent failure signatures, pointing to error recovery and precondition handling as primary bottlenecks.",
+    "Repeat trials (pass@20) expose consistency divergence: Kimi-K3 solves the most tasks at least once (93.89%), but only succeeds on 13.41% of all 20-run attempts, whereas Claude Opus 5 succeeds consistently on 47.53% of attempts.",
+    "Cost per dependable task shifts rankings entirely: GPT-5.4 offers the cheapest consistent execution at $6.80 per 20/20 task, followed by GPT-6 Astra at $7.45 and Claude Opus 5.5 at $7.80.",
+    "The environment runs via OpenEnv and uses isolated Typesense database backends initialized fresh for every test iteration."
+   ],
+   "relevance": 5,
+   "verdict": "sunto",
+   "score": 15,
+   "seen_at": "2026-10-04T10:29:52.372767+00:00",
+   "published_at": "2026-10-03T22:56:48+00:00",
+   "batch_at": "2026-10-04T10:29:34.081834+00:00"
+  },
+  {
+   "title": "Understanding and Treating Runner’s Knee",
+   "subtitle": "Mechanics, causes, and rehabilitation strategies for patellofemoral pain syndrome.",
+   "original_title": "The Runner’s World Guide to Common Running Injuries: Runner’s Knee",
+   "link": "https://www.runnersworld.com/health-injuries/a73611168/guide-to-common-running-injuries-program-runners-knee/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Runner's knee, or patellofemoral pain syndrome, stems from excessive joint friction typically caused by weak gluteal muscles and poor running mechanics rather than running itself. Recovery involves targeted strength training like lateral band taps, squats, and deadlifts, alongside modified training loads. Braces and tape only mask symptoms, so long-term prevention requires persistent glute and leg strengthening.",
+   "bullets": [
+    "Patellofemoral pain syndrome presents as pain around the sides or underneath the kneecap due to joint friction.",
+    "Running is a unilateral sport, causing pain typically in only one knee due to uneven mechanics and weak gluteal muscles.",
+    "Green, yellow, and red flag symptom tiers help determine whether to modify training or seek immediate medical evaluation.",
+    "Common recovery mistakes include relying on tape or braces without fixing mechanics, and stopping strength exercises once pain subsides.",
+    "Prevention strategies require integrating warm-ups, movement breaks to prevent stiffness, and progressive strength work into the routine."
+   ],
+   "relevance": 3,
+   "verdict": "sunto",
+   "score": 3,
+   "seen_at": "2026-10-04T10:30:13.660542+00:00",
+   "published_at": "2026-10-03T19:48:14+00:00",
+   "batch_at": "2026-10-04T10:29:34.081834+00:00"
+  },
   {
    "title": "This Is the Minimum Amount of Time You Need After a Marathon to Run Your Next Race",
    "subtitle": "Post-marathon recovery timelines and physiological checkpoints for racing again.",
@@ -5096,29 +5190,6 @@
    "batch_at": "2026-09-21T00:51:18.265668+00:00"
   },
   {
-   "title": "Roma e Inter, mezzo scudetto a testa",
-   "subtitle": "Analisi tattica di Roma-Inter e della tenuta delle due rose in Serie A.",
-   "original_title": "Roma e Inter, mezzo scudetto a testa",
-   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/2026/09/20-151354539/roma_e_inter_mezzo_scudetto_a_testa/",
-   "source": "Corriere dello Sport",
-   "category": "calcio",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "L'analisi tattica di Roma-Inter evidenzia la forza iniziale dei giallorossi guidati da Koné e Cristante e la capacità di reazione dell'Inter nella ripresa. I cambi e la profondità della rosa restano determinanti per le ambizioni di scudetto di entrambe le squadre.",
-   "bullets": [
-    "La Roma ha disputato un primo tempo impressionante nei primi venticinque minuti, mettendo in difficoltà l'Inter con grande irruenza.",
-    "L'uscita dal campo di Koné sul punteggio di 2-1 ha ribaltato i rapporti di forza a favore dei nerazzurri.",
-    "L'Inter ha meritato il pareggio nel secondo tempo e ha sfiorato la vittoria sfruttando la flessione atletica della Roma.",
-    "Il rendimento della Roma dipende dalla profondità della rosa e dal turnover imposto dalla Champions League.",
-    "I momenti critici delle partite sono legati a errori individuali piuttosto che a problemi di approccio mentale."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-09-20T09:12:27.219525+00:00",
-   "published_at": "2026-09-20T06:08:57+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
-  },
-  {
    "title": "Analisi critica del modello GEV",
    "subtitle": "Perché il nuovo classificatore di ex OpenAI è tecnicamente irrilevante",
    "original_title": "Chi se ne frega di Jev?",
@@ -5278,30 +5349,6 @@
    "batch_at": "2026-09-21T21:43:45.974821+00:00"
   },
   {
-   "title": "Olympiad Day 4: The leaders begin to emerge",
-   "subtitle": "Results and tactical highlights from Round 4 of the Samarkand Chess Olympiad",
-   "original_title": "Olympiad Day 4: The leaders begin to emerge",
-   "link": "https://www.fide.com/olympiad-day-4-the-leaders-begin-to-emerge/",
-   "source": "FIDE",
-   "category": "scacchi",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "After four rounds at the Chess Olympiad in Samarkand, eight teams maintain perfect records in the Open section, while India, Kazakhstan, China, and the USA lead the Women's section. Top matches featured decisive victories by Uzbekistan, India, the USA, and China, accompanied by notable tactical plays from players like Wei Yi and Umida Omonova. Record-breaking participation reached 206 teams in the Open section and 189 in the Women's section.",
-   "bullets": [
-    "Open section leaders with 4/4 match wins: China, Uzbekistan, Germany, Armenia, USA, India, the Netherlands, and Hungary.",
-    "Uzbekistan defeated Turkey 2.5-1.5, secured by Nodirbek Yakubboev on board three after three draws.",
-    "India overcame Spain 3-1, with Arjun Erigaisi and World Champion Gukesh D (playing board four) winning their games.",
-    "The USA beat Ukraine 3.5-0.5, featuring a positional queen sacrifice by Levon Aronian and a win by Fabiano Caruana against Vasyl Ivanchuk.",
-    "Wei Yi defeated Aleksandar Indjic using a tactical sequence involving 32.Nxf7 and 33.Ne6, creating a queen-hunting windmill motif.",
-    "Women's section leaders include India, Kazakhstan, China, and the USA, alongside several other federations maintaining perfect four-match records."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-09-20T09:12:34.621220+00:00",
-   "published_at": "2026-09-19T18:02:04+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
-  },
-  {
    "title": "Olimpiadi degli Scacchi 2026: Analisi del Quarto Turno contro la Malaysia",
    "subtitle": "Esame tecnico delle partite e delle scelte di apertura dell'Italia nel quarto turno.",
    "original_title": "Olimpiadi degli Scacchi FIDE 2026 - Turno 4",
@@ -5323,98 +5370,6 @@
    "seen_at": "2026-09-21T00:52:33.616622+00:00",
    "published_at": "2026-09-19T15:56:47+00:00",
    "batch_at": "2026-09-21T00:51:18.265668+00:00"
-  },
-  {
-   "title": "Move to bring chess to 5,000 refugee children",
-   "subtitle": "Charity aims to expand chess programs for Rohingya youth in Bangladesh",
-   "original_title": "Move to bring chess to 5,000 refugee children",
-   "link": "https://www.fide.com/move-to-bring-chess-to-5000-refugee-children/",
-   "source": "FIDE",
-   "category": "scacchi",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "The charity Movement in Refuge (MiR), in partnership with FIDE and the Himalayan Chess Academy, is seeking funding to expand its chess program to 5,000 refugee children in the Cox's Bazar camps in Bangladesh. Following a successful pilot program in August reaching dozens of participants, the initiative aims to provide structured play, local coaching, and eventually field a youth refugee team at the next Chess Olympiad. The overarching goal is to raise $100,000 over the next two years to support the expansion.",
-   "bullets": [
-    "Cox's Bazar in Bangladesh houses over 500,000 refugee children with limited access to organized sports or leisure activities.",
-    "A pilot Chess for Protection Programme was conducted in August by MiR, FIDE, and local partners, culminating in a 64-player tournament for refugees aged 10 to 22.",
-    "Basic costs include $1 for a chess set, $20 per week for a local trained coach, and $1,000 to install solar-powered fans and lights in community centers.",
-    "MiR founder Magnus Wolfe-Murray is seeking $100,000 in funding to scale the program to 5,000 refugee youngsters over two years.",
-    "The charity ultimately aims to create a pathway for a youth refugee team from Cox's Bazar to compete in a future Chess Olympiad."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-09-20T09:12:40.401387+00:00",
-   "published_at": "2026-09-19T14:31:33+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
-  },
-  {
-   "title": "Dawit Seare and Robert Farken Win at World Road Championships",
-   "subtitle": "Dawit Seare defeats Jakob Ingebrigtsen and Robert Farken outkicks Yared Nuguse.",
-   "original_title": "SHOCKER IN COPENHAGEN: Dawit Seare stuns Jakob Ingebrigtsen at World Road Champs; Farken outkicks Nuguse",
-   "link": "https://www.letsrun.com/news/2026/09/2026-world-road-champs-dawit-seare-stuns-jakob-ingebrigtsen-to-win-5k-farken-beats-nuguse-in-mile/",
-   "source": "LetsRun",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "At the World Road Championships in Copenhagen, Eritrean runner Dawit Seare pulled a major upset by defeating Jakob Ingebrigtsen with a time of 12:56 to 12:58 in the 5k. Meanwhile, On Athletics Club teammates Robert Farken and Yared Nuguse took first and second place in the mile, clocking 3:51.80 and 3:52.33 respectively.",
-   "bullets": [
-    "Dawit Seare won the race with a time of 12:56.",
-    "Jakob Ingebrigtsen finished second behind Seare with a time of 12:58.",
-    "Robert Farken won the mile event in 3:51.80.",
-    "Yared Nuguse finished second in the mile behind his teammate with a time of 3:52.33.",
-    "Both Farken and Nuguse compete for the On Athletics Club."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-09-20T09:12:57.852578+00:00",
-   "published_at": "2026-09-19T14:14:25+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
-  },
-  {
-   "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
-   "subtitle": "Hirebotics adds line tracking and modular linear rails to extend cobot reach and handling.",
-   "original_title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
-   "link": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
-   "source": "The Robot Report",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Hirebotics has updated its collaborative robot platform with integrated line tracking and modular linear rails. These features are designed to handle moving parts on conveyors and extend the working envelope for large assemblies without requiring complex external programming.",
-   "bullets": [
-    "Line tracking allows the Cobot Painter to follow moving parts on a conveyor using an encoder and sensor to adjust to changing speeds.",
-    "Linear rails are available in 5-ft increments or custom lengths to let cobots traverse large workpieces like 12-ft to 20-ft frames.",
-    "The system operates through the cloud-based Beacon platform, aiming to remove the need for dedicated robotics programmers.",
-    "Manual rail positioning is currently available, with position verification software and fully automated axes planned by late 2026."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-09-20T09:11:58.393588+00:00",
-   "published_at": "2026-09-19T12:40:50+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
-  },
-  {
-   "title": "Sweat Testing Revealed the Hydration Mistake Behind My Postrun Fatigue",
-   "subtitle": "Learn how sweat sensors quantify fluid and sodium loss to optimize hydration.",
-   "original_title": "Sweat Testing Revealed the Hydration Mistake Behind My Postrun Fatigue",
-   "link": "https://www.runnersworld.com/nutrition-weight-loss/a73674662/sweat-test-electrolytes/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "An ultrarunner tests the Nix Hydration Biosensor to measure fluid and electrolyte loss during routine training. The data reveals significant water and sodium deficits on runs under 10 miles where she previously consumed no fluids, leading to improved postrun recovery and sustained energy after incorporating targeted hydration.",
-   "bullets": [
-    "Sweat sensors like the Nix Hydration Biosensor and hDrop measure fluid volume and electrolyte loss in real time or via post-workout metrics.",
-    "Experts recommend baseline tracking for a few weeks without changing behavior to identify patterns before altering hydration strategies.",
-    "The target is to replace about 75 percent of lost fluids and match sodium intake to fluid loss, keeping bodyweight fluid losses under 2 percent to prevent performance drops.",
-    "The author discovered she lost 17 ounces of fluid and 430 milligrams of sodium per hour on a casual 5-mile run, having previously carried no water for runs under 10 miles.",
-    "For general athletes without a sensor, a practical baseline sodium intake is between 250 and 500 milligrams per hour during training.",
-    "Adding water and a pinch of salt to shorter, everyday endurance runs eliminated the author's postrun headaches and afternoon fatigue."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-09-20T09:12:46.603924+00:00",
-   "published_at": "2026-09-19T12:00:00+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
   },
   {
    "title": "Certificazione crittografica dell'autenticità fotografica su iPhone",
@@ -5516,28 +5471,6 @@
    "seen_at": "2026-09-21T21:47:22.628742+00:00",
    "published_at": "2026-09-18T15:50:11+00:00",
    "batch_at": "2026-09-21T21:43:45.974821+00:00"
-  },
-  {
-   "title": "Marjane Satrapi e l'eredità di Persepolis",
-   "subtitle": "L'impatto culturale e la resistenza politica dell'opera di Marjane Satrapi contro il regime iraniano.",
-   "original_title": "Persepolis – Dovremmo conoscere il femminismo e la resistenza di Marjane Satrapi",
-   "link": "https://artesettima.it/2026/09/18/persepolis-femminismo-e-resistenza/",
-   "source": "ArteSettima",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La scomparsa di Marjane Satrapi offre l'occasione di analizzare la sua opera principale, Persepolis. Il testo ripercorre il suo impegno femminista, la scelta dell'esilio e la trasformazione della memoria personale in un simbolo di ribellione contro la repressione della Repubblica Islamica.",
-   "bullets": [
-    "Marjane Satrapi è stata una figura chiave della resistenza culturale franco-iraniana.",
-    "L'opera Persepolis rappresenta il pilastro della sua eredità artistica e politica.",
-    "La sua biografia intreccia la perdita della libertà in Iran con la scelta dell'esilio in Francia.",
-    "Il suo lavoro unisce la dimensione della memoria privata alla lotta collettiva per i diritti."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-09-20T09:13:10.711478+00:00",
-   "published_at": "2026-09-18T13:45:06+00:00",
-   "batch_at": "2026-09-20T09:11:27.793340+00:00"
   },
   {
    "title": "Il divario di accesso nell'era dell'intelligenza artificiale",
