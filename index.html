@@ -55,9 +55,6 @@
     margin-bottom: 8px; box-shadow: var(--shadow);
   }
   details[open] { border-color: var(--dim); }
-  .verdict { font-weight: 600; }
-  .verdict.guarda { color: var(--accent, #2a7); }
-  .verdict.salta { opacity: .6; }
   summary { list-style: none; cursor: pointer; padding: 12px 14px; display: block; }
   summary::-webkit-details-marker { display: none; }
   summary:focus-visible, button:focus-visible, a:focus-visible {
@@ -289,7 +286,6 @@ feed.addEventListener("click", (e) => {
 const when = (i) => new Date(i.published_at || i.seen_at);
 const dayLabel = (d) => d.toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
 const clock = (d) => d.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
-const VERDICT = { guarda: "Guardalo", sunto: "Basta il sunto", salta: "Salta" };
 const subtitle = (i) => i.subtitle || String(i.summary || "").split(". ")[0];
 
 function card(i) {
@@ -300,7 +296,6 @@ function card(i) {
     + '<div class="line1"><time datetime="' + esc(d.toISOString()) + '">' + esc(clock(d)) + '</time>'
     + '<span class="dot">/</span><span>' + esc(i.source) + '</span>'
     + (isYouTube ? '<span class="yt-badge">&#9654; YouTube</span>' : '')
-    + (VERDICT[i.verdict] ? '<span class="verdict ' + i.verdict + '">' + VERDICT[i.verdict] + '</span>' : '')
     + '<span class="dot">/</span><span>' + "●".repeat(i.relevance) + '</span></div>'
     + '<h2>' + esc(i.title) + '</h2>'
     + '<div class="sub">' + esc(subtitle(i)) + '</div>'

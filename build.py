@@ -120,7 +120,6 @@ def run():
                 "summary": c["summary"],
                 "bullets": c["bullets"],
                 "relevance": c["relevance"],
-                **({"verdict": c["verdict"]} if c.get("verdict") else {}),
                 "score": score(c, src["weight"]),
                 "seen_at": datetime.now(timezone.utc).isoformat(),
                 "published_at": when.isoformat(),

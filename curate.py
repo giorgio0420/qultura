@@ -77,14 +77,6 @@ FORMATS = {
                   "facts or claims, attributed. Drop pleasantries and stock phrases.",
 }
 
-VERDICTS = ("guarda", "sunto", "salta")
-VERDICT_NOTE = """
-Also set verdict, the honest answer to "should the reader spend the time on the video?":
-guarda - the video gives something the text cannot (a demonstration, a long argument worth
-hearing in full, a performance, strong delivery);
-sunto - the summary captures it, watching adds little;
-salta - nothing here worth the reader's time even as a summary."""
-
 
 class QuotaExceeded(RuntimeError):
     """The daily free-tier allowance for this model is gone; retrying will not help."""
@@ -99,9 +91,8 @@ SCHEMA = {
         "summary": {"type": "string"},
         "bullets": {"type": "array", "items": {"type": "string"}},
         "relevance": {"type": "integer"},
-        "verdict": {"type": "string", "enum": list(VERDICTS)},
     },
-    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance", "verdict"],
+    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance"],
 }
 
 
@@ -131,7 +122,7 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
     # ~1 summary word per 60 transcript chars: 10k chars -> 170 words, capped at 450
     words = max(120, min(450, len(text) // 60))
     shape = (FORMATS.get(format, "") + f" Aim for about {words} words of summary."
-             + VERDICT_NOTE if prose else "")
+             if prose else "")
     prompt = f"""Category: {category}
 Original title: {title}
 
