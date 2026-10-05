@@ -1,6 +1,118 @@
 {
- "generated_at": "2026-10-05T11:19:09.322347+00:00",
+ "generated_at": "2026-10-05T16:30:38.391086+00:00",
  "items": [
+  {
+   "title": "Using Vagus Nerve Stimulation to Improve Runner Recovery",
+   "subtitle": "How targeted breathing techniques stimulate the vagus nerve to accelerate athletic recovery.",
+   "original_title": "I Tried This 5-Minute Recovery Habit for 30 Days. Here’s How It Changed My Running.",
+   "link": "https://www.runnersworld.com/training/a74031509/vagus-nerve-exercises-runners/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Integrating vagus nerve stimulation (VNS) techniques like extended-exhale and resonance breathing into a post-run routine can accelerate autonomic nervous system recovery. Research and practical testing show that regular VNS practice reduces post-exercise fatigue, improves heart rate variability, enhances sleep onset, and lowers psychological stress.",
+   "bullets": [
+    "The vagus nerve shifts the body from fight-or-flight stress into rest-and-digest recovery, which is critical for physical adaptation after hard training.",
+    "Noninvasive VNS techniques include slow diaphragmatic breathing, extended-exhale breathing, resonance frequency breathing, cold exposure, and humming.",
+    "Extended-exhale breathing involves a 4-second nasal inhale and a 6-to-8-second mouth exhale practiced for 5 to 10 minutes.",
+    "Resonance frequency breathing targets roughly six breaths per minute to synchronize heart rate, lungs, and nervous system, improving heart rate variability.",
+    "Post-workout VNS is associated with faster heart rate recovery, lower blood pressure, reduced blood lactate, and less perceived fatigue.",
+    "Regular VNS practice before bed helps down-regulate evening workouts, significantly reducing sleep onset latency."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-05T16:31:48.268773+00:00",
+   "published_at": "2026-10-05T16:18:56+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
+  },
+  {
+   "title": "Runner's World Amazon Gear Roundup",
+   "subtitle": "Tested running gear recommendations available on Amazon, from watches to nutrition.",
+   "original_title": "The Best Running Gear on Amazon, Handpicked by the Runner’s World Team",
+   "link": "https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This curated list compiles tested running accessories, apparel, and tech available on Amazon. Selected by Runner's World editors, the items focus on practical utility for training, racing, and recovery.",
+   "bullets": [
+    "SPIBelt: Compact running belt with high stretch capacity for phones, keys, and nutrition.",
+    "Garmin Forerunner: Advanced GPS watch featuring offline mapping, music, triathlon modes, and comprehensive physiological metrics like HRV and VO2 max.",
+    "Shokz OpenRun Pro 2: Bone conduction headphones offering improved volume, deeper bass, and situational awareness during outdoor runs.",
+    "Balega and Smartwool Socks: Durable, breathable socks with arch support designed to prevent blisters.",
+    "Baleaf 5-Inch Shorts: Affordable running shorts featuring a soft liner, breathable fabric, and a deep zippered pocket.",
+    "Nathan Hydration Vest: Lightweight, adjustable vest compatible with both bladders and flasks for carrying fluids and fuel.",
+    "BodyGlide Anti-Chafing Balm: Effective, unscented, non-sticky balm for preventing friction injuries during long distances."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-05T16:31:54.555427+00:00",
+   "published_at": "2026-10-05T15:58:00+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
+  },
+  {
+   "title": "OpenAI's Implementation of Text Watermarking for EU Compliance",
+   "subtitle": "Details on textGrain, its error rates, and EU deployment plans.",
+   "original_title": "Our approach to EU text provenance rules",
+   "link": "https://openai.com/index/eu-text-provenance",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI is rolling out text watermarking called textGrain for EU ChatGPT users and API customers to comply with the EU AI Act. The technology embeds statistical signals into word choices, but faces limitations such as reduced reliability with short texts or heavy editing.",
+   "bullets": [
+    "Text watermarking uses textGrain to add an invisible statistical signal to a model's word choices.",
+    "At a 1% false positive rate, detection accuracy drops from 95% on 400-token passages to 80% on 200-token passages, and is lower for mathematics.",
+    "Replacing 10% of words with synonyms reduces detection from 92% to 66%; replacing 25% drops it to 17%.",
+    "Watermarking will be enabled by default for ChatGPT and Codex in the EU over coming weeks and offered as an opt-in for API customers globally.",
+    "Initial detector access is restricted to approved researchers and expert organizations to evaluate reliability and reduce misuse."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-05T16:31:22.205118+00:00",
+   "published_at": "2026-10-05T15:00:00+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
+  },
+  {
+   "title": "Aerospace Toolbox Overview",
+   "subtitle": "Capabilities for space mission analysis, aircraft dynamics, and flight data visualization.",
+   "original_title": "What Is Aerospace Toolbox?",
+   "link": "https://www.youtube.com/watch?v=C4zJCQj2Hro",
+   "source": "MATLAB",
+   "category": "ai",
+   "kind": "yt",
+   "lang": "en",
+   "summary": "The Aerospace Toolbox provides validated functions for coordinate transformations, environment models, unit conversions, quaternion math, and gas dynamics to support aerospace workflows. For space missions, users can define scenarios involving satellites and ground stations, propagate orbits, design constellations, model trajectories and maneuvers, and analyze line-of-site access and eclipse intervals for bodies including Earth and the Moon. Aircraft analysis features support modeling configurations using imported aerodynamic data for stability, flying qualities, and control design. Results are processed through 2D and 3D viewers, mission displays, and vehicle motion visualizations. Additionally, the toolbox supports agentic AI workflows via aerospace skills integrated within the MATLAB agentic toolkit.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-05T16:31:04.159626+00:00",
+   "published_at": "2026-10-05T13:14:48+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
+  },
+  {
+   "title": "Quanto deve durare la colpa?",
+   "subtitle": "Riflessione filosofica sul perdono, la memoria collettiva e il caso Galliano al Met.",
+   "original_title": "Quanto deve durare la colpa?",
+   "link": "https://lucysullacultura.com/quanto-deve-durare-la-colpa/",
+   "source": "Lucy sulla cultura",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'articolo analizza il complesso rapporto tra memoria, colpa e perdono, prendendo spunto dalla cancellazione della mostra di John Galliano al Metropolitan Museum. Attraverso il pensiero di filosofi come Paul Ricoeur e Tzvetan Todorov, si esplora la necessità di trovare un equilibrio tra il dovere etico del ricordo e la possibilità di liberare l'individuo dal peso definitivo dei propri errori.",
+   "bullets": [
+    "La cancellazione della mostra su John Galliano al Met evidenzia il conflitto irrisolto tra responsabilità etica passata e valore dell'opera contemporanea.",
+    "Il funzionamento della memoria implica una costante dialettica con l'oblio: senza la selezione e la dimenticanza, il ricordo perde ogni prospettiva di significato.",
+    "Storicamente, l'oblio prescritto veniva usato nei trattati di pace europei per superare i conflitti, contrapponendosi alla non-prescrizione dei crimini contro l'umanità stabilita a Norimberga.",
+    "Secondo Paul Ricoeur, il secondo movimento della memoria richiede di prendere distanza dalla sofferenza per consentire il perdono politico e far passare il passato.",
+    "Hannah Arendt sottolinea che il perdono è essenziale per evitare che l'essere umano rimanga per sempre intrappolato e schiacciato dalle conseguenze dei propri atti."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-05T16:32:20.112974+00:00",
+   "published_at": "2026-10-05T12:23:26+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
+  },
   {
    "title": "OpenAI Introduces Visual Ads in ChatGPT and Expands Measurement Tools",
    "subtitle": "OpenAI adds visual ad formats, attribution partners, and brand safety controls to ChatGPT.",
@@ -139,6 +251,28 @@
    "seen_at": "2026-10-04T16:31:50.724671+00:00",
    "published_at": "2026-10-04T12:00:00+00:00",
    "batch_at": "2026-10-04T16:30:33.211691+00:00"
+  },
+  {
+   "title": "L'Horror all'italiana è una cosa seria",
+   "subtitle": "Analisi del cinema horror italiano tra gli anni Sessanta e Ottanta e la sua influenza globale.",
+   "original_title": "L’Horror all’italiana è una cosa seria",
+   "link": "https://artesettima.it/2026/10/04/lhorror-allitaliana-e-una-cosa-seria/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Tra gli anni Sessanta e Ottanta, il cinema horror italiano ha vissuto una stagione di grande fertilità e riconoscimento internazionale, nonostante fosse considerato all'epoca un prodotto commerciale e di serie B. Questa corrente ha saputo costruire un immaginario unico attraverso regie distintive, estetiche audaci e colonne sonore iconiche.",
+   "bullets": [
+    "Il cinema horror italiano si è sviluppato tra gli anni Sessanta e gli anni Ottanta.",
+    "L'estetica del genere si distingueva per ambientazioni evocative, colori particolari e musiche incisive.",
+    "Nonostante il disprezzo della critica ufficiale dell'epoca, il genere ha conquistato i mercati internazionali.",
+    "Il movimento ha dimostrato che la distinzione rigida tra cinema di serie A e di serie B è spesso inadeguata."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-05T16:32:09.456047+00:00",
+   "published_at": "2026-10-04T09:30:06+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
   },
   {
    "title": "Il significato di Profondo Rosso – Il teorema della paura",
@@ -477,6 +611,28 @@
    "seen_at": "2026-10-03T09:47:22.339638+00:00",
    "published_at": "2026-10-02T20:31:24+00:00",
    "batch_at": "2026-10-03T09:46:17.119601+00:00"
+  },
+  {
+   "title": "Smart Car Researcher Wants to Eliminate Stoplights",
+   "subtitle": "How cyber-physical systems and event-driven math enable autonomous vehicle coordination.",
+   "original_title": "Smart Car Researcher Wants to Eliminate Stoplights",
+   "link": "https://spectrum.ieee.org/smart-car-researcher-eliminate-stoplights",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Boston University professor Christos Cassandras uses hybrid systems theory and event-driven mathematics to model autonomous vehicle safety and traffic coordination. His research demonstrates that interconnected self-driving cars can safely navigate complex intersections without traffic lights by utilizing real-time speed, mass, and distance data.",
+   "bullets": [
+    "Pioneered the integration of time-driven physical laws with event-driven computer logic to form the basis of cyber-physical systems.",
+    "Developed mathematical frameworks using control barrier functions to prove vehicle safety before road testing.",
+    "Modeled a congested Boston intersection to show that autonomous vehicle coordination improves traffic flow, safety, and energy efficiency without stoplights.",
+    "Testing multi-agent coordination algorithms using small laboratory robots to study autonomous behavior when vehicles comprise only a fraction of road traffic."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-05T16:30:44.819509+00:00",
+   "published_at": "2026-10-02T18:00:02+00:00",
+   "batch_at": "2026-10-05T16:30:38.391086+00:00"
   },
   {
    "title": "A model guide for the GPT-6 family",
