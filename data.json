@@ -1,6 +1,76 @@
 {
- "generated_at": "2026-10-06T11:08:48.047129+00:00",
+ "generated_at": "2026-10-06T16:31:09.835562+00:00",
  "items": [
+  {
+   "title": "Why Tacking Missed Miles Onto a Long Run Harms Marathon Training",
+   "subtitle": "How to safely redistribute missed miles and protect your long run.",
+   "original_title": "Missed Miles in Marathon Training? Here’s What You Don’t Want to Do When Catching Up.",
+   "link": "https://www.runnersworld.com/training/a74031046/marathon-training-missed-miles-mistake/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Adding missed weekly miles onto a Sunday long run increases injury risk and recovery demands by pushing the effort past safe volume thresholds. Coaches recommend spreading missed volume across midweek easy runs or splitting long efforts over two days instead of cramming them into the weekend.",
+   "bullets": [
+    "A long run should account for no more than 25 to 30 percent of your total weekly mileage to avoid excessive fatigue and injury risk.",
+    "Tacking unplanned miles onto a long run ruins the workout's purpose of testing race-day fueling and pacing under controlled fatigue.",
+    "To make up missed miles safely, add 5 to 10 minutes to midweek easy runs rather than adding a new running day.",
+    "If lagging behind on long-run distance, split the effort into a longer, easy effort one day followed by a shorter session with goal-pace work the next.",
+    "Supplement with a 10- to 20-minute bike ride after an easy run to build aerobic time with less impact if recovering from a minor injury."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-06T16:32:32.132058+00:00",
+   "published_at": "2026-10-06T16:23:16+00:00",
+   "batch_at": "2026-10-06T16:31:09.835562+00:00"
+  },
+  {
+   "title": "Come funziona Lavender, il sistema di intelligenza artificiale militare",
+   "subtitle": "Analisi tecnica del software Lavender e dei sistemi di targeting automatizzato a Gaza.",
+   "original_title": "Cos’è Lavender, l’AI al centro del documentario Naza usata nella guerra a Gaza: come funziona",
+   "link": "https://www.geopop.it/cose-lavender-lai-al-centro-del-documentario-naza-usata-nella-guerra-a-gaza-come-funziona/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il documentario NAZA analizza l'uso del software di intelligenza artificiale Lavender da parte delle forze militari israeliane nella Striscia di Gaza. Basato su inchieste giornalistiche, il film descrive come il sistema elabori dati di sorveglianza di massa per generare liste di obiettivi umani tramite algoritmi di classificazione.",
+   "bullets": [
+    "Lavender è un software basato su intelligenza artificiale programmato per identificare e segnalare potenziali membri delle ali militari di Hamas e della Jihad islamica palestinese.",
+    "Il sistema analizza archivi di sorveglianza di massa contenenti fotografie, contatti telefonici, geolocalizzazione e dati di social media per assegnare a quasi ogni residente di Gaza un punteggio da 1 a 100 sulla probabilità di militanza.",
+    "Il modello viene addestrato sui profili di militanti già schedati per individuare tratti ricorrenti nella popolazione, come la partecipazione a determinate chat di gruppo o la frequente sostituzione del telefono cellulare.",
+    "Nelle prime fasi del conflitto, gli operatori umani dedicavano circa venti secondi alla verifica di ciascun bersaglio indicato dal sistema, trattandone la segnalazione come una decisione già validata nonostante un margine di errore stimato intorno al 10%.",
+    "La pressione operativa ha spinto all'uso di soglie inferiori per la generazione di bersagli, portando il sistema a indicare fino a 37.000 persone palestinesi come potenziali obiettivi nelle fasi iniziali."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-06T16:31:23.499538+00:00",
+   "published_at": "2026-10-06T16:00:44+00:00",
+   "batch_at": "2026-10-06T16:31:09.835562+00:00"
+  },
+  {
+   "title": "Unlocking Earth AI's Planetary Geospatial Foundation Models for Global Public Health",
+   "subtitle": "How Google's Population Dynamics Foundation Model improves epidemiological forecasting",
+   "original_title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+   "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+   "source": "Google Research",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google Research evaluates its Population Dynamics Foundation Model (PDFM) across five public health use cases, demonstrating how pre-trained geospatial embeddings can enhance epidemiological forecasting, bypass reporting lags, and capture cross-border dynamics without task-specific feature engineering.",
+   "bullets": [
+    "PDFM compresses search trends, human mobility, built-environment density, and environmental determinants into monthly privacy-preserving location embeddings as plug-and-play inputs.",
+    "Incorporating Canadian border context into U.S. county models increased the share of explained variance in MMR vaccination coverage from 16% to 22%, refining estimates for 4.7 million residents.",
+    "Using PDFM embeddings instead of lagged census data to nowcast U.S. cardiovascular disease mortality across 3,100 counties showed no statistically significant performance degradation while providing fresher data.",
+    "Coupling PDFM with TimesFM 2.0 improved dengue case forecasting one month ahead in up to 72% of active transmission municipalities in Mexico.",
+    "Adding PDFM embeddings to maternal mental health screening models recovered about 15% of the predictive signal of income and insurance records, helping reach 5,640 more rural mothers with postpartum depression annually.",
+    "For cholera forecasting in the DRC, PDFM embeddings provided meaningful predictive gains at a 4-to-8 week horizon, enabling proactive resource prepositioning."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-06T16:31:37.270999+00:00",
+   "published_at": "2026-10-06T15:05:11+00:00",
+   "batch_at": "2026-10-06T16:31:09.835562+00:00"
+  },
   {
    "title": "Chi sceglie il suicidio non ha bisogno del permesso della Chiesa",
    "subtitle": "Riflessione laica sul diritto all'autodeterminazione e sul fine vita",
@@ -550,6 +620,23 @@
    "seen_at": "2026-10-06T11:10:00.128065+00:00",
    "published_at": "2026-10-05T00:00:00+00:00",
    "batch_at": "2026-10-06T11:08:48.047129+00:00"
+  },
+  {
+   "title": "Offensiva in Yemen, allarme sanitario in Siberia e optogenetica",
+   "subtitle": "Nuova offensiva yemenita sullo stretto di Bab el-Mandeb, caso di peste in Siberia e optogenetica.",
+   "original_title": "YEMEN, nuova offensiva contro gli HOUTHI sullo STRETTO di Bab el-Mandeb | The Essential",
+   "link": "https://www.youtube.com/watch?v=m776fzCNLkQ",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il governo yemenita riconosciuto a livello internazionale ha avviato l'operazione Alba dello Yemen per riconquistare lo stretto di Bab el-Mandeb, snodo cruciale da cui transita il dodici percento del commercio marittimo globale e l'undici percento del petrolio. L'area è sotto la pressione incrociata dei ribelli Houthi, sostenuti dall'Iran che controlla anche il canale di Ormuz, creando un blocco sulle rotte energetiche. Nel frattempo, in Siberia, la morte di una ricercatrice ha sollevato timori di un contagio da peste polmonare dovuto a un incidente di laboratorio, sebbene le autorità russe abbiano smentito categoricamente, isolando comunque i contatti e ponendo strutture ospedaliere in quarantena. Infine, il premio Nobel per la medicina è stato assegnato a Karl Deiseroth, Peter Hegeman e Georg Nagel per lo sviluppo dell'optogenetica. Questa tecnica inserisce proteine sensibili alla luce provenienti dalle alghe all'interno dei neuroni, permettendo di attivarli o inibirli con precisione tramite fibre ottiche e aprendo nuove strade terapeutiche.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-10-06T16:33:02.998533+00:00",
+   "published_at": "2026-10-05T00:00:00+00:00",
+   "batch_at": "2026-10-06T16:31:09.835562+00:00"
   },
   {
    "title": "Can You Really Get Fit With Just 1 Hour a Week?",
