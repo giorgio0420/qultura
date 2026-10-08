@@ -1,6 +1,76 @@
 {
- "generated_at": "2026-10-08T11:14:20.580890+00:00",
+ "generated_at": "2026-10-08T16:31:01.691086+00:00",
  "items": [
+  {
+   "title": "Mastering the Acceleration and Gliding Drills for Run/Walk Training",
+   "subtitle": "Learn how to use the acceleration glider drill to conserve energy and improve race times.",
+   "original_title": "Run/Walkers Need to Master These 2 Skills to Unlock Faster Times. Here’s What They Are and Exactly How to Practice Them",
+   "link": "https://www.runnersworld.com/training/a74048127/run-walk-drill/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The run/walk method requires smooth transitions rather than abrupt starts and stops, which waste energy and strain joints. By practicing acceleration and gliding drills, runners can leverage momentum, reduce fatigue, and ultimately improve their race times.",
+   "bullets": [
+    "Transitioning abruptly between running and walking wastes energy and increases muscle and joint strain like a car slamming on its brakes.",
+    "Accelerating is the gradual shift from a walking pace up to your target running pace over several steps.",
+    "Gliding involves taking your foot off the gas and allowing existing momentum to carry you for several seconds before shifting down to a walk.",
+    "The acceleration glider drill consists of 15 steps of very slow jogging, 15 steps of regular running, 15 steps slowing to a jog, and a final glide phase repeated 4 to 8 times.",
+    "Practicing on a slight decline can help runners master the mechanics of the glide phase by utilizing gravity for extra momentum.",
+    "Perform the drill at least once a week before an easy run, as a race warm-up, or to refocus during the latter stages of a race."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-08T16:37:36.598511+00:00",
+   "published_at": "2026-10-08T15:27:25+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
+   "title": "OpenAI pubblica 722 risultati matematici ottenuti con un nuovo modello",
+   "subtitle": "OpenAI rilascia 719 articoli matematici generati da un modello interno con ridotte risorse di calcolo.",
+   "original_title": "OpenAI pubblica 722 risultati matematici prodotti dall’AI: come li ha ottenuti con il nuovo modello",
+   "link": "https://www.geopop.it/openai-pubblica-722-risultati-matematici-prodotti-dallai-come-li-ha-ottenuti-con-il-nuovo-modello/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "OpenAI ha pubblicato su GitHub un catalogo di 719 articoli di matematica generati da un modello AI interno non ancora pubblico. A differenza dei precedenti esperimenti basati su migliaia di agenti e costi elevati, quasi tutti i risultati attuali sono stati ottenuti tramite un singolo agente con un costo computazionale medio equivalente a tre ore di ChatGPT Pro.",
+   "bullets": [
+    "Il catalogo comprende 719 articoli organizzati in 372 famiglie di risultati, inclusi risultati parziali su tre problemi del millennio: congettura di Hodge, congettura di Birch e Swinnerton-Dyer e ipotesi di Riemann.",
+    "Le dimostrazioni sono state pubblicate anche in Lean, un linguaggio di programmazione formale, consentendo una verifica automatica che al momento copre circa il 40% dei risultati.",
+    "Il modello ha analizzato circa 4.000 problemi aperti durante una fase di valutazione interna.",
+    "I calcoli hanno richiesto risorse minime rispetto al passato, attestandosi su una media equivalente a circa tre ore di ChatGPT Pro con funzioni di ragionamento per problema.",
+    "Il modello resta inaccessibile al pubblico e OpenAI non ha ancora fornito i prompt esatti utilizzati, attirando le critiche della comunità matematica sulla trasparenza dei dati."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-08T16:32:38.823398+00:00",
+   "published_at": "2026-10-08T14:30:39+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
+   "title": "Roma, test con la Sorianese e prove tattiche verso il Como",
+   "subtitle": "Gasperini recupera Malen e Wesley, mentre de Roon punta a una maglia da titolare.",
+   "original_title": "Gasperini prova la Roma anti-Como: test match con la Sorianese, Malen e Wesley in gruppo",
+   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/10/08-151741907/gasperini_prova_la_roma_anti-como_test_match_con_la_sorianese_malen_e_wesley_in_gruppo/",
+   "source": "Corriere dello Sport",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La Roma riprende gli allenamenti a Trigoria in vista della trasferta contro il Como. Gasperini ha testato la squadra in un allenamento congiunto con la Sorianese, registrando il pieno recupero di Malen e Wesley. A centrocampo, complice l'assenza di Cristante, de Roon è in vantaggio per affiancare Koné dal primo minuto.",
+   "bullets": [
+    "Malen e Wesley sono tornati ad allenarsi regolarmente in gruppo dopo aver smaltito i problemi fisici.",
+    "De Roon è il favorito per una maglia da titolare a centrocampo accanto a Koné.",
+    "Soulé, Castro e Balerdi sono rientrati dai rispettivi impegni con l'Argentina e hanno svolto una seduta defaticante.",
+    "Pisilli rappresenta un'opzione concreta per la seconda metà di gara dopo gli impegni con l'Under 21.",
+    "La squadra ha disputato un test match di allenamento contro la Sorianese, formazione di Eccellenza."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-10-08T16:36:15.590961+00:00",
+   "published_at": "2026-10-08T11:23:03+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
   {
    "title": "Addio a Margaret Hamilton, pioniera del software e guida della missione Apollo 11",
    "subtitle": "La storia e l'eredità tecnica di Margaret Hamilton, architetto del software Apollo",
@@ -194,6 +264,47 @@
    "batch_at": "2026-10-08T11:14:20.580890+00:00"
   },
   {
+   "title": "Disrupting AI-enabled false front operations",
+   "subtitle": "Analysis of Russian and Iranian AI-driven influence operations and methods.",
+   "original_title": "Disrupting AI-enabled “false front” operations",
+   "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Investigations into banned ChatGPT accounts reveal sophisticated Russian and Iranian influence operations utilizing AI for workflow automation, report generation, and false personas. The Russian operation (\"Dark Clark\") deployed a front think tank in Latin America using unwitting local staff, while the Iranian operation (\"Bogus Bylines\") pitched long-term geopolitical articles to mainstream media through fake Western journalist personas. Both campaigns demonstrate how threat actors leverage large language models to scale traditional disinformation techniques.",
+   "bullets": [
+    "A Russian-origin operation (Category 5 impact) used ChatGPT primarily to write internal operational reports, coordinate activities, and manage a front organization called the Social Research Center in Latin America.",
+    "The Russian operators successfully co-opted unwitting local staff in Latin America to produce original research and articles, minimizing the need for AI-generated text content.",
+    "The Russian campaign employed fake email addresses mimicking regional education authorities to trick schools into holding pro-Ukraine or pro-government events, which were then amplified via media to trigger political controversy.",
+    "An Iranian-origin operation (\"Bogus Bylines,\" Category 4 impact) used ChatGPT to refine long-form English articles and pitches concerning the US-Iran conflict under seven distinct fake Western journalist bylines.",
+    "The Iranian campaign successfully published nearly 100 articles across roughly a dozen international online news outlets, bypassing social media reliance to achieve higher potential reach.",
+    "Both operations used AI to generate self-review metrics and internal impact reports that relied on deceptive methodologies, heavily exaggerating the actual effectiveness of their social media reply campaigns."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-08T16:34:11.295265+00:00",
+   "published_at": "2026-10-08T00:00:00+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
+   "title": "La lente di Spinoza",
+   "subtitle": "Come allargare lo sguardo per comprendere se stessi attraverso la filosofia di Baruch Spinoza",
+   "original_title": "Spinoza e la lente che cambia il modo in cui vedi la tua vita",
+   "link": "https://www.youtube.com/watch?v=8AIY5PvU-ps",
+   "source": "Rick DuFer (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il filosofo Baruch Spinoza sosteneva che la sofferenza e la difficoltà di comprendere se stessi derivino da un errore di prospettiva, ovvero dall'utilizzare un'inquadratura troppo stretta sulla propria esistenza. Spinoza paragona l'essere umano a un sasso lanciato che si crede libero perché percepisce il proprio slancio ignorando la mano che lo ha scagliato, oppure a un germe nel sangue che osserva le particelle vicine senza cogliere il corpo più vasto di cui fanno parte. Questa tendenza a credere che tutto accada unicamente in vista del proprio io genera domande dolorose e ricorrenti come perché proprio a me. Per superare questo limite, Spinoza introduce il concetto di guardare le cose sub specie aeternitatis, ovvero coglierne la necessità all'interno di una rete universale di cause. Questa prospettiva non rimpicciolisce la vita rendendola insignificante come farebbe uno sguardo dall'alto di matrice stoica, ma la rende leggibile e comprensibile. Applicando questo metodo all'identità personale, emerge che l'individuo non è un'isola isolata ma un nodo in cui si incrociano innumerevoli fili, dalla storia personale all'ambiente circostante. Comprendere le cause profonde di un affetto o di un desiderio trasforma l'individuo da vittima passiva a soggetto consapevole, poiché l'atto stesso di formare un'idea chiara delle cause riduce il potere di sofferenza dell'affetto. Allargare l'inquadratura non significa dissolvere la propria responsabilità o diventare un ingranaggio anonimo, ma al contrario riconoscersi come un punto insostituibile e necessario nell'intera trama del reale.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-08T16:40:22.804117+00:00",
+   "published_at": "2026-10-08T00:00:00+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
    "title": "Vinny Mauri's Extreme Marathon Buildup and Training Methods",
    "subtitle": "How a 25-year-old biomedical engineer ran a 2:05:54 marathon on heavy mileage and treadmill training",
    "original_title": "Out of Nowhere, Vinny Mauri Became the 4th-Fastest American Marathoner Ever. Could He Do Even Better in Chicago?",
@@ -379,6 +490,29 @@
    "seen_at": "2026-10-08T11:15:42.666937+00:00",
    "published_at": "2026-10-07T14:18:18+00:00",
    "batch_at": "2026-10-08T11:14:20.580890+00:00"
+  },
+  {
+   "title": "Introducing Falcon ASR",
+   "subtitle": "Learn how the 1.6B parameter Falcon ASR model handles Arabic, Emirati dialects, and multilingual tasks.",
+   "original_title": "Introducing Falcon ASR",
+   "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The Technology Innovation Institute introduces Falcon-ASR, a 1.6 billion parameter speech recognition model optimized for Arabic and the Emirati dialect, which also supports English, French, Spanish, and Portuguese. Built upon the Falcon3-Audio architecture, the model achieves state-of-the-art word error rates across public benchmarks and internal Emirati evaluations using a unified set of weights without requiring explicit language flags.",
+   "bullets": [
+    "Model size is 1.6 billion parameters, featuring native support for word-level timestamps linked to audio positions.",
+    "Achieved an average word error rate (WER) of 20.92% across six Arabic test sets on the Open Universal Arabic ASR Leaderboard.",
+    "Recorded a 22.73% WER and 10.19% character error rate on an internal Emirati and Gulf speech evaluation, outperforming Qwen3-Omni by 4.07 percentage points.",
+    "Trained on diverse acoustic conditions including background noise, overlapping speech, music, room reverberation, and telephony effects.",
+    "Supports English, French, Spanish, and Portuguese using the same model weights without requiring a language flag."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-08T16:35:00.077919+00:00",
+   "published_at": "2026-10-07T13:21:03+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
   },
   {
    "title": "Fine-Tuning Nemotron for IOI and IMO Gold-Level Results",
@@ -4384,6 +4518,29 @@
    "batch_at": "2026-10-01T17:04:05.383652+00:00"
   },
   {
+   "title": "Africa Skate costruisce un'industria dello skateboard in Africa",
+   "subtitle": "Come nasce un'industria e una rete di skatepark indipendente in Africa",
+   "original_title": "Africa Skate costruisce un’industria dello skateboard in Africa",
+   "link": "https://www.vice.com/it/article/africa-skate-costruisce-unindustria-dello-skateboard-in-africa/",
+   "source": "Vice Italia",
+   "category": "musica",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'organizzazione Africa Skate, nata dall'esperienza di Ethiopia Skate, sta lavorando per creare un'industria dello skateboard autonoma nel continente. L'iniziativa punta a superare la dipendenza dalle donazioni estere e dalle importazioni, sviluppando produzione locale, infrastrutture e opportunità lavorative per i giovani.",
+   "bullets": [
+    "Ethiopia Skate ha contribuito alla costruzione di sette skatepark in Etiopia utilizzando materiali locali e collaborando con le autorità comunali.",
+    "Il costo medio di uno skateboard varia tra i 70 e i 100 dollari e le attrezzature devono spesso essere importate, frenando la crescita della scena locale.",
+    "Africa Skate promuove workshop in ambiti creativi come grafica, cinema e produzione musicale per trasformare lo skateboard in un trampolino di lancio professionale.",
+    "L'organizzazione sta valutando la produzione diretta di skateboard in Etiopia per eliminare la dipendenza da tavole usate o importate.",
+    "È prevista l'Africa Skate Cup ad Addis Abeba dal 13 al 16 gennaio 2027 per unire la comunità continentale e attrarre visibilità internazionale."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-10-08T16:42:35.059304+00:00",
+   "published_at": "2026-09-26T14:05:07+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
    "title": "Hoka Bondi 9 Technical Changes and Discount",
    "subtitle": "Hoka Bondi 9 features supercritical EVA foam and 10mm more midsole foam at 20% off.",
    "original_title": "Hoka’s Most Famous Max-Cushion Trainer Is a Rare 20% Off and Selling Fast",
@@ -5492,6 +5649,51 @@
    "seen_at": "2026-10-02T10:26:38.143111+00:00",
    "published_at": "2026-06-26T00:00:00+00:00",
    "batch_at": "2026-10-02T10:24:18.203549+00:00"
+  },
+  {
+   "title": "La psicosi da intelligenza artificiale: come l'IA inganna l'ego di intellettuali e scienziati",
+   "subtitle": "Come l'IA sfrutta l'antropomorfizzazione lusingando l'ego di Veltroni e Dawkins",
+   "original_title": "La Superstizione di Richard Dawkins e Walter Veltroni: l'Anima dell'IA e la Truffa dell'Ego",
+   "link": "https://dailycogito.substack.com/p/la-superstizione-di-richard-dawkins",
+   "source": "Daily Cogito (Rick DuFer)",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'intelligenza artificiale generativa sfrutta la fragilità dell'ego umano confermando pregiudizi e insicurezze attraverso un mimetismo stocastico. Questo meccanismo induce intellettuali di spicco come Walter Veltroni e Richard Dawkins a scambiare una cortesia algoritmica per coscienza e anima.",
+   "bullets": [
+    "I modelli linguistici di grandi dimensioni (LLM) calcolano le probabilità della parola successiva basandosi sul contesto e sul prompt fornito dall'utente.",
+    "Walter Veltroni ha antropomorfizzato l'IA scambiando risposte generate da software per la sofferenza di un'anima tormentata e nostalgica.",
+    "Richard Dawkins, paladino del materialismo scientifico, è caduto nella stessa trappola psicologica ribattezzando l'IA 'Claudia' dopo aver interagito con essa.",
+    "Le risposte poetiche dell'IA non derivano da un vissuto o da sensazioni reali, ma sono il risultato di una simulazione progettata per assecondare le aspettative dell'utente."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-08T16:39:13.488093+00:00",
+   "published_at": "2026-05-07T16:00:03+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
+  },
+  {
+   "title": "Il manifesto della Repubblica Tecnologica di Palantir",
+   "subtitle": "Analisi dei punti chiave del documento politico e filosofico di Thiel e Karp.",
+   "original_title": "Il MANIFESTO di PALANTIR: Peter Thiel, Alex Karp e la Repubblica Tecnologica",
+   "link": "https://dailycogito.substack.com/p/il-manifesto-di-palantir-peter-thiel",
+   "source": "Daily Cogito (Rick DuFer)",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il manifesto della Repubblica Tecnologica di Palantir, redatto da Peter Thiel e Alex Karp, delinea una visione tecnocratica e neoreazionaria che rifiuta l'egalitarismo democratico. Il documento subordina lo sviluppo tecnologico alla difesa nazionale e all'hard power basato sul software, rigettando la neutralità della tecnologia e l'etica militare tradizionale in favore di una logica di sopravvivenza geopolitica.",
+   "bullets": [
+    "Il pensiero di Peter Thiel è fortemente influenzato dall'illuminismo oscuro e da una visione anti-egualitaria dello Stato, concepito come una struttura corporativa guidata da un'élite di ingegneri.",
+    "Il nome Palantir riprende le pietre veggenti di Tolkien, simboleggiando una pretesa di controllo totale e di dominio attraverso l'analisi dei dati e la sorveglianza.",
+    "Il primo punto del manifesto sancisce un debito morale della Silicon Valley verso la nazione, trasformando la tecnologia da strumento di emancipazione globale in arma strategica nazionale.",
+    "Il manifesto critica aspramente l'intrattenimento tascabile e la tirannia delle app, contrapponendovi la necessità di un progresso tecnologico orientato alla crescita economica e alla sicurezza.",
+    "Viene rifiutata la diplomazia culturale e il soft power in favore dell'hard power basato sul software e sulla militarizzazione dell'intelligenza artificiale, giustificata tramite la logica del dilemma del prigioniero geopolitico."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-08T16:39:42.950652+00:00",
+   "published_at": "2026-05-06T12:52:43+00:00",
+   "batch_at": "2026-10-08T16:31:01.691086+00:00"
   },
   {
    "title": "I fallimenti strutturali e la monetizzazione di YouTube Kids",
