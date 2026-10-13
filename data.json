@@ -1,6 +1,75 @@
 {
- "generated_at": "2026-10-13T11:35:41.437590+00:00",
+ "generated_at": "2026-10-13T16:31:53.849199+00:00",
  "items": [
+  {
+   "title": "Gemini 4 Argon for Robotics",
+   "subtitle": "How Gemini 4 Argon handles physical reasoning, MuJoCo twins, and bimanual robotics control.",
+   "original_title": "Gemini 4 Argon for Robotics",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Gemini 4 Argon is a general-purpose physical reasoning model achieving an 87% score on the ERQA benchmark. It bridges code generation, 3D spatial awareness, and contact physics across diverse robotic platforms, enabling automated simulation building, closed-loop task execution, and policy training.",
+   "bullets": [
+    "Scores 87% on the Embodied Reasoning (ERQA) benchmark, outperforming other frontier models in 3D spatial problem solving.",
+    "Controls complex hardware like a 12-DoF leg and 6-DoF arm Boston Dynamics Spot to step on foot-pedals using digital twins.",
+    "Automatically builds calibrated MuJoCo simulation environments and compound convex-decomposed 3D meshes from single photos or human videos.",
+    "Executes closed-loop bimanual manipulation tasks, such as solving the 12-ball balance scale puzzle and folding origami from video.",
+    "Synthesizes whole-body humanoid throwing and balancing trajectories verified via headless Chromium and WebAssembly browser labs."
+   ],
+   "relevance": 5,
+   "score": 15,
+   "seen_at": "2026-10-13T16:39:07.187386+00:00",
+   "published_at": "2026-10-13T16:01:58+00:00",
+   "batch_at": "2026-10-13T16:31:53.849199+00:00"
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "subtitle": "Google's Gemini 4 Argon model benchmarks, capabilities, and pricing.",
+   "original_title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has announced the global availability of Gemini 4 Argon, a new AI model optimized for complex, multi-step engineering, financial, legal, and scientific tasks. Priced at $2 per million input tokens and $10 per million output tokens, the model ranks #1 on the Vals Index and demonstrates significant performance gains across software refactoring, quantum chemistry, and cybersecurity benchmarks.",
+   "bullets": [
+    "Available via API in AI Studio and Gemini platform, priced at $2 per million input tokens and $10 per million output tokens with 95% off cached inputs.",
+    "Helped internal Google teams increase agentic code submissions by over 35% while cutting code rollbacks by nearly a third in Antigravity.",
+    "Optimized an xTB quantum chemistry package, making it up to 2.3x faster at predicting molecular structures.",
+    "Achieved a 2.85x end-to-end inference speedup on Gemma 4 E2B via vLLM with zero quality drop.",
+    "Demonstrated a video-to-simulation-to-real robotics pipeline, transferring human cornhole-playing motions to an Apptronik Apollo humanoid robot."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-13T16:39:32.380278+00:00",
+   "published_at": "2026-10-13T16:01:52+00:00",
+   "batch_at": "2026-10-13T16:31:53.849199+00:00"
+  },
+  {
+   "title": "Elliptical vs. Rower for Runners",
+   "subtitle": "Compare elliptical and rowing machines for running cross-training and injury recovery.",
+   "original_title": "Elliptical vs. Rower: Which Is the Better Cross-Training Machine for Runners?",
+   "link": "https://www.runnersworld.com/training/a74069091/elliptical-vs-rower/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The article compares the elliptical and the rowing machine as low-impact cross-training options for runners. While the elliptical closely mimics the running motion and reduces impact forces on joints, the rower provides a full-body workout that strengthens the posterior chain, core, and back.",
+   "bullets": [
+    "Ellipticals place 70 to 80 percent of bodyweight on the feet and match running VO2 max and heart rate metrics during injury recovery.",
+    "Elliptical drawbacks include a machine-guided repetitive motion that neglects lateral stability and posterior chain strength.",
+    "Rowing machines provide a full-body workout engaging the legs, core, back, and arms through a different range of motion than running.",
+    "Rowing drawbacks include lack of running-specificity and potential lower back strain if technique breaks down.",
+    "Experts recommend the rower as a better complement to running due to its focus on posterior chain and core strength."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-13T16:44:31.908418+00:00",
+   "published_at": "2026-10-13T15:38:54+00:00",
+   "batch_at": "2026-10-13T16:31:53.849199+00:00"
+  },
   {
    "title": "Attacco informatico ai sistemi di refrigerazione dei supermercati in Francia",
    "subtitle": "Come un attacco remoto ha manomesso le centraline Danfoss alterando i cicli di sbrinamento",
@@ -132,6 +201,40 @@
    "seen_at": "2026-10-13T11:36:56.937405+00:00",
    "published_at": "2026-10-13T00:00:00+00:00",
    "batch_at": "2026-10-13T11:35:41.437590+00:00"
+  },
+  {
+   "title": "Il problema del flow nella programmazione assistita da LLM",
+   "subtitle": "Come mantenere il flusso di lavoro e superare le pause con gli agenti IA",
+   "original_title": "Stare nel flow: qualche aggiornamento sulla mia esperienza",
+   "link": "https://www.youtube.com/watch?v=QobBTNIIX04",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "I grandi modelli linguistici hanno reso possibile realizzare progetti complessi in tempi record, riducendo la fatica ma eliminando anche parte del divertimento e dello stato di \"flow\" tipico della scrittura di codice a basso livello. L'autore analizza la sua esperienza nello sviluppo di un emulatore per Spectrum e Commodore 64 collegato a un Raspberry Pi Pico, ottimizzando driver e display tramite interfacce SPI. Il problema principale nell'uso di agenti IA avanzati come Opus 5.5 non è la qualità del codice generato, ma le pause di attesa tra un prompt e l'esecuzione. Per difendersi dal context switching dannoso, l'autore adotta strategie specifiche: chiede al modello di annunciare ogni step significativo per monitorare l'andamento ed eventualmente correggere la direzione, sfrutta i tempi morti per scrivere altro, come la prefazione di un libro, oppure si dedica alla scrittura di codice a mano per puro piacere. Gestire più sessioni in parallelo per azzerare i tempi morti viene invece scartato perché rompe il flow e aumenta lo stress.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-13T16:41:45.728437+00:00",
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "batch_at": "2026-10-13T16:31:53.849199+00:00"
+  },
+  {
+   "title": "Uccidi una parte di te, oppure lei ucciderà te: la lezione dei serpenti e di Nietzsche",
+   "subtitle": "La crescita richiede di lasciar morire vecchie identità per scegliere una direzione precisa.",
+   "original_title": "Uccidi una parte di te, oppure lei ucciderà TE: la lezione dei Serpenti e di Nietzsche",
+   "link": "https://www.youtube.com/watch?v=3MxgMIx8pAY",
+   "source": "Rick DuFer (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "La crescita personale richiede la fine sistematica di ciò che siamo stati, un processo paragonabile alla muta del serpente descritta da Nietzsche. Il serpente muore se non riesce a lasciare la vecchia pelle, e lo stesso accade agli spiriti che non accettano di cambiare opinione. La nostra cultura rifugge la morte e il cambiamento radicale, pretendendo di evolversi senza subire perdite e mantenendo aperte tutte le porte. Questa illusione di eterna adolescenza paralizza l'individuo, che finisce per confondere l'immobilità con la libertà. Secondo Friedrich Nietzsche, esposto nel primo libro di Così parlò Zarathustra, l'uomo è un ponte e una transizione, e il suo valore risiede in ciò che è disposto a lasciar cadere. Nietzsche distingue tra la libertà da, tipica della ribellione adolescenziale fine a sé stessa e priva di meta, e la libertà per, che implica una costruzione e una direzione precisa. Chi fugge senza sapere dove andare rimane intrappolato nel risentimento. Carl Gustav Jung, riprendendo questi temi attraverso il mito dell'eroe inghiottito dal drago e la suddivisione ciclica delle età della vita, mostra come il rifiuto della morte simbolica conduca inevitabilmente alla regressione e alla nevrosi. Dalla metà della vita in poi, chi non sa morire con essa perde la bussola. La società contemporanea sfrutta questo blocco psicologico: promuovendo estetiche anti-aging e opzioni illimitate, incoraggia il puer eternus, un soggetto perennemente insoddisfatto e manovrabile perché incapace di assumersi la responsabilità di un'unica scelta definitiva. Ogni decisione, dal latino decedere, implica un taglio radicale e l'eliminazione di alternative. Accettare la morte simbolica non significa tuttavia praticare un auto-saccheggio sterile o una rimozione rabbiosa, che si trasformerebbe in ombra e rimpianto, ma elaborare un vero e proprio lutto riconoscente verso le versioni precedenti di sé. Attraverso l'esercizio di redigere un elogio funebre per le parti defunte della propria identità, è possibile rendere visibile quella transizione interiore senza la quale nessun futuro autentico può prendere forma.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-13T16:45:30.743942+00:00",
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "batch_at": "2026-10-13T16:31:53.849199+00:00"
   },
   {
    "title": "Shoe Tech Breakdown of the 2026 Chicago Marathon",
