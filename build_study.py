@@ -24,6 +24,7 @@ SUBJECTS = {
     "aerial_manip": ("Manipolazione Aerea", "Eskandarpour, Soltanshah, Gupta, Mehrandezh - Decoupled Dynamic Modeling and Tube-Based LPV-MPC for Aerial Manipulation (IEEE TAES 2025)"),
     "amr": ("Robotica Autonoma e Mobile", "Oriolo - Autonomous and Mobile Robotics (corso DIAG, Sapienza) + Siciliano et al., Foundations of Robotics"),
     "controlli_es": ("Controlli Automatici - Esercizi", "Lanari, Oriolo - Controlli Automatici: Esercizi di Sintesi"),
+    "probrob": ("Probabilistic Robotics", "Grisetti - Probabilistic Robotics (corso DIAG, Sapienza, 2025/26): slide, esercizi ed esami campione"),
 }
 
 
@@ -81,6 +82,27 @@ CHAPTERS = {
         18: "Robot umanoidi 3: generazione dell'andatura",
         19: "Locomozione umanoide: una dimostrazione",
         20: "Casi di studio ed esame",
+    },
+    "probrob": {
+        1: "Introduction and Sensors / Introduzione e sensori",
+        2: "Introduction to Probabilities / Introduzione alle probabilità",
+        3: "Bayesian Networks / Reti bayesiane",
+        4: "Dynamic Bayesian Networks and the Bayes Filter / DBN e filtro di Bayes",
+        5: "Discrete Filtering / Filtraggio discreto",
+        6: "The Gaussian Distribution / La distribuzione gaussiana",
+        7: "Kalman Filters / Filtri di Kalman",
+        8: "EKF Localization / Localizzazione EKF",
+        9: "EKF SLAM",
+        10: "Data Association / Associazione dei dati",
+        11: "Unscented Transform and UKF / Trasformata unscented e UKF",
+        12: "Particle Filters / Filtri a particelle",
+        13: "Neighbor Search and Differentiation / Ricerca dei vicini e derivazione",
+        14: "Least Squares / Minimi quadrati",
+        15: "Least Squares on Manifolds / Minimi quadrati su manifold",
+        16: "Projective ICP and Epipolar Geometry / ICP proiettivo e geometria epipolare",
+        17: "Multi-Point and Multi-Pose Registration, Factor Graphs / Registrazione multi-punto e multi-posa, factor graph",
+        18: "RANSAC and Course Map / RANSAC e mappa del corso",
+        19: "Exam Exercises / Esercizi d'esame",
     },
     "controlli_es": {
         1: "Analisi dei sistemi a retroazione",
