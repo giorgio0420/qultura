@@ -1,6 +1,96 @@
 {
- "generated_at": "2026-10-19T16:31:01.615816+00:00",
+ "generated_at": "2026-10-20T09:18:37.495747+00:00",
  "items": [
+  {
+   "title": "Nuova stazione laser MSLR a Matera",
+   "subtitle": "ASI completa la stazione laser MSLR a Matera per geodesia e orbite.",
+   "original_title": "Una nuova stazione laser per il Centro Spaziale ASI di Matera",
+   "link": "https://www.asi.it/2026/10/una-nuova-stazione-laser-per-il-centro-spaziale-asi-di-matera/",
+   "source": "Agenzia Spaziale Italiana",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'Agenzia Spaziale Italiana ha completato la nuova stazione di Satellite Laser Ranging MSLR presso il Centro Spaziale di Matera. L'infrastruttura usa impulsi laser a 532 e 1064 nm per misurare la distanza dai satelliti, supportando la geodesia spaziale e il futuro monitoraggio dei detriti. Il progetto, avviato con e-GEOS e DiGOS Potsdam, si è concluso con le verifiche nel luglio 2026.",
+   "bullets": [
+    "Impiega impulsi laser a 532 e 1064 nanometri per la misurazione della distanza terra-satellite.",
+    "Fornisce dati di precisione per determinare posizioni e orbite satellitari nella geodesia spaziale.",
+    "Presenta un'architettura flessibile progettata per future applicazioni nel monitoraggio dei detriti spaziali.",
+    "Realizzata tramite un contratto affidato a e-GEOS S.p.A. con il contributo di DiGOS Potsdam GmbH per il sistema di controllo.",
+    "Installata a marzo 2026 e collaudata con successo nel luglio 2026 presso il Centro Spaziale ASI di Matera."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-20T09:19:33.129087+00:00",
+   "published_at": "2026-10-20T08:02:37+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
+  },
+  {
+   "title": "La rappresentanza del mondo vivente nei negoziati climatici",
+   "subtitle": "La proposta di un'assemblea globale estratta a sorte per rappresentare la natura",
+   "original_title": "Chi parla per piante e animali nei negoziati?",
+   "link": "https://lucysuimondi.com/chi-parla-per-piante-e-animali-nei-negoziati/",
+   "source": "Lucy sui mondi",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Nonostante la richiesta globale di politiche climatiche incisive, il mondo vivente manca di una rappresentanza formale nei negoziati. David Van Reybrouck suggerisce l'istituzione di un'assemblea globale di cittadini estratti a sorte per ovviare a questo problema, sebbene rimanga irrisolto il nodo giuridico dei diritti della Terra.",
+   "bullets": [
+    "L'89% della popolazione mondiale richiede politiche climatiche più incisive.",
+    "Il mondo vivente e naturale è privo di una rappresentanza diretta nei negoziati internazionali.",
+    "David Van Reybrouck propone la creazione di un'assemblea globale composta da cittadini estratti a sorte.",
+    "La proposta elude la questione fondamentale relativa al riconoscimento formale dei diritti della Terra."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-20T09:20:25.180037+00:00",
+   "published_at": "2026-10-20T06:00:00+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
+  },
+  {
+   "title": "Emma Grace Hurley’s Marathon Debut",
+   "subtitle": "How a methodical, speed-first training approach led to a record American debut.",
+   "original_title": "Emma Grace Hurley’s Marathon Debut Was Years in the Making. Here’s How to Mimic Her Training When Going for 26.2.",
+   "link": "https://www.runnersworld.com/training/a74181988/emma-grace-hurley-debut-marathon-tips/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Pro runner Emma Grace Hurley ran a 2:20:47 in her debut Chicago Marathon, setting a new American debut record. Coached by Andrew Begley, her preparation prioritized short-distance efficiency, gradual mileage increases, and iterative racing over rushing into early marathon builds.",
+   "bullets": [
+    "Prioritized short-distance speed (5K/10K) for years to build physiological efficiency before moving up to the marathon.",
+    "Maintained lower peak mileage (70-90 miles) with intense weekly workouts rather than jumping immediately to 100+ miles.",
+    "Used a three-week mileage-cycling model, touching peak volumes and then deloading to ensure freshness on race day.",
+    "Kept long runs capped at 18 to 22 miles without extending them further for the official marathon buildup.",
+    "Targeted interim shorter races and handled setbacks (such as a course error at the USATF Half) by quickly pivoting to new goals."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-20T09:19:48.187916+00:00",
+   "published_at": "2026-10-19T20:45:58+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
+  },
+  {
+   "title": "Brooks Glycerin Flex Training Shoe Review",
+   "subtitle": "Analysis of the Glycerin Flex design, featuring DNA Tuned foam and deep lateral grooves.",
+   "original_title": "Brooks’ Groundbreaking Glycerin Flex Training Shoe Is 24% Off Right Now",
+   "link": "https://www.runnersworld.com/gear/a74179961/brooks-glycerin-flex-deal/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The Brooks Glycerin Flex diverges from max-cushion trends by utilizing a low-stack, highly flexible midsole with deep lateral grooves. It incorporates DNA Tuned supercritical foam with larger gas bubbles in the heel and smaller ones in the forefoot to balance shock absorption and energy return.",
+   "bullets": [
+    "Features deep lateral grooves in the sole, making the shoe exceptionally flexible.",
+    "Uses DNA Tuned supercritical foam, featuring large gas bubbles in the heel for plush landings and smaller ones in the forefoot for springy toe-offs.",
+    "Offers an alternative to maximalist, high stack height trainers by allowing natural foot motion.",
+    "Priced at $130 during the current markdown from its standard $170 retail price."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-10-20T09:19:58.445850+00:00",
+   "published_at": "2026-10-19T19:07:16+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
+  },
   {
    "title": "UARX Space Resolves OSSIE-D Communications Blackout",
    "subtitle": "UARX Space fixes ground station configuration error that caused post-launch communications blackout.",
@@ -135,6 +225,30 @@
    "seen_at": "2026-10-19T16:31:18.664523+00:00",
    "published_at": "2026-10-19T13:00:03+00:00",
    "batch_at": "2026-10-19T16:31:01.615816+00:00"
+  },
+  {
+   "title": "Advancing coding in low-resource programming languages",
+   "subtitle": "Benchmarks and performance metrics for AI models migrating COBOL and building engines in 20 languages.",
+   "original_title": "Advancing coding in low‑resource programming languages",
+   "link": "https://openai.com/index/low-resource-programming-languages",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "New AI models improve capabilities for building and migrating software in low-resource languages like COBOL, Fortran, and Visual Basic. Two evaluations, MultiLangBench and a COBOL migration suite, measure performance across codebases requiring state management and byte-for-byte output parity. Results show substantial accuracy gains and lower API costs across multiple model tiers.",
+   "bullets": [
+    "MultiLangBench tests models on building a SQLite-compatible database engine from scratch across 20 languages using a shared database file interface.",
+    "GPT-6 Astra achieves an average MultiLangBench pass rate of 87.4% across 20 languages, up from 26.8% for GPT-5.6 Sol.",
+    "COBOL remains the hardest language in MultiLangBench, with GPT-6 Astra reaching a 72.1% pass rate.",
+    "GPT-6 Luna scores a 40.3% average pass rate on MultiLangBench at an estimated API cost of $0.77 per sample, roughly 78% lower than the previous generation.",
+    "The COBOL migration evaluation tests models on translating legacy programs to C++, Java, Kotlin, Python, or Rust with byte-for-byte output parity on hidden tests.",
+    "GPT-6.1 Sol achieves 86.6% accuracy on COBOL migration at low reasoning effort, scaling to 97.9% at higher reasoning effort."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-20T09:19:06.448198+00:00",
+   "published_at": "2026-10-19T12:00:00+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
   },
   {
    "title": "La rabbia è sempre una questione politica",
@@ -335,6 +449,52 @@
    "seen_at": "2026-10-19T16:36:37.530329+00:00",
    "published_at": "2026-10-19T00:00:00+00:00",
    "batch_at": "2026-10-19T16:31:01.615816+00:00"
+  },
+  {
+   "title": "TorchNeuron: Running Hugging Face Models on AWS Trainium",
+   "subtitle": "Learn how TorchNeuron enables native PyTorch execution on AWS Trainium.",
+   "original_title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+   "link": "https://huggingface.co/blog/hf-torchneuron",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "TorchNeuron introduces a native PyTorch backend for AWS Trainium, supporting eager execution, torch.compile, and native distributed APIs like FSDP and TP. This integration allows standard Hugging Face libraries such as Transformers, Diffusers, and TRL to run directly on Trainium without specialized forks or custom trainers.",
+   "bullets": [
+    "Replaces Optimum-Neuron with a native PyTorch device integration, eliminating lazy tensors and static-only shape restrictions.",
+    "Enables text generation for 89% of top model architectures using the device_map=neuron argument.",
+    "Supports standard TRL supervised fine-tuning scripts with native tensor parallelism (TP) and FSDP sharding.",
+    "Requires static shapes and disabled automatic dynamic shapes for torch.compile during training loops.",
+    "Allows Diffusers pipelines like Qwen-Image-2.1 to utilize tensor parallelism across multiple Neuron devices."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-20T09:19:12.990166+00:00",
+   "published_at": "2026-10-19T00:00:00+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
+  },
+  {
+   "title": "Le radici infantili e la genesi filosofica del gotico padano in Pupi Avati",
+   "subtitle": "Analisi de La casa dalle finestre che ridono e delle paure d'infanzia del regista",
+   "original_title": "Il significato de La casa dalle finestre che ridono: il cinema dei ricordi",
+   "link": "https://artesettima.it/2026/10/18/il-significato-de-la-casa-dalle-finestre-che-ridono-il-cinema-dei-ricordi/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il saggio analizza come Pupi Avati abbia trasposto le paure della sua infanzia nella campagna emiliana all'interno del film La casa dalle finestre che ridono (1976). L'opera fonda il genere del gotico padano, spostando l'orrore dalle cupe atmosfere anglosassoni alla solarità di una provincia apparentemente normale ma omertosa e crudele.",
+   "bullets": [
+    "L'origine delle paure di Avati risiede nelle favole nere raccontate dalle zie e nella suggestione del cimitero di San Leo e dell'affresco di San Sebastiano.",
+    "La visione di 8 ½ di Federico Fellini ha rappresentato l'epifania che ha spinto Avati a fare cinema per raccontare il proprio io profondo.",
+    "La casa dalle finestre che ridono inverte i canoni dell'horror classico, collocando l'orrore nella soleggiata campagna romagnola anziché nelle tenebre gotiche.",
+    "La tensione del film è costruita attraverso silenzi, ritmi lenti, una colonna sonora minima e un senso costante di disagio e attesa.",
+    "Il vero orrore non è il mostro esterno, ma l'apparente normalità della comunità contadina che protegge e nasconde la violenza e l'omertà."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-20T09:20:08.811903+00:00",
+   "published_at": "2026-10-18T21:55:07+00:00",
+   "batch_at": "2026-10-20T09:18:37.495747+00:00"
   },
   {
    "title": "Identificato il lampo radio veloce più distante di sempre",
@@ -6178,118 +6338,6 @@
    "batch_at": "2026-10-06T11:08:48.047129+00:00"
   },
   {
-   "title": "Using Vagus Nerve Stimulation to Improve Runner Recovery",
-   "subtitle": "How targeted breathing techniques stimulate the vagus nerve to accelerate athletic recovery.",
-   "original_title": "I Tried This 5-Minute Recovery Habit for 30 Days. Here’s How It Changed My Running.",
-   "link": "https://www.runnersworld.com/training/a74031509/vagus-nerve-exercises-runners/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Integrating vagus nerve stimulation (VNS) techniques like extended-exhale and resonance breathing into a post-run routine can accelerate autonomic nervous system recovery. Research and practical testing show that regular VNS practice reduces post-exercise fatigue, improves heart rate variability, enhances sleep onset, and lowers psychological stress.",
-   "bullets": [
-    "The vagus nerve shifts the body from fight-or-flight stress into rest-and-digest recovery, which is critical for physical adaptation after hard training.",
-    "Noninvasive VNS techniques include slow diaphragmatic breathing, extended-exhale breathing, resonance frequency breathing, cold exposure, and humming.",
-    "Extended-exhale breathing involves a 4-second nasal inhale and a 6-to-8-second mouth exhale practiced for 5 to 10 minutes.",
-    "Resonance frequency breathing targets roughly six breaths per minute to synchronize heart rate, lungs, and nervous system, improving heart rate variability.",
-    "Post-workout VNS is associated with faster heart rate recovery, lower blood pressure, reduced blood lactate, and less perceived fatigue.",
-    "Regular VNS practice before bed helps down-regulate evening workouts, significantly reducing sleep onset latency."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-05T16:31:48.268773+00:00",
-   "published_at": "2026-10-05T16:18:56+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
-  },
-  {
-   "title": "Runner's World Amazon Gear Roundup",
-   "subtitle": "Tested running gear recommendations available on Amazon, from watches to nutrition.",
-   "original_title": "The Best Running Gear on Amazon, Handpicked by the Runner’s World Team",
-   "link": "https://www.runnersworld.com/gear/g66156733/the-best-running-gear-on-amazon/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "This curated list compiles tested running accessories, apparel, and tech available on Amazon. Selected by Runner's World editors, the items focus on practical utility for training, racing, and recovery.",
-   "bullets": [
-    "SPIBelt: Compact running belt with high stretch capacity for phones, keys, and nutrition.",
-    "Garmin Forerunner: Advanced GPS watch featuring offline mapping, music, triathlon modes, and comprehensive physiological metrics like HRV and VO2 max.",
-    "Shokz OpenRun Pro 2: Bone conduction headphones offering improved volume, deeper bass, and situational awareness during outdoor runs.",
-    "Balega and Smartwool Socks: Durable, breathable socks with arch support designed to prevent blisters.",
-    "Baleaf 5-Inch Shorts: Affordable running shorts featuring a soft liner, breathable fabric, and a deep zippered pocket.",
-    "Nathan Hydration Vest: Lightweight, adjustable vest compatible with both bladders and flasks for carrying fluids and fuel.",
-    "BodyGlide Anti-Chafing Balm: Effective, unscented, non-sticky balm for preventing friction injuries during long distances."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-10-05T16:31:54.555427+00:00",
-   "published_at": "2026-10-05T15:58:00+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
-  },
-  {
-   "title": "OpenAI's Implementation of Text Watermarking for EU Compliance",
-   "subtitle": "Details on textGrain, its error rates, and EU deployment plans.",
-   "original_title": "Our approach to EU text provenance rules",
-   "link": "https://openai.com/index/eu-text-provenance",
-   "source": "OpenAI",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "OpenAI is rolling out text watermarking called textGrain for EU ChatGPT users and API customers to comply with the EU AI Act. The technology embeds statistical signals into word choices, but faces limitations such as reduced reliability with short texts or heavy editing.",
-   "bullets": [
-    "Text watermarking uses textGrain to add an invisible statistical signal to a model's word choices.",
-    "At a 1% false positive rate, detection accuracy drops from 95% on 400-token passages to 80% on 200-token passages, and is lower for mathematics.",
-    "Replacing 10% of words with synonyms reduces detection from 92% to 66%; replacing 25% drops it to 17%.",
-    "Watermarking will be enabled by default for ChatGPT and Codex in the EU over coming weeks and offered as an opt-in for API customers globally.",
-    "Initial detector access is restricted to approved researchers and expert organizations to evaluate reliability and reduce misuse."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-05T16:31:22.205118+00:00",
-   "published_at": "2026-10-05T15:00:00+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
-  },
-  {
-   "title": "Aerospace Toolbox Overview",
-   "subtitle": "Capabilities for space mission analysis, aircraft dynamics, and flight data visualization.",
-   "original_title": "What Is Aerospace Toolbox?",
-   "link": "https://www.youtube.com/watch?v=C4zJCQj2Hro",
-   "source": "MATLAB",
-   "category": "ai",
-   "kind": "yt",
-   "lang": "en",
-   "summary": "The Aerospace Toolbox provides validated functions for coordinate transformations, environment models, unit conversions, quaternion math, and gas dynamics to support aerospace workflows. For space missions, users can define scenarios involving satellites and ground stations, propagate orbits, design constellations, model trajectories and maneuvers, and analyze line-of-site access and eclipse intervals for bodies including Earth and the Moon. Aircraft analysis features support modeling configurations using imported aerodynamic data for stability, flying qualities, and control design. Results are processed through 2D and 3D viewers, mission displays, and vehicle motion visualizations. Additionally, the toolbox supports agentic AI workflows via aerospace skills integrated within the MATLAB agentic toolkit.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-05T16:31:04.159626+00:00",
-   "published_at": "2026-10-05T13:14:48+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
-  },
-  {
-   "title": "Quanto deve durare la colpa?",
-   "subtitle": "Riflessione filosofica sul perdono, la memoria collettiva e il caso Galliano al Met.",
-   "original_title": "Quanto deve durare la colpa?",
-   "link": "https://lucysullacultura.com/quanto-deve-durare-la-colpa/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "L'articolo analizza il complesso rapporto tra memoria, colpa e perdono, prendendo spunto dalla cancellazione della mostra di John Galliano al Metropolitan Museum. Attraverso il pensiero di filosofi come Paul Ricoeur e Tzvetan Todorov, si esplora la necessità di trovare un equilibrio tra il dovere etico del ricordo e la possibilità di liberare l'individuo dal peso definitivo dei propri errori.",
-   "bullets": [
-    "La cancellazione della mostra su John Galliano al Met evidenzia il conflitto irrisolto tra responsabilità etica passata e valore dell'opera contemporanea.",
-    "Il funzionamento della memoria implica una costante dialettica con l'oblio: senza la selezione e la dimenticanza, il ricordo perde ogni prospettiva di significato.",
-    "Storicamente, l'oblio prescritto veniva usato nei trattati di pace europei per superare i conflitti, contrapponendosi alla non-prescrizione dei crimini contro l'umanità stabilita a Norimberga.",
-    "Secondo Paul Ricoeur, il secondo movimento della memoria richiede di prendere distanza dalla sofferenza per consentire il perdono politico e far passare il passato.",
-    "Hannah Arendt sottolinea che il perdono è essenziale per evitare che l'essere umano rimanga per sempre intrappolato e schiacciato dalle conseguenze dei propri atti."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-05T16:32:20.112974+00:00",
-   "published_at": "2026-10-05T12:23:26+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
-  },
-  {
    "title": "Come si dimostra un genocidio?",
    "subtitle": "Metodi di analisi spaziale e architettura forense per documentare la distruzione di Gaza.",
    "original_title": "Come si dimostra un genocidio?",
@@ -6378,28 +6426,6 @@
    "seen_at": "2026-10-08T11:18:11.966551+00:00",
    "published_at": "2026-10-05T00:00:00+00:00",
    "batch_at": "2026-10-08T11:14:20.580890+00:00"
-  },
-  {
-   "title": "L'Horror all'italiana è una cosa seria",
-   "subtitle": "Analisi del cinema horror italiano tra gli anni Sessanta e Ottanta e la sua influenza globale.",
-   "original_title": "L’Horror all’italiana è una cosa seria",
-   "link": "https://artesettima.it/2026/10/04/lhorror-allitaliana-e-una-cosa-seria/",
-   "source": "ArteSettima",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Tra gli anni Sessanta e Ottanta, il cinema horror italiano ha vissuto una stagione di grande fertilità e riconoscimento internazionale, nonostante fosse considerato all'epoca un prodotto commerciale e di serie B. Questa corrente ha saputo costruire un immaginario unico attraverso regie distintive, estetiche audaci e colonne sonore iconiche.",
-   "bullets": [
-    "Il cinema horror italiano si è sviluppato tra gli anni Sessanta e gli anni Ottanta.",
-    "L'estetica del genere si distingueva per ambientazioni evocative, colori particolari e musiche incisive.",
-    "Nonostante il disprezzo della critica ufficiale dell'epoca, il genere ha conquistato i mercati internazionali.",
-    "Il movimento ha dimostrato che la distinzione rigida tra cinema di serie A e di serie B è spesso inadeguata."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-10-05T16:32:09.456047+00:00",
-   "published_at": "2026-10-04T09:30:06+00:00",
-   "batch_at": "2026-10-05T16:30:38.391086+00:00"
   },
   {
    "title": "Africa Skate costruisce un'industria dello skateboard in Africa",
