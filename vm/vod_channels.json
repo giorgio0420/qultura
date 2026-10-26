@@ -1,5 +1,11 @@
 [
  {
+  "name": "Cronache di Spogliatoio",
+  "handle": "@cronachedispogliatoio",
+  "queue_dir": "yt_transcripts/cronache",
+  "lang": "it"
+ },
+ {
   "name": "Rick DuFer (YouTube)",
   "handle": "@rickdufer",
   "queue_dir": "yt_transcripts/rickdufer",
