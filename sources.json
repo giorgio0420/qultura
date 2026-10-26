@@ -369,5 +369,39 @@
   "site": "https://choramedia.com",
   "out_lang": "it",
   "limit": 2
+ },
+ {
+  "name": "The Dark Salad",
+  "kind": "sitemap",
+  "category": "mondo",
+  "weight": 3,
+  "url": "https://thedarksalad.it/sitemap-0.xml",
+  "path": "/articoli/",
+  "site": "https://thedarksalad.it",
+  "out_lang": "it",
+  "limit": 3,
+  "keep_all": true
+ },
+ {
+  "name": "Il Nemico",
+  "kind": "rss",
+  "category": "mondo",
+  "weight": 3,
+  "url": "https://ilnemico.it/feed",
+  "site": "https://ilnemico.it",
+  "out_lang": "it",
+  "limit": 3,
+  "keep_all": true
+ },
+ {
+  "name": "The Vision",
+  "kind": "rss",
+  "category": "mondo",
+  "weight": 3,
+  "url": "https://thevision.com/feed",
+  "site": "https://thevision.com",
+  "out_lang": "it",
+  "limit": 3,
+  "keep_all": true
  }
 ]

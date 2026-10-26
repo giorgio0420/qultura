@@ -5,6 +5,7 @@ import pathlib
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -47,9 +48,21 @@ def strip_html(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).strip()
 
 
+def get_feed(url, tries=4):
+    """Parse a feed, waiting out 429s (Shopify and others throttle bursts)."""
+    for n in range(tries):
+        try:
+            return feedparser.parse(urllib.request.urlopen(
+                urllib.request.Request(url, headers=UA), timeout=30).read())
+        except urllib.error.HTTPError as err:
+            if err.code != 429 or n == tries - 1:
+                raise
+            time.sleep(30 * (n + 1))
+
+
 def fetch_rss(source, seen=(), limit=3):
     """Yield (title, link, text) for the latest entries of an RSS feed."""
-    for e in feedparser.parse(source["url"]).entries[:source.get("limit", limit)]:
+    for e in get_feed(source["url"]).entries[:source.get("limit", limit)]:
         title, link = e.get("title", ""), e.get("link", "")
         # il filtro guarda solo il titolo: scartare prima evita di scaricare
         # l'articolo intero per voci che verranno buttate via comunque
@@ -60,6 +73,29 @@ def fetch_rss(source, seen=(), limit=3):
         if len(text) < MIN_RSS and link:
             text = article_text(link) or text
         yield title, link, text, published(e)
+
+
+def fetch_sitemap(source, seen=(), limit=3):
+    """Yield (title, link, text, published) for the newest pages of a site that has
+    a sitemap but no feed (kind "sitemap"; `path` selects the article URLs)."""
+    xml = urllib.request.urlopen(urllib.request.Request(source["url"], headers=UA),
+                                 timeout=20).read().decode("utf-8", "ignore")
+    pages = re.findall(r"<loc>([^<]+)</loc><lastmod>([^<]+)</lastmod>", xml)
+    pages = sorted((p for p in pages if source["path"] in p[0]), key=lambda p: p[1], reverse=True)
+    for link, lastmod in pages[:source.get("limit", limit)]:
+        if link in seen:
+            continue
+        try:
+            html = urllib.request.urlopen(urllib.request.Request(link, headers=UA),
+                                          timeout=20).read().decode("utf-8", "ignore")
+        except OSError as err:
+            print(f"  [skip] {link}: {type(err).__name__}", file=sys.stderr)
+            continue
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+        text = trafilatura.extract(html)
+        if h1 and text:
+            when = datetime.fromisoformat(lastmod.replace("Z", "+00:00"))
+            yield strip_html(h1.group(1)).title(), link, text, when
 
 
 def article_text(url):
@@ -179,7 +215,7 @@ def keep(source, title, text):
 def fetch(source, seen=()):
     """Yield the source's new content. `seen` holds links already curated, so their
     transcript or article is never downloaded twice."""
-    grab = {"rss": fetch_rss, "yt": fetch_youtube, "queue": fetch_queue}[source["kind"]]
+    grab = {"rss": fetch_rss, "yt": fetch_youtube, "queue": fetch_queue, "sitemap": fetch_sitemap}[source["kind"]]
     return grab(source, seen)
 
 
