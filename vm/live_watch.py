@@ -111,7 +111,7 @@ def transcribe_and_push(audio_path, video_id, title, link, when):
     print(f"[live] {_ts()} {title} pushed.", flush=True)
 
 
-RECOVER_PER_START = 2  # a 3h show is a lot of Groq audio quota: catch up gradually
+RECOVER_PER_START = 1  # a 3h show is a lot of Groq audio quota: catch up gradually
 
 
 def video_title(video_id):
@@ -148,7 +148,9 @@ def main():
     print(f"[live] {_ts()} === SESSION START pid={os.getpid()} === "
           f"watching {CHANNEL_HANDLE} ({cid}), polling every {POLL_SECONDS}s",
           flush=True)
-    recover()
+    if "--recover" in sys.argv:  # separate process: hours of Whisper must not block the live watch
+        recover()
+        return
     archive = load_archive()
     empty_polls = 0
     while True:
