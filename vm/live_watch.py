@@ -84,20 +84,52 @@ def handle_live(item):
     # Real extension, not a forced .opus: format 140 (this channel's bestaudio)
     # is m4a, and naming it .opus made yt-dlp insert an extra FixupM4a remux
     # before the live-concat FixupDuplicateMoov one - one less thing to fail.
-    subprocess.run([
+    # no check=True: after a 3h download yt-dlp often exits 1 (a skipped fragment, a
+    # moov fixup) even though the audio file is complete, and that used to throw
+    # the whole show away. If the file is there, use it.
+    result = subprocess.run([
         "yt-dlp", "--no-part", "--live-from-start",
         "-f", "bestaudio/best", "-o", str(out_template), link,
-    ], check=True)
-    audio_path = next(PENDING_DIR.glob(f"{video_id}.*"))
+    ])
+    audio_path = next(PENDING_DIR.glob(f"{video_id}.*"), None)
+    if audio_path is None:
+        raise RuntimeError(f"yt-dlp exit {result.returncode}, no audio for {video_id}")
+    if result.returncode:
+        print(f"[live] {_ts()} yt-dlp exit {result.returncode}, audio present: using it",
+              flush=True)
 
+    transcribe_and_push(audio_path, video_id, title, link,
+                        datetime.now(timezone.utc))
+
+
+def transcribe_and_push(audio_path, video_id, title, link, when):
     print(f"[live] {_ts()} {title} download done, transcribing...", flush=True)
     text = transcribe(audio_path)
-
-    push_transcript(QUEUE_DIR, video_id, title, link,
-                     datetime.now(timezone.utc).isoformat(), text)
+    push_transcript(QUEUE_DIR, video_id, title, link, when.isoformat(), text)
     mark_done(video_id)
     audio_path.unlink()
     print(f"[live] {_ts()} {title} pushed.", flush=True)
+
+
+RECOVER_PER_START = 2  # a 3h show is a lot of Groq audio quota: catch up gradually
+
+
+def recover():
+    """Transcribe audio left in pending/ by an earlier run that died after the download."""
+    done = load_archive()
+    left = sorted((p for p in PENDING_DIR.glob("*.m4a") if p.stem not in done),
+                  key=lambda p: p.stat().st_mtime, reverse=True)
+    for path in left[:RECOVER_PER_START]:
+        vid = path.stem
+        link = f"https://www.youtube.com/watch?v={vid}"
+        try:
+            title = subprocess.run(["yt-dlp", "--print", "title", link], capture_output=True,
+                                   text=True, check=True).stdout.strip() or vid
+            transcribe_and_push(path, vid, title, link,
+                                datetime.fromtimestamp(path.stat().st_mtime, timezone.utc))
+        except Exception:
+            print(f"[live] {_ts()} recovery of {vid} failed:", flush=True)
+            traceback.print_exc()
 
 
 def main():
@@ -106,6 +138,7 @@ def main():
     print(f"[live] {_ts()} === SESSION START pid={os.getpid()} === "
           f"watching {CHANNEL_HANDLE} ({cid}), polling every {POLL_SECONDS}s",
           flush=True)
+    recover()
     archive = load_archive()
     empty_polls = 0
     while True:
