@@ -114,6 +114,18 @@ def transcribe_and_push(audio_path, video_id, title, link, when):
 RECOVER_PER_START = 2  # a 3h show is a lot of Groq audio quota: catch up gradually
 
 
+def video_title(video_id):
+    """Title from the Data API: yt-dlp refuses members-only videos, the API does not."""
+    q = urllib.parse.urlencode({"part": "snippet", "id": video_id,
+                                "key": os.environ["YOUTUBE_API_KEY"]})
+    try:
+        with urllib.request.urlopen(f"https://www.googleapis.com/youtube/v3/videos?{q}",
+                                    timeout=20) as r:
+            return json.load(r)["items"][0]["snippet"]["title"]
+    except Exception:
+        return video_id
+
+
 def recover():
     """Transcribe audio left in pending/ by an earlier run that died after the download."""
     done = load_archive()
@@ -123,9 +135,7 @@ def recover():
         vid = path.stem
         link = f"https://www.youtube.com/watch?v={vid}"
         try:
-            title = subprocess.run(["yt-dlp", "--print", "title", link], capture_output=True,
-                                   text=True, check=True).stdout.strip() or vid
-            transcribe_and_push(path, vid, title, link,
+            transcribe_and_push(path, vid, video_title(vid), link,
                                 datetime.fromtimestamp(path.stat().st_mtime, timezone.utc))
         except Exception:
             print(f"[live] {_ts()} recovery of {vid} failed:", flush=True)
