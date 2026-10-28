@@ -26,7 +26,7 @@ MAX_NEW_PER_RUN = 3  # mirrors ingest.py's own per-source fetch limits
 SCAN = 8  # how many recent uploads to check per channel before giving up
 
 
-def recent_videos(handle):
+def recent_videos(handle, tab="videos", scan=SCAN):
     """List a channel's most recent uploads - just id and link, nothing downloaded.
 
     --flat-playlist is a lightweight listing: it reliably has id/webpage_url
@@ -34,9 +34,9 @@ def recent_videos(handle):
     for real below, at download time, from the single-video extraction.
     """
     result = subprocess.run([
-        "yt-dlp", "--flat-playlist", "--playlist-end", str(SCAN),
+        "yt-dlp", "--flat-playlist", "--playlist-end", str(scan),
         "--print", "%(id)s\t%(webpage_url)s",
-        f"https://www.youtube.com/{handle}/videos",
+        f"https://www.youtube.com/{handle}/{tab}",
     ], check=True, capture_output=True, text=True)
     for line in result.stdout.splitlines():
         video_id, link = line.split("\t")
@@ -59,13 +59,14 @@ def download_audio(link, out_dir):
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
     for ch in CHANNELS:
-        done_path = STATE / f"vod_{ch['handle'].lstrip('@')}.done"
+        tab = ch.get("tab", "videos")  # "streams" for channels whose content is live shows
+        done_path = STATE / f"vod_{ch['handle'].lstrip('@')}{'' if tab == 'videos' else '_' + tab}.done"
         done = set(done_path.read_text().split()) if done_path.exists() else set()
         print(f"[vod] checking {ch['name']}...", flush=True)
 
         new_count = 0
-        for video_id, link in recent_videos(ch["handle"]):
-            if new_count >= MAX_NEW_PER_RUN:
+        for video_id, link in recent_videos(ch["handle"], tab, ch.get("scan", SCAN)):
+            if new_count >= ch.get("max_new", MAX_NEW_PER_RUN):
                 break
             if video_id in done:
                 continue

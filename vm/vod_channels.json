@@ -1,7 +1,10 @@
 [
  {
-  "name": "Cronache di Spogliatoio",
+  "name": "Cronache di Spogliatoio (dirette)",
   "handle": "@cronachedispogliatoio",
+  "tab": "streams",
+  "scan": 2,
+  "max_new": 1,
   "queue_dir": "yt_transcripts/cronache",
   "lang": "it"
  },
