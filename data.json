@@ -1,6 +1,114 @@
 {
- "generated_at": "2026-10-28T16:55:18.812982+00:00",
+ "generated_at": "2026-10-29T08:10:43.550183+00:00",
  "items": [
+  {
+   "title": "La truffa del falso CAPTCHA: come funziona il malware ClickFix",
+   "subtitle": "Analisi della tecnica ClickFix che sfrutta falsi CAPTCHA e comandi di sistema per installare malware.",
+   "original_title": "La truffa del falso CAPTCHA: come capire se la verifica “Non sono un robot” nasconde un malware",
+   "link": "https://www.geopop.it/la-truffa-del-falso-captcha-come-capire-se-la-verifica-non-sono-un-robot-nasconde-un-malware/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "I criminali informatici sfruttano falsi widget CAPTCHA per indurre gli utenti a eseguire comandi di sistema tramite tecniche di ingegneria sociale. Conosciuta come ClickFix, la truffa spinge a copiare e incollare istruzioni dannose in strumenti come PowerShell o il Terminale di macOS, eludendo i controlli di sicurezza tradizionali.",
+   "bullets": [
+    "La tecnica ClickFix simula schermate di verifica comuni come Google reCAPTCHA o Cloudflare Turnstile su siti compromessi o fraudolenti.",
+    "Il meccanismo chiave richiede all'utente di premere Windows + R, incollare il testo dagli appunti tramite Ctrl + V e premere Invio.",
+    "Il comando nascosto negli appunti avvia PowerShell su Windows o il Terminale su macOS per scaricare ed eseguire malware.",
+    "Il CERT-AGID ha censito circa 70 campagne basate su questa tecnica in Italia nel corso del 2025.",
+    "I controlli CAPTCHA autentici non richiedono mai l'apertura di strumenti del sistema operativo o l'esecuzione di comandi testuali."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-29T08:11:01.554233+00:00",
+   "published_at": "2026-10-29T06:00:45+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
+  {
+   "title": "La Roma e i giovani: qualità e produzione nei dati",
+   "subtitle": "La Roma brilla per qualità e catene laterali, con Soulè e i giovani protagonisti in Serie A",
+   "original_title": "TRACOLLO JUVE, SPALLETTI A RISCHIO? LE FOOT TOUJOURS, SEGUI LA NUOVA PUNTATA!",
+   "link": "https://www.youtube.com/watch?v=Bdl3R_peEP8",
+   "source": "Cronache di Spogliatoio",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "La Roma conferma i suoi 21 punti in nove giornate, mostrando una forte solidità e una qualità superiore rispetto alla scorsa stagione, soprattutto grazie allo sviluppo del gioco sulle catene laterali. Il sistema di Daniele De Rossi, o meglio l'impostazione tattica della squadra, sfrutta i quinti e i sottopunta esterni con un'alta coralità: nel match vinto contro il Cagliari, ad esempio, quasi tutta la rosa ha toccato almeno un pallone in area avversaria. Matias Soulè si conferma un elemento centrale agendo in una sorta di regia defilata sulla destra, zona da cui imposta, crossa e conclude, compensando le assenze e la concorrenza. Un ruolo chiave è giocato anche dai giovani prodotti del settore giovanile, come dimostrano le prestazioni e i gol decisivi dei classe 2004 e 2007, tra cui Pisilli e i contributi a gara in corso. La Roma ha dimostrato di reggere l'emergenza infortuni con alternative valide e un'identità tattica chiara, confermandosi una seria contendente ai piani alti della classifica in un turno di Serie A caratterizzato da molte difficoltà per le big, come il crollo della Juventus a Marassi contro il Genoa e la sconfitta casalinga del Milan contro il Bologna.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-10-29T08:11:33.803972+00:00",
+   "published_at": "2026-10-29T01:12:14.370124+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
+  {
+   "title": "Want to Run Faster on Race Day? Find Out if You’re a Stride Runner or Cadence Runner—Then Fix Your Weak Spot",
+   "subtitle": "Classify running biomechanics into stride or cadence types to tailor training for specific terrain.",
+   "original_title": "Want to Run Faster on Race Day? Find Out if You’re a Stride Runner or Cadence Runner—Then Fix Your Weak Spot",
+   "link": "https://www.runnersworld.com/training/a74260567/running-type-cadence-stride/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Runners generally fall into two biomechanical categories: stride runners, who lengthen their stride as speed increases, and cadence runners, who increase their step frequency. By analyzing wearable data across different paces, runners can identify their dominant style and adapt their training for flat or hilly courses. Rather than forcing a mechanical change, athletes should use this classification to target their weaknesses, such as practicing hill mechanics for stride runners or building flat-terrain efficiency for cadence runners.",
+   "bullets": [
+    "Stride runners maintain a relatively steady cadence and increase speed by lengthening their stride, typically excelling on flat courses.",
+    "Cadence runners increase speed primarily by raising their steps per minute, making them naturally better equipped for hilly terrain.",
+    "To identify your type, compare your cadence on easy runs versus tempo runs or races using wearable data; a cadence shift of 10 to 20 steps per minute suggests a cadence-dominant style.",
+    "Stride runners should incorporate hill-specific workouts focusing on shorter, quicker steps to prepare for undulating courses.",
+    "Cadence runners targeting flat courses should focus on building muscular endurance and efficiency for repetitive movement patterns over long distances."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-10-29T08:12:27.370078+00:00",
+   "published_at": "2026-10-28T19:07:22+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
+  {
+   "title": "Systems Thinking Is Vital in the Age of AI",
+   "subtitle": "How AI shifts the engineering role toward problem framing and cross-disciplinary coordination.",
+   "original_title": "Systems Thinking Is Vital in the Age of AI",
+   "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Integrating artificial intelligence into engineering projects expands the engineer's role from executing individual technical steps to coordinating across specialties and managing human-machine collaboration. While AI handles search, simulation, and pattern recognition, humans must provide context, evaluate constraints, and take ultimate responsibility for safety and design decisions. This shift elevates systems thinking, requiring engineers to properly frame problems, test machine outputs, and know when to involve domain experts.",
+   "bullets": [
+    "AI tools allow engineers to rapidly search research, test design options in simulation, and explore domains outside their core specialty.",
+    "Machine limitations, such as weak assumptions or generating outputs for the wrong goal, make human judgment essential for verifying context, values, and safety.",
+    "Systems thinking enables engineers to understand how parts affect one another, identify failure points, and adapt project scopes as new constraints emerge.",
+    "Engineering value shifts toward problem framing, asking the right questions, and orchestrating knowledge across multiple technical disciplines."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-29T08:10:50.050944+00:00",
+   "published_at": "2026-10-28T18:00:02+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
+  {
+   "title": "Gemini 4 Carbon: Next Frontier Model",
+   "subtitle": "Google announces Gemini 4 Carbon with top benchmark scores and advanced cybersecurity capabilities.",
+   "original_title": "Gemini 4 Carbon: Our next frontier model",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has announced Gemini 4 Carbon, its new frontier AI model optimized for long-horizon agentic workflows and cybersecurity defense. The model ranks #1 on the Artificial Analysis Intelligence Index and demonstrates major gains in vulnerability detection, exploitation, and root-cause patching. Pricing is set at $2 per million input tokens and $10 per million output tokens.",
+   "bullets": [
+    "Ranks #1 on the v5.0 Artificial Analysis Intelligence Index with an index score of 59.",
+    "Achieves top benchmark scores including 88.2% on SEC-bench Pro, 54.8% on ExploitGym, and 71.0% on CWE-bench.",
+    "Priced at $2 per million input tokens and $10 per million output tokens, with cached input tokens discounted by 95%.",
+    "Designed for sustained multi-step engineering tasks, capable of running for days to debug and patch large codebases.",
+    "Achieves a 0.0% attack success rate on Gray Swan's Indirect Prompt Injection Benchmark and reduces high-severity internal misalignment alerts by nearly 80%."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-29T08:11:21.030309+00:00",
+   "published_at": "2026-10-28T17:00:58+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
   {
    "title": "Evaluated Running Leggings for Storage and Fit",
    "subtitle": "Evaluated running leggings tested for pocket utility, fabric stretch, and waist comfort.",
@@ -139,6 +247,30 @@
    "batch_at": "2026-10-28T16:32:28.681563+00:00"
   },
   {
+   "title": "OpenAI and ServiceNow Expand Partnership for Enterprise Workflows",
+   "subtitle": "Integration brings OpenAI models and Codex into ServiceNow workflows, security, and development.",
+   "original_title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI and ServiceNow are expanding their partnership to integrate OpenAI models and agents into ServiceNow enterprise workflows. The collaboration introduces a ChatGPT integration that retains business context, a Codex integration for application development, and joint cybersecurity capabilities. Additionally, ServiceNow is rolling out ChatGPT Work and Codex access internally while adopting ServiceNow workflows for OpenAI operations.",
+   "bullets": [
+    "A new ServiceNow integration allows teams to investigate issues, check change risks, and update records directly inside ChatGPT.",
+    "ServiceNow’s Action Fabric enforces existing business rules and permissions when ChatGPT connects to a customer instance.",
+    "A planned Codex integration in the AI Workflow Factory will assist developers with application building and modernization.",
+    "A joint security solution combines OpenAI cybersecurity tools with ServiceNow asset and identity context for vulnerability management.",
+    "The Super Intelligence Control Tower will feature a voice-powered capability to populate assessment fields by describing AI use cases aloud.",
+    "ServiceNow is providing all employees with access to ChatGPT Work and Codex, with specialized engineering use cases for codebases and testing."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-29T08:11:08.387910+00:00",
+   "published_at": "2026-10-28T13:15:00+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
+  },
+  {
    "title": "Beta Technologies' Electric Aircraft and Charging Ecosystem",
    "subtitle": "How Beta Technologies builds electric airplanes, modular batteries, and an open charging network.",
    "original_title": "How Beta Technologies Is Clearing the Runway for Electric Flight",
@@ -182,6 +314,29 @@
    "seen_at": "2026-10-28T16:38:11.401496+00:00",
    "published_at": "2026-10-28T11:31:40+00:00",
    "batch_at": "2026-10-28T16:32:28.681563+00:00"
+  },
+  {
+   "title": "The Future of the Firm: AI's Integration into Organizational Charts",
+   "subtitle": "Analysis of three scenarios for how AI enters corporate structures and workforce dynamics",
+   "original_title": "The future of the firm",
+   "link": "https://openai.com/index/the-future-of-the-firm",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This essay explores how artificial intelligence will integrate into corporate hierarchies, categorizing the shift into three distinct structural scenarios: beneath workers as managed labor, beside workers as colleagues, and between workers as executive advisors and monitors. The authors analyze the implications for management, firm size, worker autonomy, and wage disparity in an AGI-driven economy.",
+   "bullets": [
+    "AI can enter organizations beneath individual contributors as managed agent workforces, effectively promoting everyone to management and automating past tasks while expanding overall ambition and output.",
+    "AI can integrate beside human workers as a peer or colleague managed by existing executives, requiring models with broad, end-to-end operational capabilities to handle diverse multi-task scopes.",
+    "AI can sit between management and staff as an intelligent consultant and monitor, parsing communications and tracking real progress to reduce friction and potentially enable more flexible hybrid work arrangements.",
+    "Declining prototyping and building costs driven by AI lower the traditional barriers of heavy planning and sign-off committees, shifting corporate execution toward rapid iteration and trial.",
+    "Intelligent monitoring systems can replace crude activity metrics (like mouse wiggles or status dots) with genuine progress evaluation, increasing management trust and worker autonomy."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-10-29T08:11:14.315066+00:00",
+   "published_at": "2026-10-28T10:00:00+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
   },
   {
    "title": "Legora's Agentic Legal AI Platform",
@@ -295,6 +450,23 @@
    "seen_at": "2026-10-28T10:29:45.084053+00:00",
    "published_at": "2026-10-28T07:02:25+00:00",
    "batch_at": "2026-10-28T10:27:45.366174+00:00"
+  },
+  {
+   "title": "La Roma tiene il passo delle battistrada",
+   "subtitle": "Gaspertini ridisegna la Roma, la Lazio vola e il Como stupisce",
+   "original_title": "La LAZIO è una squadra FELICE. Nel MILAN si vede qualcosa, la JUVE deve resistere | Elastici",
+   "link": "https://www.youtube.com/watch?v=CHn-bS-MYXU",
+   "source": "Cronache di Spogliatoio",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "La Roma batte il Cagliari per 2-2 in una partita intensa dove Gian Piero Gasperini ricorre a mosse tattiche decisive, inserendo Ghilardi al posto di Mancini e sfruttando la spinta delle catene laterali. Il 90% degli attacchi giallorossi si è sviluppato sulle fasce, evidenziando un modello di gioco verticale e basato sul recupero alto. Tra i protagonisti spiccano i giovani della cantera come Pisilli, autore di un gol e di un assist insieme a Lulli, e il contributo di Matias Soulè e Koné. Nel resto della Serie A, la Lazio di Gattuso continua la sua marcia impressionante superando il Sassuolo per 6-2 e portandosi a 25 punti su 27, trascinata da un asse formidabile tra Zaccagni e Isaksen e dal lavoro oscuro ma fondamentale di Noslin in pressione. La squadra biancoceleste mostra una forte identità tattica e una riconoscibilità immediata dei reparti. Dall'altra parte, il Como di Cesc Fàbregas conferma di essere la vera rivelazione del campionato ribaltando il Torino in trasferta grazie alla doppietta e alla qualità di Nico Paz, dimostrando una maturità inaspettata nella gestione dei secondi tempi. In chiave scudetto e lotta Champions, la Roma mantiene il passo delle prime della classe, mentre la Juventus e le altre milanesi affrontano la fase autunnale con la necessità di trovare una quadratura stabile nei rispettivi moduli.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-10-29T08:11:41.621506+00:00",
+   "published_at": "2026-10-28T00:55:23.308053+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
   },
   {
    "title": "Il ruolo dell'umano e il controllo dell'intelligenza artificiale",
@@ -798,6 +970,23 @@
    "seen_at": "2026-10-27T09:43:32.024204+00:00",
    "published_at": "2026-10-27T06:25:06+00:00",
    "batch_at": "2026-10-27T09:42:33.977414+00:00"
+  },
+  {
+   "title": "Napoli-Roma e le dinamiche della Serie A",
+   "subtitle": "Analisi di Napoli-Roma, la vittoria del Real nel Clasico e le prestazioni della Roma",
+   "original_title": "KANE vince il PALLONE D'ORO, le idee di ALLEGRI e MOURINHO si prende il CLASICO | Fontana di Trevi",
+   "link": "https://www.youtube.com/watch?v=kaOC_bTn2kw",
+   "source": "Cronache di Spogliatoio",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il pareggio spettacolare tra Napoli e Roma ha messo in luce una Roma determinata, capace di riprendere la partita nei minuti finali grazie a prove di carattere e alla crescita di giocatori centrali come Soulè, autore di un gol straordinario e ormai perno della manovra con Gasperini. La squadra giallonera conferma una solidità di fondo e un'impostazione tattica precisa che le permette di restare agganciata alle posizioni di vertice, confermando l'ottimo avvio di stagione e un'identità di gioco ben definita che sa reagire alle difficoltà. Sponda Napoli, la gestione di Allegri continua a far discutere: dopo settanta minuti giocati con coraggio e un modulo a trazione anteriore, la squadra ha subito il ritorno della Roma, evidenziando limiti strutturali nella gestione dei vantaggi e nella fase difensiva, ulteriormente complicati da un post-partita nervoso culminato nella squalifica del tecnico. Nel resto del campionato, il Torino di Abate sorprende con tre vittorie consecutive e un calcio propositivo che esalta giovani e qualità tecniche, mentre il Milan di Amorim prosegue la sua marcia imbattuto superando l'Udinese con una formazione sperimentale. All'estero, il Real Madrid si aggiudica il Clasico contro il Barcellona sfruttando la concretezza tattica e le difficoltà difensive dei blaugrana, mentre la cerimonia del Pallone d'oro premia Harry Kane per la sua straordinaria regolarità e prolificità stagionale.",
+   "bullets": [],
+   "relevance": 5,
+   "score": 10,
+   "seen_at": "2026-10-29T08:12:06.400007+00:00",
+   "published_at": "2026-10-27T01:11:56.583437+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
   },
   {
    "title": "Setjmp e Longjmp in C: meccanismi, rischi e alternative",
@@ -2520,6 +2709,23 @@
    "seen_at": "2026-10-24T16:34:00.813956+00:00",
    "published_at": "2026-10-23T00:00:00+00:00",
    "batch_at": "2026-10-24T16:30:59.607261+00:00"
+  },
+  {
+   "title": "Analisi tattica della Serie A e della Roma di Gasperini in vista del big match contro il Napoli",
+   "subtitle": "Il punto sulla Roma di Gasperini, le prospettive scudetto e la tenuta della rosa in vista della sfida col Napoli.",
+   "original_title": "ALLEGRI aspetta GASP, il nuovo gioco dell'INTER e il giovedì nero del MILAN | L'ascia raddoppia",
+   "link": "https://www.youtube.com/watch?v=PAYtYs6PObw",
+   "source": "Cronache di Spogliatoio",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "In vista del big match di Serie A tra Napoli e Roma, l'attenzione si concentra sulle ambizioni e sulla solidità della squadra giallorossa guidata da Gian Piero Gasperini. La Roma si presenta all'appuntamento con una forte consapevolezza nei propri mezzi, forte di un'identità di gioco marcata e di una gestione serena che la colloca stabilmente nel gruppo delle grandi del campionato, superando la fase in cui ambiva semplicemente a un piazzamento europeo. Nonostante le difficoltà legate agli infortuni e alla profondità limitata della rosa in alcuni reparti — con il nodo storico legato alla gestione di Paulo Dybala e alla necessità di alternative affidabili in attacco — la squadra mostra una compattezza e un'intensità difensiva notevoli. Gasperini punta su un calcio basato su duelli e aggressività, sebbene l'assenza di rotazioni ampie in mezzo al campo, con elementi come Pisilli e Cristante costretti a un lavoro extra, possa esporre i giallorossi a rischi contro avversari di primissimo piano. Dall'altra parte, il Napoli di Massimiliano Allegri affronta la gara con la necessità di trovare continuità e coraggio, superando la tendenza ad abbassarsi troppo dopo essere passati in vantaggio. Allegri sta cercando di bilanciare le caratteristiche della rosa, dove la convivenza a centrocampo tra Kevin De Bruyne e Scott McTominay rappresenta un tema tattico centrale per garantire sia la costruzione che gli inserimenti in area. La classifica e le prestazioni d'inizio stagione confermano che la Roma, al netto degli infortuni che ne limitano temporaneamente le scelte, ha raggiunto una maturità tale da poter lottare per i vertici, riducendo il divario storico con le altre big del torneo grazie a un progetto tecnico solido e a una continuità di rendimento che fin qui ha premiato il lavoro del tecnico.",
+   "bullets": [],
+   "relevance": 5,
+   "score": 10,
+   "seen_at": "2026-10-29T08:11:58.548419+00:00",
+   "published_at": "2026-10-22T23:50:42.027760+00:00",
+   "batch_at": "2026-10-29T08:10:43.550183+00:00"
   },
   {
    "title": "Turning Database Grading into RL Rewards for Post-Training Agents",
