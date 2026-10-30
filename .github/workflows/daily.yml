@@ -12,6 +12,11 @@ name: daily curation
 on:
   schedule:
     - cron: "4 4 * * *"
+    - cron: "37 7 * * *"  # rete di sicurezza: GitHub salta o ritarda i job schedulati
+  # una trascrizione nuova dalla VM fa partire subito la curation, senza aspettare il cron;
+  # il commit del bot non rilancia il workflow, quindi non c'e' un giro infinito
+  push:
+    paths: ["yt_transcripts/**"]
   workflow_dispatch:
 
 permissions:
