@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-10-30T08:16:37.271385+00:00",
+ "generated_at": "2026-10-30T10:46:39.422594+00:00",
  "items": [
+  {
+   "title": "Superata la Final Review per il rover ETNA",
+   "subtitle": "Il rover italiano per l'esplorazione spaziale supera i test sui pendii dell'Etna.",
+   "original_title": "Rover ETNA, superata la Final Review del programma ULS",
+   "link": "https://www.asi.it/2026/10/rover-etna-superata-la-final-review-del-programma-uls/",
+   "source": "Agenzia Spaziale Italiana",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il rover ETNA del programma Universal Locomotion System ha superato la Final Review dell'Agenzia Spaziale Italiana. Sviluppato da un consorzio industriale e scientifico, il veicolo ha completato i test di locomozione autonoma su terreni vulcanici complessi.",
+   "bullets": [
+    "Il programma ULS è finanziato dall'Agenzia Spaziale Italiana per sviluppare tecnologie di esplorazione robotica.",
+    "Il consorzio è guidato da Thales Alenia Space Italia con Leonardo, ALTEC, AIKO, Volta Structural Energy, IIT e Politecnico di Torino.",
+    "ETNA è una piattaforma mobile polivalente progettata per la guida autonoma e il trasporto di carichi utili in ambienti estremi.",
+    "I test sull'Etna hanno validato l'affidabilità dei sistemi di locomozione replicando le condizioni del suolo lunare."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-30T10:47:07.830677+00:00",
+   "published_at": "2026-10-30T09:18:39+00:00",
+   "batch_at": "2026-10-30T10:46:39.422594+00:00"
+  },
   {
    "title": "Il punto esatto. Glossario.",
    "subtitle": "Un'analisi strutturata della storia, della crescita e dei numeri degli insediamenti in Cisgiordania.",
@@ -64,6 +86,29 @@
    "seen_at": "2026-10-30T08:17:25.418402+00:00",
    "published_at": "2026-10-30T01:28:03.022293+00:00",
    "batch_at": "2026-10-30T08:16:37.271385+00:00"
+  },
+  {
+   "title": "L'incursione televisiva di Max Headroom nel 1987",
+   "subtitle": "Analisi tecnica e culturale del celebre dirottamento televisivo di Chicago.",
+   "original_title": "L&#39;Uomo Che Ha Rubato La Tv",
+   "link": "https://thedarksalad.it/articoli/luomo-che-ha-rubato-la-tv/",
+   "source": "The Dark Salad",
+   "category": "mondo",
+   "kind": "sitemap",
+   "lang": "it",
+   "summary": "Il 22 novembre 1987, un individuo mascherato ha interrotto i segnali di due emittenti televisive a Chicago, WGN e WTTW, trasmettendo un minuto e mezzo di performance bizzarra e anomala. L'azione, eseguita senza alcuna richiesta o fine promozionale, rimane ancora oggi irrisolta e priva di rivendicazioni.",
+   "bullets": [
+    "Il primo tentativo di dirottamento ha colpito l'emittente WGN durante il telegiornale sportivo ed è durato pochi secondi.",
+    "Il secondo attacco, avvenuto sulla WTTW durante la messa in onda di Doctor Who, ha permesso all'intruso di trasmettere indisturbato per circa novanta secondi.",
+    "L'autore indossava una maschera di plastica di Max Headroom, un personaggio televisivo digitale interpretato originariamente dall'attore Matt Frewer.",
+    "L'intrusione ha richiesto attrezzature specifiche e competenze tecniche avanzate per sovrascrivere il segnale di trasmissione dell'epoca.",
+    "Nonostante le indagini della Federal Communications Commission, i responsabili non sono mai stati identificati e il gesto è rimasto privo di qualsiasi scopo commerciale o politico."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-10-30T10:48:21.052746+00:00",
+   "published_at": "2026-10-30T00:00:00+00:00",
+   "batch_at": "2026-10-30T10:46:39.422594+00:00"
   },
   {
    "title": "Using a Three-Category Feedback System to Track Running Performance",
@@ -6483,206 +6528,6 @@
    "batch_at": "2026-10-16T16:31:40.451655+00:00"
   },
   {
-   "title": "Progetto EXPERT: al via la scuola di telerilevamento iperspettrale",
-   "subtitle": "La formazione internazionale su immagini satellitari iperspettrali PRISMA ed EnMAP",
-   "original_title": "A scuola di telerilevamento iperspettrale nell’ambito del progetto Horizon Europe EXPERT",
-   "link": "https://www.asi.it/2026/10/a-scuola-di-telerilevamento-iperspettrale-nellambito-del-progetto-horizon-europe-expert/",
-   "source": "Agenzia Spaziale Italiana",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Si sta svolgendo la Scuola Autunnale Iperspettrale nell'ambito del progetto Horizon Europe EXPERT, organizzata da ROSA con ASI e DLR. Trenta partecipanti selezionati affrontano l'intera filiera sperimentale e analitica, dall'acquisizione dei dati satellitari alla validazione a terra, utilizzando missioni come PRISMA ed EnMAP.",
-   "bullets": [
-    "Coinvolti 30 ricercatori e professionisti provenienti da istituzioni e aziende di vari paesi europei tra cui Italia, Romania e Bulgaria.",
-    "Il programma integra lezioni frontali, esercitazioni pratiche e una giornata dedicata a misure spettroscopiche di campo.",
-    "Utilizzo di dati da missioni satellitari passate come Hyperion e attuali come PRISMA (ASI) ed EnMAP (DLR).",
-    "Presentazione di HyperCoreg, una pipeline automatizzata per la coregistrazione geometrica di immagini iperspettrali rispetto a Sentinel-2."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-16T08:57:14.130853+00:00",
-   "published_at": "2026-10-16T08:11:09+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Il momento chiave della Roma e l'analisi degli errori difensivi",
-   "subtitle": "Analisi dei problemi tattici sui calci d'angolo e la gestione della crisi dopo la Champions.",
-   "original_title": "Roma, il momento chiave",
-   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/10/16-151928934/roma_il_momento_chiave/",
-   "source": "Corriere dello Sport",
-   "category": "calcio",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La Roma deve analizzare i gravi errori difensivi emersi in Champions League contro il Real Madrid, in particolare la gestione dei calci d'angolo avversari. Per Gian Piero Gasperini il compito principale consiste nel riordinare la tenuta mentale della squadra in vista della sfida contro il Genoa, superando le difficoltà legate anche alle assenze in rosa.",
-   "bullets": [
-    "Necessità di analizzare gli errori commessi contro il Real Madrid anziché rimuoverli.",
-    "Criticità tattica sui calci d'angolo avversari, dove la squadra ha subito tre gol consecutivi nello stesso modo.",
-    "Lavoro incentrato sulla tenuta mentale dei giocatori da parte di Gian Piero Gasperini.",
-    "Gestione delle assenze importanti in rosa, tra cui quella di Malen, in vista della prossima partita di campionato contro il Genoa."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-10-16T08:57:27.156101+00:00",
-   "published_at": "2026-10-16T07:50:07+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Goodbye Marco e il capitolo finale sulla complessità di Milano",
-   "subtitle": "Marco Pitrelli chiude la trilogia con un disco di sedici tracce sul rapporto conflittuale con la città.",
-   "original_title": "Goodbye Marco chiude il cerchio: tre capitoli per raccontare tutto quello che Milano lascia addosso",
-   "link": "https://www.ilrappuso.com/goodbye-marco-chiude-il-cerchio-tre-capitoli-per-raccontare-tutto-quello-che-milano-lascia-addosso/",
-   "source": "Il Rappuso",
-   "category": "musica",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Goodbye Marco, al secolo Marco Pitrelli, pubblica il nuovo album MILANO, S***O e FANTASMI, chiudendo una trilogia incentrata sul rapporto ambivalente con il contesto urbano milanese. Il disco esplora le contraddizioni di una generazione divisa tra ambizioni e disillusioni, unendo la scrittura introspettiva alle radici nella cultura hip hop.",
-   "bullets": [
-    "L'album raccoglie sedici tracce che uniscono passato, relazioni contemporanee e il legame complesso con Milano.",
-    "Il progetto vede le collaborazioni ai microfoni di Not Good, Haru, Due Baci, Fè, Onnah e Yuma.",
-    "Le produzioni musicali sono curate da Haru, Chris e mmw.",
-    "Il percorso artistico dell'autore affonda le radici nella cultura hip hop delle periferie milanesi e nell'esperienza di conduttore a Deejay TV."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-10-16T08:59:56.984898+00:00",
-   "published_at": "2026-10-16T07:48:31+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Un lavoro da masochisti e libertini. Intervista a Renata Colorni",
-   "subtitle": "Renata Colorni racconta il mestiere del traduttore e la direzione dei Meridiani.",
-   "original_title": "Un lavoro da masochisti e libertini. Intervista a Renata Colorni",
-   "link": "https://lucysullacultura.com/un-lavoro-da-masochisti-e-libertini-intervista-a-renata-colorni/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Renata Colorni ripercorre la sua lunga carriera editoriale, dalla traduzione seminale delle opere di Freud e di Thomas Bernhard fino alla direzione della collana I Meridiani di Mondadori. L'intervista analizza il complesso rapporto tra traduttore e autore, l'invenzione stilistica necessaria per trasportare una voce straniera nella lingua d'arrivo e il dietro le quinte della grande editoria italiana del Novecento.",
-   "bullets": [
-    "La traduzione di Freud per Boringhieri ha segnato l'inizio della sua carriera, imponendosi per il valore letterario e ridefinendo categorie linguistiche quotidiane.",
-    "Il traduttore è definito come una figura perversa e masochista, uno scrittore mancato che deve farsi voce di un grande autore senza sovrapporre il proprio narcisismo.",
-    "La traduzione di Bernhard ha richiesto di inventare una sintassi e un ritmo inediti in italiano, trattando il testo letterario alla stregua di una partitura musicale.",
-    "La gestione dei Meridiani Mondadori ha ampliato il canone letterario inserendo poeti contemporanei e autori precedentemente snobbati dalla critica dogmatica.",
-    "Il lavoro su Thomas Mann per la nuova edizione de La montagna magica ha richiesto tre anni di dedizione totale e costante revisione ritmica e verbale."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-16T08:59:33.030273+00:00",
-   "published_at": "2026-10-16T07:32:40+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Il ritorno di F.U.E.L. tra funk, rap e retrofuturismo",
-   "subtitle": "Analisi del ritorno del progetto di Capstan e Muttofunk con Space Program 45.",
-   "original_title": "F.U.E.L. torna nello spazio 16 anni dopo: il futuro immaginato da Capstan e Muttofunk ha ancora qualcosa da raccontare",
-   "link": "https://www.ilrappuso.com/f-u-e-l-torna-nello-spazio-16-anni-dopo-il-futuro-immaginato-da-capstan-e-muttofunk-ha-ancora-qualcosa-da-raccontare/",
-   "source": "Il Rappuso",
-   "category": "musica",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Sedici anni dopo il debutto, Capstan e Muttofunk riattivano la sigla F.U.E.L. con il disco Space Program 45. Il lavoro fonde rap, funk ed elettronica, rifiutando la logica del singolo isolato per costruire un universo sonoro coerente e curato anche nei dettagli tecnici di mix e mastering.",
-   "bullets": [
-    "Il progetto mescola rap, funk, elettronica e fantascienza con un'estetica retrofuturista.",
-    "Le produzioni di Muttofunk e le parti vocali di Capstan sono integrate strutturalmente anziché sovrapposte.",
-    "La rete di collaboratori include DJ Zeta, Snapcat, Lord One, DJ Maroder e Sebastiano De Gaspari.",
-    "Il mix è curato da Manny Mani e il mastering da Bassi Maestro, con stampa su vinile per Mother Tongue Records."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-10-16T09:00:10.213281+00:00",
-   "published_at": "2026-10-16T07:30:03+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Anomalie nella rete ENAV riducono il traffico aereo in Italia",
-   "subtitle": "Un guasto alla rete dati riduce del 50% il traffico aereo nazionale, escluso l'attacco hacker.",
-   "original_title": "Perché il traffico aereo è ridotto in tutta Italia: l’ENAV smentisce attacco hacker alla rete dati",
-   "link": "https://www.geopop.it/perche-il-traffico-aereo-e-ridotto-in-tutta-italia-lenav-smentisce-attacco-hacker-alla-rete-dati/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Un'anomalia nella rete geografica di trasmissione dati dell'ENAV ha causato una riduzione del 50% della capacità di gestione del traffico aereo in tutta Italia. L'ente ha escluso cause dolose o attacchi hacker, attivando misure di regolazione dei flussi per preservare la sicurezza e causando ritardi e cancellazioni nei principali aeroporti.",
-   "bullets": [
-    "Riscontrate anomalie sulla rete geografica di trasmissione dati a supporto del controllo del traffico aereo nazionale.",
-    "La capacità di gestione del traffico è stata ridotta di circa il 50% dopo le ore 06:00.",
-    "L'ENAV ha escluso esplicitamente qualsiasi attività malevole o attacco hacker contro i sistemi.",
-    "Attivati i sistemi di contingency per mantenere la sicurezza delle operazioni nello spazio aereo.",
-    "Registrati ritardi di almeno 180 minuti e cancellazioni nei principali scali come Malpensa, Fiumicino e Orio al Serio."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-16T08:55:08.881180+00:00",
-   "published_at": "2026-10-16T07:25:16+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Fino a che punto possiamo cambiare la nostra vita? Victor Hugo e Francis Scott Fitzgerald",
-   "subtitle": "Confronto tra Jean Valjean e Jay Gatsby sul desiderio di cambiare destino.",
-   "original_title": "Fino a che punto possiamo cambiare la nostra vita? Victor Hugo e Francis Scott Fitzgerald danno due risposte diverse",
-   "link": "https://lucysullacultura.com/fino-a-che-punto-possiamo-cambiare-la-nostra-vita-victor-hugo-e-francis-scott-fitzgerald-danno-due-risposte-diverse/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Il podcast analizza la possibilità e il prezzo della reinvenzione personale attraverso due figure letterarie emblematiche: Jean Valjean ne I miserabili e Jay Gatsby ne Il grande Gatsby. Entrambi i personaggi incarnano il tentativo di opporsi alle regole del destino e al proprio passato, sebbene in contesti e con esiti differenti.",
-   "bullets": [
-    "Jean Valjean e Jay Gatsby rappresentano due diverse risposte letterarie al desiderio radicale di cambiare identità.",
-    "Il contesto storico e culturale influenza profondamente la percezione della mobilità sociale e personale.",
-    "L'illusione contemporanea di essere gli unici artefici della propria vita si scontra con il prezzo reale della reinvenzione."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-10-16T08:59:41.619708+00:00",
-   "published_at": "2026-10-16T06:30:00+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Gasperini cambia la Roma: Lulli titolare al posto di Molina",
-   "subtitle": "Gasperini schiera Lulli titolare a destra contro il Genoa e sposta Wesley a sinistra.",
-   "original_title": "Gasperini cambia la Roma: Lulli titolare al posto di Molina",
-   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/10/16-151927399/gasperini_cambia_la_roma_lulli_titolare_al_posto_di_molina/",
-   "source": "Corriere dello Sport",
-   "category": "calcio",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "In vista della partita di campionato contro il Genoa, l'allenatore della Roma Gasperini ha deciso di ridisegnare gli esterni. Lulli rientra nell'undici titolare sulla fascia destra, prendendo il posto di Molina dopo tre panchine consecutive. Questa mossa comporta anche lo spostamento di Wesley sulla corsia di sinistra.",
-   "bullets": [
-    "Lulli torna titolare dopo le tre panchine consecutive contro Inter, Como e Real Madrid.",
-    "La scelta tecnica esclude Molina dall'undici di partenza per la sfida contro il Genoa.",
-    "Wesley viene spostato sulla fascia sinistra dopo la buona prestazione offerta in coppa contro il Real Madrid.",
-    "La modifica tattica punta a garantire maggiore freschezza e intensità alla squadra dopo la delusione europea."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-10-16T08:57:34.977193+00:00",
-   "published_at": "2026-10-16T06:16:08+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-   "subtitle": "Learn how NVIDIA and AI4Bharat generated 2.8T Indic tokens using a multi-stage synthetic pipeline.",
-   "original_title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-   "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "NVIDIA and AI4Bharat released a 2.8 trillion token pretraining corpus covering 22 Indian languages, accompanied by an open, GPU-accelerated data generation pipeline. The workflow leverages Gemma-4-31B-it and NeMo Data Designer to translate, assess, and repair English source documents into native-script and romanized Indic formats while preserving technical content like code and equations. Continued pretraining of Nemotron 3.5 Super VL using a mixture of this synthetic data and natural text yielded consistent performance gains across reasoning, knowledge, and math benchmarks.",
-   "bullets": [
-    "Corpus contains 2.8 trillion tokens (2,601 billion native-script and 224.6 billion romanized) across 22 constitutional languages of India.",
-    "Pipeline uses NeMo Data Designer and Gemma-4-31B-it to execute document-level translation, MQM-inspired quality assessment (threshold >= 75/100), and automated feedback-based repair.",
-    "A separate ten-language workflow utilizes Bodhan AI's Indic Translate and specialized windowing or script conversion for languages like Santali and Manipuri.",
-    "Continued pretraining of Nemotron 3.5 Super VL with a 10 billion token Indic subset (10% of training budget) improved scores across MILU, MMLU-Pro, ARC, and GSM8K benchmarks.",
-    "The open-source pipeline includes prompts, LLM workflows, and source-ID tracking, enabling developers to audit data provenance and adapt the recipe to custom domains."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-16T08:56:04.035659+00:00",
-   "published_at": "2026-10-16T01:44:47+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
    "title": "Come la deplezione follicolare guida i sintomi biochimici della menopausa",
    "subtitle": "I meccanismi ormonali dietro vampate, calo di estrogeni e regolazione della temperatura.",
    "original_title": "Cos'è la menopausa e perché si verificano le vampate di calore: vediamo cosa accade al corpo",
@@ -6888,77 +6733,6 @@
    "batch_at": "2026-10-17T16:30:44.949971+00:00"
   },
   {
-   "title": "Granite Switch 4.1",
-   "subtitle": "Combining chat, decision-making, and ASR into a single VRAM footprint via cache-efficient aLoRAs",
-   "original_title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-   "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Granite Switch 4.1 introduces 8B and 30B models combining general-purpose decision aLoRAs, Guardian safety aLoRAs, and the Granite-Speech-5.0-Turbo-CTC ASR encoder into a single endpoint. The architecture utilizes cache-efficient Activated LoRAs (aLoRAs) that share the base model's KV cache, enabling fast switching between chat, decision-making, and speech transcription without incurring additional VRAM costs.",
-   "bullets": [
-    "Releases Granite-Switch-4.1-8B and -30B configurations featuring a general Decision aLoRA, a Guardian safety aLoRA, and an embedded ASR model.",
-    "Multiple adapters share the base model's KV cache, adding capabilities with approximately the same VRAM footprint as the base model alone.",
-    "Outperforms competitors like Jev 1.13 and Microsoft-Decision-1 on safety-related decision tasks while handling multi-step RAG workflows faster.",
-    "Incorporates Granite-Speech-5.0-Turbo-CTC, noted as the fastest ASR model on the OpenASR Leaderboard.",
-    "Supports user composition of custom Switch models by mixing and matching specialized task adapters from Granite Libraries.",
-    "Demonstrated a 3B parameter custom Granite Switch model executing 60 to 100 decisions per second while simultaneously narrating gameplay."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-16T08:56:18.121386+00:00",
-   "published_at": "2026-10-15T20:34:01+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "Bringing GPT-Rosalind to academic research labs",
-   "subtitle": "OpenAI launches the Rosalind Academic Plan for life sciences labs.",
-   "original_title": "Bringing GPT-Rosalind to academic research labs",
-   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "source": "OpenAI",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "OpenAI introduces the Rosalind Academic Plan to provide eligible U.S. academic labs with sponsored access to GPT-Rosalind and frontier models. The plan offers up to 30 Business Standard seats at no cost for 12 months, subject to trusted-access approval and safety verifications. It supports applications in drug and protein design, genomics, and wet-lab assistance without using research data for default model training.",
-   "bullets": [
-    "Eligible labs receive up to 30 Business Standard seats at zero cost for up to 12 months.",
-    "Provides access to GPT-Rosalind and commercially available frontier OpenAI models, excluding API access.",
-    "Research data shared through the plan is not used to train OpenAI models by default.",
-    "Targeted research areas include drug design, therapeutic proteins, peptides, enzymes, and genomics.",
-    "Applicants must undergo institutional verification, identity checks, and trusted-access approval."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-16T08:55:20.283119+00:00",
-   "published_at": "2026-10-15T19:00:00+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
-   "title": "How Alcohol Impacts Running Performance, Sleep, and Recovery",
-   "subtitle": "Learn how alcohol disrupts sleep, hydration, and muscle protein synthesis in runners.",
-   "original_title": "How Much Alcohol Can Runners Drink Without Derailing Training?",
-   "link": "https://www.runnersworld.com/nutrition-weight-loss/a74124193/maximum-alcohol-for-runners/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Alcohol disrupts multiple physiological mechanisms essential for running performance, including REM sleep, liver glycogen storage, and muscle protein synthesis. Even a single drink close to bedtime can impair recovery, while long-term consumption compromises adaptation and training gains.",
-   "bullets": [
-    "Consuming just one drink within an hour of bedtime reduces REM sleep duration and quality, impairing cognitive function and recovery.",
-    "Alcohol acts as a diuretic, generating about 10 milliliters of urine per gram of alcohol consumed, which increases dehydration risks prior to workouts.",
-    "Because the liver prioritizes metabolizing alcohol over other nutrients, consuming it with a meal delays nutrient availability and causes fluctuating blood glucose levels overnight.",
-    "Liver processing of alcohol limits the release of stored glucose (glycogen) needed by muscles for fuel, decreasing energy availability for subsequent workouts.",
-    "Post-exercise alcohol consumption reduces muscle protein synthesis, increases cortisol, and decreases testosterone, hindering long-term muscular repair and growth.",
-    "Experts recommend abstaining from alcohol for two to three days before key workouts or races, or cutting it out entirely during heavy training blocks."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-16T08:58:08.668116+00:00",
-   "published_at": "2026-10-15T18:58:25+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
-  },
-  {
    "title": "Compact Analog Signal Generators for Fast RF Testing",
    "subtitle": "Learn how compact signal generators support RF amplifier and receiver testing tasks.",
    "original_title": "Compact Analog Signal Generators for Fast RF Testing",
@@ -7065,29 +6839,6 @@
    "seen_at": "2026-10-28T10:30:09.682545+00:00",
    "published_at": "2026-10-15T00:00:00+00:00",
    "batch_at": "2026-10-28T10:27:45.366174+00:00"
-  },
-  {
-   "title": "Google Launches Deep Review for Technical Documents",
-   "subtitle": "Learn how Google's agentic AI pipeline provides rigorous technical document and paper verification.",
-   "original_title": "Analyzing technical documents with Deep Review",
-   "link": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-   "source": "Google Research",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Google is publicly launching Deep Review, an agentic AI system designed to verify complex technical documents, legal agreements, and scientific papers. Evolving from the Paper Assistant Tool (PAT) used in major computer science conferences like NeurIPS and ICML, the system uses a multi-stage pipeline to check logical consistency, evaluate mathematical proofs, and ground facts.",
-   "bullets": [
-    "Addressed a massive surge in AI conference submissions, scaling from 23,000 in 2023 to over 74,000 submissions across ICLR, NeurIPS, and ICML.",
-    "Built on a multi-stage agentic pipeline designed to overcome single-prompt LLM token limits and context loss.",
-    "Tested extensively across 16,000+ submissions in flagship computer science venues including STOC, ICML, NeurIPS, and ICLR.",
-    "Integrated with Gemini 4 Argon to provide deeper technical feedback and consistency checks.",
-    "Introduced the Teamwork Deep Document Review Pattern for multi-agent hierarchical evaluations with self-correction."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-16T08:55:30.023141+00:00",
-   "published_at": "2026-10-14T16:14:00+00:00",
-   "batch_at": "2026-10-16T08:54:30.989429+00:00"
   },
   {
    "title": "L'ascesa e la caduta di Andrea Agnelli alla guida della Juventus",
