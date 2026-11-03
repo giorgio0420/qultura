@@ -24,7 +24,7 @@ git add data.json yt_transcripts
 git diff --staged --quiet && (echo nessuna novita & exit /b 0)
 git commit -q -m "data: pc %date%"
 for /l %%i in (1,1,3) do (
-    git pull --rebase -q && git push -q && (echo pubblicato & exit /b 0)
+    git fetch -q origin main && git rebase -X ours -q origin/main && git push -q && (echo pubblicato & exit /b 0)
     git rebase --abort 2>nul
     ping -n 6 127.0.0.1 >nul
 )
