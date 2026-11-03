@@ -1,6 +1,99 @@
 {
- "generated_at": "2026-11-03T11:46:22.658156+00:00",
+ "generated_at": "2026-11-03T15:26:28.720262+00:00",
  "items": [
+  {
+   "title": "The 2026 New York City Marathon Sets All-Time Field and Performance Records",
+   "subtitle": "Results, finisher counts, and professional podium times from the 2026 NYC Marathon.",
+   "original_title": "The 2026 New York City Marathon Was the Largest Marathon in History",
+   "link": "https://www.runnersworld.com/news/a74314598/nyc-marathon-finisher-statistics-2026/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The 2026 New York City Marathon became the largest marathon in history with 61,146 finishers, surpassing the 2026 London Marathon. The event featured notable professional wins, including Andreas Almgren's debut victory in the men's division and Sheila Chepkirui's women's title, alongside historic depth from American runners.",
+   "bullets": [
+    "61,146 runners finished the 2026 race, surpassing the previous record set by London earlier in the year.",
+    "Andreas Almgren won the men's open division in 2:06:01, marking the first time a man won the NYC Marathon in his debut since 2010.",
+    "Sheila Chepkirui won the women's division with a time of 2:24:36.",
+    "Jess McClain finished second among women in 2:24:42, becoming the first American woman on the NYC open podium since 2018.",
+    "Marcel Hug secured his eighth men's wheelchair title in 1:28:14, edging Daniel Romanchuk by one second.",
+    "The event raised over $100 million in charity fundraising with participants representing 153 countries."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-03T15:30:18.936825+00:00",
+   "published_at": "2026-11-03T14:53:28+00:00",
+   "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
+  {
+   "title": "Mastering the Run/Walk Method Using the Magic Mile Test",
+   "subtitle": "Learn how to use a one-mile test to calculate run/walk paces and race targets.",
+   "original_title": "How to Master the Run/Walk Method: Using the Magic Mile",
+   "link": "https://www.runnersworld.com/training/a74108433/run-walk-program-magic-mile/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The Magic Mile method provides a structured way to determine optimal run/walk training and race paces. By timing a flat one-mile test effort and applying specific multipliers, runners can predict target paces for distances ranging from 5Ks to marathons.",
+   "bullets": [
+    "Warm up with 10 minutes of running, four 100-meter strides, and 3 minutes of walking before running a flat one-mile test at a natural, consistent effort.",
+    "Calculate 5K pace by adding 33 seconds to your Magic Mile time.",
+    "Calculate longer race paces using multipliers: 10K (Magic Mile x 1.15), 10 miles (x 1.175), half marathon (x 1.2), and marathon (x 1.3).",
+    "Repeat the Magic Mile test every one to three weeks to update training paces as fitness changes.",
+    "Match predicted paces to specific run/walk ratios, such as running 4 minutes and walking 30 seconds for an 8-minute mile pace."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-03T15:30:41.307131+00:00",
+   "published_at": "2026-11-03T14:30:00+00:00",
+   "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
+  {
+   "title": "Diplomazia spaziale e crescita delle imprese agli Stati Generali della Space Economy",
+   "subtitle": "Il ruolo dell'ASI e della Farnesina per la competitività della filiera spaziale italiana.",
+   "original_title": "Diplomazia spaziale e crescita delle imprese: l’ASI agli Stati Generali della Space Economy",
+   "link": "https://www.asi.it/2026/11/diplomazia-spaziale-e-crescita-delle-imprese-lasi-agli-stati-generali-della-space-economy/",
+   "source": "Agenzia Spaziale Italiana",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'undicesima tappa degli Stati Generali della Space Economy alla Farnesina ha esaminato il ruolo della diplomazia spaziale per l'internazionalizzazione delle imprese italiane. Tra i temi centrali figurano la preparazione della ministeriale ESA a Roma di dicembre, il riorientamento dei programmi lunari e marziani e il supporto alle PMI nel mercato globale.",
+   "bullets": [
+    "La cooperazione spaziale internazionale è stata al centro del dibattito per sostenere l'accesso delle aziende italiane ai mercati esteri.",
+    "A dicembre Roma ospiterà la ministeriale ESA, cruciale per ridefinire i programmi europei di esplorazione lunare e marziana in seguito ai cambiamenti imposti dalla NASA.",
+    "Si lavora per garantire l'autonomia europea nell'accesso allo spazio e per rafforzare la governance multilaterale.",
+    "Particolare attenzione è stata dedicata all'espansione delle infrastrutture e dei servizi spaziali nei mercati di Africa e America Latina.",
+    "Il settore punta a estendere le applicazioni spaziali anche ai settori tradizionali per favorire la nascita di startup innovative."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T15:28:45.634145+00:00",
+   "published_at": "2026-11-03T14:16:13+00:00",
+   "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
+  {
+   "title": "Airbus Detumbler: Passive Magnetic Damping for Decommissioned Satellites",
+   "subtitle": "How a passive magnetic braking device prevents satellite tumbling to enable debris removal.",
+   "original_title": "DETUMBLER: Airbus’ Passive Spin Stabilization Solution",
+   "link": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
+   "source": "SpaceNews",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Airbus has developed the Detumbler, a passive magnetic damping device designed to stabilize dead or decommissioned satellites in low Earth orbit. Weighing approximately 200 grams, the device acts as an induction brake by using permanent magnets and a conductive housing to dissipate kinetic energy through the Earth's magnetic field without requiring electrical power.",
+   "bullets": [
+    "Utilizes permanent magnets so braking torque is proportional to the magnetic field B rather than B², achieving efficiencies orders of magnitude higher than natural eddy currents.",
+    "Operates 100% passively with zero electrical power or attitude-control actuators, functioning reliably after end-of-mission power loss.",
+    "Dissipates accumulated angular momentum from external disturbances like solar radiation pressure, preventing post-mission tumbling.",
+    "Meets ESA Space Safety Program requirements for LEO missions over 500kg, detumbling satellites within weeks to a year depending on mass.",
+    "MDA Space has selected the Detumbler for its MDA AURORA LEO satellite constellation, marking its first commercial large-scale integration."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T15:28:19.708683+00:00",
+   "published_at": "2026-11-03T13:30:00+00:00",
+   "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
   {
    "title": "Attacchi hacker ai sistemi di refrigerazione dei supermercati in Europa e in Italia",
    "subtitle": "Come gli hacker sfruttano vulnerabilità nei sistemi OT e di controllo remoto dei supermercati.",
