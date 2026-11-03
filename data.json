@@ -1,8 +1,30 @@
 {
- "generated_at": "2026-11-03T16:31:46.576769+00:00",
+ "generated_at": "2026-11-03T16:35:04.535758+00:00",
  "items": [
   {
-   "title": "Runner Fatality From Suspected Rhabdomyolysis at NYC Marathon",
+   "title": "Palette: teaching a small model to build decks in your design language",
+   "subtitle": "How a 20B open model uses synthetic data and a code harness to generate slides",
+   "original_title": "Palette: teaching a small model to build decks in your design language",
+   "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Palette fine-tunes a 20B open-weight model to generate structured slide decks using a split designer-coder architecture trained on synthetic data. The system utilizes a programmatic check-and-repair harness to fix layout errors and overlapping elements before delivery.",
+   "bullets": [
+    "Splits deck generation into a designer role that outputs a structured JSON brief and a coder role that writes pptxgenjs JavaScript for each slide in parallel.",
+    "Trains models on synthetic data containing counterfactual reasoning traces to teach underlying design rules rather than static outputs.",
+    "Employs a post-generation harness that checks layout geometry, detects overlaps or overflows, and runs an editor model to safely repair broken slides.",
+    "Ranks second on the three-domain mean of PresentBench, outperforming several larger closed-source systems."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T16:36:01.384427+00:00",
+   "published_at": "2026-11-03T16:35:36+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
+   "title": "Runner Dies from Suspected Rhabdomyolysis at NYC Marathon",
    "subtitle": "A 24-year-old runner suffered a fatal medical emergency from suspected rhabdomyolysis.",
    "original_title": "A 24-Year-Old Runner Died After a Medical Emergency in the Final Miles of the NYC Marathon",
    "link": "https://www.runnersworld.com/news/a74323037/2026-nyc-marathon-runner-death/",
@@ -10,41 +32,19 @@
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "Rachel Apa, a 24-year-old runner, suffered a fatal medical emergency near mile 24 of the New York City Marathon. Spectators and medical staff performed CPR and used a defibrillator before she was transported to Mount Sinai Medical Center. Her father reported that doctors stated the cause of death was rhabdomyolysis triggered by extreme physical exertion, though the official medical examiner investigation remained ongoing.",
+   "summary": "Rachel Apa, a 24-year-old runner participating in the New York City Marathon, suffered a fatal medical emergency near Mile 24 in Central Park. Bystanders and medical staff administered CPR and used a defibrillator before she was transported to Mount Sinai Medical Center, where she passed away. Her father stated the cause was rhabdomyolysis triggered by extreme physical exertion, though the official medical examiner investigation remained ongoing.",
    "bullets": [
     "The medical emergency occurred around 1:30 p.m. near Mile 24 at 85th Street in Central Park.",
-    "Spectators initiated CPR on-site before New York Road Runners medical staff arrived with a defibrillator.",
-    "The runner's father stated that she died from rhabdomyolysis, a condition where damaged muscle tissue breaks down into the bloodstream due to extreme exertion.",
-    "An official cause of death was still pending investigation by the city's medical examiner."
+    "Spectators performed initial CPR before New York Road Runners medical staff arrived with a defibrillator.",
+    "Her father reported the cause of death as rhabdomyolysis, a condition where damaged muscle tissue releases substances into the bloodstream due to extreme exertion.",
+    "The official cause of death was still under investigation by the city's medical examiner.",
+    "This marked the first runner death following a medical incident at the NYC Marathon since 2024."
    ],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-03T16:33:19.830748+00:00",
+   "seen_at": "2026-11-03T16:37:46.367809+00:00",
    "published_at": "2026-11-03T16:31:27+00:00",
-   "batch_at": "2026-11-03T16:31:46.576769+00:00"
-  },
-  {
-   "title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents",
-   "subtitle": "How changing the agent harness moved task completion from 30% to 81%",
-   "original_title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
-   "link": "https://huggingface.co/blog/ibm-research/cuga-harness",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "An evaluation of three agent harnesses (CUGA, Hermes, and Deep Agents) using the exact same open-weight model (GLM-5.3-flash) across 90 AppWorld tasks demonstrates that the harness drastically impacts task completion rates, shifting performance from 30% to 81%. The study highlights IBM's CUGA open-source harness, designed specifically for enterprise workflows with hard runtime policy enforcement rather than reliance on system prompts.",
-   "bullets": [
-    "Changing only the agent harness while keeping the model constant moved task completion rates from 30% to 81% on AppWorld tasks.",
-    "CUGA achieved 20 fully consistent scenarios (SGC), compared to 8 for Hermes and 2 for Deep Agents, using GLM-5.3-flash.",
-    "System prompts are insufficient for governance because models can misread them or be manipulated by prompt injection; CUGA enforces rules at the runtime level.",
-    "CUGA implements four governance layers: Intent Guard, Playbooks, Tool Approval (human-in-the-loop), and Tool Guide with ToolGuard for hard code execution checks.",
-    "CUGA scales from a single agent with local tools to a CugaSupervisor coordinating local and remote agents over A2A."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-03T16:32:48.251747+00:00",
-   "published_at": "2026-11-03T15:57:39+00:00",
-   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
    "title": "The 2026 New York City Marathon Sets All-Time Field and Performance Records",
@@ -141,25 +141,25 @@
   },
   {
    "title": "Gollini a rischio per Manchester United-Roma",
-   "subtitle": "Il portiere si ferma per un problema alla schiena durante la rifinitura.",
+   "subtitle": "Il portiere si è fermato in rifinitura per un problema alla schiena",
    "original_title": "Gollini si ferma durante la rifinitura: &egrave; in dubbio per Manchester United-Roma",
    "link": "https://www.corrieredellosport.it/news/calcio/champions-league/2026/11/03-152345684/gollini_si_ferma_durante_la_rifinitura_in_dubbio_per_manchester_united-roma/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il portiere della Roma Pierluigi Gollini ha interrotto la sessione di rifinitura a Manchester a causa di un problema alla schiena, mettendo a rischio la sua presenza per la sfida di Champions League contro lo United. Con Mile Svilar già infortunato, lo staff tecnico valuta le alternative in extremis tra Vasquez e il giovane De Marzi. La decisione definitiva sulla sua presenza verrà presa a ridosso del match.",
+   "summary": "Pierluigi Gollini ha interrotto la sessione di rifinitura a Manchester a causa di un problema alla schiena, diventando incerto per la partita. Lo staff medico valuterà le sue condizioni nelle prossime ore, mentre la squadra si trova già in emergenza per le assenze di Svilar, Pellegrini, Koné e Dybala. In caso di forfait, sono pronti i sostituti Vasquez e De Marzi.",
    "bullets": [
-    "Pierluigi Gollini si è fermato durante la rifinitura a Manchester per un problema alla schiena.",
-    "Gollini sta sostituendo da metà ottobre l'infortunato Mile Svilar, il cui rientro è previsto dopo la sosta.",
-    "In caso di forfait, le alternative pronte in panchina sono il terzo portiere Vasquez e il giovane De Marzi.",
-    "L'infermeria della Roma registra già le pesanti assenze di Svilar, Pellegrini, Koné e Dybala."
+    "Il portiere Pierluigi Gollini ha interrotto la rifinitura a causa di un problema alla schiena",
+    "La sua presenza contro il Manchester United è in forte dubbio e la decisione finale verrà presa a ridosso del match",
+    "In caso di assenza, le alternative pronte sono il terzo portiere Vasquez e il giovane De Marzi",
+    "La Roma deve già fare i conti con gli infortuni di Svilar, Pellegrini, Koné e Dybala"
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-03T16:33:02.978415+00:00",
+   "seen_at": "2026-11-03T16:36:44.240234+00:00",
    "published_at": "2026-11-03T13:22:18+00:00",
-   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
    "title": "Attacchi hacker ai sistemi di refrigerazione dei supermercati in Europa e in Italia",
@@ -208,6 +208,27 @@
    "batch_at": "2026-11-03T11:46:22.658156+00:00"
   },
   {
+   "title": "Heimstaden Transforms Property Management with OpenAI",
+   "subtitle": "How Heimstaden integrates ChatGPT Enterprise and Codex to automate operations",
+   "original_title": "Heimstaden is changing residential real estate management with AI",
+   "link": "https://openai.com/index/heimstaden",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Heimstaden integrates OpenAI’s ChatGPT Enterprise and Codex across its European operations to transform property management. The deployment aims to cut operational costs and empower employees through automated workflows and software engineering assistance.",
+   "bullets": [
+    "Utilizes OpenAI's ChatGPT Enterprise for internal workflows and communication across Europe.",
+    "Employs Codex to assist with software engineering tasks and system development.",
+    "Aims to reduce operational costs and increase employee efficiency in residential real estate management."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T16:35:39.903477+00:00",
+   "published_at": "2026-11-03T08:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
    "title": "La Roma sfida il Manchester United all'Old Trafford",
    "subtitle": "Analisi della sfida europea tra Roma e Manchester United.",
    "original_title": "La Roma sfida lo United, Gasperini non cambia la formula: pressing e coraggio all'Old Trafford",
@@ -253,21 +274,55 @@
    "batch_at": "2026-11-03T11:46:22.658156+00:00"
   },
   {
-   "title": "Come può un cialtrone arrivare due volte alla Casa Bianca?",
-   "subtitle": "La filosofia spiega come il postmodernismo e l'intrattenimento hanno annullato il valore della verità.",
+   "title": "Esecuzione locale di modelli enormi tramite streaming su SSD",
+   "subtitle": "Esecuzione locale di un modello da centinaia di gigabyte su MacBook con SSD streaming",
+   "original_title": "Tentiamo con DS4.1F di leggere i pesi di Frogger",
+   "link": "https://www.youtube.com/watch?v=GbY9ssU7lsk",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "L'autore dimostra l'esecuzione locale di un modello linguistico gigantesco, DeepSeek 4.1 Flash in formato GGUF da 483 gigabyte, su un MacBook M5 Max con 198 GB di RAM sfruttando una tecnica di SSD streaming ottimizzata per gestire una context window di un milione di token. Utilizzando lo strumento Dwarfstar via CLI, il sistema carica i pesi ed effettua il prefill su un file di testo contenente i pesi di una rete neurale di Frogger per comprenderne il funzionamento senza l'uso di tool esterni. L'esperimento evidenzia i limiti pratici dell'inferenza locale con modelli che eccedono la RAM fisica: il prefill iniziale e la generazione richiedono il caricamento sincrono degli esperti, rallentando nelle fasi finali e producendo un output testuale frammentario e rudimentale. L'autore mostra inoltre la gestione termica pratica del computer sotto carico prolungato.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T16:36:16.451109+00:00",
+   "published_at": "2026-11-03T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
+   "title": "Tunnel Cam: Udinese-Roma 2-5",
+   "subtitle": "Immagini dal tunnel e dal campo di Udinese-Roma 2-5.",
+   "original_title": "TUNNEL CAM | UDINESE 2-5 ROMA",
+   "link": "https://www.youtube.com/watch?v=0t4NyYDUkz4",
+   "source": "AS Roma (YouTube)",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il filmato della tunnel cam documenta i momenti prima e dopo la partita tra Udinese e Roma, terminata con il punteggio di due a cinque. La trascrizione disponibile non riporta dichiarazioni tecniche, analisi tattiche o interviste ai protagonisti, limitandosi a frammenti sonori di saluti e ringraziamenti non contestualizzati. Non emergono dunque dati numerici, indicazioni sugli schemi di gioco o informazioni rilevanti per un'analisi tecnica dell'incontro.",
+   "bullets": [],
+   "relevance": 1,
+   "score": 2,
+   "seen_at": "2026-11-03T16:37:37.805607+00:00",
+   "published_at": "2026-11-03T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
+   "title": "Come può un cialtrone arrivare due volte alla Casa Bianca? Trump, la Verità e l'Intrattenimento",
+   "subtitle": "La filosofia analizza il successo politico di Trump tra post-modernismo e industria dell'intrattenimento",
    "original_title": "Come può un CIALTRONE arrivare due volte alla Casa Bianca? Trump, la Verità e l'Intrattenimento",
    "link": "https://www.youtube.com/watch?v=1sWdTJgslMc",
    "source": "Rick DuFer (YouTube)",
    "category": "filosofia",
    "kind": "queue",
    "lang": "it",
-   "summary": "L'analisi parte da un caso concreto: lo smartphone T1, presentato come patriottico e made in America ma rivelatosi un modello cinese di fascia media rimarchiato e rivenduto a prezzo maggiorato. Non si tratta di un episodio isolato, ma di un metodo ricorrente che comprende la Trump University, le sneakers dorate e vicende giudiziarie per frode, che solleva l'interrogativo su come un tale personaggio possa guidare gli Stati Uniti. Per comprendere questo fenomeno, la filosofia di Harry Frankfurt offre una distinzione fondamentale tra il bugiardo e il cialtrone: mentre il primo rispetta la verità perché deve conoscerla per nasconderla, il secondo ne è totalmente indifferente e punta unicamente all'effetto che produce. Il successo del cialtrone non sarebbe possibile senza un terreno culturale fertile, generato da due genitori apparentemente opposti ma convergenti. Il primo genitore proviene da sinistra ed è il postmodernismo accademico che, partendo dalla nobile intuizione critica secondo cui i fatti sono costruzioni sociali legate al potere, ha degenerato nello slogan populista del \"ognuno ha la sua verità\" e nei fatti alternativi. Il secondo genitore arriva da destra e dal mercato, ovvero l'industria dell'intrattenimento di massa teorizzata da Neil Postman, dove la politica e l'informazione diventano spettacolo e l'unico divieto assoluto è annoiare il pubblico. La convergenza di queste due spinte trova la sua massima espressione nel concetto di kayfabe del wrestling, il patto implicito per cui tutti sanno che la finzione è tale ma recitano la parte, rendendo ogni tentativo di fact-checking e ogni smascheramento non una confutazione, ma un ulteriore episodio dello show che rafforza il legame fideistico dei sostenitori. Ciononostante, fuori dal ring dello spettacolo la realtà geopolitica continua a mordere, come dimostrano le ipotesi di ricattabilità da parte di potenze straniere, suggerendo che la verità materiale, bandita dalla filosofia e dalla televisione, possa rientrare drammaticamente dalla finestra quando in gioco ci sono le decisioni concrete sulla vita delle persone.",
+   "summary": "L'analisi filosofica si interroga sulle ragioni che permettono a una figura come Donald Trump di prosperare nonostante scandali, truffe accertate e cause giudiziarie, come nel caso dello smartphone T1 spacciato per americano ma identico a un modello cinese. Per comprendere questo fenomeno, la tesi centrale individua due genitori culturali e speculari che hanno generato un ambiente ostile alla verità: da un lato la sinistra intellettuale e il post-modernismo accademico, che decostruendo la realtà l'hanno ridotta a mera narrazione arbitraria e a giochi di potere; dall'altro la destra del mercato e del marketing, che con l'industria dell'intrattenimento ha imposto il dogma per cui tutto deve essere seducente e la noia costituisce la sola colpa imperdonabile. In questo scenario si inserisce la distinzione filosofica di Harry Frankfurt tra il bugiardo, che rispetta la verità per poterla nascondere, e il cialtrone, il quale se ne disinteressa totalmente per puntare esclusivamente all'effetto prodotto sul pubblico. Siffatto sistema si fonda sul concetto di kayfabe ereditato dal wrestling, un patto tacito in base al quale tutti sanno che la messinscena è finta ma si comportano come se fosse autentica, trasformando ogni tentativo di fact-checking o sbugiardamento in un ulteriore episodio della narrazione che rafforza il legame fideistico dei sostenitori. Ciononostante, l'autore avanza l'ipotesi critica che la verità materiale non svanisca del tutto, ma rischi di ripresentarsi violentemente fuori dal ring geopolitico attraverso il ricatto o la cruda realtà dei fatti, smascherando i limiti di una cultura della post-verità che tollera la finzione solo finché resta confinata nello spettacolo.",
    "bullets": [],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-03T16:33:49.723882+00:00",
+   "seen_at": "2026-11-03T16:37:58.716190+00:00",
    "published_at": "2026-11-03T00:00:00+00:00",
-   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
    "title": "How Six Women at the 1972 New York City Marathon Started a Racing Revolution",
@@ -543,6 +598,40 @@
    "batch_at": "2026-11-02T12:10:23.556958+00:00"
   },
   {
+   "title": "Perché nessuno si ricorda niente fino ai primi due anni di vita?",
+   "subtitle": "La scienza dell'amnesia infantile tra neurogenesi, senso di sé e linguaggio",
+   "original_title": "Perché nessuno si ricorda niente fino ai primi due anni di vita?",
+   "link": "https://www.youtube.com/watch?v=6DGaYJ7nY34",
+   "source": "Geopop (YouTube)",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il video spiega le cause biologiche e cognitive dell'amnesia infantile, il fenomeno per cui gli adulti non riescono a recuperare ricordi precedenti ai tre o quattro anni di vita. Sebbene i neonati siano in grado di apprendere e conservare informazioni a breve termine, come dimostrato negli anni Ottanta dall'esperimento con i nastrini e le giostrine di Carolyn Rovey Collier, il sistema di memorizzazione non è ancora completo. Al centro della memoria episodica si trova l'ippocampo, una struttura che riceve input sensoriali dalla corteccia, elaborati tramite le cellule griglia della corteccia entorinale per il posizionamento spaziale, e separati grazie al giro dentato per evitare sovrapposizioni tra esperienze simili. Tuttavia, nei primi anni di vita questo sistema è in costruzione. Tra i quattro e i cinque anni si completa lo sviluppo del giro dentato, mentre la corteccia prefrontale matura in età adulta. Nel 2014 i neuroscienziati Sheena Jocelyn e Paul Franklin hanno dimostrato che l'intensa neurogenesi tipica dell'ippocampo infantile produce nuovi neuroni che scompaginano i circuiti precedenti, cancellando i vecchi ricordi proprio mentre costruiscono il cervello. A ciò si aggiunge l'assenza di un senso di sé nei primi diciotto mesi, come evidenziato dal test dello specchio con la macchia di rossetto di Mark Howey e Mary Courage, e la mancanza di un'impalcatura linguistica, studiata da Catherine Nelson, che permetta di organizzare le impressioni grezze in narrazioni strutturate. L'aspetto cruciale da ricordare è che il cervello del neonato non è difettoso, ma è così impegnato a crescere e a generare nuovi neuroni da rimescolare continuamente i circuiti in cui i ricordi sono custoditi.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-03T16:35:30.720807+00:00",
+   "published_at": "2026-11-02T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
+   "title": "Astra interpreta, modifica e crea i pesi delle reti neurali",
+   "subtitle": "Un modello analizza e corregge i pesi neurali senza forward pass",
+   "original_title": "Astra sembra in grado di interpretare, modificare e creare i pesi di una rete neurale",
+   "link": "https://www.youtube.com/watch?v=H66r7_LS0g0",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Un recente studio del MIT dimostra che il modello Astra è in grado di interpretare, modificare e scrivere da zero i pesi di reti neurali senza eseguire tool di supporto o simulare la forward pass. Nel test, Astra ha identificato i giochi associati a reti di 17.000 pesi, individuato il pattern visivo di piccoli modelli di diffusione e corretto bug modificando direttamente il tre percento dei pesi. In alcuni giochi, le reti generate direttamente da Astra hanno superato quelle addestrate tramite reinforcement learning per 100 milioni di step. Tra le possibili cause di questa capacità emergente figurano la vasta esposizione al codice nel pre-training, il transfer learning derivato da task di programmazione e la grande ampiezza della context window, che funge da memoria di lavoro per esaminare interazioni complesse tra i pesi altrimenti inaccessibili alla mente umana.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T16:36:23.248536+00:00",
+   "published_at": "2026-11-02T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
+  },
+  {
    "title": "Ciara Mageean, Irish 1500-Meter Champion and Olympian, Dies at 34",
    "subtitle": "Remembering the career and records of Irish Olympian Ciara Mageean",
    "original_title": "Ciara Mageean, Irish 1500-Meter Champion and Olympian, Dies at 34",
@@ -702,6 +791,23 @@
    "seen_at": "2026-11-01T11:10:02.449149+00:00",
    "published_at": "2026-11-01T07:00:23+00:00",
    "batch_at": "2026-11-01T11:09:40.243435+00:00"
+  },
+  {
+   "title": "Il colonialismo e la gestione del caos: riflessioni settimanali",
+   "subtitle": "Analisi del colonialismo occidentale, gestione del caos e risposte ai commenti del pubblico.",
+   "original_title": "Il Colonialismo Occidentale è stato il peggiore? Rispondo ai vostri commenti #Weekrecap 7",
+   "link": "https://www.youtube.com/watch?v=5sOc7Jlg0nQ",
+   "source": "Rick DuFer (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il presente episodio affronta vari temi emersi dai commenti della settimana, partendo dai disordini urbani interpretati attraverso il concetto niczscheano di volontà di potenza. L'autore contesta l'esistenza di uno spirito immutabile dei popoli, sostenendo che le azioni collettive derivino da ideologie contingenti piuttosto che da essenze etniche predeterminate, le quali alimenterebbero soltanto conflitti eterni e sterili. Successivamente, affrontando il tema della gestione del caos e della perdita di energia con l'avanzare dell'età, si evidenzia come la motivazione spontanea tenda a svanire, rendendo indispensabile l'adozione di un metodo organizzativo rigoroso e di strategie strutturate per sostenere i propri progetti a lungo termine. Il fulcro centrale della rassegna riguarda il colonialismo occidentale, analizzato a seguito di un video di approfondimento. Di fronte all'obiezione secondo cui le potenze occidentali avrebbero usato la retorica dei diritti umani e della libertà unicamente come copertura propagandistica per il dominio e la repressione, l'autore ribatte che l'uso di narrazioni giustificative è una costante storica di ogni impero e che il colonialismo occidentale ha introdotto elementi specifici, tra cui il metodo scientifico e le tecnologie derivate, capaci di migliorare concretamente le condizioni di vita e la gestione sanitaria in territori come l'India, offrendo un bilancio storico che non può essere liquidato con generalizzazioni ideologiche. L'episodio si conclude con riflessioni sulla gestione dell'attualità e la promozione di eventi culturali.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-03T16:38:07.211388+00:00",
+   "published_at": "2026-11-01T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
    "title": "Reazione a catena di Mario Bava",
@@ -6050,23 +6156,6 @@
    "score": 4,
    "seen_at": "2026-10-20T16:43:02.057985+00:00",
    "published_at": "2026-10-20T13:30:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
-  },
-  {
-   "title": "Accelerating Engineering Design with Agentic AI",
-   "subtitle": "How agentic AI combines with MATLAB and Simulink to verify engineering designs.",
-   "original_title": "Accelerating Engineering Design with Agentic AI",
-   "link": "https://www.youtube.com/watch?v=riIEO9Sk_fo",
-   "source": "MATLAB",
-   "category": "ai",
-   "kind": "yt",
-   "lang": "en",
-   "summary": "Generative AI excels at general-purpose reasoning and drafting code, but it lacks the capability to model physics and math without ground truth tools. To build the engineering evidence needed to trust AI-generated outputs, engineers must combine AI's task automation with deterministic execution environments like MATLAB and Simulink. While the AI agent uses tools to analyze designs, isolate bugs, generate test cases, and propose fixes, MATLAB and Simulink provide the mathematical modeling, simulation, and visualization needed to verify the results. In an automotive subsystem example, an AI agent uses provided context to locate a logic bug in a braking control system, implement a fix, and update the test suite. This workflow allows engineers to maintain rigorous verification standards while increasing iteration speed across more designs and tests.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-20T16:33:05.985221+00:00",
-   "published_at": "2026-10-20T13:14:46+00:00",
    "batch_at": "2026-10-20T16:31:22.664199+00:00"
   },
   {
