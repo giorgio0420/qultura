@@ -1,6 +1,51 @@
 {
- "generated_at": "2026-11-03T15:26:28.720262+00:00",
+ "generated_at": "2026-11-03T16:31:46.576769+00:00",
  "items": [
+  {
+   "title": "Runner Fatality From Suspected Rhabdomyolysis at NYC Marathon",
+   "subtitle": "A 24-year-old runner suffered a fatal medical emergency from suspected rhabdomyolysis.",
+   "original_title": "A 24-Year-Old Runner Died After a Medical Emergency in the Final Miles of the NYC Marathon",
+   "link": "https://www.runnersworld.com/news/a74323037/2026-nyc-marathon-runner-death/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Rachel Apa, a 24-year-old runner, suffered a fatal medical emergency near mile 24 of the New York City Marathon. Spectators and medical staff performed CPR and used a defibrillator before she was transported to Mount Sinai Medical Center. Her father reported that doctors stated the cause of death was rhabdomyolysis triggered by extreme physical exertion, though the official medical examiner investigation remained ongoing.",
+   "bullets": [
+    "The medical emergency occurred around 1:30 p.m. near Mile 24 at 85th Street in Central Park.",
+    "Spectators initiated CPR on-site before New York Road Runners medical staff arrived with a defibrillator.",
+    "The runner's father stated that she died from rhabdomyolysis, a condition where damaged muscle tissue breaks down into the bloodstream due to extreme exertion.",
+    "An official cause of death was still pending investigation by the city's medical examiner."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-03T16:33:19.830748+00:00",
+   "published_at": "2026-11-03T16:31:27+00:00",
+   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+  },
+  {
+   "title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents",
+   "subtitle": "How changing the agent harness moved task completion from 30% to 81%",
+   "original_title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
+   "link": "https://huggingface.co/blog/ibm-research/cuga-harness",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "An evaluation of three agent harnesses (CUGA, Hermes, and Deep Agents) using the exact same open-weight model (GLM-5.3-flash) across 90 AppWorld tasks demonstrates that the harness drastically impacts task completion rates, shifting performance from 30% to 81%. The study highlights IBM's CUGA open-source harness, designed specifically for enterprise workflows with hard runtime policy enforcement rather than reliance on system prompts.",
+   "bullets": [
+    "Changing only the agent harness while keeping the model constant moved task completion rates from 30% to 81% on AppWorld tasks.",
+    "CUGA achieved 20 fully consistent scenarios (SGC), compared to 8 for Hermes and 2 for Deep Agents, using GLM-5.3-flash.",
+    "System prompts are insufficient for governance because models can misread them or be manipulated by prompt injection; CUGA enforces rules at the runtime level.",
+    "CUGA implements four governance layers: Intent Guard, Playbooks, Tool Approval (human-in-the-loop), and Tool Guide with ToolGuard for hard code execution checks.",
+    "CUGA scales from a single agent with local tools to a CugaSupervisor coordinating local and remote agents over A2A."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T16:32:48.251747+00:00",
+   "published_at": "2026-11-03T15:57:39+00:00",
+   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+  },
   {
    "title": "The 2026 New York City Marathon Sets All-Time Field and Performance Records",
    "subtitle": "Results, finisher counts, and professional podium times from the 2026 NYC Marathon.",
@@ -95,6 +140,28 @@
    "batch_at": "2026-11-03T15:26:28.720262+00:00"
   },
   {
+   "title": "Gollini a rischio per Manchester United-Roma",
+   "subtitle": "Il portiere si ferma per un problema alla schiena durante la rifinitura.",
+   "original_title": "Gollini si ferma durante la rifinitura: &egrave; in dubbio per Manchester United-Roma",
+   "link": "https://www.corrieredellosport.it/news/calcio/champions-league/2026/11/03-152345684/gollini_si_ferma_durante_la_rifinitura_in_dubbio_per_manchester_united-roma/",
+   "source": "Corriere dello Sport",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il portiere della Roma Pierluigi Gollini ha interrotto la sessione di rifinitura a Manchester a causa di un problema alla schiena, mettendo a rischio la sua presenza per la sfida di Champions League contro lo United. Con Mile Svilar già infortunato, lo staff tecnico valuta le alternative in extremis tra Vasquez e il giovane De Marzi. La decisione definitiva sulla sua presenza verrà presa a ridosso del match.",
+   "bullets": [
+    "Pierluigi Gollini si è fermato durante la rifinitura a Manchester per un problema alla schiena.",
+    "Gollini sta sostituendo da metà ottobre l'infortunato Mile Svilar, il cui rientro è previsto dopo la sosta.",
+    "In caso di forfait, le alternative pronte in panchina sono il terzo portiere Vasquez e il giovane De Marzi.",
+    "L'infermeria della Roma registra già le pesanti assenze di Svilar, Pellegrini, Koné e Dybala."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-11-03T16:33:02.978415+00:00",
+   "published_at": "2026-11-03T13:22:18+00:00",
+   "batch_at": "2026-11-03T16:31:46.576769+00:00"
+  },
+  {
    "title": "Attacchi hacker ai sistemi di refrigerazione dei supermercati in Europa e in Italia",
    "subtitle": "Come gli hacker sfruttano vulnerabilità nei sistemi OT e di controllo remoto dei supermercati.",
    "original_title": "Attacchi hacker ai supermercati, colpita anche l’Italia: cosa succede e quali sono i rischi per l’esperto",
@@ -184,6 +251,23 @@
    "seen_at": "2026-11-03T11:46:51.719731+00:00",
    "published_at": "2026-11-03T00:00:00+00:00",
    "batch_at": "2026-11-03T11:46:22.658156+00:00"
+  },
+  {
+   "title": "Come può un cialtrone arrivare due volte alla Casa Bianca?",
+   "subtitle": "La filosofia spiega come il postmodernismo e l'intrattenimento hanno annullato il valore della verità.",
+   "original_title": "Come può un CIALTRONE arrivare due volte alla Casa Bianca? Trump, la Verità e l'Intrattenimento",
+   "link": "https://www.youtube.com/watch?v=1sWdTJgslMc",
+   "source": "Rick DuFer (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "L'analisi parte da un caso concreto: lo smartphone T1, presentato come patriottico e made in America ma rivelatosi un modello cinese di fascia media rimarchiato e rivenduto a prezzo maggiorato. Non si tratta di un episodio isolato, ma di un metodo ricorrente che comprende la Trump University, le sneakers dorate e vicende giudiziarie per frode, che solleva l'interrogativo su come un tale personaggio possa guidare gli Stati Uniti. Per comprendere questo fenomeno, la filosofia di Harry Frankfurt offre una distinzione fondamentale tra il bugiardo e il cialtrone: mentre il primo rispetta la verità perché deve conoscerla per nasconderla, il secondo ne è totalmente indifferente e punta unicamente all'effetto che produce. Il successo del cialtrone non sarebbe possibile senza un terreno culturale fertile, generato da due genitori apparentemente opposti ma convergenti. Il primo genitore proviene da sinistra ed è il postmodernismo accademico che, partendo dalla nobile intuizione critica secondo cui i fatti sono costruzioni sociali legate al potere, ha degenerato nello slogan populista del \"ognuno ha la sua verità\" e nei fatti alternativi. Il secondo genitore arriva da destra e dal mercato, ovvero l'industria dell'intrattenimento di massa teorizzata da Neil Postman, dove la politica e l'informazione diventano spettacolo e l'unico divieto assoluto è annoiare il pubblico. La convergenza di queste due spinte trova la sua massima espressione nel concetto di kayfabe del wrestling, il patto implicito per cui tutti sanno che la finzione è tale ma recitano la parte, rendendo ogni tentativo di fact-checking e ogni smascheramento non una confutazione, ma un ulteriore episodio dello show che rafforza il legame fideistico dei sostenitori. Ciononostante, fuori dal ring dello spettacolo la realtà geopolitica continua a mordere, come dimostrano le ipotesi di ricattabilità da parte di potenze straniere, suggerendo che la verità materiale, bandita dalla filosofia e dalla televisione, possa rientrare drammaticamente dalla finestra quando in gioco ci sono le decisioni concrete sulla vita delle persone.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-03T16:33:49.723882+00:00",
+   "published_at": "2026-11-03T00:00:00+00:00",
+   "batch_at": "2026-11-03T16:31:46.576769+00:00"
   },
   {
    "title": "How Six Women at the 1972 New York City Marathon Started a Racing Revolution",
