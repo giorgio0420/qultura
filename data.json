@@ -1,6 +1,52 @@
 {
- "generated_at": "2026-11-03T16:42:56.632071+00:00",
+ "generated_at": "2026-11-03T17:04:05.760767+00:00",
  "items": [
+  {
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "subtitle": "How Google Antigravity automates drug discovery workflows using RDKit",
+   "original_title": "Agentic cheminformatics with Google Antigravity",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has introduced Cheminformatics Skills for its Antigravity platform to automate drug discovery workflows, reducing iteration times from days to hours. The system combines a language model for workflow orchestration and reasoning with deterministic tools like RDKit for molecular calculations, enabling tasks such as matched molecular pair analysis and macrocycle design.",
+   "bullets": [
+    "Integrates RDKit, ChEMBL, and PubChem connectors into the Antigravity agent to handle database navigation and molecular operations.",
+    "Uses a division of labor where the LLM handles reasoning and workflow while deterministic tools execute molecular calculations.",
+    "Performs matched molecular pair analysis (MMPA) to evaluate the effects of molecular cyclization on rotatable bonds and binding potency.",
+    "Applies chronological or scaffold splits to train and validate molecular machine learning models for potency prediction.",
+    "Proposes novel rigidified macrocycles alongside synthetic routes and prepares compounds for downstream simulation."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T17:08:29.914602+00:00",
+   "published_at": "2026-11-03T17:01:49+00:00",
+   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+  },
+  {
+   "title": "Simera Sense and Spacemanic Dual-Use CubeSat Solution",
+   "subtitle": "Integration of the xScape200 DU camera into a 16U CubeSat platform for dual-use missions.",
+   "original_title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
+   "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
+   "source": "SpaceNews",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Spacemanic and Simera Sense are collaborating on a compact satellite solution combining the xScape200 DU camera with a 16U CubeSat platform. The design leverages in-house subsystem manufacturing and a specialized deployer to provide high-resolution imaging for commercial and defense applications.",
+   "bullets": [
+    "The xScape200 DU camera features a compact 12U form factor with low Size, Weight, and Power (SWaP).",
+    "Spacemanic builds its satellite platforms and core subsystems in-house to tailor the structure around the camera.",
+    "The SPACE CANNON deployer accommodates up to 16U CubeSats with expanded envelopes for protruding payload elements.",
+    "Removable side panels on the deployer provide direct access to the satellite for final adjustments before launch.",
+    "The system is designed for compatibility with multiple launch vehicles including Falcon 9, Ariane 6, and Vega-C."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T17:09:24.967682+00:00",
+   "published_at": "2026-11-03T16:59:43+00:00",
+   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+  },
   {
    "title": "Palette: teaching a small model to build decks in your design language",
    "subtitle": "How a 20B open model uses synthetic data and a code harness to generate slides",
@@ -749,6 +795,23 @@
    "seen_at": "2026-11-03T16:45:38.688657+00:00",
    "published_at": "2026-11-02T00:00:00+00:00",
    "batch_at": "2026-11-03T16:42:56.632071+00:00"
+  },
+  {
+   "title": "Critica dell'ipotesi platonica delle rappresentazioni nei modelli di IA",
+   "subtitle": "Analisi critica del paper di LeCun sulle rappresentazioni universali nei modelli neurali.",
+   "original_title": "Considerazioni a monte riguardo al paper di LeCun sull'ipotesi platonica",
+   "link": "https://www.youtube.com/watch?v=Liaf9Y7VxuA",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il testo esamina criticamente la cosiddetta ipotesi della rappresentazione platonica, secondo cui reti neurali differenti finirebbero per convergere verso uno spazio rappresentativo comune dei concetti. L'autore contesta i presupposti di studi recenti che tentano di dimostrare questa universalità confrontando gli embedding di modelli visivi e Large Language Model tramite trasformazioni lineari. Secondo l'analisi, trovare corrispondenze geometriche non prova una reale identità di rappresentazione, poiché trasformazioni lineari complesse possono facilmente distorcere gli spazi vettoriali per adattarli a categorie semantiche simili, come gatti e tigri. Inoltre, l'autore evidenzia una differenza funzionale fondamentale: lo stato interno di un LLM è ottimizzato unicamente per predire il token successivo e funziona come memoria di lavoro contingente, a differenza di un encoder che comprime l'intero input in una rappresentazione semantica globale. Infine, vengono discusse le architetture JEPA di LeCun e la necessità di meccanismi di whitening per evitare il collasso degli embedding durante il training.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T17:10:23.725394+00:00",
+   "published_at": "2026-11-02T00:00:00+00:00",
+   "batch_at": "2026-11-03T17:04:05.760767+00:00"
   },
   {
    "title": "Ciara Mageean, Irish 1500-Meter Champion and Olympian, Dies at 34",
@@ -6173,52 +6236,6 @@
    "batch_at": "2026-10-21T09:15:10.843669+00:00"
   },
   {
-   "title": "Swimming vs. Cycling for Runner Cross-Training",
-   "subtitle": "Compare swimming and cycling mechanics, physiological adaptations, and injury recovery tradeoffs.",
-   "original_title": "Swimming vs. Cycling: Which Is the Better Cross-Training Workout for Runners?",
-   "link": "https://www.runnersworld.com/training/a74134164/swimming-vs-cycling/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Both swimming and cycling provide non-impact cardiovascular stimulus for runners, but they target the body differently. Swimming offers full-body movement and respiratory training with high technique barriers, while cycling closely mirrors running muscle groups and allows precise effort scaling with lower load demands.",
-   "bullets": [
-    "Swimming strengthens upper body muscles and diaphragm while forcing controlled exhalation, but requires high technique to achieve a training stimulus.",
-    "Aqua jogging provides a closer biomechanical match to running than swimming due to a larger range of motion and water resistance.",
-    "Cycling targets quads, glutes, and hamstrings, with road, gravel, and mountain biking offering varying demands on core stability and power.",
-    "Cycling requires a 3:1 mileage ratio or 2:1 time ratio compared to running to achieve equivalent training stress, as elevated heart rates are harder to maintain on a bike.",
-    "Neither activity trains the lower body for the eccentric muscle contractions and tendon energy storage inherent to running, requiring careful re-introduction after injury."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-20T16:43:02.057985+00:00",
-   "published_at": "2026-10-20T13:30:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
-  },
-  {
-   "title": "Analisi della parabola di A24: dal cinema indipendente alla sfida dell'intelligenza artificiale",
-   "subtitle": "Come A24 ha ridefinito il branding cinematografico e affronta la transizione verso i blockbuster",
-   "original_title": "A24 sta cambiando il cinema. In meglio? Per molti sì, per altri no",
-   "link": "https://lucysullacultura.com/a24-sta-cambiando-il-cinema-in-meglio-per-molti-si-per-altri-no/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Nata nel 2012 come casa di distribuzione per film d'autore, A24 ha costruito un marchio di culto globale grazie a una forte identità visiva, campagne di marketing virale e autonomia creativa concessa ai registi. Oggi lo studio affronta una complessa fase di espansione tra budget crescenti, inevitabili flop commerciali e una discussa partnership di ricerca con Google DeepMind sull'intelligenza artificiale.",
-   "bullets": [
-    "A24 è stata fondata nel 2012 da Daniel Katz e David Fenkel, partendo dall'acquisizione di diritti di distribuzione per il Nordamerica prima di passare alla produzione diretta con Moonlight nel 2016.",
-    "La strategia promozionale punta fortemente sui social media e su marketing non tradizionale, come il finto profilo Tinder per Ex Machina o la campagna virale con Timothée Chalamet per Marty Supreme.",
-    "Lo studio ha collezionato importanti successi storici agli Oscar, tra cui la vittoria record di sette statuette nel 2023 per Everything Everywhere All at Once.",
-    "L'espansione recente ha comportato un aumento dei budget con film come Civil War (50 milioni di dollari) e Marty Supreme (70 milioni), affiancati però da significativi insuccessi commerciali come Beau ha paura.",
-    "Un accordo di ricerca pluriennale da 75 milioni di dollari siglato con Google DeepMind per sviluppare flussi di lavoro e storyboard tramite intelligenza artificiale minaccia la reputazione di originalità dello studio."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-20T16:45:59.198235+00:00",
-   "published_at": "2026-10-20T11:17:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
-  },
-  {
    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
    "subtitle": "How a restaurant operator uses ChatGPT Work to automate pricing, labor, and cash workflows.",
    "original_title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
@@ -6264,40 +6281,6 @@
    "seen_at": "2026-10-21T09:15:45.147095+00:00",
    "published_at": "2026-10-20T07:00:00+00:00",
    "batch_at": "2026-10-21T09:15:10.843669+00:00"
-  },
-  {
-   "title": "I trent'anni di PK e la crisi dell'immaginazione",
-   "subtitle": "Come il fumetto Disney degli anni '90 ha formato l'immaginazione e la creatività.",
-   "original_title": "PK compie 30 anni: perché abbiamo smesso di immaginare? | con Claudio Sciarrone",
-   "link": "https://www.youtube.com/watch?v=ce1YRLYKVWE",
-   "source": "Rick DuFer (YouTube)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "In occasione del trentennale della storica serie a fumetti PK (Paperinik New Adventures), il disegnatore Claudio Sciarrone e il conduttore riflettono su come le opere che consumiamo da giovani plasmino la nostra identità e il nostro modo di pensare. La tesi centrale è che l'immaginazione non nasca da un flusso continuo e ininterrotto di immagini preconfezionate, ma si sviluppi negli spazi vuoti, nel silenzio e nell'attesa tra un'esperienza e l'altra, permettendo al cervello di riempire i margini e completare la narrazione. Vengono ripercorsi i metodi artigianali e istintivi della lavorazione di PK negli anni Novanta, come l'uso di un bisturi per grattare la carta e simulare la pioggia o la totale assenza di scuole di fumetto formali, contrapponendoli all'attuale ossessione per il controllo totale, la prevedibilità e il consumo rapido. Gli autori argomentano che oggi il pubblico tende a pretendere risposte chiuse, finali certi e spiegazioni continue da parte dei creatori, perdendo la capacità di tollerare l'imprevisto e l'ambiguità. Questa tendenza impoverisce la narrazione, trasformando i prodotti culturali in beni di consumo rigidi piuttosto che in strumenti di esplorazione personale. Viene inoltre discussa l'idea che le storie e il linguaggio non appartengano agli individui, ma siano essi stessi a formare i soggetti, agendo come tessere di un puzzle interiore che unisce riferimenti apparentemente distanti tra loro, dai film d'azione ai classici della letteratura. L'episodio si conclude sottolineando il valore della curiosità priva di calcoli e dell'apertura all'errore e all'imprevisto come motori fondamentali di ogni vera espressione creativa.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-20T16:44:35.285185+00:00",
-   "published_at": "2026-10-20T00:00:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
-  },
-  {
-   "title": "Il suicidio dell’Europa",
-   "subtitle": "Analisi critica del declino socio-economico e politico dell'Europa moderna.",
-   "original_title": "Il suicidio dell’Europa",
-   "link": "https://www.youtube.com/watch?v=-_JGoTfFrG4",
-   "source": "BarbaSophia (Matteo Saudino)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "L'autore analizza il progressivo declino dell'Europa, descritto come un vero e proprio suicidio politico ed economico guidato da scelte sistemiche a trent'anni a questa parte. Il continente ha smantellato il modello sociale fondato sul compromesso tra capitale e lavoro, privilegiando la privatizzazione sistematica di sanità, scuola, trasporti ed energia a scapito dell'accessibilità e della qualità dei servizi. Le politiche economiche attuali tutelano i grandi profitti e le multinazionali, riducendo il lavoro a merce attraverso precarizzazione e salari bassi, mentre l'inflazione e il costo della vita impoveriscono le famiglie. Parallelamente, le città subiscono processi di gentrificazione che marginalizzano i ceti meno abbienti e i migranti, ridotti a forza lavoro a basso costo. A ciò si aggiunge una pericolosa corsa agli armamenti che rischia di trasformare l'Europa nel teatro di un conflitto devastante. La soluzione proposta richiede una svolta radicale basata su giustizia sociale, tassazione dei grandi patrimoni, redistribuzione della ricchezza e rafforzamento della democrazia.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-10-20T16:44:56.123926+00:00",
-   "published_at": "2026-10-20T00:00:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
   },
   {
    "title": "DeepSeek Infer e l'economia dell'inferenza cloud",
@@ -6376,23 +6359,6 @@
    "seen_at": "2026-10-22T16:37:31.288501+00:00",
    "published_at": "2026-10-19T07:30:24+00:00",
    "batch_at": "2026-10-22T16:30:30.176365+00:00"
-  },
-  {
-   "title": "Blocchi stradali e disordini: la stretta del governo e l'impatto economico",
-   "subtitle": "Le conseguenze dei blocchi dei tir, il giro di vite sui minori e le contromisure in Francia",
-   "original_title": "BLOCCHI degli AUTOTRASPORTATORI: supermercati VUOTI senza scorte | The Essential",
-   "link": "https://www.youtube.com/watch?v=YC3uZOYZSkg",
-   "source": "Will Media",
-   "category": "mondo",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il blocco prolungato degli autotrasportatori sta strangolando la logistica italiana, paralizzando arterie chiave come l'Autostrada 1, la 30 e la 2 e isolando i porti come il varco Bausan a Napoli. Con il trasporto su gomma che movimenta il 92% delle merci nazionali, la grande distribuzione organizzata registra gravi carenze di prodotti freschi e alimentari, scatenando la corsa dei consumatori alle scorte e il rischio che tonnellate di cibo marciscano nei campi. Il governo ha convocato tavoli d'emergenza valutando 590 milioni di euro per il rinnovo del parco veicoli e l'estensione del credito d'imposta sul gasolio, ricordando che i blocchi stradali tramite mezzi o corpi costituiscono reato penale punibile fino a sei anni di reclusione. Parallelamente, a seguito delle devastazioni e dei saccheggi a Milano operati in maggioranza da minorenni non politicizzati, l'esecutivo prepara un decreto d'urgenza che prevede il fermo preventivo per gli under 18 e l'aumento dei militari dell'operazione Strade Sicure. In Francia, per fronteggiare le proteste che hanno coinvolto ottocentomila persone e lasciato tremila negozi saccheggiati, il governo ha delegato a sindaci e prefetti l'introduzione di coprifuoco parziali e mirati nelle zone a rischio.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 8,
-   "seen_at": "2026-10-20T16:48:27.320882+00:00",
-   "published_at": "2026-10-19T00:00:00+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
   },
   {
    "title": "La crescita rapida del Como tra scouting, struttura societaria e Cesc Fàbregas",
@@ -6509,7 +6475,7 @@
    "batch_at": "2026-10-21T16:32:04.323201+00:00"
   },
   {
-   "title": "Speranza, radici e ricerca nel nuovo album di 22simba",
+   "title": "Speranza, radici e ricerca: così 22simba ci racconta MIRIA",
    "subtitle": "Il processo creativo e i temi centrali del nuovo album MIRIA di 22simba.",
    "original_title": "Speranza, radici e ricerca: così 22simba ci racconta MIRIA",
    "link": "https://www.bohmagazine.it/22simba-miria-intervista/",
@@ -6517,18 +6483,19 @@
    "category": "musica",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il rapper 22simba presenta il suo album MIRIA, un progetto in tre atti che esplora il rapporto con le proprie radici a Saronno, il benessere materiale e la figura della nonna. L'artista racconta la genesi delle collaborazioni, nate senza logiche di marketing, e il ruolo centrale della speranza nel suo percorso di crescita personale e musicale.",
+   "summary": "Il nuovo album MIRIA di 22simba, composto da diciotto tracce e diviso in tre atti, esplora il contrasto tra l'ambizione materiale e la semplicità degli affetti, ispirandosi alla figura della nonna. Il disco affronta il tema delle radici legate a Saronno e il ruolo della speranza come motore per superare le difficoltà personali. L'artista racconta la genesi del progetto, l'assenza iniziale di featuring e il superamento della rabbia come spinta creativa.",
    "bullets": [
-    "Il disco MIRIA è diviso in tre atti: Arricchiti, Miria e Provinciali, che tracciano un percorso tra successo materiale, origini e legami familiari.",
-    "Il concept visivo e sonoro ruota attorno all'Albero della Vita, simbolo del legame con Saronno e con la provincia di partenza.",
-    "Le collaborazioni, tra cui la presenza di Arisa, sono state scelte in base alla complementarità artistica e non per strategie di marketing o hype.",
-    "L'autore definisce la speranza come la spinta emotiva fondamentale che lo ha salvato dai momenti più difficili e lo distingue dal suo contesto di crescita."
+    "Il disco è suddiviso in tre atti: Arricchiti, Miria e Provinciali, che tracciano un percorso dal benessere materiale alle origini di Saronno.",
+    "La speranza viene definita come una maschera e uno strumento di salvezza nei momenti di crisi personale.",
+    "L'album è stato scritto interamente da solo; i featuring con artisti come Arisa sono stati inseriti successivamente in modo mirato e complementare.",
+    "Il concept visivo e musicale ruota attorno all'Albero della Vita, simbolo di crescita e di forte legame con la provincia.",
+    "L'artista riflette sul passaggio generazionale, superando la sola spinta della rabbia per imparare a convivere con l'inquietudine e l'amore."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-10-20T16:49:01.579915+00:00",
+   "seen_at": "2026-11-03T17:14:35.765085+00:00",
    "published_at": "2026-09-21T13:46:38+00:00",
-   "batch_at": "2026-10-20T16:31:22.664199+00:00"
+   "batch_at": "2026-11-03T17:04:05.760767+00:00"
   },
   {
    "title": "Gianfranco Zola: dai ricordi con Maradona e il Chelsea alla riforma dei giovani",
