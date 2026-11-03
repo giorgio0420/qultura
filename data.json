@@ -1,51 +1,74 @@
 {
- "generated_at": "2026-11-03T17:04:05.760767+00:00",
+ "generated_at": "2026-11-03T17:17:39.278754+00:00",
  "items": [
   {
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "subtitle": "How Google Antigravity automates drug discovery workflows using RDKit",
+   "title": "StateBench: Evaluating Language Model State Tracking Over Long Documents",
+   "subtitle": "How transformer, hybrid, and recurrent LLMs track state changes across long sequences.",
+   "original_title": "StateBench: Testing how language models track state changes over long documents",
+   "link": "https://huggingface.co/blog/allenai/statebench",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "StateBench evaluates long-context state tracking in language models across four complexity levels rooted in Krohn–Rhodes theory, ranging from immutable assignments to reference-based updates. Testing reveals that while pretrained models and frontier systems struggle with harder dependency chains over long inputs, recurrent and hybrid architectures like Gated DeltaNet can generalize significantly further when trained directly on these tasks.",
+   "bullets": [
+    "StateBench organizes state-tracking problems into four difficulty levels: r-trivial (immutable), aperiodic (reassignment by value), soluble (self-referential updates), and general finite (assignment by reference or S5 swaps).",
+    "Pretrained models generally handle r-trivial tasks, lose accuracy on aperiodic ones as inputs grow, and drop to chance on general finite problems.",
+    "Frontier models including Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna maintain high accuracy on r-trivial and aperiodic tasks, but drop to 13% or lower on long general finite problems.",
+    "When trained directly from scratch on StateBench, Gated DeltaNet and hybrid models generalized almost perfectly out to tens of thousands of assignments on easier levels, while transformers completely failed on general finite problems regardless of direct training.",
+    "A new proof demonstrates that Gated DeltaNet variants with specific memory-update constraints can solve all aperiodic tasks and certain periodic tasks under fixed-precision arithmetic."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T17:21:52.092279+00:00",
+   "published_at": "2026-11-03T17:15:21+00:00",
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
+  },
+  {
+   "title": "Agentic Cheminformatics with Google Antigravity",
+   "subtitle": "How Google Antigravity accelerates drug discovery through automatedcheminformatics workflows.",
    "original_title": "Agentic cheminformatics with Google Antigravity",
    "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
    "source": "Google DeepMind",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "Google has introduced Cheminformatics Skills for its Antigravity platform to automate drug discovery workflows, reducing iteration times from days to hours. The system combines a language model for workflow orchestration and reasoning with deterministic tools like RDKit for molecular calculations, enabling tasks such as matched molecular pair analysis and macrocycle design.",
+   "summary": "Google Antigravity integrates new Cheminformatics Skills to automate drug discovery workflows, reducing design iterations from days to an hour. The system combines language model workflow orchestration with deterministic RDKit-based calculations, enabling automated literature parsing, matched molecular pair analysis, machine learning model training, and synthetic route generation for novel macrocycles.",
    "bullets": [
-    "Integrates RDKit, ChEMBL, and PubChem connectors into the Antigravity agent to handle database navigation and molecular operations.",
-    "Uses a division of labor where the LLM handles reasoning and workflow while deterministic tools execute molecular calculations.",
-    "Performs matched molecular pair analysis (MMPA) to evaluate the effects of molecular cyclization on rotatable bonds and binding potency.",
-    "Applies chronological or scaffold splits to train and validate molecular machine learning models for potency prediction.",
-    "Proposes novel rigidified macrocycles alongside synthetic routes and prepares compounds for downstream simulation."
+    "Divides labor between a language model handling orchestration and reasoning, and deterministic RDKit tools executing molecular calculations.",
+    "Integrates ChEMBL and PubChem connectors to extract and curate molecular structures from text, images, and SDF files.",
+    "Performs automated matched molecular pair analysis (MMPA) to isolate the effects of structural modifications like cyclization on potency and rotatable bonds.",
+    "Builds and validates molecular machine learning models using chronological or scaffold splits to predict compound properties.",
+    "Proposes novel rigidified macrocycles alongside concrete synthetic routes ready for downstream physics-based simulation or AlphaFold analysis."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-03T17:08:29.914602+00:00",
+   "seen_at": "2026-11-03T17:21:09.495852+00:00",
    "published_at": "2026-11-03T17:01:49+00:00",
-   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
   },
   {
-   "title": "Simera Sense and Spacemanic Dual-Use CubeSat Solution",
-   "subtitle": "Integration of the xScape200 DU camera into a 16U CubeSat platform for dual-use missions.",
+   "title": "Simera Sense and Spacemanic Partner for Dual-Use Satellite Solution",
+   "subtitle": "Spacemanic and Simera Sense integrate the xScape200 DU camera into a 16U CubeSat platform.",
    "original_title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
    "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
    "source": "SpaceNews",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "Spacemanic and Simera Sense are collaborating on a compact satellite solution combining the xScape200 DU camera with a 16U CubeSat platform. The design leverages in-house subsystem manufacturing and a specialized deployer to provide high-resolution imaging for commercial and defense applications.",
+   "summary": "Spacemanic and Simera Sense are collaborating on a compact satellite solution combining the xScape200 dual-use camera with a customized 16U CubeSat platform. The integration is supported by a specialized SPACE CANNON deployer designed to accommodate protruding payloads and interface with multiple launch vehicles.",
    "bullets": [
-    "The xScape200 DU camera features a compact 12U form factor with low Size, Weight, and Power (SWaP).",
-    "Spacemanic builds its satellite platforms and core subsystems in-house to tailor the structure around the camera.",
-    "The SPACE CANNON deployer accommodates up to 16U CubeSats with expanded envelopes for protruding payload elements.",
-    "Removable side panels on the deployer provide direct access to the satellite for final adjustments before launch.",
-    "The system is designed for compatibility with multiple launch vehicles including Falcon 9, Ariane 6, and Vega-C."
+    "The xScape200 DU camera features a 12U form factor with low size, weight, and power (SWaP) characteristics.",
+    "Spacemanic designs its satellite platforms, subsystems, and deployers in-house to custom-fit payloads.",
+    "The SPACE CANNON deployer accommodates CubeSats up to 16U with an expanded envelope for protruding elements and a bottom tuna can.",
+    "Removable side panels on the deployer allow direct access to the satellite for final pre-launch adjustments.",
+    "The system is engineered for compatibility with major launch vehicles including Falcon 9, Ariane 6, and Vega-C."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-03T17:09:24.967682+00:00",
+   "seen_at": "2026-11-03T17:22:21.348215+00:00",
    "published_at": "2026-11-03T16:59:43+00:00",
-   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
   },
   {
    "title": "Palette: teaching a small model to build decks in your design language",
@@ -797,21 +820,21 @@
    "batch_at": "2026-11-03T16:42:56.632071+00:00"
   },
   {
-   "title": "Critica dell'ipotesi platonica delle rappresentazioni nei modelli di IA",
-   "subtitle": "Analisi critica del paper di LeCun sulle rappresentazioni universali nei modelli neurali.",
+   "title": "Considerazioni critiche sull'ipotesi della rappresentazione platonica nei modelli di IA",
+   "subtitle": "Analisi critica dei limiti metodologici nel confrontare gli spazi latenti di LLM e modelli visivi.",
    "original_title": "Considerazioni a monte riguardo al paper di LeCun sull'ipotesi platonica",
    "link": "https://www.youtube.com/watch?v=Liaf9Y7VxuA",
    "source": "antirez (YouTube)",
    "category": "ai",
    "kind": "queue",
    "lang": "it",
-   "summary": "Il testo esamina criticamente la cosiddetta ipotesi della rappresentazione platonica, secondo cui reti neurali differenti finirebbero per convergere verso uno spazio rappresentativo comune dei concetti. L'autore contesta i presupposti di studi recenti che tentano di dimostrare questa universalità confrontando gli embedding di modelli visivi e Large Language Model tramite trasformazioni lineari. Secondo l'analisi, trovare corrispondenze geometriche non prova una reale identità di rappresentazione, poiché trasformazioni lineari complesse possono facilmente distorcere gli spazi vettoriali per adattarli a categorie semantiche simili, come gatti e tigri. Inoltre, l'autore evidenzia una differenza funzionale fondamentale: lo stato interno di un LLM è ottimizzato unicamente per predire il token successivo e funziona come memoria di lavoro contingente, a differenza di un encoder che comprime l'intero input in una rappresentazione semantica globale. Infine, vengono discusse le architetture JEPA di LeCun e la necessità di meccanismi di whitening per evitare il collasso degli embedding durante il training.",
+   "summary": "L'autore esamina l'ipotesi della rappresentazione platonica, secondo cui reti neurali differenti finirebbero per mappare concetti simili nello stesso spazio geometrico. Partendo da studi recenti in cui si confrontano embedding di immagini e descrizioni testuali tramite similarity matrix, si evidenzia un errore di fondo: la vicinanza geometrica deriverebbe semplicemente dalla condivisione di categorie semantiche comuni, non da una reale coincidenza strutturale. L'autore spiega come una trasformazione lineare con molti parametri possa sempre creare distorsioni geometriche per adattare uno spazio all'altro, mentre solo una semplice rotazione dopo normalizzazione proverebbe una reale equivalenza. Viene inoltre analizzato l'approccio JEPA di Yann LeCun, basato su funzioni di loss e whitening per distribuire gli embedding nello spazio senza collassare. Infine, si sottolinea la differenza funzionale tra un encoder che comprime l'intero input semantico e lo stato interno di un LLM, ottimizzato esclusivamente per predire il token successivo.",
    "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-03T17:10:23.725394+00:00",
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-03T17:25:40.596333+00:00",
    "published_at": "2026-11-02T00:00:00+00:00",
-   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
   },
   {
    "title": "Ciara Mageean, Irish 1500-Meter Champion and Olympian, Dies at 34",
@@ -1024,6 +1047,40 @@
    "seen_at": "2026-11-03T16:44:47.998861+00:00",
    "published_at": "2026-11-01T00:00:00+00:00",
    "batch_at": "2026-11-03T16:42:56.632071+00:00"
+  },
+  {
+   "title": "Generare l'icona di un'app con l'AI: il flusso di lavoro parallelo",
+   "subtitle": "Come generare e raffinare un'icona per app con l'AI sfruttando griglie di varianti in parallelo.",
+   "original_title": "Generare l'icona di un'app per iPhone con l'AI: il mio processo",
+   "link": "https://www.youtube.com/watch?v=ArfhdGDy9QM",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "L'autore spiega il proprio metodo per progettare un'icona per un'applicazione iOS di registrazione video sfruttando la generazione di immagini tramite intelligenza artificiale, pur non essendo un grafico di professione. La tesi centrale è che, anziché procedere con iterazioni singole e sequenziali che sprecano tempo, convenga sfruttare la capacità dei modelli di generare griglie con molteplici varianti in un unico passaggio, parallelizzando l'esplorazione visiva. Nel caso specifico, dopo aver testato diversi prompt legati al mondo dello streaming e del cinema senza ottenere risultati convincenti, l'autore ha virato su concetti di mascotte per poi convergere su una variante geometrica grigia con un pallino rosso. Successivamente, il modello GPT ha corretto le proporzioni dell'elemento centrale per adattarlo ai vincoli visivi di un'icona reale. Il pezzo mostra un flusso d'uso concreto per chi sviluppa software senza disporre di competenze di design avanzate.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T17:23:40.291413+00:00",
+   "published_at": "2026-11-01T00:00:00+00:00",
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
+  },
+  {
+   "title": "L'impatto dell'intelligenza artificiale sul metodo scientifico e la chiusura del sapere",
+   "subtitle": "Come il monopolio dei modelli di IA e il sistema dei brevetti rischiano di frammentare la scienza.",
+   "original_title": "L'AI renderà la scienza più chiusa? Da un video di Paolo Caressa",
+   "link": "https://www.youtube.com/watch?v=K0g2dT7ppRM",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "L'intelligenza artificiale rischia di trasformare la scienza aperta del metodo moderno in un sapere frammentato e controllato da poche corporation? Partendo da una riflessione storica sulla nascita delle accademie nel Seicento, l'analisi esamina il ruolo degli LLM come letteratura scientifica funzionante che accelera i processi di ricerca. Se da un lato i modelli avanzati permettono di simulare competenze multidisciplinari in autonomia, dall'altro la concentrazione di potenza di calcolo in poche mani apre a scenari critici. La statalizzazione dei modelli più potenti e il vantaggio temporale garantito dai brevetti industriali rappresentano il vero pericolo per la condivisione della conoscenza, poiché permettono a chi arriva primo di monopolizzare scoperte mediche e tecnologiche, superando i confini della tradizionale collaborazione accademica.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-03T17:25:03.532738+00:00",
+   "published_at": "2026-11-01T00:00:00+00:00",
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
   },
   {
    "title": "Reazione a catena di Mario Bava",
@@ -6475,27 +6532,27 @@
    "batch_at": "2026-10-21T16:32:04.323201+00:00"
   },
   {
-   "title": "Speranza, radici e ricerca: così 22simba ci racconta MIRIA",
-   "subtitle": "Il processo creativo e i temi centrali del nuovo album MIRIA di 22simba.",
+   "title": "Speranza, radici e ricerca nel nuovo album di 22simba",
+   "subtitle": "Analisi di MIRIA, il disco di 22simba diviso in tre atti tra ambizione e radici.",
    "original_title": "Speranza, radici e ricerca: così 22simba ci racconta MIRIA",
    "link": "https://www.bohmagazine.it/22simba-miria-intervista/",
    "source": "Boh Magazine",
    "category": "musica",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il nuovo album MIRIA di 22simba, composto da diciotto tracce e diviso in tre atti, esplora il contrasto tra l'ambizione materiale e la semplicità degli affetti, ispirandosi alla figura della nonna. Il disco affronta il tema delle radici legate a Saronno e il ruolo della speranza come motore per superare le difficoltà personali. L'artista racconta la genesi del progetto, l'assenza iniziale di featuring e il superamento della rabbia come spinta creativa.",
+   "summary": "Il nuovo album di 22simba, intitolato MIRIA e pubblicato a settembre 2026, si sviluppa in diciotto tracce divise in tre atti: Arricchiti, Miria e Provinciali. Il disco esplora il conflitto tra l'ambizione materiale e la semplicità degli affetti, usando la figura della nonna come termine di confronto per analizzare la propria crescita e il legame con Saronno.",
    "bullets": [
-    "Il disco è suddiviso in tre atti: Arricchiti, Miria e Provinciali, che tracciano un percorso dal benessere materiale alle origini di Saronno.",
-    "La speranza viene definita come una maschera e uno strumento di salvezza nei momenti di crisi personale.",
-    "L'album è stato scritto interamente da solo; i featuring con artisti come Arisa sono stati inseriti successivamente in modo mirato e complementare.",
-    "Il concept visivo e musicale ruota attorno all'Albero della Vita, simbolo di crescita e di forte legame con la provincia.",
-    "L'artista riflette sul passaggio generazionale, superando la sola spinta della rabbia per imparare a convivere con l'inquietudine e l'amore."
+    "Il disco è strutturato in tre atti (Arricchiti, Miria, Provinciali) che tracciano il percorso dal benessere materiale alle origini provinciali.",
+    "Il concept visivo e narrativo ruota attorno all'Albero della Vita e al legame con Saronno, scelto anche per la listening experience.",
+    "Le collaborazioni, tra cui la presenza di Arisa e altri artisti, sono state selezionate a posteriori per essere complementari ai brani e non per logiche di marketing.",
+    "L'autore individua nella speranza innata e non nella rabbia o negli ideali la chiave fondamentale del proprio percorso di riscatto.",
+    "Il disco riflette sull'inquietudine generazionale e sulla costante ricerca di qualcosa in più, considerata una condizione umana atavica amplificata dalla società contemporanea."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-03T17:14:35.765085+00:00",
+   "seen_at": "2026-11-03T17:27:53.068004+00:00",
    "published_at": "2026-09-21T13:46:38+00:00",
-   "batch_at": "2026-11-03T17:04:05.760767+00:00"
+   "batch_at": "2026-11-03T17:17:39.278754+00:00"
   },
   {
    "title": "Gianfranco Zola: dai ricordi con Maradona e il Chelsea alla riforma dei giovani",
