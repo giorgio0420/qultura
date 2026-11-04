@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T16:38:05.054305+00:00",
+ "generated_at": "2026-11-04T16:44:51.244396+00:00",
  "items": [
   {
    "title": "Asics Gel-Nimbus 29 Specs and Updates",
@@ -91,6 +91,23 @@
    "seen_at": "2026-11-04T15:44:44.581270+00:00",
    "published_at": "2026-11-04T14:30:00+00:00",
    "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
+  {
+   "title": "Quando trovi una buona mossa, cercane una migliore",
+   "subtitle": "Analisi di partite a scacchi e gestione del vantaggio posizionale e tattico.",
+   "original_title": "Quando trovi una buona mossa, cercane una migliore",
+   "link": "https://www.youtube.com/watch?v=bNS1zHWEgL8",
+   "source": "MontyMagnus Scacchi",
+   "category": "scacchi",
+   "kind": "yt",
+   "lang": "it",
+   "summary": "Nelle partite analizzate emergono ricorrenti difficoltà nella conversione del vantaggio posizionale in vittoria concreta, un problema comune a molti giocatori di livello intermedio. Nella prima partita, giocata con il bianco contro Zenuncela, l'apertura segue i canoni della difesa slava con l'accettazione del pedone nel gambetto di donna. Il bianco ottiene un solido controllo del centro, ma spreca precisione con mosse intermedie come H3 o Donna B3, che non risolvono il problema dello sviluppo dell'alfiere campobianco. La gestione ideale richiede invece di occupare il centro e completare lo sviluppo logico con pezzi come Alfiere E3, Cavallo F3 e Torre D1, lasciando all'avversario l'onere di reagire a una posizione stabile e durevole. Successivamente, pur raggiungendo una posizione dominante con un forte attacco sul lato di re, il bianco manca di precisione tattica. In particolare, di fronte a un pezzo avversario isolato o vulnerabile, ci si ferma alla prima mossa intuitiva, come catturare con la donna anziché calcolare varianti più incisive come torre per D5, che avrebbe chiuso la partita immediatamente. Nel finale, una regola pratica fondamentale per limitare le risorse difensive avversarie è il cementare l'alfiere in una casa chiave per immobilizzare i pezzi rivali. Nella seconda partita, impostata sulla difesa Caro-Kann, il bianco conduce una fase iniziale eccellente sfruttando uno sviluppo naturale, una preventiva torre in E8 per evitare fastidiosi scacchi e un cambio di donne ben preparato tramite donna B8 che raddoppia i pedoni avversari. Tuttavia, anche in questo caso, la conversione si arena di fronte a un pezzo inchiodato, come una torre bloccata: anziché accanirsi attaccandola ripetutamente con tutti i pezzi disponibili, si sceglie un cambio prematuro che libera l'avversario dalla pressione e permette il ritorno della coppia degli alfieri neri. La morale scacchistica centrale ribadita dall'analisi è la necessità di non accontentarsi di una buona mossa evidente, ma di ampliare il proprio raggio di calcolo alla ricerca di soluzioni tattiche superiori, mantenendo altissima la concentrazione e la determinazione quando la posizione è favorevole.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-04T16:36:12.873763+00:00",
+   "published_at": "2026-11-04T12:43:12+00:00",
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
   },
   {
    "title": "Roma, la sconfitta di Manchester evidenzia il limite della tenuta fisica",
@@ -324,21 +341,21 @@
    "batch_at": "2026-11-04T15:43:02.542583+00:00"
   },
   {
-   "title": "Un'analisi critica sui Large Language Model che leggono i pesi delle reti neurali",
-   "subtitle": "Test ablativi dimostrano i limiti degli LLM nell'interpretare pesi e giochi non ovvi.",
+   "title": "I limiti reali dei Large Language Model nell'analisi dei pesi neurali",
+   "subtitle": "Un test ablativo svela perché i modelli falliscono sui giochi non ovvi.",
    "original_title": "Riesce Astra a capire quale gioco ho implementato? Ancora sugli LLM che leggono i pesi",
    "link": "https://www.youtube.com/watch?v=otw8JSdXAl4",
    "source": "antirez (YouTube)",
    "category": "ai",
    "kind": "queue",
    "lang": "it",
-   "summary": "Il recente paper del MIT sui Large Language Model capaci di analizzare i pesi delle reti neurali e di intervenire direttamente su di essi ha suscitato reazioni polarizzate, oscillando tra chi grida alla rivoluzione e chi bolla tutto come una truffa. Sebbene alcune parti dello studio, come gli esperimenti sul gioco Go o la correzione di specifici bug tramite vector steering, siano notevoli, l'autore sostiene che i primi test sui giochi classici fossero viziati da una forte banalità. I giochi usati, come Pacman o Frogger, presentavano schemi d'input e bias di movimento troppo evidenti, e il pattern matching delle griglie 10x10 permetteva agli LLM di indovinare facilmente il contesto mappando i pesi del primo layer senza una reale comprensione profonda. Per verificare questa ipotesi, l'autore ha condotto un test ablativo implementando un gioco personalizzato, Cannon, con una griglia e meccaniche simili ma meno ovvie. Fornendo ad Astra max effort sia i pesi che il forward pass, il modello ha ripetutamente fallito l'identificazione, scambiandolo prima per Space Invaders e poi per Pinball, anche quando gli è stata mostrata la rappresentazione radiale dei pesi per singola categoria. Questo dimostra che gli LLM possiedono eccezionali capacità di analisi e pattern matching, ma non leggono i pesi come Neo in Matrix e faticano quando mancano scorciatoie ovvie. Di conseguenza, l'idea che in futuro i modelli possano auto-migliorarsi modificando direttamente i propri pesi tramite editing anziché affidarsi alla discesa del gradiente e alla backpropagation resta pura fantascienza.",
+   "summary": "Un recente paper del MIT mostra che i grandi modelli linguistici possono studiare i pesi delle reti neurali e correggere problemi interni. Tuttavia, i risultati su giochi classici come Breakout o Pacman sono stati sopravvalutati: le reti sfruttano bias di input evidenti e nei primi layer i pesi formano una mappa visiva del gioco facilmente decifrabile anche dall'LLM. Per verificare questa ipotesi, l'autore ha implementato un gioco personalizzato, Cannon, su una griglia 10x10 addestrata con Ppo ed eseguito un test ablativo. Nonostante l'uso di Astra al massimo sforzo e l'aggiunta di indizi visuali sui primi layer, il modello ha fallito la classificazione identificandolo erroneamente come Space Invaders prima e Pinball poi. Questo dimostra che i successi iniziali dipendono spesso da pattern ovvi e non da una reale comprensione profonda dei pesi. Per eliminare queste scorciatoie visive, l'autore suggerisce di allenare le reti con rotazioni e specchiature geometriche. L'analisi conferma che sebbene gli LLM siano eccellenti nel pattern matching e nell'isolare bug specifici tramite vector steering, l'idea che possano auto-migliorarsi modificando direttamente i pesi senza ricorrere al gradient descent resta per ora fantascienza.",
    "bullets": [],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-04T16:40:34.631296+00:00",
+   "seen_at": "2026-11-04T16:33:48.968784+00:00",
    "published_at": "2026-11-04T00:00:00+00:00",
-   "batch_at": "2026-11-04T16:38:05.054305+00:00"
+   "batch_at": "2026-11-04T16:31:48.613283+00:00"
   },
   {
    "title": "Roma, crollo all'Old Trafford: il Manchester United ribalta il 2-0",
@@ -683,6 +700,23 @@
    "seen_at": "2026-11-03T15:28:45.634145+00:00",
    "published_at": "2026-11-03T14:16:13+00:00",
    "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
+  {
+   "title": "MATLAB Parallel Computing Toolbox",
+   "subtitle": "Learn how the Parallel Computing Toolbox scales MATLAB and Simulink workflows across CPUs and GPUs.",
+   "original_title": "What Is Parallel Computing Toolbox?",
+   "link": "https://www.youtube.com/watch?v=D1F5Yb7_3RI",
+   "source": "MATLAB",
+   "category": "ai",
+   "kind": "yt",
+   "lang": "en",
+   "summary": "The Parallel Computing Toolbox in MATLAB and Simulink enables engineers to accelerate compute- and data-intensive tasks across multi-core CPUs and GPUs without writing low-level CUDA, OpenMP, or MPI code. Users can leverage automatic parallel support in built-in functions like trainnet, or implement custom parallel workflows using specific language constructs. These include parfor for parallel loops, parfeval for parallel queues, parsim for Simulink simulations, and gpuArray for targeting NVIDIA GPUs. Base MATLAB includes select parallel constructs that execute serially when the toolbox is absent and in parallel when it is installed, allowing code sharing. For larger workloads, MATLAB Parallel Server scales desktop workflows across multiple machines, while the pool dashboard provides diagnostics to evaluate parallel efficiency.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-04T16:32:48.012099+00:00",
+   "published_at": "2026-11-03T14:14:47+00:00",
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
   },
   {
    "title": "Airbus Detumbler: Passive Magnetic Damping for Decommissioned Satellites",
@@ -1782,21 +1816,21 @@
    "batch_at": "2026-11-04T11:57:39.131833+00:00"
   },
   {
-   "title": "La protesta di piazza e il conflitto sociale",
-   "subtitle": "Analisi delle manifestazioni sindacali di base e del conflitto sociale in Italia.",
+   "title": "Le piazze italiane e la mobilitazione dal basso",
+   "subtitle": "Analisi delle manifestazioni sindacali e studentesche contro le politiche governative",
    "original_title": "La protesta non si ferma",
    "link": "https://www.youtube.com/watch?v=a1dLbAxS16A",
    "source": "BarbaSophia (Matteo Saudino)",
    "category": "filosofia",
    "kind": "queue",
    "lang": "it",
-   "summary": "Le recenti manifestazioni in Italia indette dai sindacati di base USB, Cobas e Cub hanno registrato un'adesione massiccia di studenti, lavoratori, insegnanti e portuali, nonostante la frammentazione sindacale e le tensioni con le forze dell'ordine. Il video analizza come la spinta dal basso contesti la stagnazione dei salari, il caro affitti, le liste d'attesa nella sanità e la spesa militare, vista come causa inevitabile di tagli al welfare. Particolare rilievo viene dato ai momenti di distensione in cui alcuni agenti a Napoli e Bologna hanno abbassato i scudi. L'argomento centrale è che il sistema capitalistico concentra la ricchezza sottraendola al lavoro e che la redistribuzione, insieme al conflitto sociale emancipativo, costituisce l'unica via per contrastare la disuguaglianza economica e la prospettiva della guerra.",
+   "summary": "Nonostante la convocazione da parte di sindacati di base come USB, Cobas e Cub e il clima di tensione alimentato dalle forze dell'ordine nelle settimane precedenti, le manifestazioni svoltesi a Torino, Bologna, Roma, Napoli, Catania e Palermo hanno registrato un'adesione di massa. Studenti, portuali, vigili del fuoco, operai e insegnanti sono scesi in piazza per contestare la gestione dei salari, il caro affitti, le condizioni della scuola e la spesa per gli armamenti. In alcune città, come Napoli e Bologna, si sono registrati episodi in cui membri della Guardia di Finanza e della polizia hanno tolto i caschi e abbassato gli scudi di fronte ai manifestanti. Il fenomeno evidenzia una frattura crescente tra il racconto istituzionale e le richieste di ridistribuzione della ricchezza avanzate dai lavoratori e dalle nuove generazioni.",
    "bullets": [],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-04T16:42:04.247841+00:00",
+   "seen_at": "2026-11-04T16:37:09.227310+00:00",
    "published_at": "2026-10-31T00:00:00+00:00",
-   "batch_at": "2026-11-04T16:38:05.054305+00:00"
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
   },
   {
    "title": "ESI supplying solar array components to missile defense programs",
@@ -6511,26 +6545,26 @@
   },
   {
    "title": "Young Hash racconta Adaver",
-   "subtitle": "Il rapper analizza il disco Adaver, il legame con la Puglia e la maturazione artistica.",
+   "subtitle": "Il rapper analizza il disco d'esordio, il legame con la Puglia e le collaborazioni",
    "original_title": "Young Hash racconta “Adaver”: Bari, Guè e la nostalgia di casa",
    "link": "https://www.bohmagazine.it/young-hash-adaver-intervista/",
    "source": "Boh Magazine",
    "category": "musica",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il rapper barese Young Hash discute il suo album d'esordio Adaver, riflettendo sul percorso di crescita dopo anni di rifiuti discografici e sulla transizione dalle difficoltà di Salsedine a una maggiore maturità espressiva. L'intervista approfondisce i featuring territoriali con Kid Yugi, Scaccia e RRARI DAL TACCO, la collaborazione con Guè nel brano Gossip e l'immaginario personale racchiuso nella copertina.",
+   "summary": "Il rapper barese Young Hash discute il suo album d'esordio Adaver, unendo la nostalgia per il territorio a una maggiore maturità compositiva. Nell'intervista affronta il percorso di crescita artistica, il rapporto con la scena pugliese e i dettagli della collaborazione con Guè.",
    "bullets": [
-    "Il disco Adaver rappresenta un punto di svolta per l'attenzione ricevuta, superando le difficoltà e le pressioni vissute durante la realizzazione dell'EP Salsedine.",
-    "Il progetto include collaborazioni strategiche con artisti pugliesi come Kid Yugi, Scaccia e RRARI DAL TACCO per valorizzare la scena locale.",
-    "La collaborazione con Guè nel brano Gossip è nata da un rapporto preesistente e si allinea allo stile sfacciato del brano.",
-    "La copertina dell'album condensa elementi biografici e simbolici: il legame con Bari e San Nicola, il desiderio di paternità, la figura materna e il richiamo alla tradizione.",
-    "Il percorso live prevede un imminente tour in formato DJ set e date autoprodotte nelle principali città italiane, tra cui Milano e Bari."
+    "L'album Adaver segna un punto di svolta più maturo rispetto al precedente EP Salsedine, sostenuto da una maggiore attenzione mediatica e da stabilità personale.",
+    "Il disco include collaborazioni con artisti pugliesi come Kid Yugi, Scaccia e RRARI DAL TACCO per rappresentare la forza della scena regionale.",
+    "La collaborazione con Guè nel brano Gossip è nata spontaneamente grazie a un rapporto preesistente e alla condivisione dell'attitudine del pezzo.",
+    "La copertina del disco racchiude elementi autobiografici: il legame con le donne della sua famiglia, l'iconografia di San Nicola, il desiderio di paternità e il rapporto con l'alcol.",
+    "Il percorso live prevede un tour con DJ set e date autoprodotte nelle principali città italiane, tra cui Milano e Bari."
    ],
    "relevance": 4,
    "score": 8,
-   "seen_at": "2026-11-04T16:43:13.489938+00:00",
+   "seen_at": "2026-11-04T16:49:47.707380+00:00",
    "published_at": "2026-09-22T15:42:36+00:00",
-   "batch_at": "2026-11-04T16:38:05.054305+00:00"
+   "batch_at": "2026-11-04T16:44:51.244396+00:00"
   },
   {
    "title": "Speranza, radici e ricerca nel nuovo album di 22simba",
