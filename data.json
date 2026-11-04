@@ -1,6 +1,97 @@
 {
- "generated_at": "2026-11-04T11:57:39.131833+00:00",
+ "generated_at": "2026-11-04T15:43:02.542583+00:00",
  "items": [
+  {
+   "title": "Asics Gel-Nimbus 29 Specs and Updates",
+   "subtitle": "Details on the Asics Gel-Nimbus 29 midsole, weight, and pricing.",
+   "original_title": "Asics Just Announced the Gel-Nimbus 29—Here’s Everything We Know, Plus Where to Get the Nimbus 28 on Sale",
+   "link": "https://www.runnersworld.com/gear/a74326221/asics-gel-nimbus-29-launch/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Asics has announced the Gel-Nimbus 29 max-cushion trainer, featuring a new FlyteFoam Luxe Plus midsole and softer Gel tech. The shoe retails for $170 and launches on December 1, while the previous model is currently discounted by over 20 percent.",
+   "bullets": [
+    "The Gel-Nimbus 29 introduces FlyteFoam Luxe Plus, a foam softer than the previous FlyteFoam Blast Plus material.",
+    "The heel Gel layer is rated by Asics as 65 percent softer than the previous version.",
+    "The shoe features a wide sole shape for stability and increased outsole coverage for durability and grip.",
+    "Men's version weighs 9.8 ounces; women's version weighs 8.4 ounces.",
+    "Retail price is set at $170, identical to the Gel-Nimbus 28 MSRP.",
+    "The previous Gel-Nimbus 28 model is currently discounted to $130 at major retailers."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-04T15:46:33.556964+00:00",
+   "published_at": "2026-11-04T15:39:15+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
+  {
+   "title": "2026 Trail Running Shoe Guide: Specs, Terrains, and Curated Picks",
+   "subtitle": "Analysis of technical specs, stack heights, and terrain pairings for top trail shoes.",
+   "original_title": "The 10 Best Trail Running Shoes for Trails, Gravel, and More",
+   "link": "https://www.runnersworld.com/gear/a22115120/best-trail-running-shoes/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This gear breakdown evaluates trail running shoes across specific metrics including stack height, drop, lug depth, midsole foams, and outsole compounds. It maps out optimal use cases ranging from fast gravel paths to technical mountain trails and multi-day ultramarathons.",
+   "bullets": [
+    "Hoka Speedgoat 7: 36mm/29mm stack, supercritical EVA foam, and 5mm Vibram Megagrip lugs optimized for dusty and sandy trails.",
+    "Saucony Peregrine 16: Features Pwrrun foam, a rock guard plate, and deep Vibram Megagrip lugs designed for technical, rocky, and muddy descents.",
+    "Mount To Coast H1: Lightweight 7.5 oz gravel specialist featuring a 28mm/22mm stack, CircleCell foam, and shallow 2mm lugs for fire roads.",
+    "Norda 055: Ultra-distance mountain shoe utilizing a bio-circular Dyneema woven upper and max-cushion 36mm/30mm stack for high durability.",
+    "Shoe selection criteria emphasize matching lug depth and pattern to terrain, balancing drop and stack height, and evaluating rock plate integration."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-04T15:47:27.641978+00:00",
+   "published_at": "2026-11-04T15:36:28+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
+  {
+   "title": "Fotogrammetria e modellazione 3D: dai Sassi di Matera ai beni culturali",
+   "subtitle": "Come funziona la tecnica Structure from Motion per creare modelli 3D dalle foto.",
+   "original_title": "Un videogioco su Steam ricostruisce i Sassi di Matera dalle fotografie: come funziona la fotogrammetria",
+   "link": "https://www.geopop.it/un-videogioco-su-steam-ricostruisce-i-sassi-di-matera-dalle-fotografie-come-funziona-la-fotogrammetria/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La fotogrammetria permette di convertire serie di fotografie sovrapposte in modelli tridimensionali accurati attraverso algoritmi geometrici e calcoli di triangolazione. Questa tecnica, utilizzata sia nello sviluppo di videogiochi che nella tutela dei beni culturali, consente di documentare lo stato di conservazione di monumenti e reperti archeologici senza manipolarli direttamente.",
+   "bullets": [
+    "La tecnica Structure from Motion individua elementi comuni nelle foto scattate da angolazioni diverse per calcolare la geometria della superficie.",
+    "Il processo richiede una sovrapposizione del 60-80% tra scatti consecutivi per permettere al software di stimare la posizione dei punti.",
+    "Dalla nuvola iniziale di punti si genera una mesh 3D poligonale su cui vengono applicate le texture fotografiche originali.",
+    "A differenza del LiDAR che usa impulsi laser, la fotogrammetria si basa interamente su dati visivi.",
+    "Nei beni culturali, il confronto tra rilievi periodici consente di monitorare deformazioni e perdite di materiale nel tempo."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-04T15:44:18.305939+00:00",
+   "published_at": "2026-11-04T14:30:34+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
+  {
+   "title": "OpenAI Acquires Pierre Computer Company",
+   "subtitle": "OpenAI acquires Pierre Computer Company to expand Codex code tools.",
+   "original_title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "link": "https://openai.com/index/openai-to-acquire-pierre",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI has announced the acquisition of Pierre Computer Company, Inc. The move is designed to expand the capabilities of Codex by integrating new tools for building, understanding, and reviewing software code.",
+   "bullets": [
+    "OpenAI acquires Pierre Computer Company, Inc.",
+    "Acquisition aims to expand Codex's code-building tools.",
+    "New capabilities will focus on understanding and reviewing code."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-04T15:44:44.581270+00:00",
+   "published_at": "2026-11-04T14:30:00+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
   {
    "title": "Roma, la sconfitta di Manchester evidenzia il limite della tenuta fisica",
    "subtitle": "Analisi della sconfitta della Roma all'Old Trafford contro il Manchester United.",
@@ -91,6 +182,27 @@
    "seen_at": "2026-11-04T11:07:21.521046+00:00",
    "published_at": "2026-11-04T08:45:30+00:00",
    "batch_at": "2026-11-04T11:05:14.710998+00:00"
+  },
+  {
+   "title": "Daybreak Red Available in AWS GovCloud",
+   "subtitle": "GPT-5.6 Cyber is now accessible via Amazon Bedrock in AWS GovCloud (US-East).",
+   "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Daybreak Red has been made available to approved customers in the AWS GovCloud (US-East) region. Through Amazon Bedrock, users can access GPT-5.6 Cyber specifically for authorized cybersecurity operations.",
+   "bullets": [
+    "Daybreak Red is deployed in AWS GovCloud (US-East).",
+    "Integration is provided through Amazon Bedrock.",
+    "Utilizes the GPT-5.6 Cyber model for authorized cybersecurity work."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-04T15:45:07.045152+00:00",
+   "published_at": "2026-11-04T07:00:00+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
   },
   {
    "title": "Analisi degli episodi arbitrali in Manchester United-Roma",
@@ -188,6 +300,28 @@
    "seen_at": "2026-11-04T11:12:37.035665+00:00",
    "published_at": "2026-11-04T00:00:00+00:00",
    "batch_at": "2026-11-04T11:10:39.042770+00:00"
+  },
+  {
+   "title": "La banalità del lavoro d'ufficio e il rifiuto della produttività",
+   "subtitle": "Critica feroce alla rat race e al mito moderno del lavoro aziendale.",
+   "original_title": "La Banalità Del Male",
+   "link": "https://thedarksalad.it/articoli/la-gabbia-del-ratto/",
+   "source": "The Dark Salad",
+   "category": "mondo",
+   "kind": "sitemap",
+   "lang": "it",
+   "summary": "Il testo analizza l'alienazione del lavoro d'ufficio contemporaneo, descritto come una simulazione kafkiana basata su open space e task inutili. Viene contrapposta la retorica tossica della hustle culture al crescente rifiuto generazionale del lavoro, che sfocia nel quiet quitting o nel desiderio radicale di ozio.",
+   "bullets": [
+    "Gli open space vengono definiti come una versione moderna e socialmente accettata del Panopticon.",
+    "La produttività è spesso fittizia: i lavoratori fingono di essere occupati per evitare di ricevere altro carico di lavoro.",
+    "Le giovani generazioni rifiutano il mito del sacrificio e del lavoro totalizzante, privilegiando il tempo libero e i benefit.",
+    "Il testo evidenzia il divario tra le promesse tecnologiche del passato e la realtà attuale del pendolarismo e della burocrazia digitale."
+   ],
+   "relevance": 2,
+   "score": 6,
+   "seen_at": "2026-11-04T15:52:46.737208+00:00",
+   "published_at": "2026-11-04T00:00:00+00:00",
+   "batch_at": "2026-11-04T15:43:02.542583+00:00"
   },
   {
    "title": "Roma, crollo all'Old Trafford: il Manchester United ribalta il 2-0",
