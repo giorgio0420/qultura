@@ -93,6 +93,23 @@
    "batch_at": "2026-11-04T15:43:02.542583+00:00"
   },
   {
+   "title": "Quando trovi una buona mossa, cercane una migliore",
+   "subtitle": "Analisi di partite a scacchi e gestione del vantaggio posizionale e tattico.",
+   "original_title": "Quando trovi una buona mossa, cercane una migliore",
+   "link": "https://www.youtube.com/watch?v=bNS1zHWEgL8",
+   "source": "MontyMagnus Scacchi",
+   "category": "scacchi",
+   "kind": "yt",
+   "lang": "it",
+   "summary": "Nelle partite analizzate emergono ricorrenti difficoltà nella conversione del vantaggio posizionale in vittoria concreta, un problema comune a molti giocatori di livello intermedio. Nella prima partita, giocata con il bianco contro Zenuncela, l'apertura segue i canoni della difesa slava con l'accettazione del pedone nel gambetto di donna. Il bianco ottiene un solido controllo del centro, ma spreca precisione con mosse intermedie come H3 o Donna B3, che non risolvono il problema dello sviluppo dell'alfiere campobianco. La gestione ideale richiede invece di occupare il centro e completare lo sviluppo logico con pezzi come Alfiere E3, Cavallo F3 e Torre D1, lasciando all'avversario l'onere di reagire a una posizione stabile e durevole. Successivamente, pur raggiungendo una posizione dominante con un forte attacco sul lato di re, il bianco manca di precisione tattica. In particolare, di fronte a un pezzo avversario isolato o vulnerabile, ci si ferma alla prima mossa intuitiva, come catturare con la donna anziché calcolare varianti più incisive come torre per D5, che avrebbe chiuso la partita immediatamente. Nel finale, una regola pratica fondamentale per limitare le risorse difensive avversarie è il cementare l'alfiere in una casa chiave per immobilizzare i pezzi rivali. Nella seconda partita, impostata sulla difesa Caro-Kann, il bianco conduce una fase iniziale eccellente sfruttando uno sviluppo naturale, una preventiva torre in E8 per evitare fastidiosi scacchi e un cambio di donne ben preparato tramite donna B8 che raddoppia i pedoni avversari. Tuttavia, anche in questo caso, la conversione si arena di fronte a un pezzo inchiodato, come una torre bloccata: anziché accanirsi attaccandola ripetutamente con tutti i pezzi disponibili, si sceglie un cambio prematuro che libera l'avversario dalla pressione e permette il ritorno della coppia degli alfieri neri. La morale scacchistica centrale ribadita dall'analisi è la necessità di non accontentarsi di una buona mossa evidente, ma di ampliare il proprio raggio di calcolo alla ricerca di soluzioni tattiche superiori, mantenendo altissima la concentrazione e la determinazione quando la posizione è favorevole.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-04T16:36:12.873763+00:00",
+   "published_at": "2026-11-04T12:43:12+00:00",
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
+  },
+  {
    "title": "Roma, la sconfitta di Manchester evidenzia il limite della tenuta fisica",
    "subtitle": "Analisi della sconfitta della Roma all'Old Trafford contro il Manchester United.",
    "original_title": "Roma, ripresa di rimpianti",
@@ -683,6 +700,23 @@
    "seen_at": "2026-11-03T15:28:45.634145+00:00",
    "published_at": "2026-11-03T14:16:13+00:00",
    "batch_at": "2026-11-03T15:26:28.720262+00:00"
+  },
+  {
+   "title": "MATLAB Parallel Computing Toolbox",
+   "subtitle": "Learn how the Parallel Computing Toolbox scales MATLAB and Simulink workflows across CPUs and GPUs.",
+   "original_title": "What Is Parallel Computing Toolbox?",
+   "link": "https://www.youtube.com/watch?v=D1F5Yb7_3RI",
+   "source": "MATLAB",
+   "category": "ai",
+   "kind": "yt",
+   "lang": "en",
+   "summary": "The Parallel Computing Toolbox in MATLAB and Simulink enables engineers to accelerate compute- and data-intensive tasks across multi-core CPUs and GPUs without writing low-level CUDA, OpenMP, or MPI code. Users can leverage automatic parallel support in built-in functions like trainnet, or implement custom parallel workflows using specific language constructs. These include parfor for parallel loops, parfeval for parallel queues, parsim for Simulink simulations, and gpuArray for targeting NVIDIA GPUs. Base MATLAB includes select parallel constructs that execute serially when the toolbox is absent and in parallel when it is installed, allowing code sharing. For larger workloads, MATLAB Parallel Server scales desktop workflows across multiple machines, while the pool dashboard provides diagnostics to evaluate parallel efficiency.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-04T16:32:48.012099+00:00",
+   "published_at": "2026-11-03T14:14:47+00:00",
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
   },
   {
    "title": "Airbus Detumbler: Passive Magnetic Damping for Decommissioned Satellites",
@@ -1780,6 +1814,23 @@
    "seen_at": "2026-11-04T11:59:10.403456+00:00",
    "published_at": "2026-10-31T00:00:00+00:00",
    "batch_at": "2026-11-04T11:57:39.131833+00:00"
+  },
+  {
+   "title": "Le piazze italiane e la mobilitazione dal basso",
+   "subtitle": "Analisi delle manifestazioni sindacali e studentesche contro le politiche governative",
+   "original_title": "La protesta non si ferma",
+   "link": "https://www.youtube.com/watch?v=a1dLbAxS16A",
+   "source": "BarbaSophia (Matteo Saudino)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Nonostante la convocazione da parte di sindacati di base come USB, Cobas e Cub e il clima di tensione alimentato dalle forze dell'ordine nelle settimane precedenti, le manifestazioni svoltesi a Torino, Bologna, Roma, Napoli, Catania e Palermo hanno registrato un'adesione di massa. Studenti, portuali, vigili del fuoco, operai e insegnanti sono scesi in piazza per contestare la gestione dei salari, il caro affitti, le condizioni della scuola e la spesa per gli armamenti. In alcune città, come Napoli e Bologna, si sono registrati episodi in cui membri della Guardia di Finanza e della polizia hanno tolto i caschi e abbassato gli scudi di fronte ai manifestanti. Il fenomeno evidenzia una frattura crescente tra il racconto istituzionale e le richieste di ridistribuzione della ricchezza avanzate dai lavoratori e dalle nuove generazioni.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-04T16:37:09.227310+00:00",
+   "published_at": "2026-10-31T00:00:00+00:00",
+   "batch_at": "2026-11-04T16:31:32.574664+00:00"
   },
   {
    "title": "ESI supplying solar array components to missile defense programs",
