@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:43:02.542583+00:00",
+ "generated_at": "2026-11-04T16:31:48.613283+00:00",
  "items": [
   {
    "title": "Asics Gel-Nimbus 29 Specs and Updates",
@@ -322,6 +322,23 @@
    "seen_at": "2026-11-04T15:52:46.737208+00:00",
    "published_at": "2026-11-04T00:00:00+00:00",
    "batch_at": "2026-11-04T15:43:02.542583+00:00"
+  },
+  {
+   "title": "I limiti reali dei Large Language Model nell'analisi dei pesi neurali",
+   "subtitle": "Un test ablativo svela perché i modelli falliscono sui giochi non ovvi.",
+   "original_title": "Riesce Astra a capire quale gioco ho implementato? Ancora sugli LLM che leggono i pesi",
+   "link": "https://www.youtube.com/watch?v=otw8JSdXAl4",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Un recente paper del MIT mostra che i grandi modelli linguistici possono studiare i pesi delle reti neurali e correggere problemi interni. Tuttavia, i risultati su giochi classici come Breakout o Pacman sono stati sopravvalutati: le reti sfruttano bias di input evidenti e nei primi layer i pesi formano una mappa visiva del gioco facilmente decifrabile anche dall'LLM. Per verificare questa ipotesi, l'autore ha implementato un gioco personalizzato, Cannon, su una griglia 10x10 addestrata con Ppo ed eseguito un test ablativo. Nonostante l'uso di Astra al massimo sforzo e l'aggiunta di indizi visuali sui primi layer, il modello ha fallito la classificazione identificandolo erroneamente come Space Invaders prima e Pinball poi. Questo dimostra che i successi iniziali dipendono spesso da pattern ovvi e non da una reale comprensione profonda dei pesi. Per eliminare queste scorciatoie visive, l'autore suggerisce di allenare le reti con rotazioni e specchiature geometriche. L'analisi conferma che sebbene gli LLM siano eccellenti nel pattern matching e nell'isolare bug specifici tramite vector steering, l'idea che possano auto-migliorarsi modificando direttamente i pesi senza ricorrere al gradient descent resta per ora fantascienza.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-04T16:33:48.968784+00:00",
+   "published_at": "2026-11-04T00:00:00+00:00",
+   "batch_at": "2026-11-04T16:31:48.613283+00:00"
   },
   {
    "title": "Roma, crollo all'Old Trafford: il Manchester United ribalta il 2-0",
