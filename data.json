@@ -1,6 +1,92 @@
 {
- "generated_at": "2026-11-04T16:44:51.244396+00:00",
+ "generated_at": "2026-11-05T01:12:49.560353+00:00",
  "items": [
+  {
+   "title": "La Roma e la Champions League: analisi tattica e problemi di rendimento nel finale di gara",
+   "subtitle": "La Roma cala nel finale in Europa; focus sulle difficoltà tattiche e i dati di pressione.",
+   "original_title": "COMO ALLUCINANTE, FA LA STORIA IN CHAMPIONS. IL NAPOLI CROLLA. LE FOOT TOUJOURS, NUOVA PUNTATA!",
+   "link": "https://www.youtube.com/watch?v=BuZGtcxHiLs",
+   "source": "Cronache di Spogliatoio",
+   "category": "calcio",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "La Roma ha affrontato il Manchester United in Champions League, offrendo un primo tempo di grande intensità e dominino territoriale, per poi subire il ritorno degli inglesi nella ripresa e perdere la partita anche a causa di episodi arbitrali sfavorevoli, come un calcio di rigore giudicato generoso e la mancata espulsione di Maguire. I dati e le analisi tattiche evidenziano un problema ricorrente per la squadra di Gasperini contro le grandi avversarie: negli ultimi quindici minuti di gioco si registra sistematicamente un calo fisico e di intensità, un limite accentuato da una rosa corta che fatica a reggere i ritmi altissimi imposti dal tecnico. Questo approccio basato sulla marcatura aggressiva in avanti e sulla ricerca costante della verticalità rappresenta il principale punto di forza della squadra, ma nei momenti di maggiore stanchezza diventa anche un punto di vulnerabilità strutturale, esponendo la difesa alle ripartenze avversarie. Nel panorama dei singoli, Manu Koné si conferma il giocatore più imprescindibile in mezzo al campo per garantire equilibrio e tamponare le transizioni, mentre la squadra si prepara ad affrontare il prossimo impegno di campionato contro il Sassuolo con l'obiettivo di confermare il rendimento eccellente già mostrato contro le formazioni di fascia inferiore. Nel resto del panorama europeo e di Serie A, la notte di Champions ha registrato lo storico record del Como, capace di battere il Lens per 9-1 in trasferta grazie a una circolazione di palla estremamente rapida e a una rosa corta gestita con grande efficacia da Cesc Fàbregas. Al contrario, il Napoli è crollato per 4-1 sul campo del Porto guidato da Farioli, evidenziando gravi limiti di passività difensiva e una tenuta fisica limitata al primo tempo che mettono in forte discussione la gestione e le certezze tattiche di Massimiliano Allegri in vista della delicata sfida di campionato contro la Lazio.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-05T01:13:40.186220+00:00",
+   "published_at": "2026-11-05T01:10:18.943324+00:00",
+   "batch_at": "2026-11-05T01:12:49.560353+00:00"
+  },
+  {
+   "title": "Deconstructing the Myth of the 'Runner's Body' in Marathon Training",
+   "subtitle": "How physiological demands and social expectations clash during endurance training.",
+   "original_title": "After Training for My First Marathon, I Felt Like My Body Didn’t Look Like the Runner I Thought I’d Become. Experts Helped Me See Otherwise.",
+   "link": "https://www.runnersworld.com/training/a74285076/marathon-training-body-image/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Marathon training frequently triggers body image anxiety when physical changes fail to match societal stereotypes of a runner's physique. Experts explain how endurance adaptations drive performance rather than aesthetic ideals, requiring runners to shift focus from visual evaluation to functional appreciation.",
+   "bullets": [
+    "Distance running culture and media representation have historically promoted a lean, small-framed athletic ideal, creating false expectations for recreational runners.",
+    "The female athlete paradox leaves women caught between cultural pressures to be smaller and athletic demands to fuel adequately for high mileage.",
+    "Improved physiological fitness and endurance do not inherently result in weight loss or a smaller body frame.",
+    "Restricting food intake to alter appearance compromises recovery, increases injury risk, and degrades athletic performance.",
+    "Shifting focus from body evaluation to body appreciation helps separate neutral physical changes from self-critical interpretations."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-05T01:13:48.439670+00:00",
+   "published_at": "2026-11-04T21:56:14+00:00",
+   "batch_at": "2026-11-05T01:12:49.560353+00:00"
+  },
+  {
+   "title": "Agile Deliberation: Interactive VLM Workflows for Subjective Image Classifiers",
+   "subtitle": "How an iterative VLM loop helps users define subjective AI classification boundaries.",
+   "original_title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "link": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "source": "Google Research",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Agile Deliberation is an interactive framework designed to build image classifiers for subjective categories through a two-stage process: concept scoping and active testing. By using vision-language models to surface semantically borderline images, the system helps human operators resolve ambiguities and update prompt optimization loops automatically, reducing cognitive fatigue and outperforming standard baselines.",
+   "bullets": [
+    "Replaces static data labeling and manual prompt engineering with a two-way collaborative workflow between humans and vision-language models.",
+    "Concept scoping phase guides users to break down broad subjective topics into structured sub-categories and explicit exclusions.",
+    "Concept iteration phase uses vision-language models to mine and surface semantically borderline images that challenge existing text-based definitions.",
+    "Human feedback on edge cases routes directly into an automated prompt optimization loop to shift classification boundaries in tandem with user intent.",
+    "Evaluated across 18 live, 1.5-hour user sessions, demonstrating higher labeling consistency and outperforming standard static baselines on complex visual tasks."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-05T01:13:16.650487+00:00",
+   "published_at": "2026-11-04T18:07:05+00:00",
+   "batch_at": "2026-11-05T01:12:49.560353+00:00"
+  },
+  {
+   "title": "Dharma Field Extractor: Structured JSON from Any Document",
+   "subtitle": "How a 2B parameter model outperforms frontier LLMs on field extraction.",
+   "original_title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+   "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Dharma Field Extractor is a 2-billion-parameter small language model fine-tuned for extracting structured JSON fields from diverse documents. Using a 43,384-example training set on top of DharmaOCR-LITE v1.1, it supports both open extraction and schema-directed inputs. It beats major frontier LLMs on field-level F1 benchmarks while running significantly cheaper on a single L40S GPU.",
+   "bullets": [
+    "Operates in two modes: open extraction (discovers key-value pairs and tables without a schema) and schema-directed (fills exact fields, types, and nested lists, returning null for missing data).",
+    "Built on a 2-billion-parameter base model (DharmaOCR-LITE v1.1) with a specialized LoRA adapter trained across English, Brazilian Portuguese, and multilingual document streams.",
+    "Evaluated on a 546-document benchmark (1,638 total cases across three scenarios) using field-level F1 matched by path, Levenshtein similarity, and valid JSON share.",
+    "Achieved an overall benchmark score of 0.834, outperforming frontier configurations like Claude Opus 5 (0.816) and GPT-5.6 Luna (0.741).",
+    "Self-hosted cost runs on a single L40S GPU at $2.24 per hour, yielding extraction costs 6 to 147 times lower than compared frontier APIs."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-05T01:13:29.109985+00:00",
+   "published_at": "2026-11-04T17:50:10+00:00",
+   "batch_at": "2026-11-05T01:12:49.560353+00:00"
+  },
   {
    "title": "Asics Gel-Nimbus 29 Specs and Updates",
    "subtitle": "Details on the Asics Gel-Nimbus 29 midsole, weight, and pricing.",
