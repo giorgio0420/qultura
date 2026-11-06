@@ -1,6 +1,52 @@
 {
- "generated_at": "2026-11-06T11:05:34.215958+00:00",
+ "generated_at": "2026-11-06T11:57:20.656612+00:00",
  "items": [
+  {
+   "title": "Noi inventammo gli strumenti e gli strumenti inventarono noi",
+   "subtitle": "Come l'evoluzione culturale e biologica si influenzano reciprocamente da oltre 3 milioni di anni.",
+   "original_title": "Noi inventammo gli strumenti e gli strumenti inventarono noi",
+   "link": "https://lucysuimondi.com/noi-inventammo-gli-strumenti-e-gli-strumenti-inventarono-noi/",
+   "source": "Lucy sui mondi",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'evoluzione umana smentisce la rigida separazione tra genetica e cultura, dimostrando una coevoluzione continua. Invenzioni come la cottura dei cibi e gli strumenti litici hanno modificato l'anatomia del genere Homo, riducendo la muscolatura masticatoria e liberando risorse metaboliche per l'accrescimento del cervello. Questo processo ricorsivo di costruzione di nicchia mostra come la tecnologia e gli artefatti plasmino direttamente la nostra biologia e la cognizione.",
+   "bullets": [
+    "L'uso di strumenti in pietra risale ad almeno 3,3 milioni di anni fa in Kenya, precedendo la comparsa del genere Homo.",
+    "La cottura dei cibi rappresenta una tecnologia culturale che ha modificato irreversibilmente il genoma e il metabolismo umano.",
+    "L'utilizzo di utensili ha ridotto la necessità di grandi mascelle e muscoli masticatori, lasciando spazio anatomico all'aumento del volume cerebrale.",
+    "La fabbricazione di strumenti attiva nel cervello umano le stesse aree connesse all'acquisizione e al controllo del linguaggio articolato.",
+    "Il concetto di costruzione di nicchia spiega come gli ominini modifichino attivamente l'ambiente, innescando pressioni selettive che guidano la propria evoluzione biologica."
+   ],
+   "relevance": 5,
+   "score": 5,
+   "seen_at": "2026-11-06T11:59:13.984309+00:00",
+   "published_at": "2026-11-06T11:57:33+00:00",
+   "batch_at": "2026-11-06T11:57:20.656612+00:00"
+  },
+  {
+   "title": "Attacchi ai supermercati e cibersicurezza: il ruolo delle normative UE",
+   "subtitle": "Come NIS2 e Cyber Resilience Act affrontano la sicurezza dei dispositivi connessi.",
+   "original_title": "Attacchi informatici ai supermercati, si poteva evitare? Le regole UE per la cybesecurity",
+   "link": "https://www.geopop.it/attacchi-informatici-ai-supermercati-si-poteva-evitare-le-regole-ue-per-la-cybesecurity/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Gli attacchi informatici ai sistemi di refrigerazione dei supermercati evidenziano i rischi dei dispositivi connessi. L'Unione Europea risponde combinando la direttiva NIS2, che obbliga le aziende a gestire i rischi e i fornitori, e il Cyber Resilience Act, che impone ai produttori standard di sicurezza fin dalla progettazione.",
+   "bullets": [
+    "La direttiva NIS2 impone alle aziende della filiera alimentare di proteggere i componenti critici e controllare la sicurezza dei fornitori di telemanutenzione.",
+    "Il Cyber Resilience Act richiede ai produttori di hardware e software di garantire aggiornamenti di sicurezza gratuiti per almeno cinque anni.",
+    "Gli obblighi di notifica delle vulnerabilità gravi impongono alle aziende di segnalare gli incidenti tramite ENISA entro 24-72 ore.",
+    "Le aziende colpite nei recenti attacchi hanno violato la NIS2 lasciando accessi non protetti su Internet e mancando di applicare gli aggiornamenti disponibili.",
+    "Il framework europeo unisce requisiti tecnici per i prodotti e standard organizzativi, sebbene l'attuazione tramite direttive crei disomogeneità tra i 27 Stati membri."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-06T11:57:43.302949+00:00",
+   "published_at": "2026-11-06T11:37:04+00:00",
+   "batch_at": "2026-11-06T11:57:20.656612+00:00"
+  },
   {
    "title": "Protocolli quantistici per la riduzione degli errori nella ricerca di esopianeti",
    "subtitle": "Come superare i limiti dell'ottica classica nella rilevazione di esopianeti",
