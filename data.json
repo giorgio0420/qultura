@@ -590,6 +590,29 @@
    "batch_at": "2026-11-06T01:16:57.306278+00:00"
   },
   {
+   "title": "Cult.fit builds operational muscle with Codex",
+   "subtitle": "How Cult.fit uses Codex and OpenAI APIs to scale internal software and automation",
+   "original_title": "Cult.fit builds operational muscle with Codex",
+   "link": "https://openai.com/index/cultfit-builds-with-codex",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Fitness company Cult.fit standardized its software development lifecycle on Codex to unify engineering workflows, then expanded the platform to non-engineering teams for data analysis and app development. The organization also integrated OpenAI APIs into customer support and user-facing workout products, cutting customer support costs by over 50%.",
+   "bullets": [
+    "Standardized engineering on a single platform using Codex, enabling spec-driven development and automated SRE, security, and on-call workflows.",
+    "Non-engineering teams built over 20 internal applications and performed independent data analysis using Codex, bypassing central analyst bottlenecks.",
+    "An engineer rebuilt a costly internal dashboard over a weekend using Codex, saving over $100,000 in annual software licensing fees.",
+    "Deployed GPT Realtime via OpenAI API for a voice-first AI Trainer used by roughly 20% of gym users to log workouts and receive coaching cues.",
+    "Automated customer support penalty waivers by connecting AI agents to Sprinklr and backend systems to verify weather and attendance data, reducing support costs by over 50%."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-06T16:31:45.949028+00:00",
+   "published_at": "2026-11-05T20:00:00+00:00",
+   "batch_at": "2026-11-06T16:31:03.352137+00:00"
+  },
+  {
    "title": "NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
    "subtitle": "NVIDIA releases four 16B open checkpoints for interactive driving and robotics simulation.",
    "original_title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
@@ -680,6 +703,29 @@
    "seen_at": "2026-11-06T01:18:47.378577+00:00",
    "published_at": "2026-11-05T17:04:09+00:00",
    "batch_at": "2026-11-06T01:16:57.306278+00:00"
+  },
+  {
+   "title": "Australian universities integrate OpenAI models into curriculum",
+   "subtitle": "How Australian universities deploy ChatGPT Edu and Codex for students",
+   "original_title": "Australian universities are creating AI-native graduates",
+   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Major Australian universities are partnering with OpenAI to integrate frontier AI tools like ChatGPT Edu and Codex into their academic programs and campus operations. Survey data shows high student demand for AI integration, prompting institutions to develop structured assessment frameworks, specialized degrees, and practical industry projects.",
+   "bullets": [
+    "UNSW Sydney is deploying ChatGPT Edu to over 80,000 students and staff and integrating Codex into educational programs and hackathons.",
+    "La Trobe University launched Australia's first Bachelor of AI Engineering (Honours) and an AI MBA program, alongside deploying agentic tools for software engineering.",
+    "Adelaide University utilizes OpenAI Daybreak Blue for authorized defensive security operations, including vulnerability discovery and malware analysis.",
+    "Survey data of 1,018 students indicates 81% use AI several times a week, 33% use it daily, and 28% have built their own AI agents or assistants.",
+    "Universities are introducing specific governance frameworks, such as UNSW's Can, Can't, Must assessment model, to regulate AI use in coursework."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-06T16:31:39.812320+00:00",
+   "published_at": "2026-11-05T17:00:00+00:00",
+   "batch_at": "2026-11-06T16:31:03.352137+00:00"
   },
   {
    "title": "How Alcohol Impacts Running Performance and Recovery",
@@ -841,6 +887,23 @@
    "seen_at": "2026-11-06T01:19:34.939928+00:00",
    "published_at": "2026-11-05T15:00:00+00:00",
    "batch_at": "2026-11-06T01:16:57.306278+00:00"
+  },
+  {
+   "title": "Calling MATLAB from Python for Data Labeling",
+   "subtitle": "Learn to call MATLAB's interactive image labeler from a Python Jupyter notebook using the MATLAB engine API.",
+   "original_title": "Calling MATLAB from Python | MATLAB and Python for Students",
+   "link": "https://www.youtube.com/watch?v=EuZgeAMvx5E",
+   "source": "MATLAB",
+   "category": "ai",
+   "kind": "yt",
+   "lang": "en",
+   "summary": "Developers working in Python can leverage MATLAB's interactive apps and toolboxes without leaving their primary environment by using the MATLAB engine API for Python. The workflow begins by installing the engine package via pip and initializing a MATLAB session object within a Jupyter notebook. Pointing to a directory of raw images, a single line of code launches MATLAB's image labeler application in the background and loads the dataset. Instead of manually annotating hundreds of images, engineers can apply built-in automated detectors, such as the ACF vehicle detector, to generate bounding boxes across the dataset, review and correct the automated output, and export the results to the MATLAB workspace. Finally, the Jupyter notebook retrieves the labels directly from the MATLAB workspace and converts them into NumPy arrays, making the annotated data immediately ready for deep learning model training in Python.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-06T16:31:18.658094+00:00",
+   "published_at": "2026-11-05T14:14:48+00:00",
+   "batch_at": "2026-11-06T16:31:03.352137+00:00"
   },
   {
    "title": "A Mathematician's Algorithm-Driven Solar Eclipse Photography",
