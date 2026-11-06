@@ -1,6 +1,77 @@
 {
- "generated_at": "2026-11-06T15:19:31.960957+00:00",
+ "generated_at": "2026-11-06T16:31:37.606050+00:00",
  "items": [
+  {
+   "title": "David Siik's Treadmill Ladder Workout Strategy",
+   "subtitle": "Learn a structured treadmill interval method balancing incline, speed, and recovery.",
+   "original_title": "This Coach’s Treadmill Strategy Maximizes Fitness, Minimizes Fatigue, and Busts Boredom. Here’s How to Execute It.",
+   "link": "https://www.runnersworld.com/training/a74337801/david-siik-treadmill-workout/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "David Siik's treadmill interval framework dynamically trades off speed and incline to maximize cardiovascular gains while controlling musculoskeletal fatigue. By using a standardized baseline metric—the one-minute PR speed—runners can execute progressive ladder workouts featuring balanced work-to-rest ratios.",
+   "bullets": [
+    "Base your interval pace on 2 mph below your one-minute all-out PR speed, equating to a 9 out of 10 rate of perceived exertion.",
+    "For every 1 percent increase in treadmill incline, decrease your running speed by 0.2 mph to manage physical stress.",
+    "Execute a ladder workout by alternating 1 minute of running (starting at 0% incline) and 1 minute of walking, increasing the incline by 1% and decreasing speed by 0.2 mph for 6 total running reps.",
+    "Avoid relying on outdoor GPS paces for treadmill running; instead, use calculated treadmill-specific speed baselines.",
+    "Scale the workout for distance training by reducing run paces by 1 mph and speeding up the recovery walk breaks.",
+    "The structured ladder pattern keeps running intervals engaging while ensuring you only run roughly 60 percent of the total 30-to-45-minute session."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-06T16:33:01.804650+00:00",
+   "published_at": "2026-11-06T16:28:45+00:00",
+   "batch_at": "2026-11-06T16:31:37.606050+00:00"
+  },
+  {
+   "title": "The Best Running Shoes for Flat Feet and Low Arches",
+   "subtitle": "Evaluated running shoe models engineered for stability, cushioning, and flat-foot biomechanics.",
+   "original_title": "The 9 Best Running Shoes for Runners With Flat Feet and Low Arches",
+   "link": "https://www.runnersworld.com/gear/a25750345/running-shoes-flat-feet/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This guide evaluates running shoes suited for flat feet and low arches, highlighting models tested by wear-testers across various training categories. It details specific midsole technologies, foam compositions, and stability systems—such as guide rails and H-frames—designed to mitigate overpronation and foot fatigue.",
+   "bullets": [
+    "Brooks Adrenaline GTS 25: Features a 10 mm offset with DNA Loft v3 foam and holistic stability guide rails to align the knee and ankle during overpronation.",
+    "New Balance Ellipse: Utilizes Fresh Foam X to provide high-cushioned shock absorption and a springy energy return for everyday runs.",
+    "Hoka Arahi 9: Integrates a dual-density compression-molded EVA midsole and an H-Frame to offer a balanced, supportive ride without overcorrecting the gait.",
+    "Brooks Ghost Amp: Combines a wide toebox with a PEBA/EVA foam blend to deliver lightweight cushioning and momentum for speedwork and mixed-pace runs.",
+    "Saucony Guide 19: Employs CenterPath technology with higher sidewalls and a broader base to stabilize erratic foot and joint movement during recovery miles.",
+    "Hoka Speedgoat 7: Uses supercritical EVA foam and toothy lugs to provide high-mileage cushioning and grip for technical trail running."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-06T16:33:07.937588+00:00",
+   "published_at": "2026-11-06T16:04:00+00:00",
+   "batch_at": "2026-11-06T16:31:37.606050+00:00"
+  },
+  {
+   "title": "Gruppi hacker filorussi e attacchi ai frigoriferi dei supermercati",
+   "subtitle": "Analisi dei collettivi NoName057(16) e Z-Pentest e dei loro metodi di attacco OT.",
+   "original_title": "Chi sono i due gruppi hacker filorussi che rivendicano gli attacchi ai frigoriferi dei supermercati",
+   "link": "https://www.geopop.it/due-gruppi-hacker-filorussi-attacchi-frigoriferi-supermercati-ue-chi-sono/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "I gruppi hacker filorussi NoName057(16) e Z-Pentest hanno rivendicato la manomissione di frigoriferi per supermercati in Europa sfruttando i sistemi integrati senza malware. Sebbene manchino riscontri definitivi sulla paternità di questi specifici attacchi, i gruppi sono noti per campagne DDoS e intrusioni nei sistemi di tecnologia operativa OT.",
+   "bullets": [
+    "NoName057(16) è attivo dal 2022 ed è noto soprattutto per attacchi DDoS condotti tramite lo strumento DDoSia e la piattaforma Telegram.",
+    "Z-Pentest è nato nel settembre 2024 da scissioni interne ed è specializzato nell'intrusione nei sistemi di tecnologia operativa OT per controllare apparecchiature fisiche.",
+    "Nel video del 4 novembre, i due gruppi hanno dichiarato di aver manomesso apparecchiature Danfoss e sistemi Dixell XWEB sfruttando funzionalità native.",
+    "L'Unione europea ha sanzionato Z-Pentest a luglio 2026 per attacchi a infrastrutture critiche nei settori idrico ed energetico.",
+    "Le agenzie di sicurezza occidentali collegano alcuni collettivi, come CARR, a finanziamenti e legami con l'intelligence militare russa GRU."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-06T16:31:52.760789+00:00",
+   "published_at": "2026-11-06T16:00:28+00:00",
+   "batch_at": "2026-11-06T16:31:37.606050+00:00"
+  },
   {
    "title": "JAXA's MMX Mission to Land on the Martian Moon Phobos",
    "subtitle": "How JAXA's MMX mission will navigate, land, and sample the microgravity Martian moon Phobos.",
@@ -6252,52 +6323,6 @@
    "batch_at": "2026-10-24T08:46:57.876373+00:00"
   },
   {
-   "title": "Scaling Azure Cosmos DB to Support Over 1 Billion ChatGPT Users",
-   "subtitle": "OpenAI scaled Azure Cosmos DB in Habitat to serve over 500 petabytes across 40 regions.",
-   "original_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-   "source": "OpenAI",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "OpenAI shares the architectural evolution of Habitat, its globally distributed storage platform built on Azure Cosmos DB. To handle explosive growth and over 1 billion users, the engineering team navigated a journey between single-tenant and multi-tenant configurations, integrated Valkey caching via Change Data Capture, and co-engineered fixes with Azure for massive-scale reliability and a 12x read latency improvement.",
-   "bullets": [
-    "Habitat evolved into a multi-tenant database layer storing over 500 petabytes and handling over 20 million QPS across 40 geographic regions.",
-    "Moving away from isolated single-tenant containers, OpenAI reverted to shared multi-tenant containers after Azure built a custom serverless mode supporting partition splits up to 10K RU/s based on RU usage.",
-    "Global read p50 latency dropped from ~120 ms to ~10 ms via a multi-region deployment strategy and a distributed lookaside cache using Azure Cosmos DB Change Data Capture for global invalidations within seconds.",
-    "A custom CDC platform processes millions of row changes per second across thousands of partitions, feeding over 100 Kafka topics for indexing, data movement, and offline analytics while isolating traffic from latency-sensitive paths.",
-    "OpenAI is currently building a custom in-house exabyte-scale online storage system combining RocksDB Cloud and Raft-based replication to handle bulky data types for future growth."
-   ],
-   "relevance": 5,
-   "score": 15,
-   "seen_at": "2026-10-23T16:31:04.143733+00:00",
-   "published_at": "2026-10-23T17:00:00+00:00",
-   "batch_at": "2026-10-23T16:30:31.440607+00:00"
-  },
-  {
-   "title": "LitPivot: Developing research ideas through dynamic contextualization",
-   "subtitle": "How LitPivot uses literature-backed critiques to refine research ideas",
-   "original_title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-   "link": "https://huggingface.co/blog/allenai/litpivot",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "LitPivot is a research ideation tool that segments early-stage proposals into distinct facets (problem, contribution, and evaluation) and links them to dynamically ranked literature. In studies with researchers, ideas developed using LitPivot were rated as better grounded in relevant literature compared to standard text editor and AI chat tool baselines.",
-   "bullets": [
-    "Analyzed meeting notes from four computer science research projects to identify 21 literature-initiated pivots, categorizing them into differentiating novelty and aligning to build on existing work.",
-    "Segments drafts into specific facets—problem, proposed contribution, and evaluation plan—each maintaining its own set and relevance ranking of related literature.",
-    "Groups retrieved papers around the facet being edited, allowing researchers to select specific studies for the system to use in generating critiques and suggested rewrites.",
-    "Flags out-of-date passages when changes to one facet, such as the contribution, invalidate another, like the evaluation plan.",
-    "In a study of 17 researchers, domain experts rated ideas developed with LitPivot as significantly better grounded in the literature than those from a baseline text editor and AI chat setup."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-23T16:31:12.314789+00:00",
-   "published_at": "2026-10-23T16:15:50+00:00",
-   "batch_at": "2026-10-23T16:30:31.440607+00:00"
-  },
-  {
    "title": "Peres Jepchirchir Provisionally Suspended After EPO Finding",
    "subtitle": "Marathon champion Peres Jepchirchir suspended by AIU for an adverse EPO finding.",
    "original_title": "One of the World’s Top Marathoners Has Been Provisionally Suspended After an  EPO Finding",
@@ -6480,30 +6505,6 @@
    "batch_at": "2026-10-24T08:46:57.876373+00:00"
   },
   {
-   "title": "Does Your Model Run on AWS Trainium? Look It Up",
-   "subtitle": "Check Hugging Face model compatibility and scripts for AWS Trainium.",
-   "original_title": "Does Your Model Run on AWS Trainium? Look It Up",
-   "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "A Hugging Face Space tracks the compatibility of popular models with AWS Trainium using the TorchNeuron backend. It provides status results, core sharding details, execution metrics, and ready-to-run scripts backed by a public dataset.",
-   "bullets": [
-    "The torch-neuronx model support Space indicates whether Hugging Face models run unmodified on AWS Trainium.",
-    "The Space displays core counts, wall-clock time including compilation, and peak device memory for tested models.",
-    "Selected models provide execution scripts utilizing static caching and torch.compile(backend=\"neuron\").",
-    "Precompiled graphs can be synced from a public NEFF cache bucket to bypass initial compilation steps.",
-    "Tests validate generation over 32 tokens, comparing outputs to CPU runs or using a judge model for sharded configurations.",
-    "All results and execution metadata are hosted in a public Parquet dataset for programmatic querying."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-23T16:31:18.208718+00:00",
-   "published_at": "2026-10-23T00:00:00+00:00",
-   "batch_at": "2026-10-23T16:30:31.440607+00:00"
-  },
-  {
    "title": "Risposte a domande complesse su identità europea, libero arbitrio, oscurantismo e spiritualità",
    "subtitle": "Riflessioni filosofiche su Europa, determinismo, oscurantismo e il concetto di Dio.",
    "original_title": "Liberi quanto un Lombrico, un'Europa Timida e altre domande complesse | Q&A",
@@ -6633,23 +6634,6 @@
    "seen_at": "2026-10-26T17:47:37.906183+00:00",
    "published_at": "2026-10-22T09:27:20+00:00",
    "batch_at": "2026-10-26T17:41:53.029218+00:00"
-  },
-  {
-   "title": "La crisi dei trasporti in Italia e il meccanismo del caro gasolio",
-   "subtitle": "Come l'aumento del gasolio e la crisi del petrolio hanno bloccato la logistica e i supermercati",
-   "original_title": "Cosa sta succedendo in Italia? Le cause della crisi dagli autotrasportatori ai supermercati",
-   "link": "https://www.youtube.com/watch?v=fXJUvLFzLFQ",
-   "source": "Geopop (YouTube)",
-   "category": "mondo",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il video analizza le cause e la propagazione della crisi logistica che ha colpito il sud Italia da metà ottobre 2026, bloccando i trasporti e lasciando i supermercati con gli scaffali vuoti. Il motore primario della crisi è il caro gasolio, salito a una media di 2,26 euro al litro a causa della contrazione delle esportazioni globali di carburante, calate del 13% nel settembre 2026 rispetto all'anno precedente in seguito alle tensioni in Medio Oriente. Per le imprese di autotrasporto, l'aumento immediato dei costi del carburante non si traduce con la stessa velocità in tariffe più alte per via dei contratti pregressi, erodendo i margini e spingendo i vettori a protestare con blocchi stradali. Secondo l'Istat, il 96,8% delle merci in Italia viaggia su strada, rendendo l'intera filiera estremamente vulnerabile. Tra gli effetti concreti si registrano: la carenza di generi freschi nei supermercati di Napoli e della Campania; la fermata dei pastifici per la mancata consegna della semola; la chiusura temporanea di caseifici per l'impossibilità di raccogliere il latte fresco di bufala; e la carenza di carburante per aerei segnalata negli aeroporti di Crotone e Reggio Calabria. La lezione chiave è la fragilità di un sistema logistico che diamo per scontato ma che si regge su equilibri energetici delicatissimi.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 8,
-   "seen_at": "2026-10-23T16:30:55.594599+00:00",
-   "published_at": "2026-10-22T00:00:00+00:00",
-   "batch_at": "2026-10-23T16:30:31.440607+00:00"
   },
   {
    "title": "Tunnel Cam: Roma-Slovan Bratislava",
