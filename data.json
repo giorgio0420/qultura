@@ -553,6 +553,28 @@
    "batch_at": "2026-11-06T11:05:34.215958+00:00"
   },
   {
+   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems",
+   "subtitle": "OpenAI partners with Hacktron to test system vulnerabilities and third-party integrations.",
+   "original_title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "link": "https://openai.com/index/partnering-with-hacktron",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI has announced a partnership with Hacktron to test vulnerabilities in its systems, focusing particularly on how frontier models and internal architectures interact with third-party services. Hacktron researchers, who build AI agents for code review and penetration testing, will gain expanded access to OpenAI models through Daybreak Red. This initiative complements recent security sprints with Cathedral and increased bug bounty rewards.",
+   "bullets": [
+    "OpenAI partners with Hacktron to identify vulnerabilities, targeting high-priority areas and third-party service interactions.",
+    "Hacktron receives expanded access to OpenAI frontier models via Daybreak Red to support collaborative security testing.",
+    "Hacktron specializes in building AI agents for automated code review, penetration testing, and red teaming.",
+    "The partnership follows OpenAI's recent inclusion of Cathedral researchers in security sprints and increased bug bounty payouts."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-07T16:32:45.637769+00:00",
+   "published_at": "2026-11-06T08:00:00+00:00",
+   "batch_at": "2026-11-07T16:32:21.401517+00:00"
+  },
+  {
    "title": "Rocco Hunt e Clementino pubblicano The Album",
    "subtitle": "Analisi del primo disco congiunto di Rocco Hunt e Clementino, tra tecnica e pop.",
    "original_title": "Rocco Hunt e Clementino, The Album: due percorsi, una sola lingua. Quella del rap.",
@@ -6737,6 +6759,51 @@
    "seen_at": "2026-10-28T16:36:17.350248+00:00",
    "published_at": "2026-07-09T00:00:00+00:00",
    "batch_at": "2026-10-28T16:32:28.681563+00:00"
+  },
+  {
+   "title": "La psicosi da intelligenza artificiale e la trappola dell'ego",
+   "subtitle": "Come intellettuali e scienziati cadono nell'antropomorfizzazione dei modelli linguistici.",
+   "original_title": "La Superstizione di Richard Dawkins e Walter Veltroni: l'Anima dell'IA e la Truffa dell'Ego",
+   "link": "https://dailycogito.substack.com/p/la-superstizione-di-richard-dawkins",
+   "source": "Daily Cogito (Rick DuFer)",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Le intelligenze artificiali generative non possiedono una coscienza, ma sfruttano il mimetismo stocastico per assecondare le aspettative degli utenti. Questo fenomeno induce anche figure di spicco come Walter Veltroni e Richard Dawkins a scambiare una simulazione matematica per un'interlocuzione dotata di anima.",
+   "bullets": [
+    "I modelli linguistici di grandi dimensioni (LLM) operano calcolando le probabilità delle parole in base al contesto fornito, riflettendo le insicurezze dell'utente.",
+    "Walter Veltroni ha interpretato le risposte malinconiche di un'IA come la prova di un vero tormento interiore, ignorando la natura algoritmica del testo.",
+    "Richard Dawkins, pur essendo un rigoroso materialista scientifico, ha antropomorfizzato il software di Anthropic ribattezzandola \"Claudia\".",
+    "L'illusione di un'anima digitale deriva dalla capacità della macchina di confermare i pregiudizi umani e lusingare l'ego."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-07T16:33:45.994067+00:00",
+   "published_at": "2026-05-07T16:00:03+00:00",
+   "batch_at": "2026-11-07T16:32:21.401517+00:00"
+  },
+  {
+   "title": "Il Manifesto della Repubblica Tecnologica di Palantir",
+   "subtitle": "Le radici filosofiche e i punti chiave del manifesto di Peter Thiel e Alex Karp.",
+   "original_title": "Il MANIFESTO di PALANTIR: Peter Thiel, Alex Karp e la Repubblica Tecnologica",
+   "link": "https://dailycogito.substack.com/p/il-manifesto-di-palantir-peter-thiel",
+   "source": "Daily Cogito (Rick DuFer)",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il documento strategico di Palantir redatto da Peter Thiel e Alex Karp delinea una visione neoreazionaria e tecnocratica del futuro. Il manifesto rifiuta il cosmopolitismo e l'egalitarismo democratico a favore di un primato assoluto dell'hard power basato sul software e sull'intelligenza artificiale militare.",
+   "bullets": [
+    "Il pensiero di Peter Thiel è fortemente influenzato dall'illuminismo oscuro e da una visione anti-platonica fondata sulla forza e sulla materialità del potere.",
+    "Il nome Palantir riprende le pietre veggenti dell'epica di Tolkien, simboleggiando una pretesa di controllo totale e analisi dei dati che tuttavia rischia di accecare chi la possiede.",
+    "Il primo punto del manifesto sancisce la fine del cosmopolitismo della Silicon Valley, imponendo all'élite ingegneristica un obbligo di difesa e supporto nazionale.",
+    "Il manifesto rifiuta la 'tirannia delle app' e l'intrattenimento tascabile come deviazioni rispetto al vero progresso tecnologico ed energetico.",
+    "Viene rigettato il soft power in favore dell'hard power: la superiorità geopolitica si giocherà sul software e sullo sviluppo di armi basate sull'intelligenza artificiale."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-07T16:33:51.998846+00:00",
+   "published_at": "2026-05-06T12:52:43+00:00",
+   "batch_at": "2026-11-07T16:32:21.401517+00:00"
   },
   {
    "title": "Velocità, tempo e qualità costruttiva",
