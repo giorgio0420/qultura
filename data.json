@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T10:57:13.239531+00:00",
+ "generated_at": "2026-11-07T11:01:49.622789+00:00",
  "items": [
   {
    "title": "Nuova truffa su WhatsApp tramite vulnerabilità zero-click",
@@ -632,6 +632,23 @@
    "seen_at": "2026-11-07T10:58:26.056349+00:00",
    "published_at": "2026-11-06T00:00:00+00:00",
    "batch_at": "2026-11-07T10:57:13.239531+00:00"
+  },
+  {
+   "title": "Perché gli hacker attaccano i supermercati e come hanno portato i frigoriferi a 50 °C",
+   "subtitle": "Come gli hacker sabotano i sistemi OT dei supermercati attraverso centraline non protette.",
+   "original_title": "Perché gli hacker attaccano i supermercati e come hanno portato i frigoriferi a 50 °C",
+   "link": "https://www.youtube.com/watch?v=KXiEE3zI0UY",
+   "source": "Geopop (YouTube)",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il video spiega come ondate di attacchi informatici abbiano colpito i sistemi di refrigerazione industriale in Europa, Stati Uniti e Italia, portando i banchi frigo fino a 50 o 80 gradi e distruggendo grandi quantità di cibo. A differenza dei normali attacchi a scopo estorsivo, qui non viene chiesto un riscatto: l'obiettivo è la destabilizzazione e la guerra ibrida. Dal punto di vista tecnico, il sabotaggio sfrutta la tecnologia OT dei supermercati, in particolare le centraline elettroniche connesse a Internet per la manutenzione da remoto. Gli attaccanti prendono di mira dispositivi vulnerabili, spesso modelli obsoleti come i Danfoss AKSM800 privi di aggiornamenti di sicurezza e protetti da password banali. Sfruttando l'accesso remoto, modificano i parametri fisici del sistema: aumentano la temperatura della modalità di sbrinamento fino a 50 gradi, estendono la durata del ciclo da una a otto ore e ritardano gli allarmi per impedire interventi tempestivi del personale. Episodi simili si sono verificati su scala industriale in Francia con oltre 500 negozi coinvolti, in Belgio, Svezia e perfino contro un fornitore di sangue transalpino, dove la temperatura è stata spinta a 110 gradi. In Italia la Cybersecurity Nazionale ha confermato raid in Sicilia, Toscana ed Emilia. La vulnerabilità strutturale risiede nel divario temporale tra la lunga durata degli impianti industriali e la rapida obsolescenza del software, esponendo infrastrutture critiche a rischi futuri che potrebbero estendersi dai farmaci agli acquedotti.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-07T11:02:11.627116+00:00",
+   "published_at": "2026-11-06T00:00:00+00:00",
+   "batch_at": "2026-11-07T11:01:49.622789+00:00"
   },
   {
    "title": "CesiumAstro Secures $730 Million Series D and Unveils Synchronicity AI Satellite Constellation",
