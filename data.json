@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T11:01:49.622789+00:00",
+ "generated_at": "2026-11-07T11:04:05.561518+00:00",
  "items": [
   {
    "title": "Nuova truffa su WhatsApp tramite vulnerabilità zero-click",
@@ -46,6 +46,40 @@
    "seen_at": "2026-11-07T10:59:25.581979+00:00",
    "published_at": "2026-11-07T06:34:00+00:00",
    "batch_at": "2026-11-07T10:57:13.239531+00:00"
+  },
+  {
+   "title": "L'aumento delle spese militari in Italia",
+   "subtitle": "La spesa militare italiana supererà i 40 miliardi nel 2027, con tagli al welfare.",
+   "original_title": "Spese militari: 40 miliardi di euro nel 2027!",
+   "link": "https://www.youtube.com/watch?v=2BE3pd_rnww",
+   "source": "BarbaSophia (Matteo Saudino)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il testo analizza l'aumento delle spese militari in Italia e le sue conseguenze sulla spesa pubblica. Nel 2027 la spesa militare italiana supererà per la prima volta i 40 miliardi di euro, registrando un incremento del 18% rispetto al 2026. Circa 17 miliardi saranno destinati a nuovi armamenti, pari al 43% del totale della spesa militare. Questo incremento si inserisce in un contesto di tagli generalizzati ad altri settori vitali come sanità, istruzione e pensioni, a fronte di una spesa per armi che è cresciuta del 35% dal 2023. L'autore evidenzia come tali risorse vengano sottratte al welfare nazionale e discute criticamente l'efficacia di questa corsa agli armamenti, sostenendo che essa non garantisca la sicurezza ma alimenti le tensioni internazionali, mentre l'industria bellica nazionale continua a esportare armamenti leggeri nei paesi del sud del mondo.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-07T11:05:35.969638+00:00",
+   "published_at": "2026-11-07T00:00:00+00:00",
+   "batch_at": "2026-11-07T11:04:05.561518+00:00"
+  },
+  {
+   "title": "Crisi bancaria in Paraguay, condanna a Hong Kong e nuove regole sui CPR in Italia",
+   "subtitle": "Il crollo di Ueno Bank in Paraguay, la condanna a Joshua Wong e la direttiva sui CPR",
+   "original_title": "Il CRAC di una BANCA travolge il PARAGUAY e il suo Presidente | The Essential",
+   "link": "https://www.youtube.com/watch?v=gPODP6BhkV4",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il crollo della Ueno Bank in Paraguay ha bloccato i conti di tre milioni di adulti e innescato una crisi politica che ha travolto il presidente Santiago Peña, ex azionista della holding. La banca centrale aveva disposto la risoluzione dopo il crollo dell'indice di solvibilità, emerso in seguito a prestiti irregolari per oltre 150 milioni di dollari a società dei dirigenti. Peña si è dimesso in un video alla nazione dopo le proteste di piazza, sebbene il Parlamento abbia respinto le dimissioni aprendo la strada alle inchieste. A Hong Kong, il trentenne Joshua Wong è stato condannato a ulteriori dieci anni di carcere per cospirazione e collaborazione con forze straniere, spingendo la sua scarcerazione al novembre 2036. Wong era già stato il volto del movimento studentesco contro l'indottrinamento e della rivoluzione degli ombrelli. In Italia, il ministro dell'Interno Matteo Piantedosi ha stabilito che il parere medico non sarà più vincolante per l'accesso ai Centri di Permanenza per il Rimpatrio. La decisione arriva dopo un'inchiesta giudiziaria su presunti certificati medici compiacenti per evitare la reclusione, a fronte di dati che nel 2025 registrano 6.835 ingressi a fronte di 1.732 rimpatri effettivi.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-07T11:06:12.896639+00:00",
+   "published_at": "2026-11-07T00:00:00+00:00",
+   "batch_at": "2026-11-07T11:04:05.561518+00:00"
   },
   {
    "title": "What Runners Need to Know About Rhabdo",
@@ -635,20 +669,37 @@
   },
   {
    "title": "Perché gli hacker attaccano i supermercati e come hanno portato i frigoriferi a 50 °C",
-   "subtitle": "Come gli hacker sabotano i sistemi OT dei supermercati attraverso centraline non protette.",
+   "subtitle": "Come gli hacker sabotano i frigoriferi industriali da remoto sfruttando centraline non aggiornate",
    "original_title": "Perché gli hacker attaccano i supermercati e come hanno portato i frigoriferi a 50 °C",
    "link": "https://www.youtube.com/watch?v=KXiEE3zI0UY",
    "source": "Geopop (YouTube)",
    "category": "mondo",
    "kind": "queue",
    "lang": "it",
-   "summary": "Il video spiega come ondate di attacchi informatici abbiano colpito i sistemi di refrigerazione industriale in Europa, Stati Uniti e Italia, portando i banchi frigo fino a 50 o 80 gradi e distruggendo grandi quantità di cibo. A differenza dei normali attacchi a scopo estorsivo, qui non viene chiesto un riscatto: l'obiettivo è la destabilizzazione e la guerra ibrida. Dal punto di vista tecnico, il sabotaggio sfrutta la tecnologia OT dei supermercati, in particolare le centraline elettroniche connesse a Internet per la manutenzione da remoto. Gli attaccanti prendono di mira dispositivi vulnerabili, spesso modelli obsoleti come i Danfoss AKSM800 privi di aggiornamenti di sicurezza e protetti da password banali. Sfruttando l'accesso remoto, modificano i parametri fisici del sistema: aumentano la temperatura della modalità di sbrinamento fino a 50 gradi, estendono la durata del ciclo da una a otto ore e ritardano gli allarmi per impedire interventi tempestivi del personale. Episodi simili si sono verificati su scala industriale in Francia con oltre 500 negozi coinvolti, in Belgio, Svezia e perfino contro un fornitore di sangue transalpino, dove la temperatura è stata spinta a 110 gradi. In Italia la Cybersecurity Nazionale ha confermato raid in Sicilia, Toscana ed Emilia. La vulnerabilità strutturale risiede nel divario temporale tra la lunga durata degli impianti industriali e la rapida obsolescenza del software, esponendo infrastrutture critiche a rischi futuri che potrebbero estendersi dai farmaci agli acquedotti.",
+   "summary": "Il video spiega come ondate di attacchi informatici abbiano colpito i sistemi di refrigerazione industriale in Europa e Israele, sabotando i banchi frigo dei supermercati senza richiedere riscatti. L'obiettivo non è estorsivo ma geopolitico e di destabilizzazione, volto a colpire la catena alimentare e la fiducia dei consumatori. Tecnically, i criminali non utilizzano virus ma accedono da remoto alle centraline OT (Operational Technology) di aziende come Danfoss, nello specifico modelli datati come gli AKSM800 privi di aggiornamenti e protetti da password deboli, spesso direttamente esposti su internet anziché su reti protette. Una volta all'interno, gli aggressori modificano i parametri fisici degli evaporatori: impostano la temperatura di sbrinamento a 50 o persino 80 gradi, prolungano il ciclo da una a otto ore e ritardano gli allarmi per impedire interventi tempestivi, trasformando i congelatori in forni e distruggendo tonnellate di cibo. Gli episodi includono centinaia di supermercati colpiti in Francia e Belgio, tentativi sventati in banche del sangue e casi isolati anche in Italia, in particolare in Sicilia e Toscana, segnalati dall'Agenzia per la Cybersicurezza Nazionale. L'aspetto critico evidenziato è strutturale: gli impianti industriali durano decenni ma montano software obsoleti, esponendo a rischi analoghi anche infrastrutture critiche come acquedotti e centrali elettriche.",
    "bullets": [],
    "relevance": 4,
    "score": 8,
-   "seen_at": "2026-11-07T11:02:11.627116+00:00",
+   "seen_at": "2026-11-07T11:04:40.017962+00:00",
    "published_at": "2026-11-06T00:00:00+00:00",
-   "batch_at": "2026-11-07T11:01:49.622789+00:00"
+   "batch_at": "2026-11-07T11:04:05.561518+00:00"
+  },
+  {
+   "title": "Soldi, religione e potere: come una lobby filo-israeliana ha influenzato gli USA",
+   "subtitle": "La storia e le tattiche dell'AIPAC e delle lobby pro-Israele nella politica estera americana.",
+   "original_title": "Soldi, religione e potere: come una lobby filo-israeliana ha influenzato gli USA",
+   "link": "https://www.youtube.com/watch?v=lRZ46T6HXXM",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il video spiega come le lobby pro-Israele abbiano influenzato per decenni la politica estera degli Stati Uniti, partendo dalle radici religiose del restaurazionismo ottocentesco fino alla nascita dell'AIPAC e alle sue attuali strategie finanziarie ed elettorali. La spinta originaria non nacque negli ambienti ebraici americani, ma nel Regno Unito del XIX secolo con figure come il conte di Shaftesbury e il colonnello Charles Henry Churchill, mossi da motivazioni religiose legate alla seconda venuta di Cristo e da interessi geopolitici nell'Impero Ottomano. Negli Stati Uniti, l'imprenditore evangelico William Eugene Blackstone promosse petizioni simili nel 1891, ottenendo l'appoggio di magnati come John Rockefeller e JP Morgan. Nel 1943 nacque l'AZEC, guidato dal rabbino Abba Hillel Silver e da Isaiah Leo Kennan, che riuscì a inserire il sostegno a uno stato ebraico nei programmi di Democratici e Repubblicani. Nel 1948, grazie ai legami personali dell'ex socio d'affari Eddie Jacobson con il presidente Harry Truman, Chaim Weizmann ottenne l'incontro decisivo che portò al riconoscimento statunitense di Israele undici minuti dopo la dichiarazione di indipendenza. Nel 1953, dopo il massacro di Kibia guidato da Ariel Sharon e il conseguente scandalo, Isaiah Leo Kennan fondò la struttura che sarebbe diventata l'AIPAC, inventando il meccanismo degli abbonamenti al Near East Report per aggirare i divieti di finanziamento diretto. Kennan impose la regola di agire nell'ombra e schedare i membri del Congresso. La lobby sopravvisse a crisi come l'attacco alla nave spia USS Liberty nel 1967 e, negli anni Ottanta, rese costose le critiche a Israele finanziando gli sfidanti di politici ostili come Charles Percy e Paul Findlay. Pur mantenendo un profilo formalmente bipartisan, l'AIPAC si è progressivamente avvicinata alla destra repubblicana e trumpiana attraverso la creazione di PAC dedicati. Oggi, tuttavia, il consenso interno negli Stati Uniti sta mutando a causa delle divisioni pubbliche e del cambiamento generazionale nei dem, mettendo in discussione l'efficacia delle tattiche tradizionali della lobby. L'aspetto cruciale da ricordare è che il potere dell'AIPAC non si fonda su una cospirazione occulta, ma su un'infrastruttura metodica di pressione politica, finanziamenti mirati e alleanze ideologiche con le correnti evangeliche e conservatrici statunitensi.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-07T11:06:19.788735+00:00",
+   "published_at": "2026-11-06T00:00:00+00:00",
+   "batch_at": "2026-11-07T11:04:05.561518+00:00"
   },
   {
    "title": "CesiumAstro Secures $730 Million Series D and Unveils Synchronicity AI Satellite Constellation",
