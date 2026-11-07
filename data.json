@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:18:18.147470+00:00",
+ "generated_at": "2026-11-07T16:31:42.783563+00:00",
  "items": [
   {
    "title": "I Added 10 More Miles a Week to Marathon Training—and Seriously Felt the Difference at Mile 20",
@@ -104,6 +104,23 @@
    "seen_at": "2026-11-07T11:06:12.896639+00:00",
    "published_at": "2026-11-07T00:00:00+00:00",
    "batch_at": "2026-11-07T11:04:05.561518+00:00"
+  },
+  {
+   "title": "Il mercato può sbagliare, anche se non riesci a batterlo",
+   "subtitle": "Perché i mercati possono restare irrazionali a lungo e come l'hype dell'AI disaccoppia i prezzi dai fondamentali",
+   "original_title": "Il mercato può sbagliare, anche se non riesci a batterlo",
+   "link": "https://www.youtube.com/watch?v=Z0wtS6-knoE",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il mercato azionario può prezzare in modo errato una tecnologia per lunghi periodi pur rimanendo estremamente difficile da battere per il singolo investitore. L'analisi economica e tecnologica dell'intelligenza artificiale si fonda su tre pilastri indipendenti: il successo tecnologico futuro dell'AI, i ritorni finanziari effettivi per le aziende che investono nell'hardware e nelle infrastrutture, e la correttezza delle valutazioni di mercato attuali. È perfettamente possibile che l'AI diventi una tecnologia pervasiva e vincente in modo analogo a quanto accaduto con internet durante la bolla dot-com, e che allo stesso tempo le aziende leader odierne subiscano perdite economiche o valutazioni eccessive. I mercati non processano sempre le informazioni in modo razionale e orientato ai fondamentali a lungo termine; spesso i fondi di investimento e gli operatori istituzionali danno priorità alla dinamica dei prezzi a breve termine e al momentum, restando investiti pur consapevoli che i prezzi siano insostenibili, poiché uscire troppo presto comporterebbe costi opportunità insostenibili in termini di mancati guadagni. La correzione dei prezzi non avviene per un'improvvisa illuminazione razionale collettiva, ma scatta quando il rischio percepito sale oltre una certa soglia e i primi grandi operatori iniziano a disinvestire, innescando una reazione a catena sugli altri attori.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-07T16:32:23.519610+00:00",
+   "published_at": "2026-11-07T00:00:00+00:00",
+   "batch_at": "2026-11-07T16:31:42.783563+00:00"
   },
   {
    "title": "What Runners Need to Know About Rhabdo",
@@ -6276,29 +6293,6 @@
    "score": 6,
    "seen_at": "2026-10-24T16:32:30.155007+00:00",
    "published_at": "2026-10-24T14:30:06+00:00",
-   "batch_at": "2026-10-24T16:30:59.607261+00:00"
-  },
-  {
-   "title": "Falle critiche in PHP scoperte grazie all'intelligenza artificiale",
-   "subtitle": "Analisi di due vulnerabilità critiche in PHP individuate da strumenti IA e delle contromisure",
-   "original_title": "Falla nel codice PHP, due vulnerabilità mettono a rischio il 70% dei siti Web: lo ha scoperto l’AI",
-   "link": "https://www.geopop.it/falla-nel-codice-php-due-vulnerabilita-mettono-a-rischio-il-70-dei-siti-web-lo-ha-scoperto-lai/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "I ricercatori delle agenzie Calif e Wiz hanno individuato due vulnerabilità critiche di gestione della memoria ed esecuzione di codice da remoto nel linguaggio PHP, presenti da decenni e attive a partire dalla versione 5.4. Le falle, identificate con i codici CVE-2026-109618 e CVE-2026-109619 e un punteggio CVSS di 9.2, sono state scoperte utilizzando modelli avanzati di intelligenza artificiale. Gli sviluppatori hanno rilasciato patch di sicurezza il 21 ottobre mentre diversi enti governativi europei hanno disattivato temporaneamente i propri servizi.",
-   "bullets": [
-    "Le vulnerabilità interessano le versioni di PHP rilasciate nell'ultimo decennio a partire dalla 5.4, linguaggio che costituisce la base di circa il 70% dei siti web globali e di piattaforme come WordPress.",
-    "I difetti includono problemi nella gestione della memoria e la possibilità di esecuzione di codice da remoto senza autenticazione, permettendo teoricamente il controllo dei server.",
-    "Entrambe le vulnerabilità (CVE-2026-109618 e CVE-2026-109619) hanno ottenuto un punteggio di 9.2 sulla scala CVSS v4.0.",
-    "La scoperta è stata resa possibile dall'impiego di modelli di intelligenza artificiale di frontiera capaci di analizzare enormi quantità di codice sorgente latente.",
-    "Diversi governi europei, tra cui Germania, Francia, Belgio e Paesi Bassi, hanno temporaneamente disattivato portali pubblici e istituzionali come misura preventiva in attesa dell'applicazione delle patch."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-10-24T16:31:25.507388+00:00",
-   "published_at": "2026-10-24T13:00:17+00:00",
    "batch_at": "2026-10-24T16:30:59.607261+00:00"
   },
   {
