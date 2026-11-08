@@ -1,6 +1,23 @@
 {
- "generated_at": "2026-11-07T16:33:34.734456+00:00",
+ "generated_at": "2026-11-08T11:01:51.416911+00:00",
  "items": [
+  {
+   "title": "Week Recap: democrazia in Israele, rimpianti, trumpismo e il caso Aranzulla",
+   "subtitle": "Analisi di democrazia, rimpianti filosofici, trumpismo e crisi dei lavori mediani.",
+   "original_title": "Israele & Apartheid, Trump & Trumpismo, Aranzulla & Rimpianto: rispondo a tutto #Weekrecap 8",
+   "link": "https://www.youtube.com/watch?v=BP6QqkhLtFY",
+   "source": "Rick DuFer (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il riassunto settimanale affronta in apertura le critiche mosse al video sulle elezioni in Israele, ribadendo che la presenza di elezioni e di contrappesi istituzionali, come la Corte Costituzionale che frena il governo, costituisce una condizione necessaria per la democrazia, pur senza esaurirne la complessità. In merito alle accuse di apartheid in Cisgiordania, si evidenzia una contraddizione logica di fondo: se il territorio fosse considerato israeliano vi sarebbero cittadini con diritto di voto e dunque non si tratterebbe di apartheid, mentre se fosse considerato esterno a Israele, la definizione decadrebbe ugualmente, rendendo necessario un maggiore rigore terminologico scevro da massimalismi. Spostandosi sul tema del rimpianto, analizzato attraverso la lente di Hannah Arendt, si sostiene che il rimpianto non sia uno stato sterile ma una dinamica relazionale in cui il soggetto giudica se stesso nel passato come se fosse un altro, operando un necessario esercizio di alterità e auto-perdono per poter maturare. Sul fronte politico internazionale, la pesante battuta d'arresto subita da Donald Trump non segna la fine del trumpismo inteso come fenomeno culturale più ampio, nutrito dalla post-verità e dall'intrattenimento permanente di cui anche i democratici sono coautori, mentre viene smascherata la natura truffaldina e priva di valori strutturati del personaggio. Infine, analizzando la crisi aziendale di Salvatore Aranzulla, si evidenzia come l'astio nei confronti del suo successo derivi spesso dal risentimento di chi possiede competenze tecniche analoghe o superiori ma non ha concretamente eseguito il lavoro, incarnando quel modello di competenza mediana rivolto a chi sa meno della media che costituisce la chiave del suo trionfo commerciale.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-08T11:02:50.093710+00:00",
+   "published_at": "2026-11-08T00:00:00+00:00",
+   "batch_at": "2026-11-08T11:01:51.416911+00:00"
+  },
   {
    "title": "I Added 10 More Miles a Week to Marathon Training—and Seriously Felt the Difference at Mile 20",
    "subtitle": "Increasing weekly volume from 35 to 48 miles dramatically improves late-race marathon durability.",
@@ -6187,29 +6204,6 @@
    "batch_at": "2026-10-25T16:32:05.379179+00:00"
   },
   {
-   "title": "Protezione contro le frodi di ingegneria sociale su iOS",
-   "subtitle": "Come funziona il rilevamento dei rischi di sostituzione di persona in iOS 27",
-   "original_title": "Su iOS 27 c’è una funzione nascosta per proteggersi dalle truffe: come attivarla su iPhone",
-   "link": "https://www.geopop.it/su-ios-27-ce-una-funzione-nascosta-per-proteggersi-dalle-truffe-come-attivarla-su-iphone/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Apple ha introdotto in iOS 27 una funzione di sicurezza per contrastare le frodi di ingegneria sociale. Il sistema analizza segnali d'uso e dell'Apple Account per stimare il rischio di attività sospette, fornendo una valutazione alle app supportate che possono così adottare contromisure mirate.",
-   "bullets": [
-    "Il sistema valuta tre livelli di rischio: Sconosciuto, Medio e Alto, basandosi sui comportamenti anomali rilevati durante l'uso del dispositivo.",
-    "La funzione non blocca automaticamente le operazioni, ma fornisce un punteggio di rischio che la singola app può utilizzare per mostrare avvisi o richiedere conferme aggiuntive.",
-    "L'attivazione richiede di accedere a Impostazioni, Privacy e sicurezza, abilitando la condivisione con gli sviluppatori di app tramite l'Apple Account.",
-    "È possibile monitorare le richieste effettuate dalle applicazioni nella sezione dedicata e revocare i permessi alle singole app.",
-    "Le modifiche alle impostazioni dei permessi possono richiedere fino a 24 ore per diventare effettive."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-25T09:02:53.776769+00:00",
-   "published_at": "2026-10-25T07:00:53+00:00",
-   "batch_at": "2026-10-25T09:02:45.730700+00:00"
-  },
-  {
    "title": "Quanto bisogna spendere in token per dipendente?",
    "subtitle": "Analisi dei costi dei token IA aziendali, limiti di spesa e strategie di rimborso flat.",
    "original_title": "Quanto bisogna spendere in token?",
@@ -6383,23 +6377,6 @@
    "seen_at": "2026-10-25T16:34:26.720115+00:00",
    "published_at": "2026-10-23T11:47:45+00:00",
    "batch_at": "2026-10-25T16:32:05.379179+00:00"
-  },
-  {
-   "title": "Elezioni in Serbia, riconoscimento biometrico in Italia e suicidio assistito in Umbria",
-   "subtitle": "Le elezioni in Serbia, le regole sul riconoscimento facciale e la legge umbra sul fine vita",
-   "original_title": "SERBIA al VOTO: gli STUDENTI possono fermare Vui? | The Essential",
-   "link": "https://www.youtube.com/watch?v=ldgSQa_LQH4",
-   "source": "Will Media",
-   "category": "mondo",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il Parlamento serbo si rinnova in un voto cruciale che vede la lista civica guidata dal cardiologo Zrdanovic sfidare il premier uscente Aleksandar Vucic, al potere dal 2014 e accusato di derive illiberali. La mobilitazione popolare è esplosa dopo il crollo della tettoia alla stazione di Novi Sad del novembre 2024, simbolo della corruzione statale. In Italia, l'uso del sistema di riconoscimento biometrico Sari Enterprise è cresciuto da 79.000 ricerche nel 2022 a oltre 181.000 nel 2024. Il decreto legislativo 160 del 2026 recepisce l'AI Act europeo vietando il riconoscimento in tempo reale, salvo gravissime emergenze con autorizzazione giudiziaria, e disciplinando quello a posteriori con memorizzazione dei dati fino a 7 giorni negli stadi o grandi eventi. Infine, l'Umbria è diventata la quinta regione italiana ad approvare una legge sul suicidio medicalmente assistito, basata sulla proposta Liberi Subito dell'Associazione Luca Coscioni, per colmare il vuoto normativo nazionale successivo alla sentenza della Consulta del 2019.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 8,
-   "seen_at": "2026-10-24T16:34:00.813956+00:00",
-   "published_at": "2026-10-23T00:00:00+00:00",
-   "batch_at": "2026-10-24T16:30:59.607261+00:00"
   },
   {
    "title": "Analisi tattica della Serie A e della Roma di Gasperini in vista del big match contro il Napoli",
