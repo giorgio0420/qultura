@@ -1,6 +1,76 @@
 {
- "generated_at": "2026-11-10T12:22:06.487381+00:00",
+ "generated_at": "2026-11-10T15:45:12.791549+00:00",
  "items": [
+  {
+   "title": "Running Recovery Strategies Evaluated",
+   "subtitle": "Analysis of cold plunges, foam rolling, NSAIDs, compression gear, and saunas.",
+   "original_title": "Are These 5 Popular Running Recovery Strategies Hype or Legit?",
+   "link": "https://www.runnersworld.com/training/a74311194/running-recovery-strategies-runners/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This article evaluates five popular running recovery strategies based on exercise physiology. It outlines the foundational elements of recovery—sleep, hydration, nutrition, and training load—and analyzes the biological mechanisms and trade-offs of additional modalities like cold plunges and saunas.",
+   "bullets": [
+    "Foundational recovery relies on sleep, hydration, nutrition, and appropriate training load; without these, other tools have minimal impact.",
+    "Cold plunges reduce perceived soreness and inflammation, but regular post-training use can blunt protein synthesis, muscle growth, and endurance adaptations.",
+    "Foam rolling is a low-risk, inexpensive method to temporarily improve mobility, range of motion, and comfort when done for under five minutes per session.",
+    "Routine use of NSAIDs like ibuprofen suppresses the natural inflammatory response required for training adaptations and masks pain that should be addressed via rest.",
+    "Compression gear offers minor benefits for perceived recovery and blood flow, though commercial products often lack the necessary pressure gradient to significantly reduce soreness.",
+    "Saunas promote relaxation and stimulate the production of heat shock proteins, which aid in heat acclimation, but require careful management of post-run hydration status."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-10T15:47:30.487070+00:00",
+   "published_at": "2026-11-10T14:30:00+00:00",
+   "batch_at": "2026-11-10T15:45:12.791549+00:00"
+  },
+  {
+   "title": "Running Faster vs Running Longer: Which Should I Focus On First?",
+   "subtitle": "Learn whether to prioritize distance or speed training based on your current fitness level.",
+   "original_title": "Running Faster vs Running Longer: Which Should I Focus On First?",
+   "link": "https://www.runnersworld.com/training/a74386745/running-faster-vs-longer/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "New runners should generally prioritize building distance and easy-run volume over speed work to condition tendons, joints, and the aerobic system. Once a solid aerobic base is established, integrating speed workouts enhances VO2 max, lactate threshold, and fast-twitch muscle fiber recruitment.",
+   "bullets": [
+    "Beginners should focus on running longer first to adapt tendons, ligaments, joints, and bones to repetitive impact without overuse injuries.",
+    "A 2021 Journal of Strength and Conditioning Research study linked easy-run volume directly to world-class long-distance performance.",
+    "Low-intensity distance running increases heart stroke volume, mitochondrial density in cells, and capillary density by over 25 percent.",
+    "Speed work acts like strength training by engaging type II fast-twitch fibers, increasing VO2 max, and improving lactate threshold.",
+    "A balanced training plan cycles between phases: build an aerobic base with distance over 4 to 6 months, then add speed work for 2 to 4 months."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-10T15:47:36.624466+00:00",
+   "published_at": "2026-11-10T14:19:05+00:00",
+   "batch_at": "2026-11-10T15:45:12.791549+00:00"
+  },
+  {
+   "title": "Kratos Partners with Seagate Space for Mobile Offshore Launches",
+   "subtitle": "Kratos signs to use Seagate Space's Gateway offshore platform starting in 2027.",
+   "original_title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
+   "link": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
+   "source": "SpaceNews",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Kratos Defense & Security Solutions has entered a long-term agreement with Seagate Space to utilize their modular, mobile offshore launch platform, Gateway. The partnership targets a first mission in 2027 to support defense launch, hypersonic testing, and target missions, reducing dependence on fixed land-based infrastructure.",
+   "bullets": [
+    "Kratos and Seagate Space signed a long-term agreement for the first Gateway offshore launch platform, with initial missions planned for 2027 and multiple launches annually thereafter.",
+    "The Gateway platform is a modular, mobile offshore infrastructure designed to support launch, testing, and recovery missions without relying solely on terrestrial ranges.",
+    "Seagate Space has executed its first construction contract for the Gateway vessel to advance toward operational readiness.",
+    "Kratos plans to leverage the sea-based platform for defense-related launch and target missions, including hypersonic testing and ballistic-missile targets.",
+    "The partnership provides mission planners with flexibility in launch geometry, range access, and scheduling."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-10T15:46:45.091386+00:00",
+   "published_at": "2026-11-10T14:00:00+00:00",
+   "batch_at": "2026-11-10T15:45:12.791549+00:00"
+  },
   {
    "title": "AlphaProof Code Formally Verifies Signal Protocol Implementation",
    "subtitle": "How AI agents generated millions of lines of Lean proof to verify Signal's compiled code.",
@@ -138,6 +208,29 @@
    "batch_at": "2026-11-10T12:22:06.487381+00:00"
   },
   {
+   "title": "Decision Models in Hugging Face",
+   "subtitle": "Learn how decision models output typed probabilities instead of generating text.",
+   "original_title": "Decision Models in Hugging Face",
+   "link": "https://huggingface.co/blog/decision",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Decision models replace open-ended text generation with structured inference, directly evaluating states against predefined questions to return probabilities, scores, or binary choices. Hugging Face introduces a standardized interface, backend integrations for Transformers and llama.cpp, and fine-tuning support via the Trainer API.",
+   "bullets": [
+    "Decision models evaluate states against questions with three primitives: Choice (categorical probabilities), Score (ordered scale expectations), and Noul (Bernoulli binary decisions).",
+    "They avoid autoregressive decoding overhead and schema-adherence failures by scoring options directly via logit evaluations and softmax.",
+    "Hugging Face adds native support via DecisionPipeline, AutoModelForDecision, and a standard /v1/systemone HTTP serving endpoint.",
+    "Both Transformers and llama.cpp can construct decision prompts and evaluate answer label logits in a batched forward pass without generating response text.",
+    "Models can be fine-tuned using the Hugging Face Trainer API by treating decision requests and gold labels as standard cross-entropy loss optimization problems."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-10T15:46:39.300279+00:00",
+   "published_at": "2026-11-10T00:00:00+00:00",
+   "batch_at": "2026-11-10T15:45:12.791549+00:00"
+  },
+  {
    "title": "Marathon Preparation Guide",
    "subtitle": "Essential preparation steps for training for a 26.2-mile marathon.",
    "original_title": "Inspired by Fall Marathon Season? Here’s What You Need to Do to Prepare for 26.2",
@@ -182,6 +275,29 @@
    "seen_at": "2026-11-10T12:23:13.776447+00:00",
    "published_at": "2026-11-09T20:29:39+00:00",
    "batch_at": "2026-11-10T12:22:06.487381+00:00"
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "subtitle": "Google DeepMind unveils Gemini Robotics 2.5, detailing metrics, hardware integration, and safety data.",
+   "original_title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google DeepMind introduces Gemini Robotics 2.5, a vision-language-action model that improves task breadth, precision, and execution speed. Tested across more than 200 tasks and deployed on production lines with Apptronik and Mercedes-Benz, the system achieves a 96 percent success rate in automotive kitting. The release also incorporates inference-time safety guidance and the ASIMOV-Jailbreak benchmark for physical agent security.",
+   "bullets": [
+    "Evaluated across over 200 distinct tasks, achieving a 30% to 100% higher success rate and a 20% to 30% speed increase over previous baselines.",
+    "Compatible with multiple robot form factors, including Apptronik's Apollo 2 humanoid featuring a 22 degree-of-freedom SharpaWave hand and the Franka Duo platform.",
+    "Achieved a 96% success rate during a real-world proof-of-concept on Mercedes-Benz production lines, performing automated kitting with Apptronik's Apollo 2.",
+    "Inference-time reasoning guidance increased safe task completion around physical obstacles by 33% and around nearby humans by 43%.",
+    "Introduces ASIMOV-Jailbreak, an open-source benchmark testing adversarial robustness, where the Gemini 4 Argon foundation model achieved a 99.5% jailbreak resistance rate."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-10T15:46:18.326405+00:00",
+   "published_at": "2026-11-09T19:51:47+00:00",
+   "batch_at": "2026-11-10T15:45:12.791549+00:00"
   },
   {
    "title": "Top Men's Running Shoes of 2026",
