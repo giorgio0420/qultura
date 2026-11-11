@@ -1,6 +1,73 @@
 {
- "generated_at": "2026-11-11T11:45:24.538923+00:00",
+ "generated_at": "2026-11-11T15:33:55.514194+00:00",
  "items": [
+  {
+   "title": "AlphaGenome 2",
+   "subtitle": "Predicting DNA variant effects across individual human cell types.",
+   "original_title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "AlphaGenome 2 is a conditional DNA sequence model that predicts how genetic variations impact gene expression, chromatin accessibility, and methylation across specific cell types and states. Trained on over 107 million individual cell profiles, the model identifies nearly twice as many causal variants as previous iterations and can generalize to unseen cell states without retraining.",
+   "bullets": [
+    "Redesigned as a conditional architecture that takes both a million-letter DNA sequence and a target biological condition as inputs to capture subtle differences between closely related cell types.",
+    "Trained on bulk and single-cell data spanning 107 million individual cell profiles and 68 tissues, adding DNA methylation to core readouts like gene expression and chromatin accessibility.",
+    "Achieves cross-modality imputation, allowing researchers to input a single measurement like single-cell gene activity to predict unmeasured properties.",
+    "Identifies nearly twice as many causal variants (30% vs 16%) and directional gene effects (43% vs 23%) compared to the original model on the TenK10K immune cell dataset.",
+    "Generalizes to new cell states—such as COVID-19 vaccine-activated T cells—without retraining by compressing single-cell RNA-seq snapshots into cell state representations."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-11T15:34:50.236943+00:00",
+   "published_at": "2026-11-11T15:00:15+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
+  },
+  {
+   "title": "Horizon Microtechnologies Scales Metallised Polymer 3D Printing for Satellite Constellations",
+   "subtitle": "How metallised polymers cut satellite hardware weight by 40 percent.",
+   "original_title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
+   "link": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
+   "source": "SpaceNews",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Horizon Microtechnologies is industrialising its metallised polymer 3D printing platform through the IP-MASS project to produce up to 50,000 precision-coated satellite components. The technology combines polymer 3D printing for bulk geometry with conformal metal coating, reducing weight by 40 percent compared to aluminium while enabling scalable constellation-class production.",
+   "bullets": [
+    "The IP-MASS project is backed by a €500,000 grant and selection for ESA Phi-Lab Austria's industrialisation program.",
+    "Target output is up to 50,000 precision-coated satellite shielding housings and passive RF hardware components.",
+    "Replacing conventional lightweight metals with metallised polymers cuts component weight by 40 percent.",
+    "Demonstrators have passed LEO environmental tests including outgassing, temperature shock, radiation, and atomic-oxygen exposure."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-11T15:35:55.773941+00:00",
+   "published_at": "2026-11-11T13:00:00+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
+  },
+  {
+   "title": "The Dynamo-Electric Principle in Modern Motor Design",
+   "subtitle": "How the 1866 self-excitation principle underpins modern industrial motors and drives.",
+   "original_title": "The Dynamo-Electric Principle: 160 Years of Powering Industry",
+   "link": "https://spectrum.ieee.org/innomotics-electric-motors-drive-systems",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Werner von Siemens' 1866 dynamo-electric principle remains the operational foundation for modern electric motors and large drive systems. Contemporary engineering builds on this electromechanical conversion core using active vibration control, oil-lubricated rolling bearings, and physics-based winding life modeling.",
+   "bullets": [
+    "The dynamo-electric principle uses self-excitation where an iron core's magnetic field and a rotating coil continuously convert electrical energy into motion.",
+    "Active Vibration Control Systems (AVCS) decouple high-voltage motors from their foundations to reduce vibration and improve operational stability.",
+    "Oil-Lubricated Rolling Bearing (OLRB) technology provides continuous lubrication to prevent bearing failures and minimize downtime.",
+    "Winding Lifetime Analysis (WLA) combines operating history, physical measurements, and modeling to predict remaining insulation life."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-11T15:34:07.083009+00:00",
+   "published_at": "2026-11-11T11:00:02+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
+  },
   {
    "title": "Corso di diritto spaziale ASI-UNOOSA a Malindi",
    "subtitle": "Formazione su governance, diritto spaziale e normative per 40 studenti da 18 Paesi africani.",
@@ -91,6 +158,52 @@
    "seen_at": "2026-11-11T11:46:13.421071+00:00",
    "published_at": "2026-11-11T05:01:16+00:00",
    "batch_at": "2026-11-11T11:45:24.538923+00:00"
+  },
+  {
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "subtitle": "Learn how token pooling-aware training reduces vector footprints while preserving retrieval quality.",
+   "original_title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "link": "https://huggingface.co/blog/token-pooling",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Multi-vector retrieval models like ColBERT offer high expression for search by assigning multiple vectors per document, but their storage footprint scales rapidly. Token pooling merges similar token embeddings using Ward hierarchical clustering to reduce vector counts. By adding a pooling-aware training loss alongside standard contrastive objectives, models learn to preserve critical information through compression.",
+   "bullets": [
+    "Multi-vector models use MaxSim scoring to match query tokens against contextual document token vectors, resulting in large storage requirements.",
+    "HierarchicalTokenPooling groups similar token embeddings using Ward's method to minimize intra-group variance and build a compact representation.",
+    "Pooling-aware training combines full-representation retrieval loss with compressed-representation loss, passing gradients via straight-through estimators.",
+    "Training a ModernBERT-base model with a pool factor of 4 increases NanoBEIR nDCG@10 score retention from 94.6% up to 97.8% while cutting document vectors by 75%.",
+    "Compression techniques like token pooling can be combined with residual quantization and Matryoshka token dimension truncation for further index size reduction."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-11T15:35:49.928916+00:00",
+   "published_at": "2026-11-11T00:00:00+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
+  },
+  {
+   "title": "REI vs. Dick's Sporting Goods Black Friday Deals",
+   "subtitle": "Compare Black Friday running gear discounts between REI and Dick's Sporting Goods.",
+   "original_title": "REI vs. Dick’s Sporting Goods Black Friday Deals, Which Is Better?",
+   "link": "https://www.runnersworld.com/gear/a74386618/rei-vs-dicks-black-friday-deals-2026/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "REI and Dick's Sporting Goods offer distinct Black Friday advantages for runners. REI provides steeper discounts on running shoes, niche apparel brands, and its in-house Co-op gear. Meanwhile, Dick's features broader road-brand selections and significant price cuts on big-ticket hardware like treadmills and running watches.",
+   "bullets": [
+    "REI drops deals early due to closing on Black Friday, leaning into member perks and private-label Co-op gear discounts.",
+    "Dick's Sporting Goods runs a longer holiday sale covering a broader selection of major road-running brands.",
+    "REI offers steeper markdowns on specific running shoe brands like Hoka, while Dick's provides better pricing on brands like Adidas.",
+    "REI stocks specialized niche apparel brands such as Rabbit, offering features like integrated watch panels and technical fabrics.",
+    "Dick's excels in big-ticket exercise categories that REI avoids, offering hundreds off treadmills and multisport GPS running watches like Suunto."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-11T15:36:21.395642+00:00",
+   "published_at": "2026-11-10T21:59:00+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
   },
   {
    "title": "Roma-Servette 2-1: la sintesi della quarta giornata di UWCL",
@@ -206,6 +319,52 @@
    "seen_at": "2026-11-11T11:45:31.319990+00:00",
    "published_at": "2026-11-10T19:00:02+00:00",
    "batch_at": "2026-11-11T11:45:24.538923+00:00"
+  },
+  {
+   "title": "Gemini 4 Carbon",
+   "subtitle": "Google releases Gemini 4 Carbon with advanced agentic, cyber, and scientific reasoning.",
+   "original_title": "Gemini 4 Carbon is now available",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Google has launched Gemini 4 Carbon, a frontier model optimized for long-horizon agentic workflows, deep scientific reasoning, and cybersecurity tasks. It leads multiple benchmarks including CursorBench 4.0 and WANDR, offering high performance at lower production costs. The model is integrated into Google's ecosystem via API, AI Studio, and Antigravity, featuring robust safety mitigations against misuse and prompt injection.",
+   "bullets": [
+    "Ranks #1 on CursorBench 4.0, WANDR, and Zapier’s AutomationBench at more than 2X lower cost per task compared to external models.",
+    "Features advanced cybersecurity capabilities, leading on SEC-bench Pro, ExploitGym, and CWE-bench v1 for finding, exploiting, and patching vulnerabilities.",
+    "Aids formal code verification, helping translate Signal's cryptographic protocol security goals into Lean language proofs using AlphaProof Code.",
+    "Improves protein structure prediction by autonomously discovering remote homologs across petabase-scale sequence archives, increasing retrieved homologs by 40-fold on average.",
+    "Achieves a 99% block rate against adaptive red-teaming attack trajectories and a 0% prompt injection attack success rate on the Gray Swan IPI benchmark.",
+    "Priced at $2 per million input tokens and $10 per million output tokens via the API in Google AI Studio and Gemini for business."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-11T15:35:36.578301+00:00",
+   "published_at": "2026-11-10T16:03:47+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
+  },
+  {
+   "title": "La distanza relazionale in Normal People",
+   "subtitle": "Perché le relazioni intime falliscono nel comunicare l'essenziale",
+   "original_title": "Normal People e quella distanza minuscola e a volte devastante che separa il sentirsi vicini dal riuscire a dirsi ciò che conta",
+   "link": "https://artesettima.it/2026/11/10/normal-people-e-quella-distanza-minuscola-e-a-volte-devastante-che-separa-il-sentirsi-vicini-dal-riuscire-a-dirsi-cio-che-conta/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il blocco editoriale dei libri di Sally Rooney nel Regno Unito offre l'occasione di riflettere sul successo duraturo di Normal People. Al centro della storia c'è l'incapacità di colmare la distanza minuscola tra intimità emotiva e comunicazione verbale.",
+   "bullets": [
+    "L'editore Faber ha interrotto la fornitura dei libri di Sally Rooney nel Regno Unito per questioni legate al sostegno dell'autrice a Palestine Action.",
+    "La vicenda rende temporaneamente inaccessibile uno dei romanzi più influenti degli ultimi anni nel mercato britannico.",
+    "Il nucleo tematico di Normal People analizza la fragilità delle relazioni intime e il divario tra la comprensione reciproca e la parola detta.",
+    "La narrazione mostra come l'intimità profonda non garantisca la capacità di comunicare ciò che conta nei momenti critici."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-11T15:36:28.428256+00:00",
+   "published_at": "2026-11-10T15:11:04+00:00",
+   "batch_at": "2026-11-11T15:33:55.514194+00:00"
   },
   {
    "title": "Running Recovery Strategies Evaluated",
