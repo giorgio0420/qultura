@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:09:52.860282+00:00",
+ "generated_at": "2026-11-12T16:32:17.757592+00:00",
  "items": [
   {
    "title": "Strategia spaziale europea e autonomia di lancio: il confronto tra Urso e Kubilius",
@@ -273,6 +273,29 @@
    "seen_at": "2026-11-12T16:10:44.608320+00:00",
    "published_at": "2026-11-12T00:00:00+00:00",
    "batch_at": "2026-11-12T16:09:52.860282+00:00"
+  },
+  {
+   "title": "La stupidità collettiva ha creato le Psyops",
+   "subtitle": "La vulnerabilità umana alla disinformazione precede la propaganda e la tecnologia.",
+   "original_title": "La Stupidità Collettiva Ha Creato Le Psyops",
+   "link": "https://thedarksalad.it/articoli/la-stupidita-collettiva-ha-creato-le-psyops/",
+   "source": "The Dark Salad",
+   "category": "mondo",
+   "kind": "sitemap",
+   "lang": "it",
+   "summary": "La tendenza umana a credere e diffondere sciocchezze senza verifica è un fenomeno spontaneo che precede la propaganda organizzata. Le operazioni psicologiche militari non fanno altro che sfruttare un'infrastruttura cognitiva preesistente, dove la stupidità collettiva funge da terreno fertile per la manipolazione.",
+   "bullets": [
+    "Il rasoio di Hanlon suggerisce di non attribuire alla malizia ciò che può essere spiegato dalla stupidità, ma quando la stupidità diventa collettiva si trasforma in un'infrastruttura stabile.",
+    "Il capolavoro della manipolazione moderna è aver convinto miliardi di persone a distribuire contenuti ingannevoli gratuitamente, senza addestramento e spesso senza verificarli.",
+    "Le idee false richiedono zero manutenzione e sopravvivere ai propri autori, dimostrando una resistenza strutturale superiore a quella delle verità.",
+    "La tecnologia digitale e l'intelligenza artificiale aumentano velocità, volume e personalizzazione dei contenuti, ma il destinatario resta un primate ansioso e incline all'appartenenza.",
+    "Confondere il comportamento spontaneo delle masse con una regia occulta significa cadere vittima due volte della manipolazione."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-12T16:42:16.165905+00:00",
+   "published_at": "2026-11-12T00:00:00+00:00",
+   "batch_at": "2026-11-12T16:32:17.757592+00:00"
   },
   {
    "title": "The Best Advanced GPS Running Watches of 2026, Tested by an Ultrarunner",
@@ -5600,23 +5623,6 @@
    "score": 4,
    "seen_at": "2026-10-29T16:39:59.592056+00:00",
    "published_at": "2026-10-29T13:15:35+00:00",
-   "batch_at": "2026-10-29T16:31:42.192637+00:00"
-  },
-  {
-   "title": "Calling Python from MATLAB for Geospatial Engineering Workflows",
-   "subtitle": "Integrate Python scripts into MATLAB to process NASA data and perform geospatial analysis",
-   "original_title": "Calling Python from MATLAB | MATLAB and Python for Students",
-   "link": "https://www.youtube.com/watch?v=zDqfJssxg-o",
-   "source": "MATLAB",
-   "category": "ai",
-   "kind": "yt",
-   "lang": "en",
-   "summary": "Engineering workflows often require combining specialized libraries from different ecosystems. This demonstration integrates Python with MATLAB to perform a wind resource assessment for the United States. First, a Python script uses the EarthAccess library to stream and pre-process ten years of global wind speed measurements from NASA's MERRA-2 netCDF dataset. The MATLAB environment then connects to the Python interpreter using the External Languages panel and executes the data pipeline via pyrunfile. Once the processed netCDF file is loaded into MATLAB using ncread, the Mapping Toolbox visualizes global wind patterns and filters the data to the contiguous United States using shapefiles and spatial polygon functions. Finally, a custom suitability score combining mean wind speed and standard deviation identifies the optimal locations for wind farms.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-10-29T16:32:08.708088+00:00",
-   "published_at": "2026-10-29T13:14:50+00:00",
    "batch_at": "2026-10-29T16:31:42.192637+00:00"
   },
   {
