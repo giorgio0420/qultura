@@ -1,6 +1,51 @@
 {
- "generated_at": "2026-11-13T15:38:39.672473+00:00",
+ "generated_at": "2026-11-13T16:32:06.516191+00:00",
  "items": [
+  {
+   "title": "Matisse in dialogo col mondo",
+   "subtitle": "Come le culture extraeuropee hanno trasformato la ricerca e il linguaggio di Matisse.",
+   "original_title": "Matisse in dialogo col mondo",
+   "link": "https://lucysullacultura.com/matisse-in-dialogo-col-mondo/",
+   "source": "Lucy sulla cultura",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "La mostra al MUDEC analizza l'influenza delle culture non occidentali e dei manufatti collezionati da Henri Matisse sulla sua evoluzione artistica. Attraverso sculture, tessuti e carte ritagliate, l'esposizione svela i meccanismi materiali e formali con cui l'artista ha ripensato la figura e lo spazio.",
+   "bullets": [
+    "I documenti d'archivio mostrano l'interesse costante di Matisse per la provenienza degli oggetti africani e orientali della sua collezione.",
+    "Il confronto con le maschere africane illumina la scomposizione e l'asimmetria formale sviluppata nella serie delle cinque teste di Jeannette tra il 1910 e il 1913.",
+    "I tessuti, dai caftani alle rafie Kuba, offrono soluzioni strutturali che Matisse integra nella costruzione dei piani e dei volumi nei dipinti.",
+    "Il lavoro con la carta ritagliata a gouache negli ultimi anni riprende il rapporto fisico con la materia sperimentato in precedenza attraverso la scultura."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-13T16:33:18.352177+00:00",
+   "published_at": "2026-11-13T15:51:00+00:00",
+   "batch_at": "2026-11-13T16:32:06.516191+00:00"
+  },
+  {
+   "title": "Introducing ChatGPT Wallet",
+   "subtitle": "Secure agent payments via payment tokens and biometric authorization.",
+   "original_title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI has introduced ChatGPT Wallet, a system that allows AI agents to make purchases on behalf of users without exposing actual card details. Built with American Express, Mastercard, and Visa, it uses payment tokens and requires biometric security checks for every transaction while preserving standard card rewards and dispute protections.",
+   "bullets": [
+    "ChatGPT Wallet uses payment tokens (substitute card numbers, codes, and expiration dates) to prevent sharing actual card details with businesses or agents.",
+    "Every transaction requires explicit user review of items, total, and card, followed by a biometric security check like Face ID or fingerprint scan.",
+    "Users retain existing credit card rewards and protections for eligible disputes such as defective items.",
+    "Initial rollout is available through dots for US ChatGPT Pro subscribers aged 18 and older using eligible US-issued cards.",
+    "A Commerce Partner Playbook provides guidance for businesses on configuring CDNs, firewalls, and risk systems to avoid blocking agentic transactions."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-13T16:32:34.380191+00:00",
+   "published_at": "2026-11-13T15:00:00+00:00",
+   "batch_at": "2026-11-13T16:32:06.516191+00:00"
+  },
   {
    "title": "Google Fitbit Air Review for Runners",
    "subtitle": "How a $100 screenless fitness tracker handles runs and syncs to Strava",
@@ -391,6 +436,23 @@
    "seen_at": "2026-11-13T11:10:05.678007+00:00",
    "published_at": "2026-11-13T00:00:00+00:00",
    "batch_at": "2026-11-13T11:08:47.547963+00:00"
+  },
+  {
+   "title": "Lo scandalo Nvidia e l'impatto dell'uscita di Jensen Wang",
+   "subtitle": "Analisi dell'impatto finanziario e geopolitico sulle dimissioni di Jensen Wang da Nvidia.",
+   "original_title": "Parliamo Dello Scandalo Di Nvidia",
+   "link": "https://www.youtube.com/watch?v=1mmg--lvmoQ",
+   "source": "Marco Montemagno (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Le dimissioni del fondatore di Nvidia Jensen Wang a seguito di uno scandalo personale sollevano interrogativi sul futuro dell'azienda, sul mercato dell'intelligenza artificiale e sui rischi geopolitici legati alla sicurezza tecnologica tra Stati Uniti e Cina. L'azienda, che fattura circa 250 miliardi di dollari all'anno ed è pilastro di ogni infrastruttura AI globale, ha subito un contraccolpo in borsa ma resta finanziariamente solida. Tuttavia, l'assenza di un fondatore visionario rischia di frenare la spinta propulsiva e innovativa a lungo termine, replicando dinamiche già viste in altre grandi aziende tecnologiche. Dal punto di vista geopolitico, il sospetto che la presunta relazione con una spia cinese possa aver compromesso segreti industriali accelererebbe i progressi della Cina nel settore dei chip avanzati, pur non stravolgendo un ecosistema di ricerca cinese già fortemente competitivo. Infine, l'uscita di Wang priva il mercato AI del suo principale collante relazionale e finanziario, generando una temporanea fase di congelamento e prudenza operativa in tutto il settore.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-11-13T16:32:52.265860+00:00",
+   "published_at": "2026-11-13T00:00:00+00:00",
+   "batch_at": "2026-11-13T16:32:06.516191+00:00"
   },
   {
    "title": "Running Through Trauma: An Army Veteran's Journey Back from the Brink",
