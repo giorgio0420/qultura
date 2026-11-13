@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T16:32:06.516191+00:00",
+ "generated_at": "2026-11-13T16:34:08.636498+00:00",
  "items": [
   {
    "title": "Matisse in dialogo col mondo",
@@ -10,41 +10,40 @@
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "La mostra al MUDEC analizza l'influenza delle culture non occidentali e dei manufatti collezionati da Henri Matisse sulla sua evoluzione artistica. Attraverso sculture, tessuti e carte ritagliate, l'esposizione svela i meccanismi materiali e formali con cui l'artista ha ripensato la figura e lo spazio.",
+   "summary": "La mostra al MUDEC esplora l'influenza delle culture non occidentali sull'opera di Henri Matisse, analizzando il modo in cui sculture africane, tessuti orientali e manufatti del Pacifico hanno ridefinito la sua concezione della figura e dello spazio. Il percorso espositivo evidenzia le fonti materiali e storiche degli oggetti collezionati dall'artista, superando le letture tradizionali che riducevano le influenze extraeuropee a mere ispirazioni stilistiche.",
    "bullets": [
-    "I documenti d'archivio mostrano l'interesse costante di Matisse per la provenienza degli oggetti africani e orientali della sua collezione.",
-    "Il confronto con le maschere africane illumina la scomposizione e l'asimmetria formale sviluppata nella serie delle cinque teste di Jeannette tra il 1910 e il 1913.",
-    "I tessuti, dai caftani alle rafie Kuba, offrono soluzioni strutturali che Matisse integra nella costruzione dei piani e dei volumi nei dipinti.",
-    "Il lavoro con la carta ritagliata a gouache negli ultimi anni riprende il rapporto fisico con la materia sperimentato in precedenza attraverso la scultura."
+    "I documenti dell'atelier di Matisse mostrano il suo tentativo costante di risalire alla provenienza geografica dei manufatti africani ed orientali della sua collezione.",
+    "Nelle cinque versioni della serie Jeannette, realizzate tra il 1910 e il 1913, Matisse applica una scomposizione dei volumi influenzata dallo studio delle maschere africane.",
+    "L'uso dei tessuti nei dipinti, come in La Blouse bulgare e Nu assis de dos, dimostra come motivi e superfici decorate concorrano attivamente alla costruzione della figura.",
+    "Le carte ritagliate degli ultimi anni, incluse le tavole di Jazz come Icare, sintetizzano il rapporto fisico con il materiale e la ricerca decennale sul bilanciamento tra corpo e spazio."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-13T16:33:18.352177+00:00",
+   "seen_at": "2026-11-13T16:35:21.469687+00:00",
    "published_at": "2026-11-13T15:51:00+00:00",
-   "batch_at": "2026-11-13T16:32:06.516191+00:00"
+   "batch_at": "2026-11-13T16:34:08.636498+00:00"
   },
   {
-   "title": "Introducing ChatGPT Wallet",
-   "subtitle": "Secure agent payments via payment tokens and biometric authorization.",
+   "title": "ChatGPT Wallet",
+   "subtitle": "Agents in ChatGPT Work, Codex, and dots can now complete purchases with user approval.",
    "original_title": "Introducing ChatGPT Wallet",
    "link": "https://openai.com/index/introducing-chatgpt-wallet",
    "source": "OpenAI",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "OpenAI has introduced ChatGPT Wallet, a system that allows AI agents to make purchases on behalf of users without exposing actual card details. Built with American Express, Mastercard, and Visa, it uses payment tokens and requires biometric security checks for every transaction while preserving standard card rewards and dispute protections.",
+   "summary": "OpenAI introduces ChatGPT Wallet, a feature allowing AI agents across ChatGPT Work, Codex, and dots to execute purchases. The system operates with user approval and integrates existing card protections to secure transactions.",
    "bullets": [
-    "ChatGPT Wallet uses payment tokens (substitute card numbers, codes, and expiration dates) to prevent sharing actual card details with businesses or agents.",
-    "Every transaction requires explicit user review of items, total, and card, followed by a biometric security check like Face ID or fingerprint scan.",
-    "Users retain existing credit card rewards and protections for eligible disputes such as defective items.",
-    "Initial rollout is available through dots for US ChatGPT Pro subscribers aged 18 and older using eligible US-issued cards.",
-    "A Commerce Partner Playbook provides guidance for businesses on configuring CDNs, firewalls, and risk systems to avoid blocking agentic transactions."
+    "Enables AI agents to complete purchases directly within workflows",
+    "Requires explicit user approval for transactions",
+    "Leverages existing card protections for security",
+    "Integrated across ChatGPT Work, Codex, and dots"
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-13T16:32:34.380191+00:00",
+   "seen_at": "2026-11-13T16:34:38.264984+00:00",
    "published_at": "2026-11-13T15:00:00+00:00",
-   "batch_at": "2026-11-13T16:32:06.516191+00:00"
+   "batch_at": "2026-11-13T16:34:08.636498+00:00"
   },
   {
    "title": "Google Fitbit Air Review for Runners",
@@ -438,21 +437,38 @@
    "batch_at": "2026-11-13T11:08:47.547963+00:00"
   },
   {
-   "title": "Lo scandalo Nvidia e l'impatto dell'uscita di Jensen Wang",
-   "subtitle": "Analisi dell'impatto finanziario e geopolitico sulle dimissioni di Jensen Wang da Nvidia.",
+   "title": "Lo scandalo Nvidia e le conseguenze per Jensen Huang",
+   "subtitle": "Impatto sul mercato dei semiconduttori e rischi geopolitici dopo le dimissioni del CEO.",
    "original_title": "Parliamo Dello Scandalo Di Nvidia",
    "link": "https://www.youtube.com/watch?v=1mmg--lvmoQ",
    "source": "Marco Montemagno (YouTube)",
    "category": "ai",
    "kind": "queue",
    "lang": "it",
-   "summary": "Le dimissioni del fondatore di Nvidia Jensen Wang a seguito di uno scandalo personale sollevano interrogativi sul futuro dell'azienda, sul mercato dell'intelligenza artificiale e sui rischi geopolitici legati alla sicurezza tecnologica tra Stati Uniti e Cina. L'azienda, che fattura circa 250 miliardi di dollari all'anno ed è pilastro di ogni infrastruttura AI globale, ha subito un contraccolpo in borsa ma resta finanziariamente solida. Tuttavia, l'assenza di un fondatore visionario rischia di frenare la spinta propulsiva e innovativa a lungo termine, replicando dinamiche già viste in altre grandi aziende tecnologiche. Dal punto di vista geopolitico, il sospetto che la presunta relazione con una spia cinese possa aver compromesso segreti industriali accelererebbe i progressi della Cina nel settore dei chip avanzati, pur non stravolgendo un ecosistema di ricerca cinese già fortemente competitivo. Infine, l'uscita di Wang priva il mercato AI del suo principale collante relazionale e finanziario, generando una temporanea fase di congelamento e prudenza operativa in tutto il settore.",
+   "summary": "Le dimissioni di Jensen Huang da CEO di Nvidia a seguito di uno scandalo personale sollevano interrogativi sul futuro dell'azienda e sugli equilibri geopolitici tra Stati Uniti e Cina. L'azienda fattura circa 250 miliardi di dollari all'anno ed è economicamente solida, ma l'uscita del fondatore priva la struttura di quella follia creativa e di quella visione strategica tipica dei leader storici, rischiando di rallentare il dinamismo che ha reso Nvidia il pilastro infrastrutturale dell'intelligenza artificiale. Sul fronte della sicurezza, l'ipotesi che la presunta relazione con una spia cinese abbia esposto segreti industriali e specifiche hardware potrebbe accelerare il vantaggio competitivo di Pechino nella corsa ai semiconduttori, sebbene la Cina disponga già di ingenti risorse di ricerca proprie. Nonostante il contraccolpo in borsa e i costi stimati per le vicende personali, Huang rimane una figura fuori categoria le cui opzioni future spaziano dal rientro in azienda in stile Steve Jobs a nuove collaborazioni strategiche.",
    "bullets": [],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-13T16:32:52.265860+00:00",
+   "seen_at": "2026-11-13T16:34:56.809040+00:00",
    "published_at": "2026-11-13T00:00:00+00:00",
-   "batch_at": "2026-11-13T16:32:06.516191+00:00"
+   "batch_at": "2026-11-13T16:34:08.636498+00:00"
+  },
+  {
+   "title": "COP31 e transizione energetica: i progressi reali oltre i negoziati",
+   "subtitle": "Analisi dei costi delle rinnovabili, dei dati della Cina e dell'impatto dei data center AI.",
+   "original_title": "Cop 31: la transizione è un'illusione?",
+   "link": "https://www.youtube.com/watch?v=Rm--6-G9kyU",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Nonostante la COP31 in Turchia registri scarsi accordi vincolanti e l'assenza degli Stati Uniti, la transizione energetica globale procede grazie alla forte discesa dei costi tecnologici guidata dal mercato. L'episodio analizza lo stato reale della decarbonizzazione globale attraverso dati economici e geopolitici, spiegando come l'economia reale stia superando le stime politiche. Nel 2015 le previsioni al 2100 indicavano un riscaldamento globale di 3,6 gradi centigradi, mentre oggi le stime aggiornate si attestano sui 2,6 gradi, evidenziando progressi concreti sebbene ancora distanti dall'obiettivo ideale di 1,5 gradi dell'accordo di Parigi. Questo miglioramento non deriva dai governi, ma dalla drastica riduzione dei costi delle tecnologie verdi: negli ultimi dieci anni il prezzo delle batterie e dei pannelli fotovoltaici si è ridotto drasticamente, rendendo l'energia solare economicamente competitiva anche nei paesi in via di sviluppo in Asia e Africa che storicamente dipendevano dal carbone. La Cina gioca un ruolo centrale in questa dinamica: pur restando fortemente dipendente dal carbone e generando una sovraccapacità produttiva a debito, Pechino produce a basso costo le tecnologie verdi che accelerano la transizione nel resto del mondo. Un esempio emblematico è il settore dei trasporti pesanti, dove in Cina un quarto dei camion interurbani venduti è ormai elettrico puro, a fronte del 5% registrato in Europa. Sul fronte opposto, gli Stati Uniti di Donald Trump puntano sul potenziamento dei combustibili fossili, pur registrando un'occupazione nel settore dell'industria verde che è ormai doppia rispetto a quella del petrolio e del gas. Infine, l'espansione dei data center per l'intelligenza artificiale sta incrementando la domanda di energia e generando tensioni locali sulle bollette in Stati come la Virginia, costringendo il settore a puntare sull'efficienza energetica per evitare blocchi normativi o proteste popolari. La transizione energetica non dipende più dai negoziati climatici ma dalla competitività dei mercati.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-13T16:35:28.216131+00:00",
+   "published_at": "2026-11-13T00:00:00+00:00",
+   "batch_at": "2026-11-13T16:34:08.636498+00:00"
   },
   {
    "title": "Running Through Trauma: An Army Veteran's Journey Back from the Brink",
@@ -476,23 +492,6 @@
    "seen_at": "2026-11-13T11:09:21.872832+00:00",
    "published_at": "2026-11-12T22:43:37+00:00",
    "batch_at": "2026-11-13T11:08:47.547963+00:00"
-  },
-  {
-   "title": "Il formato Total Chess e il commento tecnico di Sabino Brunello",
-   "subtitle": "Analisi dei match rapidi e classici del tour con il GM Sabino Brunello",
-   "original_title": "CARLSEN vs il GM più giovane della storia! | Total Chess 2026",
-   "link": "https://www.youtube.com/watch?v=GbF8qgaudTA",
-   "source": "Chess.com Italiano",
-   "category": "scacchi",
-   "kind": "yt",
-   "lang": "it",
-   "summary": "Il torneo pilota Total Chess 2026 introduce un formato innovativo basato su partite con cadenza 'fast classic' (45 minuti più 30 secondi a mossa), caratterizzate da match di andata e ritorno con colori invertiti per eliminare la tendenza alle patte di convenienza. Le vittorie valgono tre punti, la patta uno e la sconfitta zero, un sistema che spinge a una maggiore combattività in tutte le fasi di gioco. Durante la terza giornata, seguita in diretta con il commento del grande maestro Sabino Brunello, si affrontano i migliori giocatori del circuito divisi in quattro gruppi. Nel gruppo C, Magnus Carlsen affronta il più giovane grande maestro della storia, Abhimanyu Mishra. L'apertura vede una difesa italiana con D6, una scelta conservativa del nero per ottenere un centro tranquillo, alla quale Carlsen risponde con A4 per guadagnare spazio sull'ala di donna e consolidare il proprio alfiere campochiaro. Dopo una serie di manovre posizionali e l'avanzamento dei pedoni centrali, la partita si sviluppa in una struttura complessa in cui il nero cerca il controgioco mentre il bianco mantiene una pressione costante. Nel frattempo, in altri incontri del torneo, Fabiano Caruana affronta Praggnanandhaa in una partita caratterizzata da una lotta serrata sulle case scure e da un attacco incisivo condotto dal bianco sulla colonna C. Caruana riesce a impostare un vantaggio posizionale significativo, culminando in un finale in cui l'iniziativa e la pressione costante mettono in grande difficoltà il nero, costretto a difendersi in inferiorità di tempo. Altri match di rilievo vedono Anish Giri prevalere in una variante tagliente con un attacco diretto al re, e la sorprendente vittoria di Bibisara Assaubayeva contro Arjun Erigaisi, concretizzata grazie a una gestione precisa dei finali e alla pressione esercitata sulla struttura dei pedoni avversari. Nonostante la complessità delle posizioni e la pressione del tempo tipica della cadenza ridotta rispetto al classico tradizionale, l'analisi dei grandi maestri evidenzia come le decisioni strategiche dipendano da equilibri sottili e dalla capacità di mantenere il controllo tattico fino alle fasi finali.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-13T16:33:27.616512+00:00",
-   "published_at": "2026-11-12T20:53:06+00:00",
-   "batch_at": "2026-11-13T16:32:11.270655+00:00"
   },
   {
    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -1062,23 +1061,6 @@
    "seen_at": "2026-11-13T11:09:08.100757+00:00",
    "published_at": "2026-11-12T00:00:00+00:00",
    "batch_at": "2026-11-13T11:08:47.547963+00:00"
-  },
-  {
-   "title": "La fase a gruppi del Total Chess a Budapest",
-   "subtitle": "Il nuovo torneo sperimentale Total Chess a Budapest e i primi risultati dei match.",
-   "original_title": "CARLSEN vs GIRI! Inizia la FASE A GRUPPI | Total Chess 2026",
-   "link": "https://www.youtube.com/watch?v=cWNOfUX_Sgs",
-   "source": "Chess.com Italiano",
-   "category": "scacchi",
-   "kind": "yt",
-   "lang": "it",
-   "summary": "È iniziato a Budapest il torneo pilota \"Total Chess\", un evento sperimentale che riunisce 24 dei migliori giocatori al mondo per testare una nuova cadenza di gioco denominata \"fast classic\", fissata a 45 minuti più 30 secondi di incremento per mossa. Questa fase a gironi iniziale prevede un doppio girone all'italiana in cui i partecipanti affrontano tutti gli avversari del proprio gruppo due volte, e la classifica finale determinerà il tabellone della fase a eliminazione diretta. Il torneo rappresenta un esperimento importante anche perché, a differenza di altre competizioni a tempo ridotto, le partite sono valide per la variazione Elo FIDE standard, un fatto storico per cadenze così brevi a questi livelli. Nel primo turno di match del girone C, Magnus Carlsen ha affrontato Anish Giri con il nero, scegliendo la difesa olandese con F5 come mossa iniziale, un chiaro richiamo ironico alle origini olandesi dell'avversario. Giri ha risposto con B4 per limitare il gioco del nero, spingendo Carlsen a complicare la posizione con C5 e a fronteggiare una pressione notevole sui pezzi e sul tempo. Dopo una lunga riflessione, la partita si è avviata verso la semplificazione e si è conclusa in parità, permettendo a entrambi di muovere la classifica con un punto. Altre sfide importanti della giornata hanno visto Levon Aronian imporsi contro Jorden van Foreest grazie a una gestione precisa e dinamica del finale e alla marcia attiva del re, mentre Fabiano Caruana ha superato Richard Rapport sfruttando le debolezze strutturali del bianco dopo aver centralizzato la donna e impostato una pressione efficace con i pezzi leggeri. Altri successi di rilievo nel primo turno sono arrivati da Shakhriyar Mamedyarov contro Haik Martirosyan e da Ian Nepomniachtchi contro Abhimanyu Mishra. I vincitori dei singoli gironi accederanno direttamente al tabellone principale del knockout, che prenderà il via nelle fasi successive per assegnare il titolo e decretare i primi qualificati al Total Chess World Championship Tour previsto per il 2027.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-13T16:33:41.815627+00:00",
-   "published_at": "2026-11-11T20:37:28+00:00",
-   "batch_at": "2026-11-13T16:32:11.270655+00:00"
   },
   {
    "title": "The Best Advanced GPS Running Watches of 2026, Tested by an Ultrarunner",
@@ -2043,21 +2025,21 @@
    "batch_at": "2026-11-13T11:08:47.547963+00:00"
   },
   {
-   "title": "Nvidia, la spia cinese e le mosse geopolitiche",
-   "subtitle": "Lo scandalo del CEO di Nvidia e il via libera UE all'Italia per difesa ed energia",
+   "title": "Nvidia, Jensen Huang e la presunta spia cinese",
+   "subtitle": "Lo scandalo del CEO di Nvidia e il via libera UE all'Italia per spesa militare ed energetica.",
    "original_title": "Nvidia, Jensen Huang e la presunta SPIA CINESE: perché Trump lo difende | The Essential",
    "link": "https://www.youtube.com/watch?v=UXa7WlzfK9w",
    "source": "Will Media",
    "category": "mondo",
    "kind": "queue",
    "lang": "it",
-   "summary": "Il CEO di Nvidia Jensen Huang ha ammesso una relazione extraconiugale con Alice Wang, dirigente della società singaporiana Megaspid ed ex cliente, finita sotto sorveglianza per oltre un anno perché sospettata di essere una spia cinese incaricata di estorcere segreti sui microchip avanzati. Nvidia ha avviato un'indagine interna, mentre Donald Trump ha difeso Huang nonostante fosse a conoscenza dei sospetti dell'intelligence, data la vicinanza strategica del manager alla Casa Bianca e la mancanza di un erede designato ai vertici dell'azienda di famiglia. Parallelamente, il Consiglio ECOFIN ha autorizzato l'Italia a sfruttare una maggiore flessibilità di bilancio per aumentare la spesa nazionale in difesa ed energia, aggirando i vincoli di Bruxelles ma assumendosi il rischio finanziario di eventuali interessi a lungo termine.",
+   "summary": "Il CEO di Nvidia, Jensen Huang, ha ammesso una relazione extraconiugale con Alice Wang, dirigente di un'azienda di Singapore ed ex cliente, sotto sorveglianza per oltre un anno perché sospettata di essere una spia cinese incaricata di estorcere segreti sui microchip. Nonostante i sospetti e la consapevolezza dell'intelligence statunitense da oltre un anno, Donald Trump ha difeso Huang, che è suo consulente per l'intelligenza artificiale e ha accesso alla Casa Bianca. Nvidia ha avviato un'indagine interna, mentre la mancanza di un erede designato e il controllo familiare dell'azienda rendono difficile una sua sostituzione senza traumi per la Silicon Valley e i mercati globali. Nel frattempo, l'Ecofin ha concesso all'Italia il via libera per una maggiore flessibilità di spesa nazionale nei settori della difesa e dell'energia, permettendo di investire più risorse proprie senza sforare i parametri di Bruxelles, una mossa cruciale per fronteggiare i recenti attacchi informatici ma basata su fondi interamente a carico dello Stato italiano. In Francia, intanto, il campione olimpico di judo Teddy Riener ha annunciato la sua candidatura alle elezioni presidenziali del 2027.",
    "bullets": [],
    "relevance": 4,
    "score": 8,
-   "seen_at": "2026-11-13T16:34:41.786458+00:00",
+   "seen_at": "2026-11-13T16:35:34.364393+00:00",
    "published_at": "2026-11-10T00:00:00+00:00",
-   "batch_at": "2026-11-13T16:32:11.270655+00:00"
+   "batch_at": "2026-11-13T16:34:08.636498+00:00"
   },
   {
    "title": "Marathon Preparation Guide",
@@ -2266,23 +2248,6 @@
    "seen_at": "2026-11-09T16:33:11.988314+00:00",
    "published_at": "2026-11-09T15:05:27+00:00",
    "batch_at": "2026-11-09T16:32:15.354581+00:00"
-  },
-  {
-   "title": "Localization of Wireless Devices Using TOA and TDOA",
-   "subtitle": "Learn how TOA and TDOA methods locate wireless devices using signal timing and MATLAB modeling.",
-   "original_title": "Localize Wireless Devices with TOA and TDOA",
-   "link": "https://www.youtube.com/watch?v=Yl_snoc8CmE",
-   "source": "MATLAB",
-   "category": "ai",
-   "kind": "yt",
-   "lang": "en",
-   "summary": "Indoor environments lacking GPS rely on network infrastructure and sensors at known locations called anchors to estimate user and object positions. Two primary timing measurement techniques for this are time of arrival and time difference of arrival. Time of arrival uses absolute propagation time multiplied by signal speed to calculate distance, requiring strict time synchronization between the user and anchors. Because radio frequency energy travels nearly a foot per nanosecond, minor timing errors drastically shift the estimated range. Time difference of arrival eliminates the need for user synchronization by comparing arrival times between a pair of synchronized anchors, canceling out user timing offsets and producing a hyperbola of possible positions. Modeling these algorithms in MATLAB using OFDM waveforms and spectral analysis methods like FFT or MUSIC demonstrates how synchronization, anchor geometry, and channel conditions impact localization accuracy.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-13T16:32:32.577774+00:00",
-   "published_at": "2026-11-09T14:14:57+00:00",
-   "batch_at": "2026-11-13T16:32:11.270655+00:00"
   },
   {
    "title": "Does Running Build Muscle?",
