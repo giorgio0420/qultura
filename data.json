@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-11-13T11:08:47.547963+00:00",
+ "generated_at": "2026-11-13T12:00:10.750225+00:00",
  "items": [
+  {
+   "title": "Analisi dei fondi per la cybersicurezza nel Documento Programmatico Pluriennale 2026-2028",
+   "subtitle": "Come l'Italia distribuisce i fondi tra ciberdifesa militare e ACN nel DPP 2026-2028.",
+   "original_title": "Cos’è la cybersicurezza e quanto investirà l’Italia: i fondi per la difesa informatica nel DPP 2026-2028",
+   "link": "https://www.geopop.it/cose-la-cybersicurezza-e-quanto-investira-litalia-i-fondi-per-la-difesa-informatica-nel-dpp-2026-2028/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il Documento Programmatico Pluriennale 2026-2028 del Ministero della Difesa delinea le priorità strategiche italiane per la cibersicurezza, evidenziando una ripartizione complessa delle risorse finanziarie. Mentre i programmi specifici di ciberdifesa militare subiscono una riduzione complessiva, i finanziamenti ordinari per l'Agenzia per la Cybersicurezza Nazionale (ACN) registrano una crescita significativa.",
+   "bullets": [
+    "Il DPP 2026-2028, redatto dal Ministero della Difesa, individua nel dominio cibernetico un pilastro strategico insieme a intelligenza artificiale, tecnologie quantistiche e spazio.",
+    "Gli investimenti per i quattro programmi di ciberdifesa militare (Cyber Warfare interforze, Esercito, Marina, Aeronautica) prevedono per il 2027 una spesa di 52,31 milioni di euro, segnando un calo del 23,8% rispetto alle stime precedenti.",
+    "Le risorse ordinarie destinate all'Agenzia per la Cybersicurezza Nazionale (ACN) passano da 109,42 milioni nel 2025 a 135,24 milioni nel 2027, registrando un incremento del 23,6%.",
+    "Il DPP 2026-2028 prevede complessivamente circa 5,2 miliardi di euro fino al 2039 destinati a digitalizzazione, sicurezza cibernetica e sistemi di simulazione."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-13T12:00:26.445690+00:00",
+   "published_at": "2026-11-13T11:45:51+00:00",
+   "batch_at": "2026-11-13T12:00:10.750225+00:00"
+  },
   {
    "title": "Down globale per Microsoft 365, Outlook e Copilot: cause tecniche e server in tilt",
    "subtitle": "Un guasto a Exchange Online blocca i servizi Microsoft in 74 Paesi a causa di un sovraccarico",
