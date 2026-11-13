@@ -1,6 +1,99 @@
 {
- "generated_at": "2026-11-13T12:00:10.750225+00:00",
+ "generated_at": "2026-11-13T15:38:39.672473+00:00",
  "items": [
+  {
+   "title": "Google Fitbit Air Review for Runners",
+   "subtitle": "How a $100 screenless fitness tracker handles runs and syncs to Strava",
+   "original_title": "I’m Anti-Fitness Tracker—But Google’s Fitbit Air Changed My Mind",
+   "link": "https://www.runnersworld.com/gear/a74400048/google-fitbit-air-review/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The Google Fitbit Air provides screenless fitness tracking at a $100 price point, delivering heart rate and workout metrics without real-time notifications or subscriptions. It automatically detects runs and syncs data to Strava and the Google Health app while remaining lightweight enough to avoid interference during lifting and endurance workouts.",
+   "bullets": [
+    "Priced at $100 with no required subscription fees for core health data.",
+    "Tracks heart rate, steps, estimated calories, heart rate variability, blood oxygen, and sleep stages.",
+    "Automatically detects runs and integrates directly with the Strava app.",
+    "Features a compact form factor that does not interfere with weightlifting grips or rowing machine handles.",
+    "Battery life supports approximately two and a half weeks of intermittent use on a single charge."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-13T15:39:33.884189+00:00",
+   "published_at": "2026-11-13T14:38:09+00:00",
+   "batch_at": "2026-11-13T15:38:39.672473+00:00"
+  },
+  {
+   "title": "llama.cpp v1.0.0",
+   "subtitle": "llama.cpp and ggml reach v1.0.0 with strict semantic versioning policies",
+   "original_title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "The llama.cpp and ggml projects have released version 1.0.0, establishing formal semantic versioning to manage API and ABI changes for downstream consumers. The release formalizes C API boundaries, multi-platform distribution channels, and hardware backend support across more than 150 model architecture variants.",
+   "bullets": [
+    "Released llama.cpp v1.0.0 (libllama) and ggml v1.0.0 (libggml) with clear public header boundaries in include directories.",
+    "Adopted strict semantic versioning rules where MAJOR bumps indicate breaking changes to the public C API, MINOR introduces backward-compatible features, and PATCH covers bug fixes.",
+    "Expanded distribution channels to include pre-release artifacts, Docker, Debian, Homebrew, conda-forge, MacPorts, Winget, and XCFrameworks.",
+    "Maintains hardware support via dedicated dynamic backends across NVIDIA, AMD, Qualcomm, Arm, IBM, and Intel platforms.",
+    "Supports over 150 model architecture variants and mainstream speculative decoding methods."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-13T15:39:12.048350+00:00",
+   "published_at": "2026-11-13T14:05:22+00:00",
+   "batch_at": "2026-11-13T15:38:39.672473+00:00"
+  },
+  {
+   "title": "SpaceX tenta la doppia cattura di Starship con Mechazilla",
+   "subtitle": "Il quindicismo volo di Starship introduce i motori Raptor 3 e la cattura orbitale della navetta",
+   "original_title": "SpaceX lancia il 15° volo di Starship e punta alla doppia cattura degli stadi: come sarà il rientro",
+   "link": "https://www.geopop.it/spacex-lancia-il-15-volo-di-starship-e-punta-alla-doppia-cattura-degli-stadi-come-sara-il-rientro/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "SpaceX esegue il quindicesimo volo di Starship tentando per la prima volta il recupero di entrambi gli stadi tramite le braccia meccaniche Mechazilla. La missione prevede che la navetta V3 compia quattordici orbite terrestri prima del rientro atmosferico e della cattura in volo, testando nuove soluzioni per la riutilizzabilità e il futuro rifornimento orbitale.",
+   "bullets": [
+    "Il volo utilizza la versione Starship V3 alta oltre 124 metri, equipaggiata con i nuovi motori Raptor 3 più potenti e compatti.",
+    "Il booster Super Heavy viene catturato dalle braccia Mechazilla a circa sei minuti e mezzo dal decollo.",
+    "La navetta Ship 42 rimane in orbita a 275 km di quota per oltre 22 ore completando circa 14 orbite terrestri.",
+    "A bordo sono presenti 26 satelliti Starlink V3, tre dei quali dotati di telecamere per monitorare le condizioni dello scudo termico.",
+    "Il rientro atmosferico prevede una discesa quasi orizzontale a 28.000 km/h frenata dai quattro flap mobili e dalle piastrelle termiche.",
+    "Il successo della doppia cattura rappresenta un passo chiave verso la riutilizzabilità completa e le future missioni lunari del programma Artemis."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-13T15:39:04.523454+00:00",
+   "published_at": "2026-11-13T14:00:14+00:00",
+   "batch_at": "2026-11-13T15:38:39.672473+00:00"
+  },
+  {
+   "title": "Aggiornamenti dall'infermeria della Roma: recuperi in vista per Dybala, Svilar e Mancini",
+   "subtitle": "Dybala, Svilar e Mancini tornano ad allenarsi parzialmente in gruppo.",
+   "original_title": "Buone notizie per la Roma: Gasperini ritrova Dybala, Svilar e Mancini",
+   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/13-152563860/buone_notizie_per_la_roma_gasperini_ritrova_dybala_svilar_e_mancini/",
+   "source": "Corriere dello Sport",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Durante la sosta per le nazionali, la Roma recupera progressivamente tre elementi chiave. Paulo Dybala, Mile Svilar e Gianluca Mancini hanno ripreso a svolgere parte dell'allenamento con il gruppo, avvicinandosi al rientro in campo per i prossimi impegni contro Parma e Paris Saint-Germain.",
+   "bullets": [
+    "Dybala era fermo dal 14 ottobre a causa di una piccola lesione al gemello del polpaccio destro rimediata contro il Real Madrid.",
+    "Svilar ha smaltito una frattura da stress al quinto dito del piede destro subita in allenamento.",
+    "Mancini aveva saltato la sfida contro il Sassuolo e la convocazione in Nazionale per un risentimento al flessore destro.",
+    "Gollini ha invece svolto lavoro differenziato rispetto al resto della squadra.",
+    "La squadra riprenderà gli allenamenti martedì pomeriggio dopo una breve sosta concessa dall'allenatore."
+   ],
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-11-13T15:39:21.889461+00:00",
+   "published_at": "2026-11-13T13:41:53+00:00",
+   "batch_at": "2026-11-13T15:38:39.672473+00:00"
+  },
   {
    "title": "Analisi dei fondi per la cybersicurezza nel Documento Programmatico Pluriennale 2026-2028",
    "subtitle": "Come l'Italia distribuisce i fondi tra ciberdifesa militare e ACN nel DPP 2026-2028.",
