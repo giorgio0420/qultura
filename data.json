@@ -1,230 +1,230 @@
 {
- "generated_at": "2026-11-13T11:01:49.957846+00:00",
+ "generated_at": "2026-11-13T11:04:54.501327+00:00",
  "items": [
   {
    "title": "Down globale per Microsoft 365, Outlook e Copilot: cause tecniche e server in tilt",
-   "subtitle": "Un guasto a Exchange Online blocca i servizi Microsoft in 74 Paesi a causa di un sovraccarico",
+   "subtitle": "Analisi del guasto globale a Exchange Online e ai server Microsoft 365",
    "original_title": "Outlook e Microsoft 365 down in tutto il mondo, Copilot in tilt: è attacco hacker? Cosa sta succedendo",
    "link": "https://www.geopop.it/outlook-e-microsoft-365-down-in-tutto-il-mondo-copilot-in-tilt-e-attacco-hacker-cosa-sta-succedendo/",
    "source": "Geopop",
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "Una vasta interruzione globale sta interessando Microsoft 365, Outlook, Teams e Copilot in 74 Paesi, causando oltre 130.000 segnalazioni su Downdetector. Microsoft ha attribuito il problema a un guasto dei server di Exchange Online, escludendo l'ipotesi di attacchi informatici e parlando di un sovraccarico a catena dei nodi infrastrutturali funzionanti.",
+   "summary": "Una vasta interruzione globale ha colpito i servizi Microsoft 365, inclusi Outlook, Teams e Copilot, interessando 74 Paesi. Microsoft ha individuato il problema in un guasto ai server di Exchange Online che ha generato un effetto a catena di sovraccarico sul traffico di rete, escludendo l'ipotesi di attacchi informatici.",
    "bullets": [
-    "Il disservizio globale ha colpito 74 Paesi per oltre 12 ore, bloccando l'accesso alla posta elettronica e ad alcune funzioni di Teams e Copilot.",
-    "L'origine del problema è stata individuata in Exchange Online, la piattaforma cloud che gestisce posta, calendari e contatti.",
-    "Alcuni server distribuiti in più regioni sono diventati improvvisamente indisponibili, generando un sovraccarico di traffico sui nodi rimasti attivi.",
-    "Microsoft ha escluso l'ipotesi di un attacco hacker o di attività dolose, confermando che i sistemi di errore stanno rallentando la sincronizzazione degli aggiornamenti."
+    "Il disservizio è iniziato il 12 novembre 2026 e ha generato oltre 130.000 segnalazioni globali su Downdetector.",
+    "Il problema tecnico principale riguarda Exchange Online, la piattaforma cloud che gestisce posta e calendari.",
+    "Alcuni server distribuiti in più regioni sono diventati improvvisamente indisponibili, sovraccaricando i nodi rimasti attivi.",
+    "Il riavvio dei server e le modifiche infrastrutturali non hanno ancora risolto del tutto i blocchi di sincronizzazione.",
+    "Microsoft e le autorità competenti hanno escluso l'ipotesi di un attacco hacker, paragonando l'effetto a un aggiornamento errato."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-13T11:02:17.938195+00:00",
+   "seen_at": "2026-11-13T11:05:13.702037+00:00",
    "published_at": "2026-11-13T09:30:41+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Il rischio della retorica nelle narrazioni sul femminicidio",
-   "subtitle": "I limiti e i rischi retorici dei film sui femminicidi tra catarsi emotiva e assenza sistemica.",
+   "subtitle": "I limiti e i rischi retorici dei film sui femminicidi tra catarsi e deresponsabilizzazione",
    "original_title": "Il rischio della retorica nelle narrazioni sul femminicidio – Riflessioni a partire da “Se domani non torno”",
    "link": "https://lucysullacultura.com/il-rischio-della-retorica-nelle-narrazioni-sul-femminicidio-riflessioni-a-partire-da-se-domani-non-torno/",
    "source": "Lucy sulla cultura",
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "L'analisi critica delle narrazioni cinematografiche sul femminicidio, come il film su Giulia Cecchettin, evidenzia il rischio di appiattire la violenza sistemica in una dinamica puramente emotiva e catartica. Ridurre l'impegno politico a un consumo culturale individualista allontana l'attenzione dagli strumenti strutturali ed economici necessari per contrastare la violenza di genere.",
+   "summary": "I prodotti audiovisivi dedicati al femminicidio rischiano di ridurre un problema politico e sistemico a un esercizio di empatia e catarsi individuale. Concentrarsi unicamente sulla prospettiva della vittima e sulla sua vita passata sposta la responsabilità della prevenzione sui singoli, isolando il fenomeno dal suo contesto sociale ed economico.",
    "bullets": [
-    "I prodotti audiovisivi sul femminicidio rischiano di confondere l'apprendimento trasformativo con la catarsi emotiva del pubblico.",
-    "L'esclusione deliberata del carnefice dalla narrazione filmica sposta il fuoco sulla sola empatia con la vittima e la sua famiglia.",
-    "Questo approccio educativo rischia di trasformarsi in un ammonimento morale che delega la responsabilità della sicurezza alle potenziali vittime.",
-    "La sovrapposizione tra consumo culturale e impegno politico aliena questioni cruciali come l'indipendenza economica, il lavoro di cura e le risorse pubbliche.",
-    "Il discorso pubblico e politico richiede interventi istituzionali, legislativi e giudiziari concreti anziché la sola fruizione solitaria di prodotti commerciali."
+    "Il film 'Se domani non torno' trasforma un gesto politico come il tintinnio delle chiavi in una mera coreografia estetica accompagnata da una colonna sonora pop.",
+    "La scelta narrativa di escludere completamente il carnefice risponde a un assunto morale che rifiuta la morbosità ma finisce per appiattire la complessità del crimine.",
+    "Le narrazioni focalizzate unicamente sulla vittima confondono l'apprendimento trasformativo con la catarsi emotiva del pubblico in sala.",
+    "Il dibattito pubblico rischia di ridursi a un perenne corso di formazione culturale, delegittimando la richiesta di interventi strutturali su giustizia, economia e lavoro.",
+    "Delegare ai prodotti culturali il compito di educare e sensibilizzare scarica sulle potenziali vittime la responsabilità individuale di riconoscere e prevenire la violenza."
    ],
    "relevance": 5,
    "score": 5,
-   "seen_at": "2026-11-13T11:03:41.412416+00:00",
+   "seen_at": "2026-11-13T11:07:03.051089+00:00",
    "published_at": "2026-11-13T08:44:09+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Navigazione lunare: siglato il contratto per la missione COLLINS",
-   "subtitle": "L'ASI e Qascom realizzano il payload COLLINS per testare la navigazione GNSS e LunaNet.",
+   "subtitle": "Qascom e ASI sviluppano COLLINS per testare ricezione GNSS e Moonlight in orbita lunare.",
    "original_title": "Navigazione lunare: siglato il contratto per la missione COLLINS",
    "link": "https://www.asi.it/2026/11/navigazione-lunare-siglato-contratto-per-collins/",
    "source": "Agenzia Spaziale Italiana",
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "L'Agenzia Spaziale Italiana e Qascom hanno firmato il contratto per la missione COLLINS, volta a sviluppare un payload GNSS/LunaNet interoperabile. Il sistema volerà in orbita lunare sull'orbiter Elytra Dark di Firefly Aerospace per integrare i segnali terrestri GPS e Galileo con le nuove infrastrutture lunari.",
+   "summary": "L'Agenzia Spaziale Italiana e Qascom hanno firmato il contratto per la missione COLLINS, che porterà in orbita lunare il primo payload interoperabile GNSS/LunaNet. Il sistema, ospitato sull'orbiter Elytra Dark di Firefly Aerospace nell'ambito della missione Blue Ghost 3, integrerà i segnali terrestri GPS e Galileo con le nuove infrastrutture lunari come il programma europeo Moonlight, seguendo i successi tecnologici della precedente missione LuGRE.",
    "bullets": [
-    "Il payload COLLINS è sviluppato da Qascom per conto dell'ASI e ospitato sull'orbiter Elytra Dark nella missione Blue Ghost 3.",
-    "L'obiettivo è dimostrare l'uso integrato dei sistemi GPS e Galileo con le future infrastrutture lunari, incluso il programma ESA Moonlight.",
-    "La missione implementa l'architettura LunaNet per favorire l'interoperabilità tra i diversi sistemi di comunicazione e navigazione lunare.",
-    "COLLINS raccoglie l'eredità tecnologica del ricevitore LuGRE, che nel 2025 ha acquisito segnali GPS e Galileo oltre i 410.000 chilometri e sulla superficie lunare.",
-    "Rappresenta il primo esempio di co-investimento pubblico-privato in una missione lunare italiana."
+    "COLLINS utilizzerà un ricevitore di nuova generazione per dimostrare l'uso integrato dei sistemi GNSS terrestri (GPS e Galileo) con le infrastrutture lunari.",
+    "Il payload sarà a bordo dell'orbiter Elytra Dark di Firefly Aerospace durante la missione Blue Ghost 3.",
+    "Il sistema supporta l'architettura LunaNet per garantire l'interoperabilità tra i diversi sistemi di comunicazione e navigazione nello spazio cislunare.",
+    "La missione raccoglie l'eredità di LuGRE, il ricevitore ASI-NASA che nel 2025 ha acquisito segnali GPS e Galileo oltre i 410.000 chilometri e sulla superficie lunare.",
+    "COLLINS rappresenta un primo esempio di co-investimento pubblico-privato per un'iniziativa spaziale italiana, grazie alla collaborazione industriale con Qascom."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-13T11:02:51.647561+00:00",
+   "seen_at": "2026-11-13T11:05:42.051539+00:00",
    "published_at": "2026-11-13T08:00:36+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Vita e amori di Jorge Luis Borges",
-   "subtitle": "Il rapporto complesso e represso di Borges con le donne e la madre",
+   "subtitle": "Il rapporto complesso e irrisolto tra Borges, le donne e la madre ingombrante.",
    "original_title": "Vita e amori di Jorge Luis Borges",
    "link": "https://lucysullacultura.com/vita-e-amori-di-jorge-luis-borges/",
    "source": "Lucy sulla cultura",
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "Un'analisi della figura di Jorge Luis Borges attraverso il suo rapporto con l'altro sesso, segnato da timidezza e repressione. La biografia scritta da Estela Canto e il documentario di Mariano Llinás esplorano le contraddizioni dello scrittore e l'influenza della madre.",
+   "summary": "Un'analisi della figura di Jorge Luis Borges attraverso il suo rapporto con l'altro sesso, caratterizzato da timidezza e repressione. Partendo dal libro di Estela Canto e dal documentario di Mariano Llinás, si esplorano le contraddizioni tra la grandezza letteraria dello scrittore e le sue inibizioni personali.",
    "bullets": [
-    "Estela Canto ha raccontato nel libro Borges in controluce il legame mai consumato con lo scrittore",
-    "Il documentario di Mariano Llinás analizza le contraddizioni e il carattere di Borges",
-    "Il rapporto con le donne e con la figura ingombrante della madre viene messo in relazione con la produzione letteraria",
-    "Nei rapporti sentimentali Borges perdeva l'audacia intellettuale per mostrarsi timido e impacciato"
+    "Il legame con Estela Canto viene analizzato come uno dei grandi amori mai consumati della vita dello scrittore.",
+    "Il documentario di Mariano Llinás e l'opera di Canto mettono in luce le forti inibizioni sessuali di Borges.",
+    "Viene esaminata l'influenza soffocante della madre nella gestione della sua vita privata e sentimentale.",
+    "La produzione letteraria viene interrogata per comprendere le reali dinamiche del carattere di Borges."
    ],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-13T11:03:46.750736+00:00",
+   "seen_at": "2026-11-13T11:07:08.483092+00:00",
    "published_at": "2026-11-13T07:30:00+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
-   "title": "Red Family, analisi dei tre singoli del ritorno",
-   "subtitle": "Il percorso e le produzioni dei nuovi brani del duo rap napoletano",
+   "title": "Il ritorno della Red Family nel rap napoletano",
+   "subtitle": "Analisi dei tre singoli del duo tra sonorità West Coast e critica sociale.",
    "original_title": "Red Family, tre singoli per raccontare la propria identità in attesa del singolo",
    "link": "https://www.ilrappuso.com/red-family-tre-singoli-per-raccontare-la-propria-identita-in-attesa-del-singolo/",
    "source": "Il Rappuso",
    "category": "musica",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il duo rap napoletano Red Family, composto dai fratelli Gianni Red e Loris Bastr, è tornato sulle scene con tre singoli: ARÒ STIV, VOCE RO POPOL e 6 MIS E VACANZ. I brani uniscono sonorità ispirate alla West Coast contemporanea a testi in napoletano che affrontano temi di identità, critica sociale e riflessione sulle relazioni umane.",
+   "summary": "Il duo napoletano Red Family, formato dai fratelli Gianni Red e Loris Bastr, è tornato con una trilogia di singoli che unisce rap, radici territoriali e riflessione sociale. Attraverso produzioni ispirate alla West Coast contemporanea e testi interamente in napoletano, i brani affrontano temi come il riconoscimento artistico, il riscatto collettivo e la fragilità dei rapporti umani.",
    "bullets": [
-    "ARÒ STIV affronta il tema del ritorno discografico e del lavoro invisibile dietro la crescita artistica, con produzioni che richiamano la Shoreline Mafia.",
-    "VOCE RO POPOL sposta l'attenzione sul piano collettivo, raccontando le contraddizioni e il riscatto sociale di Napoli senza filtri da cartolina.",
-    "6 MIS E VACANZ, prodotto da Loris Batacchi, riflette sulle difficoltà economiche, sul valore del tempo e sulla complessità delle relazioni umane nel presente.",
-    "Il progetto musicale mantiene una coerenza tematica che unisce identità territoriale e riferimenti sonori internazionali."
+    "ARÒ STIV affronta il tema del lavoro invisibile e della crescita artistica, unendo sonorità West Coast e scrittura in napoletano.",
+    "VOCE RO POPOL sposta l'attenzione sul contesto urbano e sulle contraddizioni di Napoli, usando il rap come osservazione sociale.",
+    "6 MIS E VACANZ riflette sulle relazioni umane, sulle difficoltà economiche e sul valore del tempo in contrasto con la comunicazione digitale.",
+    "Il percorso discografico dimostra una coerenza tematica che rifiuta la nostalgia e privilegia i contenuti rispetto alla velocità di pubblicazione."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-13T11:04:04.651953+00:00",
+   "seen_at": "2026-11-13T11:07:42.423086+00:00",
    "published_at": "2026-11-13T07:22:31+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
-   "title": "Il ritorno della protesta nel rap italiano con ItaliaNO di MyG",
-   "subtitle": "Analisi del singolo ItaliaNO di BighiBrown e del ruolo politico del rap",
+   "title": "MyG e il ritorno della protesta politica nel rap italiano con il singolo ItaliaNO",
+   "subtitle": "Analisi del nuovo singolo ItaliaNO di MyG, prodotto da Yazee per Glory Hole Records.",
    "original_title": "MyG, ItaliaNO e il bisogno di un rap che torni a disturbare la politica",
    "link": "https://www.ilrappuso.com/myg-italiano-e-il-bisogno-di-un-rap-che-torni-a-disturbare-la-politica/",
    "source": "Il Rappuso",
    "category": "musica",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il singolo ItaliaNO di MyG, prodotto da Yazee, riporta al centro della scena rap italiana la critica sociale e politica. Il brano rifiuta le logiche commerciali dominanti per recuperare una dimensione di dissenso e di analisi delle contraddizioni nazionali.",
+   "summary": "Il rapper BighiBrown, noto come MyG, pubblica il singolo \"ItaliaNO\" per Glory Hole Records, con la produzione di Yazee. Il brano si inserisce nel dibattito sullo spazio della protesta sociale e della critica politica nella scena rap italiana contemporanea, spesso dominata dalle logiche di streaming e classifiche.",
    "bullets": [
-    "Il brano ItaliaNO è pubblicato per Glory Hole Records e vede la produzione musicale di Yazee.",
-    "La copertina raffigura un tricolore lacerato e bruciato su sfondo nero, enfatizzando l'intento di protesta.",
-    "La proposta musicale si contrappone alla tendenza della scena attuale di privilegiare streaming e metriche commerciali.",
-    "MyG, attivo da anni nell'hinterland milanese, unisce la recente visibilità social a un percorso di scrittura coerente."
+    "Il brano è incentrato sul rifiuto e sulla critica delle dinamiche sociali e istituzionali italiane.",
+    "La produzione musicale di Yazee adotta coordinate hip hop classiche.",
+    "L'artwork del singolo raffigura un tricolore lacerato e bruciato su sfondo nero.",
+    "Il progetto rappresenta il tentativo di coniugare la recente visibilità social dell'artista con un percorso musicale di lungo corso nell'hinterland milanese."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-13T11:04:10.185535+00:00",
+   "seen_at": "2026-11-13T11:07:59.086642+00:00",
    "published_at": "2026-11-13T07:20:41+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
-   "title": "La strategia finanziaria della Roma e i paletti del fair play finanziario UEFA",
-   "subtitle": "I conti, i tagli al monte ingaggi e i margini per il mercato invernale della Roma.",
+   "title": "La strategia finanziaria della Roma e i paletti del fair play finanziario Uefa",
+   "subtitle": "Il piano dei Friedkin per i conti della Roma e le strategie di mercato invernali",
    "original_title": "Il mercato della Roma e l&rsquo;intreccio con Nyon: la strategia dei Friedkin sul fair play Uefa paga",
    "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/13-152556112/il_mercato_della_roma_e_lintreccio_con_nyon_la_strategia_dei_friedkin_sul_fair_play_uefa_paga/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "L'UEFA valuterà i conti della Roma nella primavera del 2026, considerando il bilancio al 30 giugno e le operazioni fino al 31 dicembre. Nonostante una probabile multa per il mancato raggiungimento del target di 60 milioni di perdite aggregate, il club prosegue il percorso virtuoso con un forte taglio del monte stipendi. Per il mercato di gennaio restano a disposizione i 35 milioni non spesi in estate, subordinati al rispetto dei parametri di sostenibilità.",
+   "summary": "La Roma prosegue il suo percorso di risanamento finanziario sotto la supervisione dell'Uefa, con il verdetto definitivo atteso per la primavera tra maggio e giugno. Nonostante una probabile multa per il mancato raggiungimento del target di 60 milioni di perdita aggregata nei tre anni, il club mostra segnali positivi grazie alla riduzione del monte stipendi e a una gestione oculata delle operazioni di mercato.",
    "bullets": [
-    "Il verdetto definitivo dell'UEFA sui conti della Roma è atteso tra maggio e giugno 2026, valutando anche le operazioni di agosto e il costo della rosa al 31 dicembre.",
-    "L'accordo sul fair play finanziario prevede una perdita aggregata massima di 60 milioni nei tre anni; il passivo è sceso da 81,4 milioni a 53,8 milioni.",
-    "Il monte stipendi è stato ridotto del 15% prima dell'ultima campagna acquisti, passando da 133 a circa 113 milioni lordi, con l'obiettivo di raggiungere quota 100 milioni.",
-    "La strategia contrattuale punta sui giovani e sui rinnovi (come quello di Hermoso) tagliando la parte fissa degli ingaggi a favore di bonus legati al rendimento.",
-    "Per la sessione invernale di mercato sono disponibili i 35 milioni non impiegati ad agosto, utilizzabili tramite formule sostenibili come prestiti con diritto di riscatto."
+    "Il bilancio al 30 giugno è stato consegnato a metà ottobre, ma l'Uefa valuterà anche le operazioni di agosto e il costo della squadra al 31 dicembre.",
+    "Il verdetto definitivo del fair play finanziario Uefa è atteso tra maggio e giugno della prossima primavera.",
+    "L'accordo di rientro prevede una perdita aggregata massima di 60 milioni nell'arco dei tre anni; il passivo è sceso da 81,4 a 53,8 milioni.",
+    "Il monte stipendi è stato ridotto del 15% prima dell'ultima sessione di mercato, passando da 133 a circa 113 milioni lordi, con l'obiettivo di raggiungere quota 100.",
+    "Per gennaio la Roma dispone di un tesoretto residuo di 35 milioni e punta su operazioni in prestito con diritto di riscatto e contratti legati ai bonus."
    ],
    "relevance": 4,
    "score": 8,
-   "seen_at": "2026-11-13T11:03:01.567753+00:00",
+   "seen_at": "2026-11-13T11:05:55.892422+00:00",
    "published_at": "2026-11-13T07:12:13+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
-   "title": "Il recupero di Manu Koné e la nuova collocazione tattica studiata da Gasperini",
-   "subtitle": "Come la Roma gestisce il recupero fisico di Koné e la sua evoluzione tattica sulla trequarti.",
+   "title": "Il recupero e la trasformazione tattica di Manu Koné alla Roma",
+   "subtitle": "Come lo staff gestisce i problemi fisici del centrocampista e la sua evoluzione tattica.",
    "original_title": "La Roma lavora su Kon&eacute;: tre infortuni in un anno, come Gasperini lo sta trasformando",
    "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/13-152556111/la_roma_lavora_su_kon_tre_infortuni_in_un_anno_come_gasperini_lo_sta_trasformando/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "La Roma sta seguendo un programma di riatletizzazione personalizzato per Manu Koné a Trigoria, mirato a risolvere i problemi fisici accusati nell'ultimo anno. L'allenatore intende avanzare il centrocampista francese sulla trequarti per sfruttare le sue capacità d'inserimento negli ultimi metri.",
+   "summary": "Manu Koné sta completando un percorso di riatletizzazione personalizzato a Trigoria per superare i recenti problemi muscolari. L'allenatore intende avanzarlo sulla trequarti per sfruttare i suoi tempi d'inserimento e la capacità di incidere negli ultimi metri, replicando la prestazione offensiva già vista contro l'Inter.",
    "bullets": [
-    "Koné ha subito tre infortuni muscolari da febbraio a oggi, saltando le ultime sette partite.",
-    "A Trigoria sta svolgendo un programma di lavoro personalizzato che alterna sedute individuali e partitelle tattiche.",
-    "Il piano tecnico prevede di spostarlo stabilmente sulla trequarti per aumentare la sua pericolosità offensiva.",
-    "La doppietta segnata contro l'Inter viene presa come modello di riferimento per i suoi inserimenti in area."
+    "Programma di lavoro personalizzato a Trigoria per recuperare la migliore condizione dopo tre infortuni muscolari subiti in un anno.",
+    "Riduzione dei carichi di lavoro collettivo, alternando sedute individuali e lavoro specifico con lo staff tecnico.",
+    "Obiettivo di impiegare il francese più avanzato sulla trequarti per avvicinarlo alla porta e renderlo pericoloso negli ultimi sedici metri.",
+    "Sfruttare la forza fisica, la corsa e i tempi d'inserimento già evidenziati con la doppietta realizzata contro l'Inter."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-13T11:03:07.224524+00:00",
+   "seen_at": "2026-11-13T11:06:01.533422+00:00",
    "published_at": "2026-11-13T07:03:42+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Di lucciole e castori",
-   "subtitle": "Il ritorno dei castori sul fiume Merse favorisce la moltiplicazione delle lucciole.",
+   "subtitle": "Come le dighe dei castori sul Merse e sul Danubio favoriscono la moltiplicazione delle lucciole.",
    "original_title": "Di lucciole e castori",
    "link": "https://lucysuimondi.com/di-lucciole-e-castori/",
    "source": "Lucy sui mondi",
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "Uno studio pubblicato sul Journal of Insect Conservation evidenzia come le dighe costruite dai castori sui fiumi Merse e Danubio riescano a restituire spazio vitale agli insetti. Questa forma di ingegneria naturale dimostra l'efficacia ecologica del ripristino ambientale guidato da specie chiave.",
+   "summary": "Un recente studio pubblicato sul Journal of Insect Conservation evidenzia come il ritorno dei castori e la costruzione delle loro dighe sui fiumi Merse e Danubio riescano a restituire spazio alla biodiversità. L'azione ingegneristica di questi animali crea habitat favorevoli che permettono la proliferazione delle lucciole, dimostrando la capacità rigenerativa degli ecosistemi naturali.",
    "bullets": [
-    "La ricerca è stata pubblicata sul Journal of Insect Conservation.",
-    "L'osservazione riguarda i fiumi Merse e Danubio.",
-    "Le dighe dei castori creano le condizioni per la moltiplicazione delle lucciole.",
-    "L'ingegneria naturale dei castori restituisce spazio e biodiversità agli ecosistemi fluviali."
+    "Lo studio è stato pubblicato sul Journal of Insect Conservation.",
+    "Le osservazioni si concentrano sui fiumi Merse e Danubio.",
+    "La costruzione di dighe da parte dei castori crea microambienti ideali per la fauna.",
+    "L'ingegneria naturale dei castori favorisce direttamente la moltiplicazione delle lucciole."
    ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-13T11:03:30.445932+00:00",
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-13T11:06:35.098464+00:00",
    "published_at": "2026-11-13T05:31:00+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
-   "title": "AST SpaceMobile Unveils Blacklift Launch Vehicle",
-   "subtitle": "AST SpaceMobile details its 20-ton capacity, three-stage Blacklift rocket.",
+   "title": "AST SpaceMobile Announces Blacklift Reusable Launch Vehicle",
+   "subtitle": "AST SpaceMobile plans a 20-year rocket timeline using Firefly engines.",
    "original_title": "AST SpaceMobile presses case for developing own launch vehicle",
    "link": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
    "source": "SpaceNews",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "AST SpaceMobile is developing a dedicated three-stage reusable launch vehicle called Blacklift to support its BlueBird satellite constellation. The rocket features carbon composite materials and utilizes Firefly Aerospace Miranda and Vira engines to bypass a decade of proprietary engine development, aiming for a late 2028 maiden flight.",
+   "summary": "AST SpaceMobile is developing a three-stage, carbon-composite rocket named Blacklift to launch its BlueBird satellites twice a month. By licensing engines and components from Firefly Aerospace and heritage suppliers, the company targets a first flight by late 2028.",
    "bullets": [
-    "Blacklift has a 20-ton payload capacity to low Earth orbit, capable of carrying up to five BlueBird satellites per launch with a target cadence of twice a month.",
-    "The three-stage architecture uses seven Firefly Miranda engines in the first stage, two Vira engines in the second, and one Vira engine in the third.",
-    "AST argues that the three-stage approach simplifies first-stage recovery and reuse compared to traditional two-stage vehicles.",
-    "The vehicle structure uses carbon composites to reduce dry mass by 40% compared to metallic structures, with manufacturing leveraging existing tools in Midland, Texas.",
-    "The program relies on a $1.3 billion contract with Firefly for engines, component supplies, and engineering services to target a first flight in late 2028.",
-    "Discrepancies remain regarding launch sites, as AST claims plans to use the Antares pad at Wallops Island, while the Virginia Spaceport Authority states talks are only preliminary and do not involve that specific pad."
+    "Blacklift has a 20-ton payload capacity to LEO, designed to carry up to five BlueBird satellites per launch.",
+    "The three-stage architecture uses seven Firefly Miranda engines on the first stage and Vira engines on the second and third stages.",
+    "The vehicle features a 100% carbon-composite structure, reducing dry mass by 40% compared to metallic designs.",
+    "AST SpaceMobile relies on Firefly engines and heritage components to bypass engine R&D and target a 2028 first flight.",
+    "Launch site plans remain uncertain, as the Virginia Spaceport Authority states that talks with AST do not currently include the Wallops Pad 0-A facility."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-13T11:02:36.314005+00:00",
+   "seen_at": "2026-11-13T11:05:32.679838+00:00",
    "published_at": "2026-11-13T01:15:21+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Analisi della Nazionale e retroscena di mercato sulla Serie A",
@@ -242,6 +242,46 @@
    "seen_at": "2026-11-13T00:52:34.264903+00:00",
    "published_at": "2026-11-13T00:48:51.614762+00:00",
    "batch_at": "2026-11-13T00:51:29.936594+00:00"
+  },
+  {
+   "title": "Jensen Huang lascia Nvidia, la Svezia cambia la Costituzione e i dati sul consumo di suolo in Italia",
+   "subtitle": "Le dimissioni di Jensen Huang da Nvidia, la stretta svedese sulla doppia nazionalità e il consumo di suolo in Italia.",
+   "original_title": "Jensen Huang lascia Nvidia: cosa RISCHIA ora il boom dell’AI | The Essential",
+   "link": "https://www.youtube.com/watch?v=Iv77371weMA",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Le dimissioni improvvise di Jensen Huang dalla guida di Nvidia segnano un terremoto nella Silicon Valley, innescato da uno scandalo che unisce relazioni non dichiarate con colleghe e i sospetti dell'intelligence statunitense su una presunta spia cinese. La vicepresidente Colette Kress assume temporaneamente il controllo di un'azienda chiave per l'hardware dell'intelligenza artificiale, mentre figure di spicco come Donald Trump ed Elon Musk intervengono nel dibattito sulla sua successione. Nel frattempo, in Svezia, il governo di transito ha modificato la Costituzione per consentire la revoca della doppia nazionalità agli stranieri condannati per frode o reati gravi che ledono gli interessi vitali dello Stato, affrontando così l'emergenza della criminalità organizzata legata alle gang. Infine, i dati ISPRA sul consumo di suolo in Italia certificano la perdita di 102 chilometri quadrati di territorio naturale nel 2025, aggravando il dissesto idrogeologico in un Paese dove il 94% dei comuni è a rischio, a fronte di un patrimonio di circa dieci milioni di case disabitate che potrebbero essere recuperate per evitare nuova cementificazione.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-13T11:07:26.237936+00:00",
+   "published_at": "2026-11-13T00:00:00+00:00",
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
+  },
+  {
+   "title": "How a Military Veteran Used Distance Running to Process Trauma and Recover from Suicidal Ideation",
+   "subtitle": "An Army veteran shares how running and the military mindset helped him overcome severe PTSD.",
+   "original_title": "After Hitting Rock Bottom, an Army Veteran Went for a Run With a Plan to End His Life. Then He Heard a Familiar Military Command He Couldn’t Ignore.",
+   "link": "https://www.runnersworld.com/runners-stories/a74412037/veteran-running-ptsd-recovery/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Army veteran Jeremy Hurtt struggled with severe PTSD, survivor's guilt, and financial ruin following a 2006-2008 deployment to Iraq. While contemplating suicide on a highway overpass in 2014, a mental callback to a military command redirected his path and sparked a daily running habit that ultimately saved his life.",
+   "bullets": [
+    "Jeremy Hurtt served 15 months in Baghdad during the 2006-2008 troop surge, experiencing frequent combat and losing multiple close peers to improvised explosive devices and small-arms fire.",
+    "Returning home with severe PTSD and survivor's guilt, he faced homelessness, heavy drinking, and overwhelming depression, culminating in a plan to end his life in January 2014.",
+    "Standing on an interstate overpass, a mental echo of the military command 'Charlie-Mike' (Continue the Mission) interrupted his suicidal thoughts and compelled him to run back.",
+    "Instead of seeking professional counseling, he channeled his mental distress into distance running, gradually increasing his mileage and elevation gain during solo runs.",
+    "The physical exertion and solitary time on the road provided a mechanism to process combat trauma, pay off debts, and eventually build a stable civilian life and family."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-13T11:06:07.782107+00:00",
+   "published_at": "2026-11-12T22:43:37+00:00",
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -336,26 +376,27 @@
   },
   {
    "title": "Introducing Gemini 4 Hydrogen",
-   "subtitle": "Google's Gemini 4 Hydrogen model brings high-speed agentic execution and reasoning.",
+   "subtitle": "Google's new Gemini 4 Hydrogen model, specs, benchmarks, and multi-model workflow orchestration.",
    "original_title": "Introducing Gemini 4 Hydrogen",
    "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
    "source": "Google DeepMind",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "Google introduces Gemini 4 Hydrogen, an efficient AI model built for rapid coding and agentic workflows. It features a 1 million-token context window, flat pricing, and four adjustable thinking levels to balance speed and reasoning depth.",
+   "summary": "Google has announced Gemini 4 Hydrogen, an execution model designed for fast everyday coding and agentic workflows. It is priced at $1.50 per million input tokens and $7.50 per million output tokens across a 1 million-token context window, outperforming its predecessor Gemini 3.8 Flash in speed and intelligence benchmarks while reducing fabricated claims.",
    "bullets": [
-    "Surpasses Gemini 4 Argon on the Artificial Analysis Intelligence Index with default high thinking (51 vs. 50, reaching 54 at xhigh).",
-    "Priced flat at $1.50 per million input tokens and $7.50 per million output tokens across its 1 million-token context window.",
-    "Introduces Orchestrator in Google Antigravity to dynamically switch between Carbon and Hydrogen, achieving near-Carbon task success rates while consuming 24% less quota and completing 19% faster.",
-    "More than triples Terminal-Bench 4.1 scores compared to Gemini 3.8 Flash (57% vs. 18.2%) and cuts fabricated claims by over 5x.",
-    "Reduces agentic overreach by up to 81% and under-service by up to 79%, while cutting misaligned actions by 12x."
+    "Surpasses Gemini 4 Argon on the Artificial Analysis Intelligence Index at its default high thinking level with a score of 51.",
+    "Priced flat across a 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+    "Introduces Orchestrator in Google Antigravity, which dynamically switches between models like Carbon and Hydrogen, reaching near-Carbon success rates while using 24% less quota and completing 19% faster on Terminal-Bench 4.0.",
+    "Triples Terminal-Bench 4.1 scores compared to Gemini 3.8 Flash (57% vs 18.2%) and cuts fabricated claims by more than 5x.",
+    "Features four thinking levels (low, medium, high, and xhigh) to trade off quality, latency, and cost.",
+    "Reduces overreach in agentic tasks by up to 81% and cuts misaligned actions and task shortcutting by 12x."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-13T11:02:29.374827+00:00",
+   "seen_at": "2026-11-13T11:05:26.095259+00:00",
    "published_at": "2026-11-12T18:00:50+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Budget Running Watches That Deliver Accurate GPS and Long Battery Life",
@@ -796,6 +837,23 @@
    "batch_at": "2026-11-13T00:51:29.936594+00:00"
   },
   {
+   "title": "Perché GTA 6 è costato oltre un miliardo di dollari e come funziona il suo sviluppo",
+   "subtitle": "Analisi dei costi record, delle tecnologie e dei leak finanziari dietro GTA 6",
+   "original_title": "Perché tutti parlano di GTA VI? È costato più di un miliardo di dollari",
+   "link": "https://www.youtube.com/watch?v=x2XUabji-6U",
+   "source": "Geopop (YouTube)",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il video analizza le ragioni economiche e tecnologiche che rendono GTA 6 il prodotto di intrattenimento più costoso della storia, con stime tra un miliardo e un miliardo e mezzo di dollari. A differenza della Silicon Valley, Rockstar ha rifiutato l'uso di IA generative, costruendo il mondo di gioco a mano e introducendo oltre 600.000 animazioni per i pedoni, contro le 55.000 di GTA 5. Tra le innovazioni tecnologiche spiccano una simulazione fisica in tempo reale per l'oceano nel motore Rage, un brevetto per l'adattamento scheletrico dei personaggi agli oggetti e l'illuminazione in ray tracing. Dal punto di vista economico, il CEO Strauss Zelnick garantisce risorse illimitate, supportate da preordini record che potrebbero generare 4,5 miliardi nella sola prima settimana. L'uscita segna anche il superamento della soglia dei 79,99 dollari e l'abbandono dei dischi fisici in favore dei codici di download. Infine, la vicenda dei leak evidenzia attacchi mirati come quello del gruppo CyberLeak, che ha sfruttato la fuga di notizie per alimentare una criptovaluta speculativa. Il dato chiave da ricordare è l'imponenza tecnica del progetto, guidato da simulazioni fisiche avanzate e da una produzione interamente artigianale.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-13T11:05:19.674166+00:00",
+   "published_at": "2026-11-12T00:00:00+00:00",
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
+  },
+  {
    "title": "The Best Advanced GPS Running Watches of 2026, Tested by an Ultrarunner",
    "subtitle": "Performance, battery life, and GPS tests of top 2026 advanced running watches.",
    "original_title": "The Best Advanced GPS Running Watches of 2026, Tested by an Ultrarunner",
@@ -1207,6 +1265,23 @@
    "seen_at": "2026-11-12T17:11:06.380696+00:00",
    "published_at": "2026-11-11T00:00:00+00:00",
    "batch_at": "2026-11-12T17:06:27.406268+00:00"
+  },
+  {
+   "title": "Hegseth a rischio impeachment, stallo nei negoziati di Abu Dhabi e nuove linee guida UE",
+   "subtitle": "Rischio impeachment per Hegseth, trattative ad Abu Dhabi e kit d'emergenza UE.",
+   "original_title": "Hegseth rischia l’IMPEACHMENT, Trump lo difende: e la guerra in IRAN? | The Essential",
+   "link": "https://www.youtube.com/watch?v=d8GY-UZ88kA",
+   "source": "Will Media",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Pete Hegseth, ministro della Difesa statunitense, rischia l'impeachment promosso dal rappresentante repubblicano Thomas Massi per presunte violazioni costituzionali nella gestione del conflitto in Iran e per omicidi extra giudiziari nelle operazioni antidroga. Nonostante la strenua difesa di Donald Trump e J.D. Vance, l'esecutore della politica mediorientale rischia di diventare un peso politico quando l'amministrazione dovrà trattare i fondi militari con il Congresso. Nel frattempo, ad Abu Dhabi sono iniziati i negoziati trilaterali tra Stati Uniti, Russia e Ucraina per ridisegnare l'assetto di sicurezza europeo e il futuro della NATO, escludendo formalmente gli europei e scontrandosi con le rigide richieste territoriali russe sul Donbass. La Russia punta sulle divisioni europee, rese evidenti dallo scontro tra il cancelliere tedesco Merz e il premier slovacco Robert Fico sui fondi di sostegno all'Ucraina. Infine, l'Unione Europea ha inviato all'Italia le linee guida per la preparazione a emergenze di 72 ore, raccomandando kit domestici con acqua, cibo, medicinali e contanti per fronteggiare calamità o attacchi informatici.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-13T11:07:32.055614+00:00",
+   "published_at": "2026-11-11T00:00:00+00:00",
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "REI vs. Dick's Sporting Goods Black Friday Deals",
@@ -1705,6 +1780,23 @@
    "seen_at": "2026-11-12T17:07:20.965712+00:00",
    "published_at": "2026-11-10T00:00:00+00:00",
    "batch_at": "2026-11-12T17:06:27.406268+00:00"
+  },
+  {
+   "title": "La crisi finanziaria e le dimissioni del presidente paraguaiano Peña",
+   "subtitle": "Il crack della Ueno Bank in Paraguay e la rivolta popolare contro il governo",
+   "original_title": "Paraguay: il liberismo corrotto mostra la sua faccia!",
+   "link": "https://www.youtube.com/watch?v=DLAle7xtEHA",
+   "source": "BarbaSophia (Matteo Saudino)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il presidente del Paraguay Santiago Peña si è dimesso in seguito a uno scandalo finanziario e a una rivolta popolare che ha coinvolto oltre tre milioni di correntisti. La crisi è esplosa con il fallimento della Ueno Bank, la principale banca online del paese sostenuta politicamente dall'amministrazione conservatrice e liberista, risultata priva della liquidità necessaria dopo aver erogato prestiti per oltre 150 milioni di dollari a favore di gruppi vicini al governo. L'evento ha privato circa la metà della popolazione adulta dell'accesso ai propri conti e alle carte di credito, scatenando proteste di piazza che hanno travolto l'esecutivo. La vicenda evidenzia il fallimento dei modelli di stampo liberista basati su tagli alla spesa pubblica e deregolamentazione, svelando la connessione tra la retorica della meritocrazia e la gestione clientelare del credito bancario.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-13T11:06:13.512221+00:00",
+   "published_at": "2026-11-10T00:00:00+00:00",
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Marathon Preparation Guide",
@@ -6005,23 +6097,6 @@
    "batch_at": "2026-10-31T10:16:04.927281+00:00"
   },
   {
-   "title": "Le elezioni in Israele e il mito dell'apartheid smentito dai numeri",
-   "subtitle": "Come le elezioni israeliane e il voto arabo smentiscono la narrazione dell'apartheid.",
-   "original_title": "Altro che APARTHEID: gli Arabi Israeliani sono l'ago della bilancia nelle elezioni",
-   "link": "https://www.youtube.com/watch?v=B_dYiWHIeS8",
-   "source": "Rick DuFer (YouTube)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il dibattito pubblico su Israele è dominato da immagini stereotipate che spesso ignorano la realtà empirica dei processi democratici interni al paese. L'autore analizza i risultati delle elezioni israeliane, focalizzandosi sul blocco di governo di Benjamin Netanyahu che si è fermato a 53 seggi su 120, perdendo la maggioranza e mancando la riconferma proprio a causa della mobilitazione della minoranza araba. Questa dinamica contrasta nettamente con la retorica delle piazze occidentali che definiscono Israele uno stato di apartheid. In un regime di apartheid autentico, come quello del Sudafrica storico, la minoranza oppressa non gode di diritti politici, non siede in parlamento e non decide l'esito delle consultazioni elettorali. Al contrario, i partiti arabi israeliani hanno conquistato 19 seggi, registrando un'affluenza record tra il 75% e l'80% e confermandosi l'ago della bilancia della politica nazionale. Applicando il filtro teorico di Walter Lippmann sul mondo esterno e le immagini nella nostra testa, l'autore evidenzia lo scollamento tra la prospettiva europea, focalizzata sul riconoscimento formale della Palestina, e quella israeliana, segnata dal trauma del 7 ottobre e focalizzata sulla sopravvivenza e sulla sicurezza fisica dopo il fallimento dello Stato nella protezione dei cittadini. L'obiezione legata alla Cisgiordania e all'amministrazione militare viene affrontata distinguendo lo status dei territori occupati dai diritti dei cittadini arabi con passaporto israeliano, pur riconoscendo le gravi tensioni e le ferite profonde che affliggono la società israeliana. Utilizzando il criterio di Karl Popper sulla democrazia intesa come possibilità di liberarsi pacificamente di chi governa senza spargimento di sangue, l'autore confronta il sistema israeliano con i paesi vicini, dove l'alternanza al potere è assente o bloccata, citando i casi di Autorità Palestinese, Libano, Egitto, Siria e Iran. La democrazia israeliana appare dunque nervosa, impaurita e segnata dalla logica hobbesiana del Leviatano e della paura primordiale, ma resta pienamente operativa. Il destino politico di Netanyahu dipende interamente da negoziati parlamentari, tribunali e scrutini, confermando che la partecipazione elettorale attiva e l'opposizione interna restano strumenti reali e funzionanti.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-10-30T11:02:15.279502+00:00",
-   "published_at": "2026-10-30T00:00:00+00:00",
-   "batch_at": "2026-10-30T11:01:42.109720+00:00"
-  },
-  {
    "title": "Ex Ilva e dimissioni Lagarde: la Cassazione e la BCE",
    "subtitle": "La Cassazione conferma lo stop all'area a caldo dell'Ex Ilva e la BCE affronta la successione.",
    "original_title": "EX ILVA, la CASSAZIONE conferma lo STOP all’area a caldo, oggi SCIOPERO GENERALE | The Essential",
@@ -6090,27 +6165,27 @@
    "batch_at": "2026-10-30T16:34:31.725592+00:00"
   },
   {
-   "title": "L'incursione televisiva di Max Headroom",
-   "subtitle": "La storia del celebre dirottamento televisivo del 1987 e l'assenza di spiegazioni",
+   "title": "L'incursione televisiva di Max Headroom nel 1987",
+   "subtitle": "Analisi dell'hacking televisivo di Chicago e del suo significato mediatico",
    "original_title": "L&#39;Uomo Che Ha Rubato La Tv",
    "link": "https://thedarksalad.it/articoli/luomo-che-ha-rubato-la-tv/",
    "source": "The Dark Salad",
    "category": "mondo",
    "kind": "sitemap",
    "lang": "it",
-   "summary": "Il 22 novembre 1987, durante la trasmissione di un episodio di Doctor Who sull'emittente WTTW di Chicago, il segnale televisivo fu interrotto da un individuo mascherato che imitava il personaggio digitale Max Headroom. L'intrusione durò circa un minuto e mezzo, mostrando contenuti banchiali e volgari senza alcuna rivendicazione o movente commerciale. Nonostante le indagini della Federal Communications Commission, l'identità del responsabile non è mai stata scoperta.",
+   "summary": "Il 22 novembre 1987, un individuo mascherato ha interrotto i segnali di due emittenti televisive a Chicago, tra cui WTTW durante la messa in onda di Doctor Who. L'intrusione, durata circa un minuto e mezzo, è avvenuta senza alcuna rivendicazione, manifesto o finalità commerciale, rimanendo irrisolta e priva di identificazione dei responsabili.",
    "bullets": [
-    "Il 22 novembre 1987 due stazioni di Chicago subirono l'interruzione del segnale; la seconda intrusione, su WTTW durante Doctor Who, non poté essere fermata in tempo dai tecnici.",
-    "Il personaggio di Max Headroom era originariamente un presentatore televisivo fittizio interpretato dall'attore Matt Frewer con l'uso di protesi e trucco.",
-    "L'attacco informatico-televisivo richiese competenze tecniche avanzate e attrezzature specifiche per sovrascrivere il segnale di trasmissione.",
-    "A differenza dei moderni contenuti virali, l'evento non conteneva alcuna call to action, indirizzo, manifesto o intento di monetizzazione.",
-    "Il responsabile è rimasto ignoto e non si è mai fatto avanti per rivendicare l'azione mediatica."
+    "Il primo tentativo di intrusione ha colpito l'emittente WGN durante il telegiornale sportivo ed è stato interrotto rapidamente dai tecnici.",
+    "Il secondo attacco ha violato il canale WTTW sovrapponendo l'immagine del personaggio digitale Max Headroom travestito con una maschera di plastica.",
+    "L'azione includeva gesti eccentrici, citazioni pubblicitarie e una sequenza in cui l'intruso veniva colpito con uno scacciamosche.",
+    "Le indagini della Federal Communications Commission non sono riuscite a identificare gli autori, nonostante l'operazione richiedesse attrezzature e competenze tecniche avanzate.",
+    "A differenza dei contenuti odierni sui social media, l'evento si è svolto in totale anonimato, senza alcuna call to action, sponsorizzazione o richiesta di notorietà successiva."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-13T11:04:35.415521+00:00",
+   "seen_at": "2026-11-13T11:08:23.565775+00:00",
    "published_at": "2026-10-30T00:00:00+00:00",
-   "batch_at": "2026-11-13T11:01:49.957846+00:00"
+   "batch_at": "2026-11-13T11:04:54.501327+00:00"
   },
   {
    "title": "Dinamica e cause dello scontro ferroviario ad alta velocità a Urda",
