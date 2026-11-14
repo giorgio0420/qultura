@@ -580,6 +580,30 @@
    "batch_at": "2026-11-13T11:01:49.957846+00:00"
   },
   {
+   "title": "Shield Uses OpenAI to Automate Legacy Portal Navigation for IT",
+   "subtitle": "How Shield uses GPT-6 Astra for reliable computer-use automation in legacy IT portals.",
+   "original_title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "link": "https://openai.com/business/customer-stories/shield",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Shield integrated OpenAI's GPT-6 Astra into its Forge IT operating system to automate browser tasks in legacy portals lacking APIs. The model handles computer-use navigation 35-40% faster than previous models, letting technicians bypass manual UI work and focus on tasks requiring human judgment.",
+   "bullets": [
+    "Shield built Forge, an AI operating system for IT service providers that automates end-to-end support tasks.",
+    "Forge uses GPT-6 Astra for computer-use tasks, allowing AI agents to navigate legacy websites and portals without native APIs.",
+    "Earlier computer-use models were deemed too slow and unreliable for poorly designed legacy user interfaces.",
+    "GPT-6 Astra executes browser workflows 35-40% faster on average than the legacy models previously used by Shield.",
+    "Technicians retain control by defining which actions agents can execute autonomously versus those requiring human review.",
+    "Shield is currently testing remote-desktop workflows to expand agent capabilities directly onto computer desktops."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-14T16:32:24.824823+00:00",
+   "published_at": "2026-11-13T08:00:00+00:00",
+   "batch_at": "2026-11-14T16:32:00.337879+00:00"
+  },
+  {
    "title": "Vita e amori di Jorge Luis Borges",
    "subtitle": "Il rapporto complesso e represso di Borges con le donne e la madre",
    "original_title": "Vita e amori di Jorge Luis Borges",
