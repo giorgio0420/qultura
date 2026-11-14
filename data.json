@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-11-14T14:25:55.467865+00:00",
+ "generated_at": "2026-11-14T16:32:20.756385+00:00",
  "items": [
+  {
+   "title": "Ingeborg Bachmann tra Roma e letteratura nell'intervista a Hüller e Schilling",
+   "subtitle": "Analisi del documentario su Ingeborg Bachmann e il suo legame esistenziale con Roma.",
+   "original_title": "Intervista a Sandra Huller e Regina Schilling su Ingeborg Bachmann – Qui non c’è nessuna donna",
+   "link": "https://artesettima.it/2026/11/14/intervista-a-sandra-huller-e-regina-schilling-su-ingeborg-bachmann-qui-non-ce-nessuna-donna/",
+   "source": "ArteSettima",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il documentario di Regina Schilling, interpretato da Sandra Hüller, esplora la figura della poetessa Ingeborg Bachmann in occasione del centenario della nascita. L'opera si concentra sul profondo legame della scrittrice con Roma, città vissuta come spazio di libertà intellettuale e al tempo stesso teatro delle sue contraddizioni esistenziali.",
+   "bullets": [
+    "Il documentario rende omaggio a Ingeborg Bachmann a un secolo dalla nascita, analizzandone la complessa produzione letteraria.",
+    "Roma viene esaminata non solo come ambientazione nei reportage radiofonici Römische Reportagen, ma come fondamentale spazio esistenziale.",
+    "La città ha rappresentato per Bachmann un luogo di fuga dalle convenzioni e, tragicamente, il teatro della sua morte nel 1973.",
+    "La regia di Regina Schilling punta a restituire la poliedricità intellettuale della poetessa attraverso il contributo interpretativo di Sandra Hüller."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-14T16:33:15.976977+00:00",
+   "published_at": "2026-11-14T16:09:39+00:00",
+   "batch_at": "2026-11-14T16:32:20.756385+00:00"
+  },
   {
    "title": "The 3 Types of Running Workouts You Need to Train for Your First Half Marathon",
    "subtitle": "Learn the core workouts and progression rules for a 20-week beginner half marathon plan.",
@@ -149,6 +171,23 @@
    "seen_at": "2026-11-14T11:07:13.024235+00:00",
    "published_at": "2026-11-14T00:00:00+00:00",
    "batch_at": "2026-11-14T11:05:01.085397+00:00"
+  },
+  {
+   "title": "L'impatto dell'intelligenza artificiale sulla matematica e sulla scoperta umana",
+   "subtitle": "Una riflessione sull'autonomia dell'AI nella ricerca matematica e teorica.",
+   "original_title": "Scopriremo più qualcosa di nuovo? (Ft. Greta)",
+   "link": "https://www.youtube.com/watch?v=RhhTawjgVI4",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il testo riporta una conversazione tra un padre e sua figlia Greta, studentessa al primo anno di liceo con la passione per la matematica, riguardo all'impatto a lungo termine dell'intelligenza artificiale sulla capacità umana di fare nuove scoperte. Il timore espresso da Greta non riguarda la perdita del lavoro o la sostenibilità economica, problemi ritenuti risolvibili tramite l'adattamento sociale, quanto piuttosto l'eventualità che la sua generazione non possa più scoprire nulla di inedito, vincere premi Nobel o diventare grandi matematici, poiché un'intelligenza artificiale avanzata potrebbe in futuro superare le capacità umane in ogni campo. La discussione si sposta quindi sulla natura stessa della creazione e della conoscenza. L'autore sostiene che le arti e i romanzi mantengono una validità irriducibilmente umana perché si basano sull'esperienza di vita personale e sulla percezione estetica, pur ammettendo che un modello linguistico possa simulare strutture narrative avvincenti. Per quanto riguarda la matematica, il dibattito si fa più complesso. Da un lato, viene evidenziato come la matematica moderna non per forza utilitaristica esista in virtù del desiderio umano di comprendere strutture logiche e numeriche astratte. Greta obietta che, se l'intelligenza artificiale dovesse svolgere gran parte del lavoro di invenzione e dimostrazione teorica, il ruolo dell'essere umano verrebbe ridotto a un'intermediazione o a una semplice scelta di input, svalutando il merito della scoperta. Viene citato l'esempio della programmazione, dove l'ascesa di strumenti automatizzati ha spostato il focus dalla scrittura del codice all'idea concettuale sottostante. Allo stesso modo, nella matematica e nella fisica, l'automazione della ricerca e la capacità delle macchine di confutare congetture complesse potrebbero rendere obsoleta gran parte del lavoro esplorativo umano, sebbene resti fondamentale decidere quali problemi investigare e quali direzioni intraprendere. Viene inoltre affrontata l'ipotesi di limitare l'uso dell'intelligenza artificiale a funzioni circoscritte, come la risoluzione di problemi medici o climatici, per poi spegnerla o ridurne la potenza; tuttavia, la conclusione condivisa propende per l'accettazione del progresso tecnologico a favore di scoperte epocali, accettando la perdita parziale del ruolo centrale dell'uomo nella ricerca scientifica pura in cambio dei benefici collettivi, pur riconoscendo che la comprensione e la divulgazione umana potrebbero diventare le uniche attività residue in un panorama dominato da sistemi superintelligenti.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-14T16:32:58.957178+00:00",
+   "published_at": "2026-11-14T00:00:00+00:00",
+   "batch_at": "2026-11-14T16:32:20.756385+00:00"
   },
   {
    "title": "Advancing Science and Engineering with Antigravity’s /teamwork",
