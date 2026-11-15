@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:05:16.567459+00:00",
+ "generated_at": "2026-11-15T11:51:01.497837+00:00",
  "items": [
   {
    "title": "Il futuro di Paulo Dybala alla Roma tra campo e rinnovo",
@@ -6299,75 +6299,6 @@
    "batch_at": "2026-11-01T14:27:34.260355+00:00"
   },
   {
-   "title": "Marathon Race Recovery Tips",
-   "subtitle": "Post-race recovery strategies for runners",
-   "original_title": "I’ve Run 14 Marathons. Here Are My 5 Race Recovery Tips to Get You Running Again Soon.",
-   "link": "https://www.runnersworld.com/training/a74286537/marathon-recovery-dos-donts/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Effective physical recovery after a marathon requires light activity like walking to reduce stiffness, alongside targeted nutrition combining protein and carbohydrates immediately post-race. Structured downtime, compression gear, and carefully managed training gaps between back-to-back races ensure fitness is maintained without overtraining.",
-   "bullets": [
-    "Engage in light movement such as walking or easy spinning on race day and the following days to prevent severe muscle stiffness.",
-    "Consume a combination of protein and healthy carbohydrates immediately after the race to accelerate recovery from physical fatigue and soreness.",
-    "Utilize recovery methods like ice baths, hot tubs, massages, and compression socks to reduce muscle soreness.",
-    "Structure the training gap between races based on duration: a two-week gap requires a pure focus on recovery, while a three- to six-week gap allows for a week or two of mileage and threshold work.",
-    "Register for a future race immediately after finishing to capitalize on finish-line motivation and maintain consistent training habits."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-01T11:10:46.462508+00:00",
-   "published_at": "2026-11-01T11:00:00+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
-  },
-  {
-   "title": "Programma della Roma per la trasferta di Champions a Manchester",
-   "subtitle": "La preparazione della Roma a Udine e le scelte di formazione per la sfida contro lo United.",
-   "original_title": "Roma, programma Champions: seduta a Udine, poi partenza per l&rsquo;Inghilterra",
-   "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/01-152292116/roma_programma_champions_seduta_a_udine_poi_partenza_per_linghilterra/",
-   "source": "Corriere dello Sport",
-   "category": "calcio",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La Roma si prepara per la trasferta di Champions League a Old Trafford contro il Manchester United, rimanendo in ritiro dopo la gara di Udine e volando direttamente in Inghilterra. I giallorossi affrontano un avversario in crisi di risultati, guidato da Carrick e reduce da tre sconfitte consecutive. Per l'occasione, mister Gasperini ritrova tra i titolari Mancini e Pisilli.",
-   "bullets": [
-    "La squadra svolge una seduta di allenamento al centro sportivo dell'Udinese prima della partenza per Manchester.",
-    "Il Manchester United attraversa una fase negativa con quattro sconfitte nelle ultime cinque partite tra Premier League e Champions.",
-    "Il gruppo giallorosso rimarrà in Inghilterra fino alla mattina successiva alla partita.",
-    "Per la sfida di Champions è previsto il ritorno dei titolari Mancini e Pisilli nell'undici iniziale."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-11-01T11:10:27.098312+00:00",
-   "published_at": "2026-11-01T07:34:30+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
-  },
-  {
-   "title": "Perché le insegne LED lampeggiano nei video e come eliminarlo",
-   "subtitle": "Cause tecniche del flicker video e come agire su fps e tempi di esposizione.",
-   "original_title": "Le insegne luminose sembrano lampeggiare nei video dello smartphone: perché succede e come ridurre l’effetto",
-   "link": "https://www.geopop.it/le-insegne-luminose-sembrano-lampeggiare-nei-video-dello-smartphone-perche-succede-e-come-ridurre-leffetto/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Le insegne a LED e i pannelli luminosi appaiono spesso sfarfallanti o attraversati da bande scure nei video dello smartphone a causa dell'interazione tra la modulazione della luce e il funzionamento del sensore. Il fenomeno deriva da tecniche come la modulazione PWM e la frequenza della rete elettrica, combinate con la lettura a scorrimento del rolling shutter. È possibile attenuare o eliminare il difetto agendo sui parametri di registrazione, come i fotogrammi al secondo e il tempo di esposizione.",
-   "bullets": [
-    "La modulazione PWM (Pulse Width Modulation) accende e spegne rapidamente i diodi LED per regolarne la luminosità, generando sfarfallio.",
-    "La frequenza della rete elettrica italiana a 50 Hz causa oscillazioni luminose che raggiungono i 100 Hz in determinati sistemi di alimentazione.",
-    "Il sensore con lettura rolling shutter registra le righe dell'immagine in sequenza temporale, trasformando le variazioni di luce in bande scure orizzontali.",
-    "Impostare una frequenza di 25 o 50 fps (formato PAL) aiuta a sincronizzare la ripresa con le oscillazioni della rete elettrica rispetto ai classici 30 o 60 fps.",
-    "Tempi di esposizione troppo brevi, come 1/1000 di secondo, catturano solo una frazione del ciclo luminoso accentuando le strisce scure.",
-    "L'uso di modalità video manuali per impostare la velocità dell'otturatore a 1/50 o 1/100 di secondo permette di integrare più cicli di luce e stabilizzare l'immagine."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-01T11:10:02.449149+00:00",
-   "published_at": "2026-11-01T07:00:23+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
-  },
-  {
    "title": "Il colonialismo e la gestione del caos: riflessioni settimanali",
    "subtitle": "Analisi del colonialismo occidentale, gestione del caos e risposte ai commenti del pubblico.",
    "original_title": "Il Colonialismo Occidentale è stato il peggiore? Rispondo ai vostri commenti #Weekrecap 7",
@@ -6468,28 +6399,6 @@
    "seen_at": "2026-11-04T11:12:19.195695+00:00",
    "published_at": "2026-11-01T00:00:00+00:00",
    "batch_at": "2026-11-04T11:10:39.042770+00:00"
-  },
-  {
-   "title": "Reazione a catena di Mario Bava",
-   "subtitle": "Analisi del film di Bava come precursore estetico e teorico dello slasher movie americano.",
-   "original_title": "Reazione a catena di Mario Bava e l’orrore del possesso:  “La baia è di tutti” se non c’è più nessuno",
-   "link": "https://artesettima.it/2026/10/31/reazione-a-catena-di-mario-bava-e-lorrore-del-possesso-la-baia-e-di-tutti-se-non-ce-piu-nessuno/",
-   "source": "ArteSettima",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Il film Reazione a catena di Mario Bava, uscito nel 1971 con scarsi risultati al botteghino, ha posto le basi estetiche e narrative del genere slasher americano. L'opera esplora l'orrore legato al possesso e alla proprietà terriera attraverso una catena di delitti sistematici.",
-   "bullets": [
-    "Il film fu distribuito inizialmente in Italia l'8 settembre 1971 con il titolo Ecologia del delitto.",
-    "L'incasso iniziale fu inferiore ai novanta milioni di lire, rivelandosi un insuccesso commerciale.",
-    "Il titolo definitivo Reazione a catena fu adottato per la seconda distribuzione dell'anno successivo.",
-    "L'opera ha anticipato quasi la totalità degli elementi stilistici dei futuri slasher movie americani."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-01T11:11:15.661956+00:00",
-   "published_at": "2026-10-31T14:20:54+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
   },
   {
    "title": "When Electric Cars Were for Women",
@@ -6898,49 +6807,50 @@
   },
   {
    "title": "Most Wanted Terrorists",
-   "subtitle": "Origini, scopi politici e evoluzione della lista dei ricercati dell'FBI.",
+   "subtitle": "Storia, obiettivi politici e anomalie della lista dei ricercati dell'FBI",
    "original_title": "Most Wanted Terrorists: chi sono i ricercati più pericolosi al mondo?",
    "link": "https://nova-lectio.com/most-wanted-terrorists-chi-sono-i-ricercati-piu-pericolosi-al-mondo/",
    "source": "Nova Lectio",
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "L'articolo analizza l'elenco dei terroristi più ricercati dell'FBI istituito nel 2001, esaminandone la funzione politica e legale. Vengono ripercorsi i casi storici, l'impatto dei raid militari e la presenza di figure anomale come attivisti politici ed eco-terroristi all'interno della lista.",
+   "summary": "Analisi della lista dei Most Wanted Terrorists istituita dall'FBI nel 2001 dopo l'11 settembre. Il testo esamina le motivazioni politiche dietro la catalogazione dei terroristi come comuni criminali, il loro spostamento verso la sicurezza nazionale e la presenza di casi anomali come attivisti domestici ed eversivi storici.",
    "bullets": [
-    "La lista dei Most Wanted Terrorists dell'FBI è stata creata nel 2001 con 22 nomi iniziali, tra cui Osama Bin Laden e Ayman al-Zawahiri.",
-    "L'inserimento dei leader terroristici aveva una finalità politica mirata a ridimensionarne la percezione di mostruosità e a trattarli legalmente come criminali comuni.",
-    "La giurisdizione dell'FBI è interna al territorio statunitense, motivo per cui molti dei ricercati storici sono stati eliminati tramite raid militari o servizi segreti stranieri anziché arrestati dall'agenzia.",
-    "Attualmente la lista conta 24 persone, includendo oltre ai jihadisti tradizionali anche membri di gruppi eversivi locali e internazionali.",
-    "Tra i profili atipici figurano Joanne Deborah Chesimard (Assata Shakur), evasa negli anni '70 e rifugiata a Cuba, e Daniel Andreas San Diego, ricercato per attentati dinamitardi legati all'estremismo animalista."
+    "La lista iniziale del 2001 comprendeva 22 nomi legati ad attentati storici tra il 1985 e il 1998, tra cui Osama Bin Laden e Ayman al-Zawahiri.",
+    "L'inclusione iniziale aveva uno scopo politico per sminuire la percezione di mostruosità dei leader e trattarli legalmente come semplici criminali gestiti dall'FBI.",
+    "La maggior parte dei primi 22 ricercati non è stata catturata dall'FBI, ma uccisa in raid militari o da servizi segreti stranieri.",
+    "Oggi la lista conta 24 persone, includendo gruppi come al-Shabaab, Abu Sayyaf e il Palestinian Islamic Jihad.",
+    "Tra i latitanti figura Joanne Chesimard (Assata Shakur), evasa nel 1979 e rifugiata a Cuba, e l'attivista animalista Daniel Andreas San Diego, ricercato per attentati dinamitardi senza vittime nel 2003."
    ],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-01T11:11:02.864187+00:00",
+   "seen_at": "2026-11-15T11:51:41.465345+00:00",
    "published_at": "2023-11-03T17:05:31+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
+   "batch_at": "2026-11-15T11:51:01.497837+00:00"
   },
   {
-   "title": "Passaporti d'Oro: il mercato globale della cittadinanza e dei visti",
-   "subtitle": "I costi, i requisiti e i rischi dei programmi di residenza e cittadinanza per investimento",
+   "title": "Passaporti d'Oro: il mercato globale della cittadinanza",
+   "subtitle": "Come funzionano i programmi di residenza e cittadinanza per investimento nei vari Stati",
    "original_title": "Passaporti d’Oro: quali nazioni vendono la cittadinanza (e a che prezzo)?",
    "link": "https://nova-lectio.com/passaporti-doro-quali-nazioni-vendono-la-cittadinanza-e-a-che-prezzo/",
    "source": "Nova Lectio",
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il mercato dei visti dorati e della cittadinanza per investimento consente di ottenere passaporti e residenze attraverso donazioni o investimenti finanziari. Questa pratica, attiva da decenni in vari Stati extraeuropei e membri dell'Unione Europea, solleva criticità legate alla sicurezza, all'elusione fiscale e alla trasparenza dei flussi di denaro.",
+   "summary": "Il mercato dei passaporti e dei visti dorati permette ai grandi investitori di ottenere cittadinanze e residenze estere in cambio di denaro o immobili. Tra il 2011 e il 2019, l'Unione Europea ha registrato oltre 132 mila permessi rilasciati con questa modalità, generando almeno 21 miliardi di euro di investimenti ma sollevando serie preoccupazioni in materia di sicurezza e trasparenza fiscale.",
    "bullets": [
-    "I programmi di CBI (Citizenship by Investment) e RBI (Residence by Investment) consentono di ottenere passaporti o permessi di soggiorno tramite investimenti o donazioni statali.",
-    "Saint Kitts and Nevis ha avviato la pratica nel 1984; oggi offre passaporti per singoli a partire da 125mila dollari di donazione o 200mila dollari di proprietà immobiliare.",
-    "L'Unione Europea nutre forti perplessità su questi programmi a causa del rischio di elusione dei controlli di sicurezza e di riciclaggio, avendo già sospeso accordi con paesi come Vanuatu.",
-    "Numerosi Stati europei, tra cui Malta, Cipro e l'Italia, offrono regimi simili con tariffe e requisiti patrimoniali differenti, come investimenti in titoli di stato o start-up.",
-    "Tra il 2011 e il 2019 gli Stati membri dell'UE hanno attratto almeno 21 miliardi di euro grazie a oltre 132mila permessi e cittadinanze venduti."
+    "I programmi di golden visa si dividono in RBI (residenza per investimento) e CBI (cittadinanza per investimento), introdotti storicamente dai Caraibi negli anni Ottanta.",
+    "Saint Kitts and Nevis richiede donazioni a partire da 125 mila dollari o l'acquisto di immobili per almeno 200 mila dollari per un passaporto che garantisce l'accesso a 156 paesi.",
+    "L'Unione Europea ha sospeso gli accordi sui visti con Vanuatu a causa della concessione di passaporti a soggetti segnalati nelle banche dati dell'Interpol.",
+    "In Italia i requisiti per il permesso di soggiorno includono investimenti di 2 milioni in titoli di stato, 500 mila euro in azioni o 1 milione in progetti di pubblico interesse.",
+    "Tra il 2013 e il 2018 Cipro ha incassato circa 4 miliardi di euro tramite la vendita di cittadinanze, mentre Malta ne ha ottenuti 718 milioni.",
+    "Molti paesi non pubblicano i dati sui beneficiari dei passaporti, creando criticità per la sicurezza e i controlli all'interno dell'area Schengen."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-01T11:11:08.913995+00:00",
+   "seen_at": "2026-11-15T11:51:47.485893+00:00",
    "published_at": "2023-11-03T17:00:35+00:00",
-   "batch_at": "2026-11-01T11:09:40.243435+00:00"
+   "batch_at": "2026-11-15T11:51:01.497837+00:00"
   }
  ]
 }
