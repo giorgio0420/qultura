@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-16T16:38:05.188547+00:00",
+ "generated_at": "2026-11-16T17:21:17.286628+00:00",
  "items": [
+  {
+   "title": "Mechanics and Relief Strategies for QL Muscle Pain in Runners",
+   "subtitle": "Learn the biomechanical causes of QL pain and targeted exercises for relief.",
+   "original_title": "Physical Therapists Share the Most Effective QL Stretches and Exercises for Runners With Lower Back and Hip Pain",
+   "link": "https://www.runnersworld.com/health-injuries/a74441737/ql-stretches-exercises/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Lower back and hip pain in runners is frequently caused by an overworked quadratus lumborum (QL) muscle, which acts as a stabilizer during strides. Tight hip flexors, weak glutes, and upper-back stiffness can force the QL to take on excessive load, compromising running mechanics and breathing depth. A structured routine combining myofascial release, pelvic control, glute strengthening, and targeted stretching can resolve this discomfort.",
+   "bullets": [
+    "The quadratus lumborum (QL) attaches to the lower spine and pelvis, stabilizing the trunk and assisting with inhalation during runs.",
+    "Tight psoas muscles can cause an anterior pelvic tilt, which pulls on the QL and increases lower back strain.",
+    "Weak glutes cause the knee to collapse inward and the opposite hip to dip, forcing the QL to overcompensate through side-bending and rotation.",
+    "Upper-back or mid-back stiffness shifts extra workload onto the QL, leading to irritation and reduced force generation in the stride.",
+    "A 3-step home routine utilizing myofascial release, pelvic tilts, hip hikes, and half-kneeling lunges helps desensitize and lengthen the QL.",
+    "Standing clamshells and banded bird dogs rebuild glute strength and core stability to prevent the return of QL strain."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-16T17:21:58.895199+00:00",
+   "published_at": "2026-11-16T16:56:06+00:00",
+   "batch_at": "2026-11-16T17:21:17.286628+00:00"
+  },
   {
    "title": "Brooks Running Gear Black Friday Overview",
    "subtitle": "Technical breakdown of Brooks running shoes and apparel featured in sales.",
@@ -402,6 +426,30 @@
    "seen_at": "2026-11-16T16:42:44.315916+00:00",
    "published_at": "2026-11-16T00:00:00+00:00",
    "batch_at": "2026-11-16T16:38:05.188547+00:00"
+  },
+  {
+   "title": "Hugging Face Integrates OpenRouter for Inference",
+   "subtitle": "Hugging Face replaces its custom router with OpenRouter for open-weight models.",
+   "original_title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "link": "https://huggingface.co/blog/openrouter",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Hugging Face has partnered with OpenRouter to power its Inference Providers, routing LLM requests dynamically across more than 80 providers based on live measurements of price, speed, and reliability. The system includes automatic retries on failure, cache-aware routing via session headers, and compatibility with standard OpenAI and Anthropic APIs without changing existing client code.",
+   "bullets": [
+    "OpenRouter integration handles text models, cutting capacity errors by 46% while improving time to first token by 16.9% and throughput by 16.3%.",
+    "Users can override default routing by appending specific suffixes to model IDs to target the cheapest provider, highest throughput, or a specific backend.",
+    "Conversations remain on the provider holding the prompt cache when using a stable UUID via the X-HF-Session-Id header.",
+    "Open-weight token usage on OpenRouter surged from 26.8% to 71.7% between October 2025 and September 2026, driven by a 60-fold volume increase.",
+    "Open-weight models average $0.28 per million input tokens and $1.62 per million output tokens, roughly four times cheaper than closed models.",
+    "Custom provider API keys are no longer supported for language models; billing is handled directly through Hugging Face accounts or organizations at base provider prices."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-16T17:21:47.588337+00:00",
+   "published_at": "2026-11-16T00:00:00+00:00",
+   "batch_at": "2026-11-16T17:21:17.286628+00:00"
   },
   {
    "title": "A Step Toward Defining the Standard Model on a Lattice",
