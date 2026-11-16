@@ -1,50 +1,73 @@
 {
- "generated_at": "2026-11-16T16:31:55.186174+00:00",
+ "generated_at": "2026-11-16T16:38:05.188547+00:00",
  "items": [
   {
-   "title": "Brooks Running Shoe and Apparel Black Friday Tech Breakdown",
-   "subtitle": "Technical breakdown of Brooks running shoes and apparel featured in Black Friday sales.",
+   "title": "Brooks Running Gear Black Friday Overview",
+   "subtitle": "Technical breakdown of Brooks running shoes and apparel featured in sales.",
    "original_title": "All the Brooks Running Shoes and Apparel on Sale Now for Black Friday",
    "link": "https://www.runnersworld.com/gear/a74377667/brooks-black-friday-sale-2026/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "This article reviews several Brooks running shoes and apparel items featured in current Black Friday sales. It details technical specifications and tester feedback for models including the Adrenaline GTS 25, Glycerin Flex, Glycerin Max 2, and Ghost trail shoe, alongside weather-resistant apparel like the Canopy and High Point jackets.",
+   "summary": "This text reviews several Brooks running shoes and apparel items currently discounted for Black Friday. It details technical specifications such as the DNA Loft v3 foam in the Adrenaline GTS 25, the decoupled heel of the Glycerin Flex, and the 3 mm lugs on the Ghost trail variant. It also evaluates cold-weather apparel like the Canopy and High Point jackets.",
    "bullets": [
-    "Adrenaline GTS 25 features DNA Loft v3 foamy midsole and guide rails system using dense foam on medial and lateral sides to align knee and ankle.",
-    "Glycerin Flex utilizes a decoupled heel and Flex Zone to allow natural foot flexion while maintaining max-cushion protection.",
-    "Glycerin Max 2 incorporates 45 mm of DNA Tuned foam in the heel with a 6 mm offset for recovery and slow-pace miles.",
-    "Ghost trail iteration features 3 mm lugs on a TrailTack rubber outsole for protection against sharp rocks.",
-    "Canopy and High Point jackets offer packable waterproof and wind-resistant protection with integrated venting."
+    "Adrenaline GTS 25 features DNA Loft v3 foam and a guide rails system utilizing dense medial and lateral foam bumpers for stability.",
+    "Glycerin Flex incorporates a decoupled heel and Flex Zone designed to allow natural foot flexion instead of fighting a rigid platform.",
+    "Glycerin Max 2 uses 45 mm of DNA Tuned foam in the heel with a 6 mm offset, tailored for recovery and long easy miles.",
+    "Ghost trail adaptation features 3 mm lugs on a TrailTack rubber outsole for protection against sharp terrain.",
+    "Canopy and High Point jackets provide packable rain and wind protection with sealed seams and ventilation features."
    ],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-16T16:35:03.368860+00:00",
+   "seen_at": "2026-11-16T16:41:10.876392+00:00",
    "published_at": "2026-11-16T16:00:00+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
+  },
+  {
+   "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
+   "subtitle": "Remedy Robotics tests remote tele-thrombectomy using steerable catheters and AI pathfinding.",
+   "original_title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
+   "link": "https://spectrum.ieee.org/telesurgery-stroke",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Remedy Robotics has developed the N1 robotic catheter system to perform mechanical thrombectomies remotely, targeting the critical time window for acute ischemic stroke patients in underserved areas. The system uses a steerable catheter, computer-vision pathfinding overlaid on X-rays and CT scans, and standard Xbox controllers to allow precise remote vascular navigation. Recent human clinical trials in Toronto demonstrated successful remote angiograms performed nearly twice as fast as current standards.",
+   "bullets": [
+    "The Remedy N1 system uses a robotic arm with motorized cartridges and a steerable catheter that can be maneuvered without a guide wire.",
+    "Computer-vision algorithms track the catheter's rotation inside the body, allowing software to automatically translate directional inputs regardless of wire twists.",
+    "The system integrates 3D CT scan routes over live X-ray feeds to make blood vessel pathways visible during the procedure.",
+    "Remedy targets a round-trip internet latency under 150 milliseconds, pausing all surgical actions automatically if lag exceeds this threshold.",
+    "Initial human tests in Toronto successfully completed ten nonemergency vascular procedures using remote operators nearly twice as quickly as traditional methods."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-16T16:38:12.352737+00:00",
+   "published_at": "2026-11-16T14:00:02+00:00",
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "L'ASI al Cagliari Festival Scienza 2026",
-   "subtitle": "Come funzionano le comunicazioni interplanetarie tramite onde elettromagnetiche",
+   "subtitle": "Come funzionano le comunicazioni interplanetarie tramite onde elettromagnetiche.",
    "original_title": "L’ASI al Cagliari Festival Scienza 2026",
    "link": "https://www.asi.it/2026/11/lasi-al-cagliari-festival-scienza-2026/",
    "source": "Agenzia Spaziale Italiana",
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "Durante il Cagliari Festival Scienza 2026, l'ASI ha presentato un laboratorio pratico sulla comunicazione spaziale interplanetaria. I partecipanti hanno esplorato le sfide tecniche del trasferimento dati nello spazio profondo costruendo modellini della sonda Cassini-Huygens e dell'antenna SDSA.",
+   "summary": "La Base Nazionale Sardegna dell'ASI ha partecipato al Cagliari FestivaScienza con un laboratorio pratico dedicato alla comunicazione interplanetaria. Gli studenti hanno esplorato le sfide tecnologiche delle trasmissioni nello spazio profondo, costruendo modelli in scala e simulando i collegamenti tra sonde e antenne terrestri.",
    "bullets": [
-    "L'attività è stata curata dai ricercatori della Base Nazionale Sardegna Maria Noemi Iacolina e Andrea Saba.",
-    "Il laboratorio ha simulato le strategie di trasmissione dati tra una sonda spaziale e un'antenna a terra sfruttando le onde elettromagnetiche.",
-    "Gli studenti hanno assemblato modellini in scala ridotta della sonda Cassini-Huygens e dell'antenna SDSA.",
-    "Sono stati analizzati i requisiti ingegneristici di parabole ad alto guadagno, sensori e software di controllo per operare sulle distanze astronomiche."
+    "Il laboratorio ha simulato la trasmissione di dati complessi e immagini ad alta risoluzione attraverso le onde elettromagnetiche nel vuoto cosmico.",
+    "Sono stati realizzati modellini in scala della sonda Cassini-Huygens e dell'antenna SDSA.",
+    "I partecipanti hanno analizzato i requisiti ingegneristici di parabole ad alto guadagno, sensori scientifici e software di controllo.",
+    "L'attività è stata curata dai ricercatori e tecnologi della Base Nazionale Sardegna Maria Noemi Iacolina e Andrea Saba."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-16T16:34:18.494417+00:00",
+   "seen_at": "2026-11-16T16:39:46.689706+00:00",
    "published_at": "2026-11-16T13:59:46+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "Le molte Serbie dentro il movimento degli studenti che ha sconfitto Vučić",
@@ -55,40 +78,42 @@
    "category": "filosofia",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il movimento studentesco nato dopo il crollo della stazione di Novi Sad ha sconfitto il regime di Aleksandar Vučić il 25 ottobre 2025. Adottando una strategia di antipolitica strategica e democrazia diretta ispirata al modello croato, i giovani hanno unito progressisti, minoranze e simboli nazionalisti. La transizione dalle proteste di piazza alle urne ha richiesto un fragile equilibrio tra le diverse anime della società serba.",
+   "summary": "Il movimento studentesco nato dalle proteste contro la corruzione in Serbia è riuscito a sconfiggere dopo quattordici anni il regime di Aleksandar Vučić. Passando dall'antipolitica dei plenum alla creazione di una lista elettorale, il movimento ha integrato le contraddizioni della società serba, bilanciando istanze progressiste, minoranze e simboli nazionalisti.",
    "bullets": [
-    "La scintilla della rivolta è partita dal crollo della pensilina della stazione di Novi Sad il 1° novembre 2024, che ha causato sedici vittime a causa della corruzione sistemica.",
-    "Il modello organizzativo si basa sulla democrazia diretta e sui plenum, adottando la Blokadna kuharica croata del 2009 per evitare la cooptazione da parte dei partiti tradizionali.",
-    "Per allargare il consenso alle aree rurali e agli strati più tradizionalisti, il movimento ha integrato simboli identitari come le icone religiose e la bandiera del Kosovo, pur scontrandosi con tensioni interne.",
-    "La svolta elettorale di maggio e la creazione della Lista studentesca hanno portato il movimento in Parlamento, includendo esponenti delle minoranze ma affrontando fratture profonde sui temi storici come Srebrenica."
+    "La spinta iniziale è nata dal crollo della pensilina della stazione di Novi Sad il 1º novembre 2024, che ha causato sedici morti a causa della corruzione.",
+    "Il modello organizzativo si ispira alla democrazia diretta della Blokadna kuharica croata, applicando una strategia di antipolitica e un minimo ideologico per evitare divisioni.",
+    "La trasformazione da protesta di piazza a lista elettorale a maggio ha permesso di intercettare anziani, lavoratori e residenti nelle aree rurali tradizionalmente fedeli al governo.",
+    "Per conquistare il consenso popolare, il movimento ha integrato simboli identitari e religiosi tradizionali, inclusi quelli legati al Kosovo, generando tensioni interne ma neutralizzando la retorica del regime.",
+    "La coesistenza di anime differenti ha generato frizioni interne, come il conflitto tra gli studenti di Belgrado e Novi Pazar sulle posizioni relative alla Republika Srpska e alle sentenze sui crimini di guerra."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-16T16:37:04.724805+00:00",
+   "seen_at": "2026-11-16T16:41:30.970292+00:00",
    "published_at": "2026-11-16T13:36:17+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "Advanced Metrology for Semiconductor Yield Enhancement",
-   "subtitle": "Combining in-line inspection and offline 3D optical profilometry for root-cause analysis.",
+   "subtitle": "Combining in-line inspection and offline 3D optical profilometry for defect root-cause analysis.",
    "original_title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
    "link": "https://event.on24.com/wcc/mr/7058967/655F0A675F5C3415546D597247025DA8?utm_source=evident122&utm_medium=IEEE&utm_campaign=series1",
    "source": "IEEE Spectrum",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "This text outlines a workflow combining in-line inspection and offline characterization for semiconductor manufacturing. It explains how surface scan metrology monitors thin film tool health and how offline 3D optical profilometry provides sub-nanometer dimensional measurements to resolve defect root causes.",
+   "summary": "This webinar overview details how integrated in-line inspection and offline 3D optical profilometry combine to monitor tool health, detect process drift, and analyze semiconductor defects. Experts from Intel and Evident Scientific explain how baseline signatures catch particle generation early, and how offline techniques isolate sub-nanometer defect dimensions to guide yield improvement.",
    "bullets": [
-    "Surface scan metrology in station monitors tracks tool health, hardware wear, and process drift for thin film deposition processes.",
-    "In-line scans on patterned wafers expose layer-level defects and track how they propagate through multi-layer device stacks.",
-    "Correlating tool health data, inspection results, and electrical test data links physical defects directly to yield loss.",
-    "Offline 3D optical profilometry supplements fast in-line tools by providing detailed dimensional measurements and identifying foreign material."
+    "Surface scan metrology in station monitors tracks thin film deposition tool health and qualifies processes before production impact.",
+    "Real-time monitoring and baseline signatures detect hardware degradation and particle generation early.",
+    "In-line scans on patterned wafers track layer-level defect propagation through multi-layer device structures.",
+    "Offline 3D optical profilometry supplements fast in-line tools to provide dimensional measurements and distinguish sample defects from foreign material.",
+    "Correlating tool health, inspection data, and electrical test results ties physical defects directly to yield loss."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-16T16:32:46.037473+00:00",
+   "seen_at": "2026-11-16T16:38:24.892255+00:00",
    "published_at": "2026-11-16T11:00:03+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "Esa riporta in vinile i classici dell'hip hop underground",
@@ -227,26 +252,26 @@
    "batch_at": "2026-11-16T11:04:45.941438+00:00"
   },
   {
-   "title": "Il calendario della Roma: sette partite in un mese tra Serie A e Champions",
-   "subtitle": "Analisi del prossimo ciclo di partite della Roma dal 21 novembre al 19 dicembre.",
+   "title": "Il calendario della Roma: sette partite cruciali tra Serie A e Champions League",
+   "subtitle": "Analisi del prossimo ciclo di incontri della Roma tra novembre e dicembre.",
    "original_title": "La Roma si prepara ad un tour de force: sette partite in un mese con Psg e la Juve di Spalletti",
    "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/16-152629691/la_roma_si_prepara_ad_un_tour_de_force_sette_partite_in_un_mese_con_psg_e_la_juve_di_spalletti/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "La Roma si appresta ad affrontare un ciclo di sette partite in ventinove giorni tra campionato e coppe. Il calendario prevede sfide cruciali contro Paris Saint-Germain, Sporting Lisbona, il derby contro la Lazio e la Juventus.",
+   "summary": "La Roma si appresta ad affrontare un ciclo di sette partite in ventinove giorni, compresi gli impegni di Champions League e Serie A. Dal 21 novembre al 19 dicembre, la squadra affronterà avversari chiave come PSG, Sporting Lisbona, Lazio e Juventus.",
    "bullets": [
-    "La Roma disputerà sette incontri tra il 21 novembre (Parma) e il 19 dicembre (Juventus).",
-    "Il programma europeo include le sfide contro il Paris Saint-Germain e lo Sporting Lisbona.",
-    "Nel periodo in questione sono previsti anche il derby contro la Lazio e la partita contro la Juventus allenata da Spalletti.",
-    "La frequenza delle gare sarà di una ogni quattro o cinque giorni, un ritmo leggermente inferiore rispetto al blocco precedente di ottobre."
+    "Sette partite in ventinove giorni tra il 21 novembre e il 19 dicembre.",
+    "Il calendario include la Champions League con le sfide contro PSG e Sporting Lisbona.",
+    "In Serie A spiccano gli incontri con Parma, Monza, Bologna, il derby contro la Lazio e la Juventus di Spalletti.",
+    "La Coppa Italia rimane inattiva fino a gennaio, riducendo parzialmente il carico rispetto a ottobre."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-16T16:34:57.762510+00:00",
+   "seen_at": "2026-11-16T16:41:04.741407+00:00",
    "published_at": "2026-11-16T08:08:29+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "Matias Soulé conquista l'Argentina e la Roma",
@@ -306,44 +331,77 @@
    "batch_at": "2026-11-16T11:04:45.941438+00:00"
   },
   {
-   "title": "I limiti strategici del blocco dell'export di GPU verso la Cina",
-   "subtitle": "Analisi dei fallacie del blocco delle GPU e del divario hardware tra USA e Cina",
+   "title": "Condizionatore o termosifone: efficienza e consumi a confronto",
+   "subtitle": "Confronto tra termosifoni e pompe di calore per efficienza e costi energetici.",
+   "original_title": "Meglio riscaldare casa con il condizionatore o il termosifone? Efficienza e consumi a confronto",
+   "link": "https://www.youtube.com/watch?v=2cqLAq0NKu8",
+   "source": "Geopop (YouTube)",
+   "category": "mondo",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il testo analizza l'efficienza e i costi di riscaldamento tra termosifoni tradizionali a gas e condizionatori a pompa di calore in una stanza standard di 40 metri cubi con 7 gradi esterni. Il condizionatore vince sia in velocità che nei costi operativi grazie al ciclo del liquido refrigerante, che estrae calore dall'esterno anche a basse temperature. Nei calcoli basati su una caldaia a condensazione e un modello Daikin Perfera All Season, la caldaia consuma 0,96 kWh di energia primaria pari a 8,1 centesimi. La pompa di calore, invece, consuma 0,38 kWh di energia primaria a 7 gradi esterni (4,8 centesimi) e 0,48 kWh a 2 gradi (6 centesimi), risultando comunque più economica nonostante la resa diminuisca con il freddo intenso. Per un corretto utilizzo, il condizionatore non va acceso e spento continuamente, ma mantenuto al minimo per riscaldare gradualmente pareti e arredi, evitando l'effetto aria secca.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 8,
+   "seen_at": "2026-11-16T16:38:51.779574+00:00",
+   "published_at": "2026-11-16T00:00:00+00:00",
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
+  },
+  {
+   "title": "Il blocco dell'export di GPU verso la Cina è una strategia fallimentare",
+   "subtitle": "Perché le restrizioni sulle GPU non fermeranno la Cina e il vantaggio USA è temporaneo",
    "original_title": "Quelli contro l'export delle GPU mancano di argomenti convincenti",
    "link": "https://www.youtube.com/watch?v=EbTo3iEpukU",
    "source": "antirez (YouTube)",
    "category": "ai",
    "kind": "queue",
    "lang": "it",
-   "summary": "La tesi secondo cui gli Stati Uniti dovrebbero bloccare l'esportazione di GPU per rallentare lo sviluppo dell'intelligenza artificiale cinese si fonda su premesse fragili e stime irrealistiche. Dario Amodei sostiene che mantenere un vantaggio tecnologico temporaneo permetterà agli USA di guidare gli standard globali, ma questa visione ignora la dinamica reale del progresso basato sul compute e sulla scala. Le previsioni di un divario hardware decennale, come quelle formulate dai vertici di ASML, sottovalutano la capacità della Cina di concentrare le risorse e superare gli ostacoli tecnici già risolti in occidente. Inoltre, la Cina possiede una densità straordinaria di competenze scientifiche e sta recuperando terreno rapidamente, potendo compensare eventuali svantaggi litografici con una maggiore potenza energetica o concentrazione di chip. Di conseguenza, la strategia di interdire l'export e isolare Pechino appare inefficace nel lungo termine e rischia di ignorare la natura inevitabilmente convergente dello sviluppo tecnologico globale.",
+   "summary": "La tesi secondo cui impedire l'esportazione di GPU verso la Cina possa rallentare significativamente il suo sviluppo nell'intelligenza artificiale è priva di basi solide. Chi sostiene questa linea, ispirato dalle visioni di Dario Amodei, immagina che gli Stati Uniti possano accumulare un vantaggio tecnologico incolmabile da usare come leva geopolitica. Tuttavia, questo ragionamento ignora la natura stessa dei modelli linguistici, che scalano principalmente sul compute e su ricette aperte e note. La Cina possiede una densità straordinaria di competenze tecniche e risorse finanziarie, e la convinzione che le aziende occidentali mantengano un vantaggio decennale nell'hardware è irrealistica. Le stime sui tempi di recupero cinesi, come quelle avanzate dai vertici di ASML, sottovalutano la capacità di concentrare le risorse e di superare ostacoli tecnologici già mappati. Inoltre, anche ammesso che gli Stati Uniti arrivino primi a un livello di superintelligenza, i fattori di sicurezza intrinseci e i limiti fisici delle reti neurali imporrebbero comunque un rallentamento, azzerando il vantaggio strategico e rendendo la guerra commerciale inutile e controproducente.",
    "bullets": [],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-16T16:34:50.775439+00:00",
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-16T16:40:34.937998+00:00",
    "published_at": "2026-11-16T00:00:00+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
-   "title": "La politica liquida e l'illusione della protesta digitale",
-   "subtitle": "Come la paura e la flessibilità istituzionale dominano la società moderna",
+   "title": "Quando la tua famiglia ti fa sentire un estraneo",
+   "subtitle": "Perché la crescita individuale rompe gli equilibri familiari e genera estraneità",
+   "original_title": "Quando la tua famiglia ti fa sentire un estraneo",
+   "link": "https://www.youtube.com/watch?v=AyigU4V9S1Y",
+   "source": "Michele Mezzanotte (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il senso di estraneità provato verso la propria famiglia è una dinamica inevitabile durante il percorso di crescita personale. Secondo Carl Jung, la famiglia fornisce inizialmente le maschere difensive necessarie per costruire l'identità, ma oppone resistenza quando l'individuo tenta di decostruirle per rivelare il proprio sé autentico. Donald Winnicott spiega che la famiglia richiede agli individui di essere ciò che serve al sistema anziché ciò che sono realmente. Applicando la teoria dei sistemi di Bowen, il nucleo familiare agisce in modo omeostatico per mantenere l'equilibrio, percependo l'individuazione come una minaccia. James Hillman e gli psicologi archetipici descrivono questo processo come un tradimento necessario, dove l'etimologia del termine indica il consegnarsi al nuovo. Tale estraneità rappresenta quindi una vittoria congiunta: la conferma che la famiglia ha protetto l'individuo e che quest'ultimo ha iniziato il proprio processo di differenziazione per aprirsi al mondo.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-16T16:40:58.015401+00:00",
+   "published_at": "2026-11-16T00:00:00+00:00",
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
+  },
+  {
+   "title": "La politica liquida e l'illusione della protesta",
+   "subtitle": "Analisi sociologica della paura permanente e della fragilità delle rivolte digitali.",
    "original_title": "Paura Liquida, Governi Liquidi, Rivolte Liquide",
    "link": "https://thedarksalad.it/articoli/paura-liquida-governi-liquidi-rivolte-liquide/",
    "source": "The Dark Salad",
    "category": "mondo",
    "kind": "sitemap",
    "lang": "it",
-   "summary": "Il saggio analizza la società liquida teorizzata da Bauman, evidenziando come la politica e le istituzioni si siano adattate alla perenne emergenza senza alcuna coerenza ideologica. La paura è diventata il sistema operativo dominante, mentre le rivolte digitali, pur essendo rapide e visibili, mancano della struttura organizzativa necessaria per incidere realmente sul potere solido delle infrastrutture.",
+   "summary": "Il testo analizza la transizione verso una modernità liquida in cui istituzioni, politica e proteste perdono stabilità e consistenza. La paura è diventata il principale sistema operativo di governi flessibili ma incoerenti, mentre le rivolte digitali, pur rapide ed estese, faticano a tradursi in organizzazione e cambiamento strutturale reale.",
    "bullets": [
-    "I governi contemporanei cambiano continuamente orientamento ideologico, basando il consenso sulla gestione professionale dell'emergenza e sulla paura.",
-    "La paura è diventata un sistema operativo compatibile con qualsiasi schieramento politico, mantenendo la popolazione in uno stato di allarme costante.",
-    "Il potere ha perso coerenza ideologica ma mantiene strutture solidissime come banche centrali, apparati amministrativi e forze armate.",
-    "Le proteste odierne sfruttano i social media per mobilitare masse rapidamente, ma falliscono nel costruire organizzazione e continuità a lungo termine.",
-    "L'indignazione digitale produce contenuti e visibilità anziché trasformazioni politiche reali, dissolvendosi rapidamente all'arrivo della notizia successiva."
+    "La paura contemporanea è un sistema operativo flessibile, adattabile a qualsiasi orientamento politico e utile a mantenere la popolazione in costante stato di allarme.",
+    "I governi moderni operano senza coerenza ideologica, adattandosi rapidamente a qualsiasi emergenza e offrendo una gestione professionale dell'incertezza.",
+    "Le rivolte digitali si basano su cicli di consumo industriali dell'indignazione, ma mancano della continuità e dell'organizzazione necessarie per scalfire le strutture solide del potere.",
+    "Il divario tra la visibilità immediata della protesta e la complessità di costruire un'alternativa politica reale trasforma spesso la rabbia in un mercato pubblicitario."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-16T16:37:45.884457+00:00",
+   "seen_at": "2026-11-16T16:42:44.315916+00:00",
    "published_at": "2026-11-16T00:00:00+00:00",
-   "batch_at": "2026-11-16T16:31:55.186174+00:00"
+   "batch_at": "2026-11-16T16:38:05.188547+00:00"
   },
   {
    "title": "A Step Toward Defining the Standard Model on a Lattice",
