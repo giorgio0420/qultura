@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T11:07:09.644164+00:00",
+ "generated_at": "2026-11-17T12:58:21.918588+00:00",
  "items": [
   {
    "title": "Quanto spende davvero lo Stato per i libri? Un report",
@@ -6497,52 +6497,6 @@
    "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
-   "title": "Attacchi hacker ai sistemi di refrigerazione dei supermercati in Europa e in Italia",
-   "subtitle": "Come gli hacker sfruttano vulnerabilità nei sistemi OT e di controllo remoto dei supermercati.",
-   "original_title": "Attacchi hacker ai supermercati, colpita anche l’Italia: cosa succede e quali sono i rischi per l’esperto",
-   "link": "https://www.geopop.it/attacchi-hacker-ai-supermercati-colpita-anche-litalia-cosa-succede-in-sicilia-e-quali-sono-i-rischi/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Attacchi informatici recenti hanno preso di mira i sistemi di refrigerazione dei supermercati in diversi Paesi europei, inclusa l'Italia, causando il deterioramento degli alimenti. Gli esperti evidenziano che tali violazioni sfruttano vulnerabilità note nei sistemi di controllo remoto e la mancata applicazione di aggiornamenti di sicurezza da parte degli operatori.",
-   "bullets": [
-    "I sistemi industriali di refrigerazione utilizzano controlli da remoto che, se non aggiornati o protetti, espongono i dispositivi a vulnerabilità note pubblicate online.",
-    "Gli attacchi non richiedono competenze sofisticate e possono essere condotti cercando dispositivi di marche specifiche direttamente connessi a Internet.",
-    "L'assenza di richieste estorsive suggerisce che gli autori possano essere singoli individui o attivisti anziché cybercriminali tradizionali.",
-    "Il problema strutturale risiede nell'Operational Technology: gli impianti industriali durano decenni, mentre i cicli tecnologici digitali sono brevi, lasciando attivi sistemi operativi obsoleti.",
-    "La direttiva NIS2 e il Cyber Resilience Act dell'Unione Europea spingono verso una gestione del rischio mirata e l'obbligo di sicurezza fin dalla progettazione."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-03T11:46:29.986675+00:00",
-   "published_at": "2026-11-03T10:30:32+00:00",
-   "batch_at": "2026-11-03T11:46:22.658156+00:00"
-  },
-  {
-   "title": "La crisi della democrazia negli USA e la guerra ideologica",
-   "subtitle": "Judith Butler analizza la repressione dei diritti e il risentimento populista",
-   "original_title": "Le conseguenze della guerra ideologica in USA e la crisi della democrazia. Intervista a Judith Butler",
-   "link": "https://lucysullacultura.com/le-conseguenze-della-guerra-ideologica-in-usa-e-la-crisi-della-democrazia-intervista-a-judith-butler/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "In questa intervista, la filosofa Judith Butler analizza le conseguenze della guerra ideologica scatenata dalla destra conservatrice statunitense contro i diritti civili, il genere e l'istruzione. Viene esaminato il meccanismo con cui il risentimento economico della classe operaia viene abilmente deviato verso minoranze e istituzioni accademiche, mentre le università cedono ai ricatti sui fondi federali limitando la libertà di protesta.",
-   "bullets": [
-    "L'ideologia di genere non è un corpus teorico ma un'invenzione retorica della destra per colpire i diritti di donne, gay, lesbiche e trans e limitare l'istruzione pubblica.",
-    "La revoca costituzionale dell'aborto e le restrizioni sui passaporti per persone non binarie rappresentano un attacco istituzionale mirato a cancellare categorie giuridiche e storiche.",
-    "Il risentimento economico causato dalle trasformazioni del capitalismo contemporaneo viene sfruttato dai movimenti populisti per alimentare rabbia anti-intellettuale contro le élite e le politiche di inclusione.",
-    "Le università statunitensi, ricattate attraverso la minaccia di perdere i finanziamenti federali per la ricerca, hanno spesso ceduto alla censura e represso le proteste studentesche contro il conflitto a Gaza.",
-    "Nonostante la deriva autoritaria e la perdita di tutele legali fondamentali, emergono segnali di speranza in nuovi movimenti di base, mobilitazioni giovanili e forme di socialismo incentrate su sanità, casa e istruzione."
-   ],
-   "relevance": 5,
-   "score": 5,
-   "seen_at": "2026-11-03T11:47:51.479983+00:00",
-   "published_at": "2026-11-03T08:52:52+00:00",
-   "batch_at": "2026-11-03T11:46:22.658156+00:00"
-  },
-  {
    "title": "Heimstaden Transforms Property Management with OpenAI",
    "subtitle": "How Heimstaden integrates ChatGPT Enterprise and Codex to automate operations",
    "original_title": "Heimstaden is changing residential real estate management with AI",
@@ -6562,51 +6516,6 @@
    "seen_at": "2026-11-03T16:35:39.903477+00:00",
    "published_at": "2026-11-03T08:00:00+00:00",
    "batch_at": "2026-11-03T16:35:04.535758+00:00"
-  },
-  {
-   "title": "La Roma sfida il Manchester United all'Old Trafford",
-   "subtitle": "Analisi della sfida europea tra Roma e Manchester United.",
-   "original_title": "La Roma sfida lo United, Gasperini non cambia la formula: pressing e coraggio all'Old Trafford",
-   "link": "https://www.corrieredellosport.it/news/calcio/champions-league/2026/11/03-152338363/la_roma_sfida_lo_united_gasperini_non_cambia_la_formula_pressing_e_coraggio_all_old_trafford/",
-   "source": "Corriere dello Sport",
-   "category": "calcio",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La Roma affronta il Manchester United all'Old Trafford in una situazione di classifica opposta rispetto agli inglesi. La squadra di Gasperini arriva da favorita grazie a un ottimo stato di forma e 36 gol in 13 partite, mentre lo United attraversa una crisi profonda di risultati.",
-   "bullets": [
-    "La Roma si presenta all'Old Trafford con i favori del pronostico grazie a un momento di forma eccellente e 36 reti realizzate in 13 gare.",
-    "Il Manchester United attraversa una crisi storica, trovandosi nella zona retrocessione e senza vittorie in Europa da settembre.",
-    "Gian Piero Gasperini è diventato il primo allenatore della Roma a raggiungere 30 vittorie in Serie A in sole 48 panchine.",
-    "L'Old Trafford rappresenta storicamente un campo ostico per la Roma, reduce da quattro sconfitte in altrettanti precedenti."
-   ],
-   "relevance": 3,
-   "score": 6,
-   "seen_at": "2026-11-03T11:47:09.059184+00:00",
-   "published_at": "2026-11-03T07:33:50+00:00",
-   "batch_at": "2026-11-03T11:46:22.658156+00:00"
-  },
-  {
-   "title": "Transformers Model Integration Contracts",
-   "subtitle": "How shrunk model fixtures and integration contracts catch regressions in CI without GPUs",
-   "original_title": "Transformers Model Integration Contracts",
-   "link": "https://huggingface.co/blog/transformers-mic",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "To prevent regressions in a repository with hundreds of models and massive test suites, Transformers introduced Model Integration Contracts (MICs). These use lightweight fixtures (shrunk models keeping structural properties) and human-reviewed baselines running on cheap CPU runners to test code paths on PRs before code hits main.",
-   "bullets": [
-    "Tests cover 750+ model types by using shrunk fixtures (e.g., reducing a 1,227 MB UMT5 checkpoint to 66 MB) that preserve layer types, tokenizers, and file formats.",
-    "A Model Integration Contract (MIC) contains a pinned fixture, a runnable Markdown usage path, and human-reviewed output baselines.",
-    "Fixtures can be initialized via seeded random weights or overfitted on a small batch of examples to ensure sensitive pathways (such as audio encoders) actually respond to inputs.",
-    "The tmic CLI uses an LLM to draft usage code and manifests, letting developers build and validate contracts locally before publishing them to huggingface-mic.",
-    "Replaying historical commits showed that a small UMT5 fixture successfully flagged an attention bug that stayed in the main branch for two months."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-03T11:46:51.719731+00:00",
-   "published_at": "2026-11-03T00:00:00+00:00",
-   "batch_at": "2026-11-03T11:46:22.658156+00:00"
   },
   {
    "title": "Esecuzione locale di modelli enormi tramite streaming su SSD",
@@ -6692,29 +6601,6 @@
    "seen_at": "2026-11-03T16:45:30.284877+00:00",
    "published_at": "2026-11-03T00:00:00+00:00",
    "batch_at": "2026-11-03T16:42:56.632071+00:00"
-  },
-  {
-   "title": "How Six Women at the 1972 New York City Marathon Started a Racing Revolution",
-   "subtitle": "How six female runners staged a sit-in at the 1972 NYC Marathon to dismantle AAU discrimination.",
-   "original_title": "Only Six Women Started the 1972 NYC Marathon. What Happened at the Starting Line Changed Racing Forever.",
-   "link": "https://www.runnersworld.com/runners-stories/a74314460/sole-sisters-of-1972-new-york-city-marathon/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "At the 1972 New York City Marathon, six female runners staged a silent protest against the Amateur Athletic Union's discriminatory separate-start rules by sitting down at the starting line. Captured by a New York Times photograph, the protest catalyzed a legal and cultural shift that removed restrictions on women's distance running and ultimately led to the inclusion of the women's marathon in the 1984 Olympics.",
-   "bullets": [
-    "In 1972, the Amateur Athletic Union (AAU) barred women from marathons or required them to start separately from men, citing pseudoscientific concerns over reproductive health and fitness.",
-    "Six women—Nina Kuscsik, Lynn Blackstone, Liz Franceschini, Jane Muhrcke, Cathy Miller, and Pat Barrett—lined up for the 1972 NYC Marathon and sat down in protest when the starting gun fired.",
-    "The sit-in protest was captured in a widely published New York Times photograph by Patrick Burns, generating national publicity that weakened the AAU's enforcement power.",
-    "Nina Kuscsik subsequently collaborated with the ACLU to file lawsuits and lobby athletic governing bodies, successfully eliminating the AAU's separate-start rule and leading to the adoption of the women's Olympic marathon in 1984.",
-    "Participation by women in road racing grew exponentially in the decades following the protest, eventually surpassing 50 percent of total U.S. road race finishers."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-03T11:47:16.296259+00:00",
-   "published_at": "2026-11-02T21:42:03+00:00",
-   "batch_at": "2026-11-03T11:46:22.658156+00:00"
   },
   {
    "title": "Perché nessuno si ricorda niente fino ai primi due anni di vita?",
