@@ -1,6 +1,123 @@
 {
- "generated_at": "2026-11-17T12:58:21.918588+00:00",
+ "generated_at": "2026-11-17T16:31:55.640143+00:00",
  "items": [
+  {
+   "title": "Picco delle Leonidi 2026",
+   "subtitle": "Condizioni, orari e dinamica orbitale delle meteore più veloci dell'anno",
+   "original_title": "Arrivano le Leonidi, le “stelle cadenti” più veloci del 2026: come vedere il picco dello sciame meteorico",
+   "link": "https://www.geopop.it/leonidi-novembre-2026-sciame-meteorico-spettacolo-stelle-cadenti-picco-quando-come-vedere/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Lo sciame meteorico delle Leonidi raggiungerà il picco il 17 novembre 2026, offrendo circa 15 meteore all'ora con una velocità di ingresso atmosferico pari a 69,7 km/s. Le osservazioni saranno favorite dall'assenza della luce lunare e dalla vicinanza con la congiunzione tra Marte e Giove. I detriti sono generati dalla cometa 55P/Tempel-Tuttle.",
+   "bullets": [
+    "Il picco di visibilità in Italia è previsto a partire dalle 02:00 del 17 novembre 2026, quando il radiante nel Leone supera i 30 gradi di altezza.",
+    "Le Leonidi registrano una velocità d'ingresso in atmosfera di circa 69,7 km/s, dovuta al movimento dei frammenti in direzione opposta rispetto alla Terra.",
+    "Il tasso atteso è di circa 15 meteore all'ora in condizioni ideali, generate dai residui della cometa a lungo periodo 55P/Tempel-Tuttle.",
+    "La fase osservativa beneficia dell'assenza di disturbo lunare grazie al tramonto anticipato della falce crescente e alla vicinanza apparente di Marte e Giove.",
+    "Non sono necessari strumenti ottici: l'uso di telescopi o binocoli limita il campo visivo, ed è preferibile osservare ad occhio nudo lontano dall'inquinamento luminoso."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-17T16:33:27.821148+00:00",
+   "published_at": "2026-11-17T15:30:08+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
+  },
+  {
+   "title": "Procrastinating Your Winter Runs? Here’s What Will Actually Get You Out the Door",
+   "subtitle": "Sports psychologist strategies to beat winter run procrastination and reset training rules",
+   "original_title": "Procrastinating Your Winter Runs? Here’s What Will Actually Get You Out the Door, According to a Sports Psychologist",
+   "link": "https://www.runnersworld.com/training/a74424070/winter-running-procrastination/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Winter running procrastination often stems from either avoidance of discomfort or an unmet need for rest. Sports psychologist Justin Ross recommends implementing structural preparation systems, motivational reframes, and flexible training standards rather than relying purely on willpower.",
+   "bullets": [
+    "Identify the root cause of procrastination: determine if it is an avoidance strategy against discomfort or a signal that your body requires rest.",
+    "Eliminate friction by planning ahead, such as laying out running clothes, gear, and fuel in advance to reduce pre-run hurdles.",
+    "Shift your motivational focus from the immediate discomfort of the workout to your core values and how the run serves your long-term goals.",
+    "Increase immediate appeal by pairing treadmill runs with enjoyable media or scheduling social runs with peers.",
+    "Lower the barrier to entry by dropping rigid training rules, opting instead for a minimal effective dose like a 10-minute trial run or time-based cross-training."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-17T16:34:38.141354+00:00",
+   "published_at": "2026-11-17T15:24:28+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
+  },
+  {
+   "title": "Come funzionano i sistemi di accesso OAuth e OpenID Connect di Google, Apple e Facebook",
+   "subtitle": "Analisi tecnica dei protocolli di autenticazione e gestione dei permessi terzi",
+   "original_title": "Quali dati vengono condivisi quando accedi con Google, Apple o Facebook ai siti e come revocare i permessi",
+   "link": "https://www.geopop.it/quali-dati-vengono-condivisi-quando-accedi-con-google-apple-o-facebook-ai-siti-e-come-revocare-i-permessi/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "I sistemi di accesso tramite Google, Apple e Facebook utilizzano i protocolli OAuth 2.0 e OpenID Connect per verificare l'identità senza condividere la password principale. L'articolo analizza quali dati specifici vengono trasmessi dai singoli provider, come distinguere l'autenticazione dall'autorizzazione e le procedure per revocare i permessi o rimuovere le applicazioni collegate.",
+   "bullets": [
+    "I protocolli OAuth 2.0 e OpenID Connect permettono ai siti di verificare l'identità e creare un profilo senza ricevere la password dell'account principale.",
+    "Google condivia nome, email e foto profilo per impostazione predefinita, richiedendo autorizzazioni separate per accedere a servizi come Calendar o Drive.",
+    "Apple consente di nascondere l'indirizzo email reale generando un recapito casuale e univoco per l'inoltro dei messaggi.",
+    "Facebook richiede un'autorizzazione aggiuntiva per fornire l'indirizzo email, trasmettendo di base nome, foto e un ID utente specifico per l'applicazione.",
+    "La revoca di un permesso tramite le impostazioni della piattaforma non cancella automaticamente i dati già trasmessi al servizio terzo.",
+    "È necessario verificare l'affidabilità delle richieste di autorizzazione per evitare rischi di phishing o concessioni eccessive di permessi."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-17T16:33:39.920753+00:00",
+   "published_at": "2026-11-17T14:00:05+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
+  },
+  {
+   "title": "AI Is Giving Optical Computing Another Shot",
+   "subtitle": "How optical computing startups aim to bypass GPU power limits using light-based matrix multiplication",
+   "original_title": "AI Is Giving Optical Computing Another Shot",
+   "link": "https://spectrum.ieee.org/optical-computing-ai",
+   "source": "IEEE Spectrum",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Driven by the soaring energy demands of AI inference, optical computing startups are developing photonics-based hardware to perform matrix-vector multiplications at drastically lower power levels. These approaches utilize free-space optics, integrated silicon photonics, and cavity-based laser systems to target compute-intensive prefill and memory-bound decode phases. While traditional electronics and evolving algorithms present stiff competition, photonics offers alternative paths for accelerating specific mathematical operations like Fourier transforms and differential equations.",
+   "bullets": [
+    "Global market valuation for optical computing has grown from $0.4 billion in 2022 to $2.22 billion, fueled by the power limits of AI inference workloads.",
+    "Free-space optics startups like Lumai use spatial light modulators and lenses to perform full vector-matrix multiplications in a single optical cycle.",
+    "Neurophos leverages sub-wavelength metamaterials to scale on-chip modulators to a 1,000-by-1,000 array, targeting speeds and efficiencies far surpassing Nvidia's Blackwell B200.",
+    "Integrated photonics companies like Q.ANT and Lightelligence serialize data through waveguides, using Mach-Zehnder interferometers to execute multiplications via light phase shifts.",
+    "LightSolver deploys a cavity-based laser processing unit (LPU) containing a gain medium to solve complex differential equations 40 to 80,000 times faster than a GPU.",
+    "Optalysys embeds passive optical Fourier transform components directly into data center networking paths to handle memory-bound compute tasks like compression and format conversion during the decode phase."
+   ],
+   "relevance": 5,
+   "score": 15,
+   "seen_at": "2026-11-17T16:32:34.259244+00:00",
+   "published_at": "2026-11-17T14:00:03+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
+  },
+  {
+   "title": "Nuovo contratto ASI e Thales Alenia Space per il satellite SAR-L",
+   "subtitle": "ASI e Thales Alenia Space firmano per il satellite radar SAR-L in banda L.",
+   "original_title": "Agenzia Spaziale Italiana e Thales Alenia Space firmano il contratto per il satellite SAR-L",
+   "link": "https://www.asi.it/2026/11/agenzia-spaziale-italiana-e-thales-alenia-space-firmano-il-contratto-per-il-satellite-sar-l/",
+   "source": "Agenzia Spaziale Italiana",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "L'Agenzia Spaziale Italiana e Thales Alenia Space hanno firmato il contratto per lo sviluppo del satellite radar SAR-L. Il sistema utilizzerà la banda L per penetrare la vegetazione e monitorare suolo, rischi geologici e condizioni ambientali nell'area euro-mediterranea, garantendo continuità ai dati SAOCOM e affiancando COSMO-SkyMed e Copernicus.",
+   "bullets": [
+    "Firmato il contratto tra ASI e Thales Alenia Space per il nuovo satellite SAR-L.",
+    "Il radar in banda L permette di raccogliere informazioni attraverso la vegetazione.",
+    "Il sistema monitora i movimenti del terreno, i rischi geologici e la sicurezza territoriale.",
+    "La missione assicura continuità ai dati forniti dai satelliti SAOCOM.",
+    "Il satellite affiancherà costellazioni esistenti come COSMO-SkyMed e Copernicus."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-17T16:34:02.692231+00:00",
+   "published_at": "2026-11-17T13:51:32+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
+  },
   {
    "title": "Quanto spende davvero lo Stato per i libri? Un report",
    "subtitle": "Un'analisi dettagliata dei finanziamenti pubblici per l'editoria e le biblioteche in Italia.",
@@ -90,6 +207,27 @@
    "seen_at": "2026-11-17T11:08:48.678707+00:00",
    "published_at": "2026-11-17T07:08:47+00:00",
    "batch_at": "2026-11-17T11:07:09.644164+00:00"
+  },
+  {
+   "title": "Il paradosso del volo planetario nella ricerca climatica",
+   "subtitle": "Il dilemma etico dei ricercatori climatici che viaggiano in aereo",
+   "original_title": "Il paradosso del volo planetario",
+   "link": "https://lucysuimondi.com/il-paradosso-del-volo-planetario/",
+   "source": "Lucy sui mondi",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il testo analizza il dilemma vissuto dai ricercatori in ambito climatico ed ecologico, costretti a viaggiare in aereo per partecipare a convegni scientifici e far progredire la ricerca sulla crisi ambientale, alimentando al contempo l'inquinamento atmosferico. Sofia Belardinelli, ricercatrice e giornalista scientifica, evidenzia questa contraddizione strutturale tra la necessità di cooperazione scientifica globale e l'impatto ecologico dei trasporti.",
+   "bullets": [
+    "I ricercatori sul clima affrontano il paradosso di inquinare tramite i voli aerei per raggiungere conferenze necessarie a studiare e contrastare la crisi climatica.",
+    "Il dilemma coinvolge la sostenibilità delle pratiche accademiche tradizionali rispetto agli obiettivi ecologici promossi dagli stessi studiosi.",
+    "Sofia Belardinelli, postdoc al Politecnico di Milano, evidenzia la tensione etica ed epistemologica legata a queste dinamiche di mobilità scientifica."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-17T16:35:37.235665+00:00",
+   "published_at": "2026-11-17T07:00:00+00:00",
+   "batch_at": "2026-11-17T16:31:55.640143+00:00"
   },
   {
    "title": "Analisi delle Nazionali e le dinamiche tattiche",
@@ -6365,76 +6503,6 @@
    "batch_at": "2026-11-03T16:35:04.535758+00:00"
   },
   {
-   "title": "The 2026 New York City Marathon Sets All-Time Field and Performance Records",
-   "subtitle": "Results, finisher counts, and professional podium times from the 2026 NYC Marathon.",
-   "original_title": "The 2026 New York City Marathon Was the Largest Marathon in History",
-   "link": "https://www.runnersworld.com/news/a74314598/nyc-marathon-finisher-statistics-2026/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "The 2026 New York City Marathon became the largest marathon in history with 61,146 finishers, surpassing the 2026 London Marathon. The event featured notable professional wins, including Andreas Almgren's debut victory in the men's division and Sheila Chepkirui's women's title, alongside historic depth from American runners.",
-   "bullets": [
-    "61,146 runners finished the 2026 race, surpassing the previous record set by London earlier in the year.",
-    "Andreas Almgren won the men's open division in 2:06:01, marking the first time a man won the NYC Marathon in his debut since 2010.",
-    "Sheila Chepkirui won the women's division with a time of 2:24:36.",
-    "Jess McClain finished second among women in 2:24:42, becoming the first American woman on the NYC open podium since 2018.",
-    "Marcel Hug secured his eighth men's wheelchair title in 1:28:14, edging Daniel Romanchuk by one second.",
-    "The event raised over $100 million in charity fundraising with participants representing 153 countries."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-03T15:30:18.936825+00:00",
-   "published_at": "2026-11-03T14:53:28+00:00",
-   "batch_at": "2026-11-03T15:26:28.720262+00:00"
-  },
-  {
-   "title": "Mastering the Run/Walk Method Using the Magic Mile Test",
-   "subtitle": "Learn how to use a one-mile test to calculate run/walk paces and race targets.",
-   "original_title": "How to Master the Run/Walk Method: Using the Magic Mile",
-   "link": "https://www.runnersworld.com/training/a74108433/run-walk-program-magic-mile/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "The Magic Mile method provides a structured way to determine optimal run/walk training and race paces. By timing a flat one-mile test effort and applying specific multipliers, runners can predict target paces for distances ranging from 5Ks to marathons.",
-   "bullets": [
-    "Warm up with 10 minutes of running, four 100-meter strides, and 3 minutes of walking before running a flat one-mile test at a natural, consistent effort.",
-    "Calculate 5K pace by adding 33 seconds to your Magic Mile time.",
-    "Calculate longer race paces using multipliers: 10K (Magic Mile x 1.15), 10 miles (x 1.175), half marathon (x 1.2), and marathon (x 1.3).",
-    "Repeat the Magic Mile test every one to three weeks to update training paces as fitness changes.",
-    "Match predicted paces to specific run/walk ratios, such as running 4 minutes and walking 30 seconds for an 8-minute mile pace."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-03T15:30:41.307131+00:00",
-   "published_at": "2026-11-03T14:30:00+00:00",
-   "batch_at": "2026-11-03T15:26:28.720262+00:00"
-  },
-  {
-   "title": "Diplomazia spaziale e crescita delle imprese agli Stati Generali della Space Economy",
-   "subtitle": "Il ruolo dell'ASI e della Farnesina per la competitività della filiera spaziale italiana.",
-   "original_title": "Diplomazia spaziale e crescita delle imprese: l’ASI agli Stati Generali della Space Economy",
-   "link": "https://www.asi.it/2026/11/diplomazia-spaziale-e-crescita-delle-imprese-lasi-agli-stati-generali-della-space-economy/",
-   "source": "Agenzia Spaziale Italiana",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "L'undicesima tappa degli Stati Generali della Space Economy alla Farnesina ha esaminato il ruolo della diplomazia spaziale per l'internazionalizzazione delle imprese italiane. Tra i temi centrali figurano la preparazione della ministeriale ESA a Roma di dicembre, il riorientamento dei programmi lunari e marziani e il supporto alle PMI nel mercato globale.",
-   "bullets": [
-    "La cooperazione spaziale internazionale è stata al centro del dibattito per sostenere l'accesso delle aziende italiane ai mercati esteri.",
-    "A dicembre Roma ospiterà la ministeriale ESA, cruciale per ridefinire i programmi europei di esplorazione lunare e marziana in seguito ai cambiamenti imposti dalla NASA.",
-    "Si lavora per garantire l'autonomia europea nell'accesso allo spazio e per rafforzare la governance multilaterale.",
-    "Particolare attenzione è stata dedicata all'espansione delle infrastrutture e dei servizi spaziali nei mercati di Africa e America Latina.",
-    "Il settore punta a estendere le applicazioni spaziali anche ai settori tradizionali per favorire la nascita di startup innovative."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-03T15:28:45.634145+00:00",
-   "published_at": "2026-11-03T14:16:13+00:00",
-   "batch_at": "2026-11-03T15:26:28.720262+00:00"
-  },
-  {
    "title": "MATLAB Parallel Computing Toolbox",
    "subtitle": "Learn how the Parallel Computing Toolbox scales MATLAB and Simulink workflows across CPUs and GPUs.",
    "original_title": "What Is Parallel Computing Toolbox?",
@@ -6450,29 +6518,6 @@
    "seen_at": "2026-11-04T16:32:48.012099+00:00",
    "published_at": "2026-11-03T14:14:47+00:00",
    "batch_at": "2026-11-04T16:31:32.574664+00:00"
-  },
-  {
-   "title": "Airbus Detumbler: Passive Magnetic Damping for Decommissioned Satellites",
-   "subtitle": "How a passive magnetic braking device prevents satellite tumbling to enable debris removal.",
-   "original_title": "DETUMBLER: Airbus’ Passive Spin Stabilization Solution",
-   "link": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
-   "source": "SpaceNews",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Airbus has developed the Detumbler, a passive magnetic damping device designed to stabilize dead or decommissioned satellites in low Earth orbit. Weighing approximately 200 grams, the device acts as an induction brake by using permanent magnets and a conductive housing to dissipate kinetic energy through the Earth's magnetic field without requiring electrical power.",
-   "bullets": [
-    "Utilizes permanent magnets so braking torque is proportional to the magnetic field B rather than B², achieving efficiencies orders of magnitude higher than natural eddy currents.",
-    "Operates 100% passively with zero electrical power or attitude-control actuators, functioning reliably after end-of-mission power loss.",
-    "Dissipates accumulated angular momentum from external disturbances like solar radiation pressure, preventing post-mission tumbling.",
-    "Meets ESA Space Safety Program requirements for LEO missions over 500kg, detumbling satellites within weeks to a year depending on mass.",
-    "MDA Space has selected the Detumbler for its MDA AURORA LEO satellite constellation, marking its first commercial large-scale integration."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-03T15:28:19.708683+00:00",
-   "published_at": "2026-11-03T13:30:00+00:00",
-   "batch_at": "2026-11-03T15:26:28.720262+00:00"
   },
   {
    "title": "Gollini a rischio per Manchester United-Roma",
