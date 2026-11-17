@@ -142,6 +142,23 @@
    "batch_at": "2026-11-17T11:07:09.644164+00:00"
   },
   {
+   "title": "Hikaru Nakamura batte Ediz Gurel nello Speed Chess Championship",
+   "subtitle": "Nakamura supera Gurel nel primo match SCC, dominando le cadenze rapide e resistendo nei bullet.",
+   "original_title": "🚨Ritorna l'SCC! Hikaru Nakamura affronta il più giovane GM 2700 AL MONDO 🔥| SCC IX",
+   "link": "https://www.youtube.com/watch?v=xU18szvd1-4",
+   "source": "Chess.com Italiano",
+   "category": "scacchi",
+   "kind": "yt",
+   "lang": "it",
+   "summary": "Hikaru Nakamura ha affrontato Ediz Gurel nel primo match degli ottavi di finale della nona edizione dello Speed Chess Championship. L'evento prevede tre cadenze di tempo: 75 minuti a 5+1, 50 minuti a 3+1 e 25 minuti a 1+1. Nakamura, forte della sua immensa esperienza in questo formato e dei suoi cinque titoli SCC (al pari di Magnus Carlsen), è partito con i favori del pronostico, sebbene Gurel sia noto come il Grande Maestro con Elo 2700 più giovane al mondo. Nelle prime fasi a 5+1 e 3+1, Nakamura ha sfruttato la sua superiore gestione del tempo e una notevole abilità difensiva nelle posizioni complesse, ribaltando situazioni difficili e capitalizzando gli errori dell'avversario sotto pressione temporale. Gurel ha comunque dimostrato un solido repertorio di apertura, mettendo in difficoltà il veterano con strutture tipiche del gambetto di donna e della difesa est-indiana, guadagnando vantaggi materiali in diverse partite ma fallendo nella conversione a causa del consumo di tempo. Nella fase finale a 1+1, dedicata al bullet, Gurel ha mostrato grande determinazione ed è riuscito a vincere il segmento per 4-2, sebbene il punteggio complessivo del match si sia chiuso sul 12-8 in favore di Nakamura. L'incontro ha evidenziato la resilienza leggendaria di Nakamura nel difendere posizioni inferiori e la straordinaria crescita di Gurel, capace di tenere testa a uno dei più forti giocatori rapidi e blitz della storia.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-17T16:34:07.840731+00:00",
+   "published_at": "2026-11-17T08:25:41+00:00",
+   "batch_at": "2026-11-17T16:31:03.120210+00:00"
+  },
+  {
    "title": "Il futuro di Artem Dovbyk al Bologna e l'interesse del Valencia",
    "subtitle": "Il Valencia chiede informazioni alla Roma per Dovbyk, in bilico al Bologna.",
    "original_title": "Dovbyk in bilico, pu&ograve; lasciare il Bologna a gennaio: il Valencia ha chiesto informazioni alla Roma",
@@ -298,6 +315,29 @@
    "batch_at": "2026-11-17T11:07:09.644164+00:00"
   },
   {
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "subtitle": "How NATO and European agencies use frontier AI models for vulnerability detection and fixes.",
+   "original_title": "Strengthening NATO and allied cyber defenses with AI",
+   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI's Daybreak tool provides advanced AI models to NATO, the EU's ENISA, and national agencies in France, Germany, Poland, and Ukraine for authorized cybersecurity operations. Agencies use these models to review software, investigate suspicious activity, and accelerate vulnerability discovery and remediation with human oversight.",
+   "bullets": [
+    "NATO uses up to 300 billion raw input and output tokens per month via OpenAI models to protect Allied networks.",
+    "During the 2026 Crossed Swords exercise, participants built and deployed AI agents for cyber operations using OpenAI Daybreak.",
+    "ENISA used OpenAI models to identify four software vulnerabilities in EU institutions and reviewed 27 software projects, where 95 percent of 88 potential issues were confirmed as genuine.",
+    "CERT Polska used OpenAI models to discover six vulnerabilities in MikroTik RouterOS, allowing the vendor to issue fixes.",
+    "The Ministry of Digital Transformation of Ukraine uses Daybreak to accelerate vulnerability identification and patching for civilian infrastructure."
+   ],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-17T16:32:37.805553+00:00",
+   "published_at": "2026-11-17T00:00:00+00:00",
+   "batch_at": "2026-11-17T16:31:03.120210+00:00"
+  },
+  {
    "title": "Maintaining Running Fitness on Lower Mileage",
    "subtitle": "Learn the minimum volume and intensity required to retain running fitness in the off-season.",
    "original_title": "What’s the Minimum Amount of Mileage You Can Do to Maintain Fitness? Experts Answer",
@@ -411,6 +451,23 @@
    "seen_at": "2026-11-16T16:41:10.876392+00:00",
    "published_at": "2026-11-16T16:00:00+00:00",
    "batch_at": "2026-11-16T16:38:05.188547+00:00"
+  },
+  {
+   "title": "Building Apps in MATLAB",
+   "subtitle": "Learn three methods to convert MATLAB scripts into interactive apps and share them.",
+   "original_title": "Building Apps in MATLAB",
+   "link": "https://www.youtube.com/watch?v=jZi8RUYseJ8",
+   "source": "MATLAB",
+   "category": "ai",
+   "kind": "yt",
+   "lang": "en",
+   "summary": "MATLAB provides three primary methods to transition from code-heavy scripts to interactive applications, accommodating different control requirements. First, engineers can add interactive controls like sliders and dropdowns directly into Live Editor scripts, which updates the underlying code automatically. Second, App Designer offers a graphical user interface with a dedicated component library and integrated code editor for building structured, reusable tools. Third, apps can be constructed entirely through code, with assistance from MATLAB Copilot or external coding agents like Claude Code and Codex connected via the MATLAB MCP server and agent toolkit. Once developed, apps can be shared with users who possess a MATLAB license via package installation or MATLAB Drive. For users without a license, apps can be compiled into standalone desktop applications running on the MATLAB Runtime, deployed as web apps accessible via browsers, or published on MATLAB File Exchange.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-17T16:31:43.803655+00:00",
+   "published_at": "2026-11-16T14:14:53+00:00",
+   "batch_at": "2026-11-17T16:31:03.120210+00:00"
   },
   {
    "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
@@ -852,6 +909,23 @@
    "seen_at": "2026-11-16T11:05:22.721979+00:00",
    "published_at": "2026-11-15T22:00:01+00:00",
    "batch_at": "2026-11-16T11:04:45.941438+00:00"
+  },
+  {
+   "title": "Magnus Carlsen affronta Nepomniachtchi al Total Chess",
+   "subtitle": "Analisi delle partite chiave e dei momenti decisivi del torneo pilota di Budapest",
+   "original_title": "Magnus Carlsen incontra di nuovo lo sfidante al titolo mondiale Nepomniachtchi | Total Chess 2026",
+   "link": "https://www.youtube.com/watch?v=4uy0KWwoC4Y",
+   "source": "Chess.com Italiano",
+   "category": "scacchi",
+   "kind": "yt",
+   "lang": "it",
+   "summary": "Nel torneo pilota Total Chess di Budapest si affrontano Magnus Carlsen e Ian Nepomniachtchi in una partita ad alta tensione tattica. Carlsen sceglie la difesa Caro-Kann e adotta una mossa inusuale come H6, provocando la spinta G4 del bianco e rinunciando alla teoria consolidata per squilibrare la posizione fin dall'inizio. Nepomniachtchi risponde con G4 e successivamente gioca l'attacco centrale E6, ma Carlsen dimostra grande profondità strategica evitando la mossa meccanica alfiere D6 e mantenendo il proprio alfiere in F8 per impostare un contrattacco sul lato di donna con B4. La gestione del tempo vede Nepomniachtchi accumulare un vantaggio significativo sull'orologio, ma la precisione di Carlsen neutralizza i tentativi di attacco. La partita si avvia verso un finale complesso in cui il bianco non riesce a concretizzare i vantaggi posizionali, portando a una patta per ripetizione di mosse dopo un finale a doppio taglio. Nello stesso turno, la partita tra Fabiano Caruana e Andrey Artemiev vede Caruana optare per il gambetto scozzese, sacrificando temporaneamente due pedoni per ottenere un vantaggio di sviluppo e mettere l'avversario sotto pressione temporale. Caruana guadagna una posizione favorevole con un pedone in più, ma un errore tattico con la cattura C per D3 vanifica il suo sforzo, consentendo ad Artemiev di semplificare e ristabilire la parità in un finale di torri. Altre sfide importanti del torneo vedono Duda superare Van Forest in un finale caratterizzato da due pezzi minori contro la torre, sfruttando una solida difesa contro il pedone isolato e convertendo il vantaggio con un'ottima tecnica nei finali. Nel gruppo D, Wesley So si impone su Hans Niemann in un finale di alfieri a colori contrari, offrendo una vera e propria masterclass di tecnica e controllo dei pedoni passati. Altri incontri come quelli tra Aronian e Firouzja e tra Mamedyarov e Giri terminano in parità, consolidando la classifica dei rispettivi gruppi in vista delle fasi successive a eliminazione diretta.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-17T16:34:29.398082+00:00",
+   "published_at": "2026-11-15T20:23:29+00:00",
+   "batch_at": "2026-11-17T16:31:03.120210+00:00"
   },
   {
    "title": "Pelvic Floor Dysfunction in Runners",
