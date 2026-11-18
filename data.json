@@ -1,144 +1,121 @@
 {
- "generated_at": "2026-11-18T16:38:59.506032+00:00",
+ "generated_at": "2026-11-18T16:45:59.207652+00:00",
  "items": [
   {
-   "title": "Il primo volo con equipaggio del COMAC CE-25A",
-   "subtitle": "Analisi tecnica del velivolo commerciale elettrico cinese da 19 posti",
-   "original_title": "La Cina fa volare il suo aereo di linea elettrico di 19 posti con l’equipaggio: il test del CE-25A",
-   "link": "https://www.geopop.it/la-cina-fa-volare-il-suo-aereo-di-linea-elettrico-di-19-posti-con-lequipaggio-il-test-del-ce-25a/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La cinese COMAC ha completato il primo volo con equipaggio del CE-25A, un aereo commerciale elettrico da 19 posti spinto da dieci ventole intubate. Il prototipo evidenzia i limiti fisici delle batterie attuali nel settore aeronautico, pur inserendosi in una strategia industriale nazionale avanzata per la mobilità aerea a corto raggio.",
-   "bullets": [
-    "Il CE-25A ha completato un test di 16 minuti e 38 secondi con due piloti e un ingegnere a bordo, coprendo circa 60 km.",
-    "Il velivolo utilizza dieci ventole intubate elettriche distribuite sull'ala per garantire ridondanza e vantaggi aerodinamici tramite portanza soffiata.",
-    "Le celle al litio attuali offrono una densità energetica inferiore di oltre dieci volte rispetto al cherosene, rendendo il peso delle batterie il principale collo di bottiglia strutturale.",
-    "A differenza dei jet tradizionali, un aereo elettrico atterra con lo stesso peso con cui è decollato, non potendo scaricare energia in eccesso.",
-    "La Cina sfrutta una filiera integrata che comprende CATL per le batterie e il monopolio sui magneti permanenti, aggirando il vantaggio occidentale nelle turbine tradizionali."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-18T16:40:19.667979+00:00",
-   "published_at": "2026-11-18T16:30:34+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
-  },
-  {
    "title": "Nike Running Shoe Selection Guide",
-   "subtitle": "Technical breakdown of Nike running shoes categorized by training type and mechanics.",
+   "subtitle": "Technical specifications of Nike's running and cross-training footwear models.",
    "original_title": "What Nike Shoe Matches Your Running Style?",
    "link": "https://www.runnersworld.com/gear/a74358408/what-nike-shoe-matches-your-running-style/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "A breakdown of Nike's current running shoe lineup categorized by specific use cases, including daily miles, long runs, cross-training, mixed terrain, and race day. The guide details the specific midsole foams, cushioning technologies, and structural designs utilized in each model.",
+   "summary": "This guide details Nike's running and training footwear lineup, breaking down specific models by use case such as daily training, long runs, cross-training, mixed terrain, racing, and recovery. It highlights the underlying technologies—including ZoomX foam, ReactX foam, carbon fiber Flyplates, and Gore-Tex liners—that dictate performance metrics like cushioning, energy return, and stability.",
    "bullets": [
-    "Pegasus Plus 2: Features Superlight ZoomX foam and an exposed forefoot Air Zoom unit for daily miles and recovery runs.",
-    "Vomero 18: Uses stacked ZoomX over ReactX foam with a rocker design to reduce leg fatigue during long runs.",
-    "Free Metcon 7: Combines softer midsole foam with a firmer heel and full-length rubber outsole for gym-based cross-training.",
-    "Vomero 18 Gore-Tex: Incorporates a waterproof liner and Storm-Tread outsole for traction on wet or icy mixed terrain.",
-    "Alphafly 4: Reduces weight to 6.6 ounces and features an RF Air Zoom unit, carbon Flyplate, and a wider platform for racing.",
-    "ReactX Rejuven8: Utilizes ReactX foam and a sticky rubber outsole for post-run recovery footwear."
+    "Pegasus Plus 2: Features Superlight ZoomX foam and an exposed Air Zoom forefoot unit for daily training and recovery runs, paired with a Waffle outsole for traction.",
+    "Vomero 18: Built for long-distance training with stacked ZoomX and ReactX foam midsoles, offering increased responsiveness and an engineered rocker design.",
+    "Free Metcon 7: Cross-training model utilizing softer midsole foam and a firmer heel for lifting stability, alongside a full-length rubber outsole for multi-surface traction.",
+    "Vomero 18 Gore-Tex: Combines standard Vomero cushioning with a waterproof Gore-Tex liner and Storm-Tread outsole for wet and slippery conditions.",
+    "Alphafly 4: Competitive racing shoe weighing 6.6 ounces, featuring an RF Air Zoom cushioning unit, a carbon fiber Flyplate, and a wider platform for stability.",
+    "Vomero Premium and ReactX Rejuven8: Recovery options utilizing ZoomX foam, dual Air Zoom units, and ReactX technology to reduce leg fatigue post-race."
    ],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-18T16:43:35.721432+00:00",
+   "seen_at": "2026-11-18T16:36:13.030173+00:00",
    "published_at": "2026-11-18T16:30:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
-   "title": "Time-Series Models in the Streamhouse",
-   "subtitle": "IBM time-series foundation models run natively on Apache Flink for real-time forecasting.",
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "subtitle": "How IBM time-series models run natively on Confluent Flink for real-time inference.",
    "original_title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
    "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
    "source": "Hugging Face",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "IBM and Confluent have integrated time-series foundation models natively into Apache Flink streaming pipelines, enabling real-time forecasting, anomaly detection, and optimization on standard CPUs. The architecture captures continuous business streams to serve predictive context to applications and agents without requiring separate model training per series.",
+   "summary": "IBM time-series foundation models are now available natively within Confluent for streaming data processing via Apache Flink. Running entirely on CPUs without GPUs, these models enable real-time forecasting, anomaly detection, and optimization across various industrial and enterprise workflows.",
    "bullets": [
-    "IBM time-series foundation models with over 50 million downloads run natively as built-in functions in Confluent Cloud and Confluent Platform for Apache Flink.",
-    "Models execute entirely on standard CPUs without requiring dedicated GPU infrastructure.",
-    "Pretrained models eliminate the need to train and maintain separate models for every individual data series.",
-    "Integrates forecasting and anomaly detection directly into streaming pipelines to route signals closer to operational decisions.",
-    "Supports mission-critical use cases including production optimization, retail anomaly detection, supply chain planning, individual payment fraud scoring, and trading volume forecasting."
+    "Integrates IBM time-series foundation models natively into Confluent Cloud and Confluent Platform for Apache Flink.",
+    "Executes natively on standard CPUs without requiring dedicated GPU infrastructure.",
+    "Applies pretrained models to continuous data streams for forecasting, anomaly detection, and optimization without training separate models per series.",
+    "Supports operational use cases such as manufacturing line parameter adjustment, automated anomaly detection, supply chain demand planning, and algorithmic trade execution."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-18T16:41:07.632206+00:00",
+   "seen_at": "2026-11-18T16:33:44.473002+00:00",
    "published_at": "2026-11-18T15:00:23+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
-   "title": "Optimizing Strength Training and Running Schedules",
-   "subtitle": "How to schedule strength training and running based on recovery data.",
+   "title": "Optimizing the Schedule for Strength Training and Running",
+   "subtitle": "Learn how to time strength training and running to maximize performance and recovery.",
    "original_title": "Research Shows This Is the Best Way to Balance Strength Training and Running",
    "link": "https://www.runnersworld.com/training/a74464573/strength-training-running-balance/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "Resistance training improves running economy and VO2 max, but it requires significantly more recovery time than running. Research shows that high-intensity lower-body lifting impairs maximal running performance for up to 24 hours. To optimize performance, runners should separate hard running and heavy lifting, or run before lifting if training on the same day.",
+   "summary": "Integrating strength training with a running regimen improves running economy and VO2 max, but improper scheduling can severely compromise high-intensity performance. Research shows that high-intensity lower-body resistance training impairs maximal running performance for up to 24 hours. Therefore, scheduling hard runs and heavy lifts requires specific sequencing, such as prioritizing easy runs on double-day workouts or running in the morning and lifting in the evening.",
    "bullets": [
-    "Resistance training takes a full day or two longer to recover from than high-intensity running due to higher mechanical loading.",
-    "Studies indicate that heavy lower-extremity resistance training significantly impairs maximal running performance 6 and 24 hours post-workout.",
-    "Low-intensity running is unaffected by prior weight workouts, making it safe to pair easy runs and lifting on the same day if separated by at least six hours.",
-    "When combining running and lifting on the same day, running should come first (e.g., morning run, evening lift) to minimize cumulative fatigue compared to the reverse order.",
-    "High-intensity running workouts should not be scheduled on the same day as or the day immediately following heavy lower-body resistance training."
+    "Resistance training takes a full day or two longer to recover from than high-intensity running due to mechanical loading.",
+    "High-intensity strength workouts significantly reduce time to exhaustion at high running paces even six hours post-workout.",
+    "Lower-intensity running performance is unaffected by prior weight workouts, making submaximal runs safe to pair on the same day.",
+    "If combining running and lower-extremity resistance training on the same day, run in the morning and lift in the evening to minimize cumulative fatigue.",
+    "Performing running before strength training results in less carryover fatigue the following day compared to the reverse sequence."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-18T16:43:45.410693+00:00",
+   "seen_at": "2026-11-18T16:36:26.013793+00:00",
    "published_at": "2026-11-18T14:01:01+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
-   "title": "I risultati del bando Space&Blue dell'ASI",
-   "subtitle": "I cinque progetti finanziati che uniscono tecnologia spaziale e subacquea in Italia",
+   "title": "Forum Space&Blue Underwater 2026",
+   "subtitle": "I cinque progetti finanziati dall'ASI per integrare tecnologia spaziale e subacquea.",
    "original_title": "Forum Space&Blue Underwater 2026",
    "link": "https://www.asi.it/2026/11/forum-spaceblue-underwater-2026/",
    "source": "Agenzia Spaziale Italiana",
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "L'Agenzia Spaziale Italiana ha presentato i risultati del bando Space&Blue, selezionando cinque progetti focalizzati sull'integrazione tra domini spaziali, marittimi e subacquei. Le iniziative sfruttano reti di comunicazione satellitari e sottomarine, intelligenza artificiale e droni autonomi per il monitoraggio ambientale e la protezione delle infrastrutture critiche.",
+   "summary": "Il Ministero delle Imprese e del Made in Italy ha ospitato il quarto Forum Space&Blue Underwater, presentando i risultati del bando dell'Agenzia Spaziale Italiana. Sono stati selezionati cinque progetti industriali e di ricerca per integrare reti di comunicazione, sensori e intelligenza artificiale tra spazio e fondali marini.",
    "bullets": [
-    "Oltre novanta operatori tra grandi gruppi, PMI, università e startup hanno partecipato al bando dell'ASI.",
-    "Il progetto THALASSAAS sviluppa una piattaforma digitale che connette il dominio sottomarino, di superficie e spaziale tramite reti e intelligenza artificiale.",
-    "CATCH di IDS è un abilitatore tecnologico per il recupero in mare di stadi di lanciatori spaziali riutilizzabili.",
-    "ULISSE realizza un ponte di comunicazione per consentire a sensori e piattaforme subacquee di trasmettere dati direttamente ai satelliti durante l'immersione.",
-    "NEREIDE sviluppa un sistema per la navigazione autonoma e il coordinamento di flotte di droni subacquei dedicati alla sorveglianza delle infrastrutture critiche."
+    "Oltre novanta operatori tra grandi gruppi, PMI, startup e università hanno partecipato al bando ASI per la convergenza tecnologica tra economia spaziale e subacquea.",
+    "Il progetto THALASSAAS di RAISE Scarl sviluppa una piattaforma digitale che unisce comunicazioni terrestri, satellitari, subacquee e intelligenza artificiale.",
+    "Il progetto CATCH di IDS gestisce le operazioni di recupero in mare per stadi di lanciatori spaziali riutilizzabili.",
+    "Il progetto ULISSE di Thales Alenia Space realizza un ponte di comunicazione diretto tra sensori subacquei immersi e satelliti.",
+    "Il progetto NEREIDE di DRASS Galeazzi coordina flotte di droni subacquei autonomi per la sorveglianza delle infrastrutture critiche.",
+    "L'ASI promuoverà un Master universitario di II livello per formare competenze specifiche nel settore Space&Blue."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-18T16:42:05.740808+00:00",
+   "seen_at": "2026-11-18T16:47:35.390156+00:00",
    "published_at": "2026-11-18T13:09:59+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:45:59.207652+00:00"
   },
   {
    "title": "Are Your Recovery Runs Too Long?",
-   "subtitle": "Learn how to calibrate recovery run duration to prevent accumulated fatigue.",
+   "subtitle": "Learn how to calculate the optimal duration and intensity for recovery runs.",
    "original_title": "Are Your Recovery Runs Too Long? Experts Explain the Line Between Productive Recovery and Added Fatigue",
    "link": "https://www.runnersworld.com/training/a74439969/recovery-run-duration-tips/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "Recovery runs provide aerobic volume without full rest days, but extending them too long introduces mechanical and energy loads that impair subsequent workouts. Ideal duration depends on weekly mileage, training history, and proximity to hard sessions. Experts suggest monitoring metrics like pace, heart rate, and stride changes to truncate or skip runs when fatigue mounts.",
+   "summary": "Recovery runs should promote blood flow and build aerobic volume without carrying fatigue into high-intensity sessions. Extending these runs introduces mechanical load and energy expenditure that can override recovery benefits. Determining the right duration depends on weekly mileage, training history, and upcoming workouts.",
    "bullets": [
-    "Keep recovery runs between 20 and 40 minutes generally, scaled to your weekly mileage (e.g., 15-25 minutes for 20 miles per week, up to 60 minutes for high-volume runners).",
-    "Tailor recovery run length based on tissue adaptation, noting that long-term mileage consistency matters as much as current volume.",
-    "Factor in environmental stressors like heat, hills, and uneven terrain, which increase the physiological tax of an easy run.",
-    "Watch for warning signs such as elevated heart rate at easy paces, unusually heavy legs, or deteriorating running form.",
-    "Use a midrun check-in: if soreness or fatigue persists after the first mile, cut the planned duration by 25 to 50 percent."
+    "Recovery runs should typically last between 20 and 40 minutes, scaled to total weekly mileage.",
+    "Runners averaging 20 miles per week should aim for 15 to 25 minutes; those logging 60 miles can handle 25 to 45 minutes.",
+    "Keep recovery runs shorter than standard easy runs and reduce duration further following demanding workouts or in hot weather.",
+    "Warning signs of an overly long recovery run include elevated heart rate at easy paces, heavy legs, and altered stride mechanics.",
+    "If fatigue persists after the first mile, cut the planned duration by 25 to 50 percent or substitute a complete rest day."
    ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-18T16:43:55.302240+00:00",
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-18T16:36:57.370583+00:00",
    "published_at": "2026-11-18T13:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "La scrittura senza medicare le ferite: l'analisi della gelosia in Annie Ernaux",
@@ -229,6 +206,28 @@
    "seen_at": "2026-11-18T11:07:03.447455+00:00",
    "published_at": "2026-11-18T08:47:46+00:00",
    "batch_at": "2026-11-18T11:06:14.340254+00:00"
+  },
+  {
+   "title": "La transizione energetica tra inerzia politica e convenienza",
+   "subtitle": "Stefano Caserini spiega perché conviene agire sul clima e cosa frena il cambiamento.",
+   "original_title": "Riusciremo a fare la transizione energetica?",
+   "link": "https://lucysuimondi.com/riusciremo-a-fare-la-transizione-energetica/",
+   "source": "Lucy sui mondi",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Nonostante i negoziati internazionali e le responsabilità storiche dei Paesi, la politica mostra una persistente inerzia di fronte alla crisi climatica. Il professore Stefano Caserini analizza i motivi economici e strategici per cui la transizione energetica è conveniente e individua gli interessi che frenano il cambiamento.",
+   "bullets": [
+    "I negoziati internazionali affrontano le nuove sfide energetiche ma scontrarsi con l'inerzia politica.",
+    "Stefano Caserini studia strategie per la riduzione delle emissioni di gas serra e la rimozione di CO2.",
+    "Vengono analizzati i fattori di convenienza economica nell'affrontare concretamente la crisi climatica.",
+    "Si esaminano gli interessi specifici che frenano l'attuazione dei processi di cambiamento strutturale."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-18T16:39:17.446141+00:00",
+   "published_at": "2026-11-18T08:00:57+00:00",
+   "batch_at": "2026-11-18T16:31:44.982271+00:00"
   },
   {
    "title": "La strategia di colonizzazione in Cisgiordania",
@@ -342,78 +341,44 @@
    "batch_at": "2026-11-18T11:06:14.340254+00:00"
   },
   {
-   "title": "Rumble-2-Flash: An Open 0.5B Speech Model",
-   "subtitle": "Learn how a 0.5B speech model matches 30B models using on-policy distillation and GOLD.",
+   "title": "Rumble-2-Flash: An Open 0.5B Speech Model for 40+ Languages",
+   "subtitle": "Learn how a 0.5B speech model matches 30B models via GOLD token-level distillation.",
    "original_title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
    "link": "https://huggingface.co/blog/rumble-2-flash",
    "source": "Hugging Face",
    "category": "ai",
    "kind": "rss",
    "lang": "en",
-   "summary": "Reson8 has open-sourced Rumble-2-Flash, a 0.5B-parameter speech recognition model supporting over 40 languages under the Apache 2.0 license. Built on the Qwen3-ASR architecture, it was trained using an on-policy distillation method called GOLD to match a larger teacher model without requiring shared tokenizers. It achieves high throughput exceeding 7,000 RTFx and matches the performance of models up to 60 times its size on complex benchmarks.",
+   "summary": "Reson8 has open-sourced Rumble-2-Flash, a 0.5B-parameter speech recognition model supporting over 40 languages under the Apache 2.0 license. Built on the Qwen3-ASR architecture, the model uses an on-policy distillation method called GOLD to match the performance of much larger models while maintaining extreme throughput.",
    "bullets": [
-    "Uses the Qwen3-ASR architecture for native, out-of-the-box support in Transformers and vLLM without custom runtimes.",
-    "Trained via on-policy distillation where the student model transcribes audio itself and receives token-by-token probability feedback from the teacher.",
-    "Employs GOLD to handle mismatched student and teacher tokenizers by merging split text tokens and comparing probabilities.",
-    "Processes an hour of audio in about half a second, reaching over 7,000 RTFx on full batches.",
-    "Achieves a 7.86% WER on a 302-hour call-center benchmark, performing on par with NVIDIA's 30B Nemotron 3.5 Transcribe despite being a 0.5B model."
+    "Distilled using GOLD, a method enabling token-level comparison and correction between teacher and student models that do not share the same tokenizer.",
+    "Achieves an average 6.96% error rate across multiple languages on the Open ASR Leaderboard, outperforming models up to 15x its size.",
+    "Processes an hour of audio in about half a second, reaching over 7,000 RTFx on full batches in vLLM and Hugging Face Transformers.",
+    "Matches NVIDIA's 30B Nemotron 3.5 Transcribe on a 302-hour call-center benchmark with a 7.86% word error rate.",
+    "Native integration with Transformers and vLLM without requiring custom code or trust_remote_code."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-18T16:41:43.033030+00:00",
+   "seen_at": "2026-11-18T16:33:50.840565+00:00",
    "published_at": "2026-11-18T00:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "Test pratici su Astra e modelli di frontiera nell'ingegneria software",
-   "subtitle": "Valutazione pratica di Astra e modelli di frontiera nello sviluppo software avanzato.",
+   "subtitle": "Confronto pratico tra modelli AI di frontiera nell'ingegneria software e ottimizzazione Redis",
    "original_title": "GPT 6.2 Astra dopo settimane di test",
    "link": "https://www.youtube.com/watch?v=a0jm8l2PAcw",
    "source": "antirez (YouTube)",
    "category": "ai",
    "kind": "queue",
    "lang": "it",
-   "summary": "L'autore analizza le prestazioni del nuovo modello Astra, utilizzato per sviluppare gran parte del software U-Rack e ottimizzare Redis. Paragonato alle versioni precedenti e ai concorrenti, Astra dimostra una spiccata robustezza nel codice, gestione dei corner case e capacità di spingere l'efficienza della memoria tramite strutture dati compresse e località della cache, superando i modelli concorrenti nei test diretti. Secondo l'analisi, sebbene i margini di profitto attuali sui token per le aziende di frontiera siano elevati, la concorrenza asiatica economica ridurrà presto questa finestra di mercato per usi standard. Per questo motivo, i modelli di punta tenderanno a focalizzarsi su clienti enterprise di altissimo livello o su settori di ricerca avanzata. Infine, l'uso di modelli dedicati alla security come Mythos riduce drasticamente il carico operativo nelle attività critiche, compensando la perdita del flusso di programmazione tradizionale con una maggiore efficie",
+   "summary": "L'autore analizza le prestazioni del nuovo modello di intelligenza artificiale Astra dopo settimane di test sul campo, impiegandolo nello sviluppo del progetto U-Rack e in ottimizzazioni spinte su Redis. Il modello dimostra una forte capacità di seguire le indicazioni e generare codice robusto, superando nei test comparativi versioni precedenti e concorrenti come Fable nell'individuazione di bug su corner case complessi. Nonostante la straordinaria potenza dei modelli di frontiera nei task di ingegneria avanzata e sicurezza informatica, l'autore osserva che la loro utilità economica per le normali software house rischia di ridursi progressivamente, man mano che alternative più economiche si avvicinano alle prestazioni di base. Di conseguenza, il mercato di queste aziende tenderà a spostarsi verso clienti di altissimo livello e applicazioni scientifiche e industriali di frontiera, piuttosto che sullo sviluppo applicativo ordinario.",
    "bullets": [],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-18T16:42:17.344769+00:00",
+   "seen_at": "2026-11-18T16:35:20.148988+00:00",
    "published_at": "2026-11-18T00:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
-  },
-  {
-   "title": "Il mondo non ti vuole felice ma funzionante",
-   "subtitle": "Come la società contemporanea usa la normalità patologica per renderci performanti",
-   "original_title": "Il mondo non ti vuole felice ma funzionante e performante",
-   "link": "https://www.youtube.com/watch?v=_841TuChkr0",
-   "source": "Michele Mezzanotte (YouTube)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "La società contemporanea non punta alla felicità individuale, ma richiede individui funzionali, iperconnessi e performanti, più facilmente sfruttabili e controllabili. Secondo Erich Fromm, le società patologiche normalizzano disagi come il narcisismo o l'alienazione, imponendo criteri standardizzati che allontanano l'individuo dal proprio vero sé, come teorizzato da Winnicott. Slavoj Žižek evidenzia il paradosso moderno in cui la sofferenza viene trasformata in risorsa utile al sistema, mentre James Hillman sostiene che il benessere non possa prescindere dalla cura del collettivo e non solo del singolo. Infine, Carl Gustav Jung interpreta l'infelicità e i sintomi non come patologie da eliminare a tutti i costi, ma come atti rivoluzionari dell'anima che rifiutano le regole disfunzionali del sistema.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-18T16:42:44.584760+00:00",
-   "published_at": "2026-11-18T00:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
-  },
-  {
-   "title": "I gol segnati da Hermoso",
-   "subtitle": "Raccolta video dei gol realizzati in carriera dal calciatore.",
-   "original_title": "EVERY HERMOSO GOAL SO FAR ",
-   "link": "https://www.youtube.com/watch?v=iyHDE4Y15G8",
-   "source": "AS Roma (YouTube)",
-   "category": "calcio",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il filmato presenta una sequenza di brani musicali e ringraziamenti di rito rivolti al pubblico, senza includere alcuna analisi tecnica, dichiarazione o dettaglio statistico rilevante sulle prestazioni sportive del giocatore. Il contenuto si limita a una riproduzione audiovisiva priva di argomentazioni o dati di interesse per un pubblico tecnico.",
-   "bullets": [],
-   "relevance": 1,
-   "score": 2,
-   "seen_at": "2026-11-18T16:43:17.449226+00:00",
-   "published_at": "2026-11-18T00:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "Running Through Aging and Illness",
@@ -506,6 +471,30 @@
    "seen_at": "2026-11-18T01:15:11.432568+00:00",
    "published_at": "2026-11-17T19:00:03+00:00",
    "batch_at": "2026-11-18T01:15:05.358735+00:00"
+  },
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "subtitle": "OpenAI's new models improve agentic workflows and scientific reasoning while lowering token costs.",
+   "original_title": "Introducing GPT-6.2 Astra and Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI has released GPT-6.2 Astra and GPT-6.2 Sol, new frontier and efficient models designed for complex professional tasks and everyday work. The models deliver higher performance on benchmarks like Terminal-Bench-Science and Harvey LAB-AA while using fewer output tokens and reduced API pricing. They also feature stronger visual reasoning, computer use capabilities, and tighter cybersecurity and biological safeguards.",
+   "bullets": [
+    "GPT-6.2 Astra scores 5.2 points higher on Agents' Last Exam than its predecessor at less than one-third the cost, and sets a new high on Terminal-Bench-Science 0.1.",
+    "API pricing for GPT-6.2 Astra is set at $8 per million input tokens, $0.40 for cached input, and $40 for output, representing a 20% drop from GPT-6 Astra alongside a 60% cache discount.",
+    "GPT-6.2 Sol matches or outperforms leading models at a fraction of the cost, scoring within 0.5 points of Astra on FrontierCode 2.0 at one-fifth the price.",
+    "Astra demonstrates improved visual reasoning and computer use, enabling precise manipulation in CAD, generation of 3D simulations in Blender, and adherence to professional document templates.",
+    "Both models meet the Critical threshold for cybersecurity and the High threshold for biological and chemical capabilities under OpenAI's Preparedness Framework, introducing stricter deployment safeguards.",
+    "GPT-6.2 Astra is the first externally released model to meet the High threshold for AI Self-improvement, prompting new automated monitoring and Control Room halt mechanisms."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-18T16:33:17.834729+00:00",
+   "published_at": "2026-11-17T17:45:00+00:00",
+   "batch_at": "2026-11-18T16:31:44.982271+00:00"
   },
   {
    "title": "Picco delle Leonidi 2026",
@@ -6510,25 +6499,25 @@
   },
   {
    "title": "La Banalità Del Male",
-   "subtitle": "Critica cinica della rat race corporativa e del lavoro d'ufficio moderno.",
+   "subtitle": "Critica cinica e disincantata del lavoro moderno e della cultura corporate.",
    "original_title": "La Banalità Del Male",
    "link": "https://thedarksalad.it/articoli/la-gabbia-del-ratto/",
    "source": "The Dark Salad",
    "category": "mondo",
    "kind": "sitemap",
    "lang": "it",
-   "summary": "Una riflessione disillusa e tagliente sulla vita d'ufficio contemporanea, gli open space come panopticon e l'ossessione per la produttività. L'autore analizza il rifiuto del lavoro da parte delle nuove generazioni, tra burnout, fuga dai miti aziendali e la ricerca di alternative radicali.",
+   "summary": "Il testo analizza l'alienazione del lavoro d'ufficio contemporaneo, descritto come una simulazione kafkiana basata su task inutili e open space simili a panopticon. Viene evidenziato il fallimento delle promesse tecnologiche che avrebbero dovuto ridurre l'orario lavorativo, contrapponendovi il rifiuto crescente del sacrificio da parte delle nuove generazioni.",
    "bullets": [
-    "Il pendolarismo e gli open space trasformano la giornata lavorativa in una simulazione kafkiana di task inutili.",
-    "La cultura aziendale premia l'apparenza e la finta occupazione per evitare di ricevere ulteriore carico di lavoro.",
-    "Il fallimento della promessa tecnologica: anziché ridurre l'orario lavorativo, il progresso ha generato la hustle culture.",
-    "Le nuove generazioni rifiutano il sacrificio aziendale, privilegiando il tempo libero e mettendo in discussione l'identità basata sul lavoro."
+    "Gli open space vengono definiti come una forma di reclusione volontaria e un Panopticon sociale.",
+    "La produttività è spesso fittizia: i lavoratori fingono di essere occupati per evitare di ricevere altro carico di lavoro.",
+    "Il pendolarismo e gli orari prolungati consumano gran parte della giornata, riducendo il tempo di vita reale.",
+    "Si registra un cambio generazionale in cui i giovani rifiutano il mito del sacrificio e privilegiano il tempo libero rispetto alla carriera."
    ],
    "relevance": 2,
    "score": 6,
-   "seen_at": "2026-11-18T16:45:40.057337+00:00",
+   "seen_at": "2026-11-18T16:38:40.067352+00:00",
    "published_at": "2026-11-04T00:00:00+00:00",
-   "batch_at": "2026-11-18T16:38:59.506032+00:00"
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "L'incursione televisiva di Max Headroom",
