@@ -1,6 +1,98 @@
 {
- "generated_at": "2026-11-18T12:51:18.047393+00:00",
+ "generated_at": "2026-11-18T16:31:56.619052+00:00",
  "items": [
+  {
+   "title": "Nike Running Shoe Selection Guide",
+   "subtitle": "Technical specifications of Nike's running and cross-training footwear models.",
+   "original_title": "What Nike Shoe Matches Your Running Style?",
+   "link": "https://www.runnersworld.com/gear/a74358408/what-nike-shoe-matches-your-running-style/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "This guide details Nike's running and training footwear lineup, breaking down specific models by use case such as daily training, long runs, cross-training, mixed terrain, racing, and recovery. It highlights the underlying technologies—including ZoomX foam, ReactX foam, carbon fiber Flyplates, and Gore-Tex liners—that dictate performance metrics like cushioning, energy return, and stability.",
+   "bullets": [
+    "Pegasus Plus 2: Features Superlight ZoomX foam and an exposed Air Zoom forefoot unit for daily training and recovery runs, paired with a Waffle outsole for traction.",
+    "Vomero 18: Built for long-distance training with stacked ZoomX and ReactX foam midsoles, offering increased responsiveness and an engineered rocker design.",
+    "Free Metcon 7: Cross-training model utilizing softer midsole foam and a firmer heel for lifting stability, alongside a full-length rubber outsole for multi-surface traction.",
+    "Vomero 18 Gore-Tex: Combines standard Vomero cushioning with a waterproof Gore-Tex liner and Storm-Tread outsole for wet and slippery conditions.",
+    "Alphafly 4: Competitive racing shoe weighing 6.6 ounces, featuring an RF Air Zoom cushioning unit, a carbon fiber Flyplate, and a wider platform for stability.",
+    "Vomero Premium and ReactX Rejuven8: Recovery options utilizing ZoomX foam, dual Air Zoom units, and ReactX technology to reduce leg fatigue post-race."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-18T16:36:13.030173+00:00",
+   "published_at": "2026-11-18T16:30:00+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
+  {
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "subtitle": "How IBM time-series models run natively on Confluent Flink for real-time inference.",
+   "original_title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "IBM time-series foundation models are now available natively within Confluent for streaming data processing via Apache Flink. Running entirely on CPUs without GPUs, these models enable real-time forecasting, anomaly detection, and optimization across various industrial and enterprise workflows.",
+   "bullets": [
+    "Integrates IBM time-series foundation models natively into Confluent Cloud and Confluent Platform for Apache Flink.",
+    "Executes natively on standard CPUs without requiring dedicated GPU infrastructure.",
+    "Applies pretrained models to continuous data streams for forecasting, anomaly detection, and optimization without training separate models per series.",
+    "Supports operational use cases such as manufacturing line parameter adjustment, automated anomaly detection, supply chain demand planning, and algorithmic trade execution."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-18T16:33:44.473002+00:00",
+   "published_at": "2026-11-18T15:00:23+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
+  {
+   "title": "Optimizing the Schedule for Strength Training and Running",
+   "subtitle": "Learn how to time strength training and running to maximize performance and recovery.",
+   "original_title": "Research Shows This Is the Best Way to Balance Strength Training and Running",
+   "link": "https://www.runnersworld.com/training/a74464573/strength-training-running-balance/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Integrating strength training with a running regimen improves running economy and VO2 max, but improper scheduling can severely compromise high-intensity performance. Research shows that high-intensity lower-body resistance training impairs maximal running performance for up to 24 hours. Therefore, scheduling hard runs and heavy lifts requires specific sequencing, such as prioritizing easy runs on double-day workouts or running in the morning and lifting in the evening.",
+   "bullets": [
+    "Resistance training takes a full day or two longer to recover from than high-intensity running due to mechanical loading.",
+    "High-intensity strength workouts significantly reduce time to exhaustion at high running paces even six hours post-workout.",
+    "Lower-intensity running performance is unaffected by prior weight workouts, making submaximal runs safe to pair on the same day.",
+    "If combining running and lower-extremity resistance training on the same day, run in the morning and lift in the evening to minimize cumulative fatigue.",
+    "Performing running before strength training results in less carryover fatigue the following day compared to the reverse sequence."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-18T16:36:26.013793+00:00",
+   "published_at": "2026-11-18T14:01:01+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
+  {
+   "title": "Are Your Recovery Runs Too Long?",
+   "subtitle": "Learn how to calculate the optimal duration and intensity for recovery runs.",
+   "original_title": "Are Your Recovery Runs Too Long? Experts Explain the Line Between Productive Recovery and Added Fatigue",
+   "link": "https://www.runnersworld.com/training/a74439969/recovery-run-duration-tips/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Recovery runs should promote blood flow and build aerobic volume without carrying fatigue into high-intensity sessions. Extending these runs introduces mechanical load and energy expenditure that can override recovery benefits. Determining the right duration depends on weekly mileage, training history, and upcoming workouts.",
+   "bullets": [
+    "Recovery runs should typically last between 20 and 40 minutes, scaled to total weekly mileage.",
+    "Runners averaging 20 miles per week should aim for 15 to 25 minutes; those logging 60 miles can handle 25 to 45 minutes.",
+    "Keep recovery runs shorter than standard easy runs and reduce duration further following demanding workouts or in hot weather.",
+    "Warning signs of an overly long recovery run include elevated heart rate at easy paces, heavy legs, and altered stride mechanics.",
+    "If fatigue persists after the first mile, cut the planned duration by 25 to 50 percent or substitute a complete rest day."
+   ],
+   "relevance": 4,
+   "score": 4,
+   "seen_at": "2026-11-18T16:36:57.370583+00:00",
+   "published_at": "2026-11-18T13:00:00+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
   {
    "title": "La scrittura senza medicare le ferite: l'analisi della gelosia in Annie Ernaux",
    "subtitle": "Come Annie Ernaux usa la scrittura piatta per dis sezionare il desiderio e la gelosia ossessiva.",
@@ -201,6 +293,46 @@
    "seen_at": "2026-11-18T11:08:58.543017+00:00",
    "published_at": "2026-11-18T00:00:00+00:00",
    "batch_at": "2026-11-18T11:06:14.340254+00:00"
+  },
+  {
+   "title": "Rumble-2-Flash: An Open 0.5B Speech Model for 40+ Languages",
+   "subtitle": "Learn how a 0.5B speech model matches 30B models via GOLD token-level distillation.",
+   "original_title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "link": "https://huggingface.co/blog/rumble-2-flash",
+   "source": "Hugging Face",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Reson8 has open-sourced Rumble-2-Flash, a 0.5B-parameter speech recognition model supporting over 40 languages under the Apache 2.0 license. Built on the Qwen3-ASR architecture, the model uses an on-policy distillation method called GOLD to match the performance of much larger models while maintaining extreme throughput.",
+   "bullets": [
+    "Distilled using GOLD, a method enabling token-level comparison and correction between teacher and student models that do not share the same tokenizer.",
+    "Achieves an average 6.96% error rate across multiple languages on the Open ASR Leaderboard, outperforming models up to 15x its size.",
+    "Processes an hour of audio in about half a second, reaching over 7,000 RTFx on full batches in vLLM and Hugging Face Transformers.",
+    "Matches NVIDIA's 30B Nemotron 3.5 Transcribe on a 302-hour call-center benchmark with a 7.86% word error rate.",
+    "Native integration with Transformers and vLLM without requiring custom code or trust_remote_code."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-18T16:33:50.840565+00:00",
+   "published_at": "2026-11-18T00:00:00+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
+  {
+   "title": "Test pratici su Astra e modelli di frontiera nell'ingegneria software",
+   "subtitle": "Confronto pratico tra modelli AI di frontiera nell'ingegneria software e ottimizzazione Redis",
+   "original_title": "GPT 6.2 Astra dopo settimane di test",
+   "link": "https://www.youtube.com/watch?v=a0jm8l2PAcw",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "L'autore analizza le prestazioni del nuovo modello di intelligenza artificiale Astra dopo settimane di test sul campo, impiegandolo nello sviluppo del progetto U-Rack e in ottimizzazioni spinte su Redis. Il modello dimostra una forte capacità di seguire le indicazioni e generare codice robusto, superando nei test comparativi versioni precedenti e concorrenti come Fable nell'individuazione di bug su corner case complessi. Nonostante la straordinaria potenza dei modelli di frontiera nei task di ingegneria avanzata e sicurezza informatica, l'autore osserva che la loro utilità economica per le normali software house rischia di ridursi progressivamente, man mano che alternative più economiche si avvicinano alle prestazioni di base. Di conseguenza, il mercato di queste aziende tenderà a spostarsi verso clienti di altissimo livello e applicazioni scientifiche e industriali di frontiera, piuttosto che sullo sviluppo applicativo ordinario.",
+   "bullets": [],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-18T16:35:20.148988+00:00",
+   "published_at": "2026-11-18T00:00:00+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "Running Through Aging and Illness",
@@ -6262,97 +6394,6 @@
    "batch_at": "2026-11-05T01:12:49.560353+00:00"
   },
   {
-   "title": "Asics Gel-Nimbus 29 Specs and Updates",
-   "subtitle": "Details on the Asics Gel-Nimbus 29 midsole, weight, and pricing.",
-   "original_title": "Asics Just Announced the Gel-Nimbus 29—Here’s Everything We Know, Plus Where to Get the Nimbus 28 on Sale",
-   "link": "https://www.runnersworld.com/gear/a74326221/asics-gel-nimbus-29-launch/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Asics has announced the Gel-Nimbus 29 max-cushion trainer, featuring a new FlyteFoam Luxe Plus midsole and softer Gel tech. The shoe retails for $170 and launches on December 1, while the previous model is currently discounted by over 20 percent.",
-   "bullets": [
-    "The Gel-Nimbus 29 introduces FlyteFoam Luxe Plus, a foam softer than the previous FlyteFoam Blast Plus material.",
-    "The heel Gel layer is rated by Asics as 65 percent softer than the previous version.",
-    "The shoe features a wide sole shape for stability and increased outsole coverage for durability and grip.",
-    "Men's version weighs 9.8 ounces; women's version weighs 8.4 ounces.",
-    "Retail price is set at $170, identical to the Gel-Nimbus 28 MSRP.",
-    "The previous Gel-Nimbus 28 model is currently discounted to $130 at major retailers."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-04T15:46:33.556964+00:00",
-   "published_at": "2026-11-04T15:39:15+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
-  },
-  {
-   "title": "2026 Trail Running Shoe Guide: Specs, Terrains, and Curated Picks",
-   "subtitle": "Analysis of technical specs, stack heights, and terrain pairings for top trail shoes.",
-   "original_title": "The 10 Best Trail Running Shoes for Trails, Gravel, and More",
-   "link": "https://www.runnersworld.com/gear/a22115120/best-trail-running-shoes/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "This gear breakdown evaluates trail running shoes across specific metrics including stack height, drop, lug depth, midsole foams, and outsole compounds. It maps out optimal use cases ranging from fast gravel paths to technical mountain trails and multi-day ultramarathons.",
-   "bullets": [
-    "Hoka Speedgoat 7: 36mm/29mm stack, supercritical EVA foam, and 5mm Vibram Megagrip lugs optimized for dusty and sandy trails.",
-    "Saucony Peregrine 16: Features Pwrrun foam, a rock guard plate, and deep Vibram Megagrip lugs designed for technical, rocky, and muddy descents.",
-    "Mount To Coast H1: Lightweight 7.5 oz gravel specialist featuring a 28mm/22mm stack, CircleCell foam, and shallow 2mm lugs for fire roads.",
-    "Norda 055: Ultra-distance mountain shoe utilizing a bio-circular Dyneema woven upper and max-cushion 36mm/30mm stack for high durability.",
-    "Shoe selection criteria emphasize matching lug depth and pattern to terrain, balancing drop and stack height, and evaluating rock plate integration."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-04T15:47:27.641978+00:00",
-   "published_at": "2026-11-04T15:36:28+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
-  },
-  {
-   "title": "Fotogrammetria e modellazione 3D: dai Sassi di Matera ai beni culturali",
-   "subtitle": "Come funziona la tecnica Structure from Motion per creare modelli 3D dalle foto.",
-   "original_title": "Un videogioco su Steam ricostruisce i Sassi di Matera dalle fotografie: come funziona la fotogrammetria",
-   "link": "https://www.geopop.it/un-videogioco-su-steam-ricostruisce-i-sassi-di-matera-dalle-fotografie-come-funziona-la-fotogrammetria/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La fotogrammetria permette di convertire serie di fotografie sovrapposte in modelli tridimensionali accurati attraverso algoritmi geometrici e calcoli di triangolazione. Questa tecnica, utilizzata sia nello sviluppo di videogiochi che nella tutela dei beni culturali, consente di documentare lo stato di conservazione di monumenti e reperti archeologici senza manipolarli direttamente.",
-   "bullets": [
-    "La tecnica Structure from Motion individua elementi comuni nelle foto scattate da angolazioni diverse per calcolare la geometria della superficie.",
-    "Il processo richiede una sovrapposizione del 60-80% tra scatti consecutivi per permettere al software di stimare la posizione dei punti.",
-    "Dalla nuvola iniziale di punti si genera una mesh 3D poligonale su cui vengono applicate le texture fotografiche originali.",
-    "A differenza del LiDAR che usa impulsi laser, la fotogrammetria si basa interamente su dati visivi.",
-    "Nei beni culturali, il confronto tra rilievi periodici consente di monitorare deformazioni e perdite di materiale nel tempo."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-04T15:44:18.305939+00:00",
-   "published_at": "2026-11-04T14:30:34+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
-  },
-  {
-   "title": "OpenAI Acquires Pierre Computer Company",
-   "subtitle": "OpenAI acquires Pierre Computer Company to expand Codex code tools.",
-   "original_title": "OpenAI to acquire Pierre Computer Company, Inc.",
-   "link": "https://openai.com/index/openai-to-acquire-pierre",
-   "source": "OpenAI",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "OpenAI has announced the acquisition of Pierre Computer Company, Inc. The move is designed to expand the capabilities of Codex by integrating new tools for building, understanding, and reviewing software code.",
-   "bullets": [
-    "OpenAI acquires Pierre Computer Company, Inc.",
-    "Acquisition aims to expand Codex's code-building tools.",
-    "New capabilities will focus on understanding and reviewing code."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-04T15:44:44.581270+00:00",
-   "published_at": "2026-11-04T14:30:00+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
-  },
-  {
    "title": "Quando trovi una buona mossa, cercane una migliore",
    "subtitle": "Analisi di partite a scacchi e gestione del vantaggio posizionale e tattico.",
    "original_title": "Quando trovi una buona mossa, cercane una migliore",
@@ -6368,49 +6409,6 @@
    "seen_at": "2026-11-04T16:36:12.873763+00:00",
    "published_at": "2026-11-04T12:43:12+00:00",
    "batch_at": "2026-11-04T16:31:32.574664+00:00"
-  },
-  {
-   "title": "Daybreak Red Available in AWS GovCloud",
-   "subtitle": "GPT-5.6 Cyber is now accessible via Amazon Bedrock in AWS GovCloud (US-East).",
-   "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
-   "source": "OpenAI",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Daybreak Red has been made available to approved customers in the AWS GovCloud (US-East) region. Through Amazon Bedrock, users can access GPT-5.6 Cyber specifically for authorized cybersecurity operations.",
-   "bullets": [
-    "Daybreak Red is deployed in AWS GovCloud (US-East).",
-    "Integration is provided through Amazon Bedrock.",
-    "Utilizes the GPT-5.6 Cyber model for authorized cybersecurity work."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-04T15:45:07.045152+00:00",
-   "published_at": "2026-11-04T07:00:00+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
-  },
-  {
-   "title": "La banalità del lavoro d'ufficio e il rifiuto della produttività",
-   "subtitle": "Critica feroce alla rat race e al mito moderno del lavoro aziendale.",
-   "original_title": "La Banalità Del Male",
-   "link": "https://thedarksalad.it/articoli/la-gabbia-del-ratto/",
-   "source": "The Dark Salad",
-   "category": "mondo",
-   "kind": "sitemap",
-   "lang": "it",
-   "summary": "Il testo analizza l'alienazione del lavoro d'ufficio contemporaneo, descritto come una simulazione kafkiana basata su open space e task inutili. Viene contrapposta la retorica tossica della hustle culture al crescente rifiuto generazionale del lavoro, che sfocia nel quiet quitting o nel desiderio radicale di ozio.",
-   "bullets": [
-    "Gli open space vengono definiti come una versione moderna e socialmente accettata del Panopticon.",
-    "La produttività è spesso fittizia: i lavoratori fingono di essere occupati per evitare di ricevere altro carico di lavoro.",
-    "Le giovani generazioni rifiutano il mito del sacrificio e del lavoro totalizzante, privilegiando il tempo libero e i benefit.",
-    "Il testo evidenzia il divario tra le promesse tecnologiche del passato e la realtà attuale del pendolarismo e della burocrazia digitale."
-   ],
-   "relevance": 2,
-   "score": 6,
-   "seen_at": "2026-11-04T15:52:46.737208+00:00",
-   "published_at": "2026-11-04T00:00:00+00:00",
-   "batch_at": "2026-11-04T15:43:02.542583+00:00"
   },
   {
    "title": "I limiti reali dei Large Language Model nell'analisi dei pesi neurali",
@@ -6462,6 +6460,28 @@
    "seen_at": "2026-11-05T16:40:27.444779+00:00",
    "published_at": "2026-11-04T00:00:00+00:00",
    "batch_at": "2026-11-05T16:31:03.541406+00:00"
+  },
+  {
+   "title": "La Banalità Del Male",
+   "subtitle": "Critica cinica e disincantata del lavoro moderno e della cultura corporate.",
+   "original_title": "La Banalità Del Male",
+   "link": "https://thedarksalad.it/articoli/la-gabbia-del-ratto/",
+   "source": "The Dark Salad",
+   "category": "mondo",
+   "kind": "sitemap",
+   "lang": "it",
+   "summary": "Il testo analizza l'alienazione del lavoro d'ufficio contemporaneo, descritto come una simulazione kafkiana basata su task inutili e open space simili a panopticon. Viene evidenziato il fallimento delle promesse tecnologiche che avrebbero dovuto ridurre l'orario lavorativo, contrapponendovi il rifiuto crescente del sacrificio da parte delle nuove generazioni.",
+   "bullets": [
+    "Gli open space vengono definiti come una forma di reclusione volontaria e un Panopticon sociale.",
+    "La produttività è spesso fittizia: i lavoratori fingono di essere occupati per evitare di ricevere altro carico di lavoro.",
+    "Il pendolarismo e gli orari prolungati consumano gran parte della giornata, riducendo il tempo di vita reale.",
+    "Si registra un cambio generazionale in cui i giovani rifiutano il mito del sacrificio e privilegiano il tempo libero rispetto alla carriera."
+   ],
+   "relevance": 2,
+   "score": 6,
+   "seen_at": "2026-11-18T16:38:40.067352+00:00",
+   "published_at": "2026-11-04T00:00:00+00:00",
+   "batch_at": "2026-11-18T16:31:56.619052+00:00"
   },
   {
    "title": "MATLAB Parallel Computing Toolbox",
