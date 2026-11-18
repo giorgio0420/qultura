@@ -184,6 +184,28 @@
    "batch_at": "2026-11-18T11:06:14.340254+00:00"
   },
   {
+   "title": "La transizione energetica tra inerzia politica e convenienza",
+   "subtitle": "Stefano Caserini spiega perché conviene agire sul clima e cosa frena il cambiamento.",
+   "original_title": "Riusciremo a fare la transizione energetica?",
+   "link": "https://lucysuimondi.com/riusciremo-a-fare-la-transizione-energetica/",
+   "source": "Lucy sui mondi",
+   "category": "filosofia",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Nonostante i negoziati internazionali e le responsabilità storiche dei Paesi, la politica mostra una persistente inerzia di fronte alla crisi climatica. Il professore Stefano Caserini analizza i motivi economici e strategici per cui la transizione energetica è conveniente e individua gli interessi che frenano il cambiamento.",
+   "bullets": [
+    "I negoziati internazionali affrontano le nuove sfide energetiche ma scontrarsi con l'inerzia politica.",
+    "Stefano Caserini studia strategie per la riduzione delle emissioni di gas serra e la rimozione di CO2.",
+    "Vengono analizzati i fattori di convenienza economica nell'affrontare concretamente la crisi climatica.",
+    "Si esaminano gli interessi specifici che frenano l'attuazione dei processi di cambiamento strutturale."
+   ],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-18T16:39:17.446141+00:00",
+   "published_at": "2026-11-18T08:00:57+00:00",
+   "batch_at": "2026-11-18T16:31:44.982271+00:00"
+  },
+  {
    "title": "La strategia di colonizzazione in Cisgiordania",
    "subtitle": "Come nasce un insediamento illegale attraverso l'occupazione progressiva delle colline.",
    "original_title": "Storia di un caravan. Come nasce una colonia in Cisgiordania",
@@ -425,6 +447,30 @@
    "seen_at": "2026-11-18T01:15:11.432568+00:00",
    "published_at": "2026-11-17T19:00:03+00:00",
    "batch_at": "2026-11-18T01:15:05.358735+00:00"
+  },
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "subtitle": "OpenAI's new models improve agentic workflows and scientific reasoning while lowering token costs.",
+   "original_title": "Introducing GPT-6.2 Astra and Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "OpenAI has released GPT-6.2 Astra and GPT-6.2 Sol, new frontier and efficient models designed for complex professional tasks and everyday work. The models deliver higher performance on benchmarks like Terminal-Bench-Science and Harvey LAB-AA while using fewer output tokens and reduced API pricing. They also feature stronger visual reasoning, computer use capabilities, and tighter cybersecurity and biological safeguards.",
+   "bullets": [
+    "GPT-6.2 Astra scores 5.2 points higher on Agents' Last Exam than its predecessor at less than one-third the cost, and sets a new high on Terminal-Bench-Science 0.1.",
+    "API pricing for GPT-6.2 Astra is set at $8 per million input tokens, $0.40 for cached input, and $40 for output, representing a 20% drop from GPT-6 Astra alongside a 60% cache discount.",
+    "GPT-6.2 Sol matches or outperforms leading models at a fraction of the cost, scoring within 0.5 points of Astra on FrontierCode 2.0 at one-fifth the price.",
+    "Astra demonstrates improved visual reasoning and computer use, enabling precise manipulation in CAD, generation of 3D simulations in Blender, and adherence to professional document templates.",
+    "Both models meet the Critical threshold for cybersecurity and the High threshold for biological and chemical capabilities under OpenAI's Preparedness Framework, introducing stricter deployment safeguards.",
+    "GPT-6.2 Astra is the first externally released model to meet the High threshold for AI Self-improvement, prompting new automated monitoring and Control Room halt mechanisms."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-18T16:33:17.834729+00:00",
+   "published_at": "2026-11-17T17:45:00+00:00",
+   "batch_at": "2026-11-18T16:31:44.982271+00:00"
   },
   {
    "title": "Picco delle Leonidi 2026",
