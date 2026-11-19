@@ -1,51 +1,50 @@
 {
- "generated_at": "2026-11-19T11:02:30.032317+00:00",
+ "generated_at": "2026-11-19T11:05:11.632387+00:00",
  "items": [
   {
-   "title": "Progetto RESCUE_SAT: integrazione di dati satellitari e modelli per la gestione del rischio idraulico",
-   "subtitle": "Come il progetto RESCUE_SAT unisce dati satellitari e modellistica per mappare il rischio idraulico.",
+   "title": "Progetto RESCUE_SAT: integrazione di dati satellitari e modelli per il rischio idraulico",
+   "subtitle": "Come il progetto RESCUE_SAT unisce dati satellitari e modelli idraulici in una piattaforma WebGIS",
    "original_title": "Rischio idraulico, nuove prospettive applicative dal progetto RESCUE_SAT",
    "link": "https://www.asi.it/2026/11/rischio-idraulico-nuove-prospettive-applicative-dal-progetto-rescue_sat/",
    "source": "Agenzia Spaziale Italiana",
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "Il progetto RESCUE_SAT, nato dalla collaborazione tra l'Agenzia Spaziale Italiana e l'Università Roma Tre, ha integrato i dati di osservazione della terra con il modello RESCUE per migliorare la mappatura del rischio idraulico. Il sistema combina dati radar COSMO-SkyMed e ottici PRISMA per analizzare l'impatto di infrastrutture e manufatti sul territorio. Il risultato è una piattaforma WebGIS interattiva utile per la pianificazione urbanistica e la gestione delle emergenze.",
+   "summary": "Il progetto RESCUE_SAT, nato dalla collaborazione tra l'Agenzia Spaziale Italiana e l'Università Roma Tre, ha sviluppato una piattaforma WebGIS per la gestione del rischio idraulico. Integrando i dati satellitari COSMO-SkyMed e PRISMA con il modello su larga scala RESCUE, il sistema genera mappe di inondazione dettagliate valutando l'impatto delle infrastrutture sul territorio.",
    "bullets": [
-    "Integrazione dei dati satellitari radar COSMO-SkyMed e iperspettrali PRISMA con il modello di larga scala RESCUE.",
-    "Capacità di valutare l'impatto di infrastrutture critiche come ponti, argini e attraversamenti lungo i corsi d'acqua.",
-    "Stima di precisione dei potenziali danni economici e sociali derivanti da eventi alluvionali.",
-    "Sviluppo di una piattaforma WebGIS geoinformatizzata accessibile via PC e mobile per la consultazione interattiva.",
-    "Strumento operativo destinato ad autorità di bacino, comuni e consorzi per la pianificazione territoriale e la gestione delle emergenze."
+    "Integrazione dei dati radar COSMO-SkyMed e ottici iperspettrali PRISMA con il modello idraulico RESCUE.",
+    "Capacità di stimare i danni economici e sociali considerando la presenza di manufatti strutturali come ponti e argini.",
+    "Sviluppo di una piattaforma digitale WebGIS geo-informatizzata disponibile anche in versione mobile.",
+    "Strumento di supporto per autorità di bacino, comuni e consorzi nella pianificazione urbanistica e gestione delle emergenze."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-19T11:03:18.831673+00:00",
+   "seen_at": "2026-11-19T11:06:04.894566+00:00",
    "published_at": "2026-11-19T07:51:06+00:00",
-   "batch_at": "2026-11-19T11:02:30.032317+00:00"
+   "batch_at": "2026-11-19T11:05:11.632387+00:00"
   },
   {
-   "title": "La Roma punta su Jamie Gittens per gennaio: contatti con il Chelsea e il modello Malen",
-   "subtitle": "La Roma tratta il prestito con riscatto per Jamie Gittens dal Chelsea con l'asse di Donyell Malen",
+   "title": "La Roma punta Jamie Gittens per gennaio: contatti con il Chelsea e il fattore Malen",
+   "subtitle": "La Roma tratta il prestito con riscatto di Jamie Gittens dal Chelsea, con Malen come sponsor",
    "original_title": "Gittens alla Roma: primi contatti con il Chelsea. Si studia la formula con un alleato prezioso",
    "link": "https://www.corrieredellosport.it/news/calcio/calcio-mercato/roma/2026/11/19-152681795/gittens_alla_roma_primi_contatti_con_il_chelsea_si_studia_la_formula_con_un_alleato_prezioso/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "La Roma ha avviato i primi contatti con il Chelsea per portare in giallorosso Jamie Gittens a gennaio con la formula del prestito con riscatto. Il club sfrutta la concorrenza battuta anche grazie ai buoni uffici di Donyell Malen, ex compagno al Borussia Dortmund, replicando la strategia di mercato già applicata con successo per lo stesso attaccante olandese.",
+   "summary": "La Roma sta valutando l'ingaggio di Jamie Gittens dal Chelsea per la sessione di gennaio, puntando sulla formula del prestito con riscatto. Il club giallorosso sfrutta i contatti avviati la scorsa estate e spera nell'influenza di Donyell Malen per convincere l'esterno inglese. Tra le alternative monitorate figura anche Callum Hudson-Odoi del Nottingham Forest.",
    "bullets": [
-    "Jamie Gittens ha raccolto solo 55 minuti in coppa di lega e pochissime presenze da titolare in Premier League con il Chelsea quest'anno.",
-    "Al Borussia Dortmund il giocatore aveva realizzato 17 gol e 12 assist tra i 18 e i 21 anni, prima del trasferimento da 56 milioni di euro.",
-    "La Roma punta alla formula del prestito con diritto o obbligo di riscatto, lo stesso modello utilizzato per ingaggiare Donyell Malen dall'Aston Villa.",
-    "Donyell Malen sponsorizza l'arrivo dell'inglese, replicando il rapporto di stima nato nei due anni e mezzo trascorsi insieme in Germania.",
-    "Callum Hudson-Odoi del Nottingham Forest rappresenta un'alternativa sulla lista della Roma in caso di mancato accordo per Gittens."
+    "Jamie Gittens ha totalizzato solo 55 minuti in Coppa di Lega e pochissime presenze da titolare in Premier League con il Chelsea in questa stagione.",
+    "Il Chelsea aveva acquistato Gittens per 56 milioni di euro un anno e mezzo fa dopo le sue 17 reti e 12 assist con il Borussia Dortmund.",
+    "La Roma intende replicare l'operazione già riuscita con Donyell Malen, arrivato in prestito con obbligo di riscatto dopo aver trovato poco spazio all'Aston Villa.",
+    "Donyell Malen, compagno di Gittens ai tempi del Borussia Dortmund, sta sponsorizzando attivamente il suo arrivo nella capitale.",
+    "Callum Hudson-Odoi del Nottingham Forest rappresenta un'alternativa sulla lista della dirigenza giallorossa per il reparto esterni."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-19T11:03:26.233302+00:00",
+   "seen_at": "2026-11-19T11:06:24.520935+00:00",
    "published_at": "2026-11-19T06:48:18+00:00",
-   "batch_at": "2026-11-19T11:02:30.032317+00:00"
+   "batch_at": "2026-11-19T11:05:11.632387+00:00"
   },
   {
    "title": "Antonio Conte e il futuro della panchina",
@@ -65,21 +64,38 @@
    "batch_at": "2026-11-19T00:43:55.656343+00:00"
   },
   {
-   "title": "Perché Gli Anelli del Potere distrugge l'eredità filosofica ed epica di Tolkien",
-   "subtitle": "Un'analisi critica della terza stagione della serie Amazon e del tradimento dell'opera originale",
+   "title": "Perché The Rings of Power distrugge l'eredità filosofica di Tolkien",
+   "subtitle": "Un'analisi critica della terza stagione di Rings of Power e del tradimento dell'epica di Tolkien",
    "original_title": "Orchi buoni, Nazgûl traumatizzati e nani che fanno twerking: cosa resta di Tolkien?",
    "link": "https://www.youtube.com/watch?v=pdH90OMMJwI",
    "source": "Rick DuFer (YouTube)",
    "category": "filosofia",
    "kind": "queue",
    "lang": "it",
-   "summary": "L'autore sostiene che la terza stagione della serie Gli Anelli del Potere di Amazon non sia soltanto un'opera mal riuscita, ma un deliberato tentativo di smontare e rovesciare l'eredità di J.R.R. Tolkien. La tesi centrale è che gli showrunner abbiano svuotato i romanzi della loro profondità mitica, trasformando la seconda era in una soap opera superficiale e in una parodia pop. In apertura, la promozione stessa viene definita incoerente: gli autori dichiarano che la terza stagione può essere vista partendo da zero e che le prime due (costate centinaia di milioni) sono facoltative, ammettendone la marginalità. La critica prosegue esaminando i singoli personaggi e le loro distorsioni. Galadriel, anziché definita dal proprio rifiuto del potere e da un arco millenario radicato in Valinor, viene ridotta a un triangolo amoroso con Celeborn e Sauron. Celebrimbor perde la sua fierozza originaria per sembrare un commercialista confuso, e lo stesso Sauron viene associato a gag comiche e a scene degne dei Looney Tunes, come quella in cui un orco con un anello prende fuoco tra le grida. La caduta di Númenor viene banalizzata a semplice lotta di successione e intrigo di palazzo, cancellando il tema centrale della paura della morte come debolezza spirituale che Sauron sfrutta. Gli orchi, descritti da Tolkien come incapaci di creare, vengono umanizzati e dotati di archi narrativi umoristici, mentre Gandalf viene trasformato in uno stregone da gioco di ruolo che dialoga persino con una fiamma parlante simile a un roveto biblico, mercificando il concetto di sacro. Anche la genesi dei Nazgûl e la storia dei nani subiscono una metamorfosi inaccettabile: i nove non sono più grandi signori di Númenor corrotti dall'ambizione, ma scelti tramite una gara di sopravvivenza, mentre i nani di Khazad-dûm inscenano una sit-com familiare con tanto di battute e sequenze di twerking. L'argomento finale punta il dito contro la scrittura pigra e l'uso intensivo di espedienti narrativi dozzinali, contrapponendo alla fuga del disertore offerta dal prodotto televisivo la vera funzione salvifica ed etica delle storie di Tolkien.",
+   "summary": "La terza stagione di The Rings of Power rappresenta non soltanto un'opera televisiva scadente, ma un vero e proprio tentativo di smontare e rovesciare l'eredità di J.R.R. Tolkien. Lo dimostrano le dichiarazioni degli stessi showrunner, che definiscono le prime due stagioni facoltative, tradendo un totale disprezzo per la costruzione narrativa. La tesi centrale è che la serie compia un'inversione sistematica dei cardini morali e filosofici dell'opera originaria. A partire da Galadriel, la cui grandezza in Tolkien risiede nella rinuncia e nel rifiuto del potere (come dimostra il celebre rifiuto dell'anello a Frodo e la storia della ciocca di capelli negata a Fëanor), mentre nella serie viene definita da un logorante triangolo amoroso con Celeborn e Sauron. Celebrimbor, descritto originariamente come un fiero e possente nipote di Fëanor, viene ridotto a un mediocre commercialista. Lo stesso Sauron viene desacralizzato in una gag comica in stile Looney Tunes, in cui un orco si infila l'anello e prende fuoco urlando in modo grottesco, trasformando il Signore Oscuro in una macchietta. La caduta di Númenor, che in Tolkien affonda le radici nella paura spirituale della morte e nel rifiuto del dono di Ilúvatar, viene ridotta a una banale lotta di successione e a intrighi di palazzo simili a una brutta copia di Game of Thrones. Gli orchi vengono umanizzati e resi simpatici, capovolgendo il principio fondamentale secondo cui il male non sa creare ma solo storpiare e distruggere. La scrittura procede a singhiozzo tra salti temporali ingiustificati e dialoghi piatti, privi di spessore. La compressione millenaria della Seconda Era in poche settimane annulla la pazienza certosina con cui Sauron inganna gli Elfi, riducendo Celebrimbor a uno stolto che si fida del primo arrivato. Gandalf viene trasformato in un mago da videogioco e persino Eru Ilúvatar viene banalizzato in una fiammata parlante che scimmiotta il roveto ardente biblico. I Nazgûl perdono la loro tragica corruzione di grandi re e signori umani per lasciare spazio a un percorso da emarginato arrabbiato. Infine, la linea narrativa dei nani a Khazad-dûm scade nella sitcom familiare, arrivando persino a mostrare un numero di twerking. L'autore conclude che questa operazione punta unicamente al consumo nichilistico, invitando i fan a smettere di guardare la serie e a riscoprire i testi originali.",
    "bullets": [],
    "relevance": 3,
    "score": 3,
-   "seen_at": "2026-11-19T11:03:47.208164+00:00",
+   "seen_at": "2026-11-19T11:06:45.327976+00:00",
    "published_at": "2026-11-19T00:00:00+00:00",
-   "batch_at": "2026-11-19T11:02:30.032317+00:00"
+   "batch_at": "2026-11-19T11:05:11.632387+00:00"
+  },
+  {
+   "title": "Il vertice tra Stati Uniti, Cina e Russia e la marginalizzazione dell'Europa",
+   "subtitle": "Analisi del vertice tra Trump, Xi e Putin all'APEC e della debolezza politica europea.",
+   "original_title": "Incontro Xi, Trump, Putin: una nuova Yalta?",
+   "link": "https://www.youtube.com/watch?v=fy466roGgAk",
+   "source": "BarbaSophia (Matteo Saudino)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il vertice tra Stati Uniti, Trump, la Cina di Xi e la Russia di Putin all'Apec di Shenzhen segna un tentativo di ridefinire gli equilibri globali tra tre grandi potenze. Trump cerca una via d'uscita per la guerra in Ucraina e in Medio Oriente prima dell'insediamento del Congresso a maggioranza democratica il 3 gennaio. Putin punta a una tregua per alleggerire il peso economico di un conflitto quinquennale logorante, ottenendo possibilmente il controllo del Donbass tramite il dialogo con Washington. La Cina di Xi si posiziona come perno geopolitico ed economico, offrendo un'area franca per evitare sanzioni e marginalizzando il Giappone nell'area asiatica. L'Europa resta esclusa e frammentata in sette voci distinte, incapace di esprimere una politica estera autonoma e ridotta a finanziare aiuti militari a Kiev per 45 miliardi di euro, di cui 25 in armi, senza una visione strategica alternativa.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-19T11:06:51.252796+00:00",
+   "published_at": "2026-11-19T00:00:00+00:00",
+   "batch_at": "2026-11-19T11:05:11.632387+00:00"
   },
   {
    "title": "Flexell Space and ALATYR Explore Solar Power for Orbital Data Centers",
@@ -666,6 +682,23 @@
    "seen_at": "2026-11-18T16:35:20.148988+00:00",
    "published_at": "2026-11-18T00:00:00+00:00",
    "batch_at": "2026-11-18T16:31:56.619052+00:00"
+  },
+  {
+   "title": "Come tracciare le calorie con l'intelligenza artificiale",
+   "subtitle": "Gestire il deficit calorico e il tracking alimentare tramite modelli linguistici avanzati.",
+   "original_title": "Dimagrire usando l'AI",
+   "link": "https://www.youtube.com/watch?v=DnSNvRdsRaA",
+   "source": "antirez (YouTube)",
+   "category": "ai",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il dimagrimento si ottiene esclusivamente attraverso il deficit calorico, confermato da decenni di fisiologia, sebbene la sua applicazione pratica fallisca spesso per errori di stima o sgarri non monitorati. Le tradizionali applicazioni per il conteggio delle calorie presentano un'interfaccia utente macchinosa e frustrante. Un approccio radicalmente superiore sfrutta modelli linguistici avanzati come Claude o GPT, evitando l'uso di app dedicate. Invece di fotografare i piatti, pratica imprecisa per stimare i nutrienti, l'utente interagisce tramite la registrazione vocale nativa, dettando gli alimenti consumati e il proprio peso giornaliero. Il modello calcola in tempo reale le calorie, i macronutrienti residui e adatta dinamicamente il dispendio energetico stimato in base alla velocità di dimagrimento reale, calcolata su una media mobile delle pesate per eliminare le fluttuazioni quotidiane. Le foto dei cibi mantengono un'utilità marginale esclusivamente quando si mangia fuori casa, fornendo un riferimento visivo per una stima di emergenza, oppure quando si trascrivono etichette nutrizionali. Questo diario alimentare centralizzato e gestito da un'intelligenza artificiale permette inoltre di ricevere analisi contestualizzate sull'andamento metabolico e sui carichi di allenamento.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-19T11:06:12.953716+00:00",
+   "published_at": "2026-11-18T00:00:00+00:00",
+   "batch_at": "2026-11-19T11:05:11.632387+00:00"
   },
   {
    "title": "Running Through Aging and Illness",
