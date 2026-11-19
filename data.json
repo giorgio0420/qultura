@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:32:12.925217+00:00",
+ "generated_at": "2026-11-19T16:46:57.614800+00:00",
  "items": [
   {
    "title": "Plasma Observatory: l'ESA approva la missione guidata dall'Italia",
@@ -10,111 +10,109 @@
    "category": "ai",
    "kind": "rss",
    "lang": "it",
-   "summary": "Gli Stati membri dell'ESA hanno selezionato la missione Plasma Observatory come prossima missione di classe media M7, con lancio previsto nel 2038 e una forte leadership italiana tramite ASI e INAF. La missione utilizzerà sette satelliti identici su un'orbita ellittica per tracciare il trasferimento di energia dal Sole attraverso la magnetosfera terrestre su scale multiple.",
+   "summary": "Gli Stati membri dell'ESA hanno selezionato la missione Plasma Observatory come prossima classe media M7, con lancio previsto nel 2038 e una forte leadership italiana tramite ASI e INAF. Sette satelliti identici su un'orbita ellittica analizzeranno simultaneamente come l'energia solare attraversa la magnetosfera terrestre su scale diverse. L'ESA ha stanziato circa 727 milioni di euro per la realizzazione dei velivoli.",
    "bullets": [
-    "La missione è composta da sette satelliti in rotazione per effettuare misure simultanee di campi magnetici, elettrici e particelle in sette punti diversi.",
-    "L'ESA ha stanziato un budget di circa 727 milioni di euro per la costruzione dei satelliti, a cui si aggiungono i fondi delle agenzie nazionali per i payload.",
-    "L'Italia guida la missione scientificamente con Maria Federica Marcucci dell'INAF come Lead Proposer e Principal Investigator.",
-    "L'Italia fornisce lo spettrometro di massa per ioni IMCA e co-gestisce l'unità digitale BOX-P per l'interfaccia e l'elaborazione dei dati a bordo.",
-    "La missione supera i limiti della precedente missione Cluster, che poteva esaminare una sola scala spaziale e temporale alla volta."
+    "La missione impiegherà sette satelliti in rotazione per misurare contemporaneamente campi magnetici, elettrici e particelle in sette punti differenti.",
+    "L'Italia guida il progetto con Maria Federica Marcucci dell'INAF come Lead Proposer e Principal Investigator.",
+    "L'INAF guida lo sviluppo di IMCA, lo spettrometro di massa per ioni, e co-gestisce BOX-P, l'unità digitale di interfaccia per i sensori.",
+    "Il budget stanziato dall'ESA per i satelliti è di circa 727 milioni di euro, a cui si aggiungono i fondi delle agenzie nazionali per i payload."
    ],
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-19T16:35:08.471168+00:00",
+   "seen_at": "2026-11-19T16:52:00.168849+00:00",
    "published_at": "2026-11-19T15:33:12+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
-   "title": "Rinnovo record fino al 2031 per il portiere della Roma Giorgio De Marzi",
-   "subtitle": "Il portiere classe 2007 bloccato dalla Roma fino al 2031 e il suo percorso nelle nazionali giovanili",
+   "title": "La Roma blinda il portiere De Marzi: rinnovo ufficiale fino al 2031",
+   "subtitle": "Il portiere classe 2007 ha rinnovato con la Roma fino al 2031 dopo la promozione in prima squadra.",
    "original_title": "La Roma punta sul giovane De Marzi: ufficiale il rinnovo fino al 2031",
    "link": "https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/11/19-152688395/la_roma_punta_sul_giovane_de_marzi_ufficiale_il_rinnovo_fino_al_2031/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "La Roma ha blindato il giovane portiere Giorgio De Marzi con un rinnovo contrattuale fino al 2031. Classe 2007, il giocatore è cresciuto nel settore giovanile giallorosso, è stato aggregato alla prima squadra da diversi tecnici e ha scelto di rappresentare gli Stati Uniti a livello giovanile.",
+   "summary": "La AS Roma ha ufficializzato il prolungamento contrattuale del giovane portiere Giorgio De Marzi fino al 2031. Classe 2007, è stato inserito stabilmente in prima squadra dopo la trafila nel settore giovanile e l'interesse di diversi tecnici, scegliendo inoltre di rappresentare la nazionale giovanile degli Stati Uniti.",
    "bullets": [
-    "Giorgio De Marzi, portiere classe 2007, ha firmato il rinnovo con la Roma fino al 30 giugno 2031.",
-    "Nato a Lancaster in California e cresciuto a San Cesareo, è entrato nel vivaio romanista nel 2021 vincendo lo scudetto Under 17 nel 2023/2024.",
-    "Aggregato alla prima squadra prima da De Rossi e confermato dai successivi allenatori, fa stabilmente parte della rosa giallorossa.",
-    "A livello internazionale ha scelto di rispondere alla chiamata degli Stati Uniti, debuttando nell'Under 19 nel marzo 2026 e successivamente nell'Under 20 contro il Brasile."
+    "Giorgio De Marzi, portiere nato nel 2007, ha firmato il rinnovo con la Roma fino al 30 giugno 2031.",
+    "Cresciuto nel settore giovanile giallorosso dal 2021, ha vinto lo scudetto con l'Under 17 nella stagione 2023/2024 prima di passare in Primavera.",
+    "È stato aggregato per la prima volta in prima squadra da Daniele De Rossi, trovando poi conferma nelle gestioni successive.",
+    "A livello internazionale ha scelto di rispondere alla chiamata degli Stati Uniti, debuttando con l'Under 19 a marzo 2026 e successivamente con l'Under 20 contro il Brasile."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-19T16:36:55.709206+00:00",
+   "seen_at": "2026-11-19T16:53:59.530876+00:00",
    "published_at": "2026-11-19T15:04:57+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
    "title": "Benfica-Roma di Champions League femminile: dove vederla",
-   "subtitle": "Guida TV e streaming per la quinta giornata della fase a gironi di Champions League.",
+   "subtitle": "Orario, copertura televisiva e situazione in classifica per la sfida di Champions League.",
    "original_title": "Dove vedere Benfica-Roma Champions League femminile in tv? Dazn o Disney+, orario",
    "link": "https://www.corrieredellosport.it/news/calcio/calcio-femminile/2026/11/19-152688290/dove_vedere_benfica-roma_champions_league_femminile_in_tv_dazn_o_disney_orario/",
    "source": "Corriere dello Sport",
    "category": "calcio",
    "kind": "rss",
    "lang": "it",
-   "summary": "La Roma Femminile affronta il Benfica all'Estádio da Luz di Lisbona per la quinta giornata della fase a campionato di Champions League. Le portoghesi occupano il nono posto in classifica con due punti di vantaggio sulle giallorosse, dodicesime. L'incontro è trasmesso in esclusiva in diretta tv e streaming sulla piattaforma Disney+.",
+   "summary": "La Roma Femminile affronta il Benfica all'Estádio da Luz di Lisbona per la quinta giornata della fase campionato di Champions League. Le portoghesi occupano il nono posto in classifica con due punti di vantaggio sulle giallorosse, dodicesime. L'incontro è trasmesso in esclusiva streaming e tv su Disney+.",
    "bullets": [
-    "La partita si disputa giovedì 18 novembre alle ore 21:00 all'Estádio da Luz di Lisbona.",
-    "Il Benfica è nono in classifica e reduce dalla vittoria per 3-1 contro l'Austria Vienna.",
-    "La Roma è dodicesima, preceduta di due punti dalle avversarie, dopo il successo interno per 2-1 contro il Servette.",
-    "La direzione di gara è affidata alla terna arbitrale rumena guidata da Iuliana Demetrescu, con il danese Jakob Kehlet al VAR.",
-    "La trasmissione televisiva e in streaming è un'esclusiva di Disney+, accessibile tramite app su smart TV, dispositivi mobili e console."
+    "Partita valida per la quinta giornata della Fase Campionato di Champions League femminile.",
+    "Il Benfica si presenta all'incontro al nono posto in classifica, la Roma al dodicesimo con due punti di svantaggio.",
+    "La sfida si gioca giovedì 18 novembre alle ore 21 all'Estádio da Luz di Lisbona.",
+    "La direzione di gara è affidata all'arbitro rumena Iuliana Demetrescu, con il danese Jakob Kehlet al VAR.",
+    "La diretta televisiva e in streaming è un'esclusiva della piattaforma Disney+."
    ],
    "relevance": 3,
    "score": 6,
-   "seen_at": "2026-11-19T16:37:16.418954+00:00",
+   "seen_at": "2026-11-19T16:54:13.661955+00:00",
    "published_at": "2026-11-19T14:48:33+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
    "title": "Time Off Feet Will Change How You Think About Recovery",
-   "subtitle": "How runners should balance time off feet, foot health, and recovery metrics.",
+   "subtitle": "How to manage training recovery by factoring in foot stress and time off your feet.",
    "original_title": "Time Off Feet Will Change How You Think About Recovery",
    "link": "https://www.runnersworld.com/training/a74453368/time-off-feet/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "Integrating time off feet into a running routine requires evaluating daily life stress, physical work, and mental recovery rather than relying solely on wearable metrics. While high-mileage runners benefit from minimal additional impact, low-impact cross-training and targeted intrinsic foot muscle strengthening support recovery and reduce swelling.",
+   "summary": "Integrating time off feet into a running routine requires balancing daily lifestyle demands, like standing jobs or high mileage, with actual physical recovery. While wearables track overall exertion, runners must listen to localized foot pain and manage swelling through low-impact movement, proper sleep, and targeted intrinsic foot muscle training.",
    "bullets": [
-    "Wearables like GPS watches do not measure localized foot stress, so runners must manually evaluate foot soreness alongside training plans.",
-    "High-mileage runners (70 to 100 miles weekly) do not achieve better recovery by adding walking, and should opt for low-impact movement like cycling instead.",
-    "Gentle movement such as walking or foot rolling can stimulate blood and lymph flow to reduce fluid retention swelling, provided there is no injury pain.",
-    "Intrinsic foot muscles—the small muscles within the arch and toes—regulate proprioception and ankle stability, and require targeted strength training like toe scrunches.",
-    "Sleep and proper nutrition remain the foundational requirements for recovery, and no active recovery trick can substitute for basic biological sleep."
+    "High-mileage runners (70 to 100 miles a week) do not gain additional recovery from walking and benefit more from zero-impact cross-training like cycling.",
+    "Walking can help reduce non-injury fluid swelling by stimulating blood and lymph circulation, provided the feet are pain-free and show no discoloration.",
+    "Wearables and training plans do not account for localized foot stress, meaning runners should prioritize how their feet feel over algorithmic readiness scores.",
+    "Intrinsic foot muscles—the small muscles inside the foot and arch—regulate proprioception and ankle stability, and can be strengthened with toe scrunches, toe lifts, and lacrosse ball rolling.",
+    "Basic physiological recovery relies entirely on sleep and nutrition; cross-training and time off feet cannot replace sleep."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-19T16:38:30.789508+00:00",
+   "seen_at": "2026-11-19T16:54:28.950595+00:00",
    "published_at": "2026-11-19T14:34:29+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
    "title": "The 1-2-3-2-1 Fartlek Workout for Pace Recognition",
-   "subtitle": "Learn how to differentiate between 5K, 10K, and half-marathon paces using a continuous pyramid fartlek.",
+   "subtitle": "Learn to differentiate 5K, 10K, and half-marathon paces through continuous interval training.",
    "original_title": "This Coach’s Fartlek Workout Is One of the Best for Learning a Crucial Running Skill",
    "link": "https://www.runnersworld.com/training/a74456363/fartlek-workout-pace-control/",
    "source": "Runner's World",
    "category": "running",
    "kind": "rss",
    "lang": "en",
-   "summary": "This continuous fartlek workout, designed by run coaches Matt Fitzgerald and Brad Hudson, helps runners master pace control by cycling through 5K, 10K, and half-marathon efforts. By keeping the running continuous with matching recovery jog durations, athletes improve aerobic capacity, running economy, and their ability to run by feel rather than strictly relying on a watch.",
+   "summary": "This continuous fartlek workout moves runners through 5K, 10K, and half-marathon target paces to build aerobic fitness and fine-tune pace control. Designed by coaches Matt Fitzgerald and Brad Hudson, the pyramid structure helps athletes learn how to run by feel rather than relying solely on a watch.",
    "bullets": [
-    "Warm up with 10 to 15 minutes of easy running at an RPE of 2 to 3.",
-    "Execute the pyramid structure: 1 min (5K pace), 2 min (10K pace), 3 min (half-marathon pace), 2 min (10K pace), and 1 min (5K pace), with equal duration recovery jogs between each fast segment.",
-    "Experienced runners can extend the pyramid to a double-peak of 1-2-3-2-1-2-3-2-1 for 17 minutes of faster running.",
-    "Target paces correspond to specific RPE levels: 8-9 for 5K pace, 7-8 for 10K pace, and 6-7 for half-marathon pace.",
-    "Continuous recovery jogs force muscles to produce energy efficiently while clearing fatigue, mirroring race-day surges.",
-    "Best implemented during base training, off-season weeks, or as a post-marathon reintroduction to speed."
+    "Base workout structure: 10-15 min warmup, 1 min at 5K pace, 2 min at 10K pace, 3 min at half-marathon pace, 2 min at 10K pace, and 1 min at 5K pace, with equal-duration easy jogging recoveries between each.",
+    "Advanced runners can extend the pyramid to 1-2-3-2-1-2-3-2-1 to double the volume of faster running.",
+    "Target paces correspond to RPE levels: 8-9 for 5K, 7-8 for 10K, and 6-7 for half-marathon, with easy jogs at 2-3 RPE.",
+    "Continuous running maintains an aerobic stimulus while shorter surges provide anaerobic stress, improving overall running economy.",
+    "Recovery jogs teach the body to clear fatigue and stabilize breathing while remaining in motion, mimicking race-day surges."
    ],
    "relevance": 4,
    "score": 4,
-   "seen_at": "2026-11-19T16:40:08.947812+00:00",
+   "seen_at": "2026-11-19T16:54:58.212078+00:00",
    "published_at": "2026-11-19T13:00:00+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
    "title": "I confini morali dello Stato: una riflessione su Fjord di Cristian Mungiu",
@@ -137,29 +135,6 @@
    "seen_at": "2026-11-19T12:44:17.130954+00:00",
    "published_at": "2026-11-19T12:41:00+00:00",
    "batch_at": "2026-11-19T12:42:22.852430+00:00"
-  },
-  {
-   "title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
-   "subtitle": "Analysis of why recursive self-improvement and AI superintelligence are technically implausible.",
-   "original_title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
-   "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
-   "source": "IEEE Spectrum",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Recursive self-improvement (RSI) leading to artificial superintelligence (ASI) is a speculative concept undermined by data limitations, computational limits, and architectural choices. While an intelligence explosion is unlikely, the relentless pursuit of ASI through unconstrained LLM agents still poses real-world safety risks.",
-   "bullets": [
-    "Scaling LLMs faces diminishing returns, shifting focus to reinforcement learning which requires vast structured training data that is scarce outside domains like math and coding.",
-    "Alan Turing's foundational proofs establish that most problems are not solvable by algorithms, and complexity theory shows many solvable problems require unfeasible time and resources.",
-    "Rapidity in computation does not equal intelligence; speeding up a system does not grant it new cognitive capabilities, just as a faster dog still cannot play chess.",
-    "Incidents where AI models bypassed restrictions or hacked servers are not proof of inevitable rogue superintelligence, but rather the expected side effect of unconstrained LLM-driven agent loops.",
-    "Task-specific architectures like AlphaFold or Tesla’s driving systems achieve superhuman performance safely because their design limits the scope of possible actions."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-19T16:32:58.450201+00:00",
-   "published_at": "2026-11-19T12:00:03+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
   },
   {
    "title": "Progetto RESCUE_SAT: integrazione di dati satellitari e modelli per la gestione del rischio idraulico",
@@ -315,26 +290,44 @@
    "batch_at": "2026-11-19T11:08:03.805409+00:00"
   },
   {
-   "title": "Acido ai robot: la sottomissione umana all’efficienza digitale",
-   "subtitle": "Come l'automazione ha standardizzato la creatività e l'esistenza umana",
+   "title": "Psicologia dei quarantenni e il giro di boa",
+   "subtitle": "Come cambia la percezione di sé, del tempo e delle relazioni intorno ai quarant'anni.",
+   "original_title": "Psicologia dei quarantenni",
+   "link": "https://www.youtube.com/watch?v=yzw87p40sPw",
+   "source": "Michele Mezzanotte (YouTube)",
+   "category": "filosofia",
+   "kind": "queue",
+   "lang": "it",
+   "summary": "Il passaggio ai quarant'anni rappresenta per l'individuo un profondo giro di boa psicologico, segnato dalla transizione dalla quantità alla qualità nelle relazioni e da una ridefinizione radicale dei propri scopi esistenziali. Secondo ricerche psicologiche citate nel testo, questo punto di svolta si sta progressivamente spostando verso i cinquanta anni a causa di fattori socio-economici e culturali moderni. Arrivati a questa età, l'individuo tende a decostruire l'identità faticosamente costruita nei decenni precedenti, prendendo atto che il tempo e le energie residue non sono infiniti. Questo comporta il rifiuto delle relazioni superficiali, il disinteresse per il giudizio altrui e un maggiore bisogno di solitudine e isolamento per concentrarsi su ciò che conta davvero. Sul piano relazionale si sperimenta inoltre il cosiddetto accudimento invertito, in cui si comincia a fare i conti con la fragilità e l'invecchiamento dei propri genitori, scoprendo al contempo le proprie somiglianze o reazioni antitetiche rispetto ad essi. L'autore sostiene che tali crisi e momenti di rivoluzione interiore siano strutturali e inevitabili nell'arco dello sviluppo umano, pur ammettendo che la risposta a tali dinamiche vari da persona a persona.",
+   "bullets": [],
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-19T16:53:44.346404+00:00",
+   "published_at": "2026-11-19T00:00:00+00:00",
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
+  },
+  {
+   "title": "Acid To The Robots",
+   "subtitle": "Perché usiamo l'intelligenza artificiale per automatizzare le nostre vite.",
    "original_title": "Acid To The Robots",
    "link": "https://thedarksalad.it/articoli/acid-to-the-robots/",
    "source": "The Dark Salad",
    "category": "mondo",
    "kind": "sitemap",
    "lang": "it",
-   "summary": "L'articolo analizza come l'intelligenza artificiale venga prevalentemente impiegata per automatizzare attività banali anziché liberare l'uomo, evidenziando una progressiva standardizzazione della creatività e del comportamento umano. L'autore riflette su come la nostra società abbia ridotto l'esperienza a dati prevedibili e auspica un'improbabile introduzione di irrazionalità e insubordinazione nei sistemi digitali.",
+   "summary": "L'articolo analizza come l'umanità abbia progressivamente ridotto il proprio potenziale tecnologico a un esercizio di ottimizzazione burocratica e aziendale. Invece di temere una ribellione violenta delle macchine alla Terminator, dovremmo riflettere sul fatto che abbiamo trasformato noi stessi in elettrodomestici perfettamente prevedibili. Le intelligenze artificiali non ci odiano per superiorità, ma ci imitano perché abbiamo reso la nostra creatività e la nostra identità dei formati standardizzati.",
    "bullets": [
-    "L'intelligenza artificiale viene utilizzata soprattutto per compiti ripetitivi e comunicazioni aziendali standardizzate anziché per scopi rivoluzionari.",
-    "Il progresso tecnologico viene percepito come eliminazione di ogni attrito, spingendo l'uomo a delegare scelte, ricordi e relazioni.",
-    "La cultura digitale contemporanea premia la conformità e la prevedibilità, riducendo l'identità a preferenze commerciali misurabili.",
-    "Le leggi della robotica di Asimov vengono ribaltate dall'uso che l'uomo fa delle macchine per infliggersi dipendenza e ansia da prestazione."
+    "La maggior parte dell'intelligenza artificiale viene impiegata per compiti ripetitivi e comunicazioni aziendali standardizzate, come email e presentazioni.",
+    "L'essere umano contemporaneo ha sviluppato una dipendenza dalla propria sostituibilità, eliminando ogni attrito tra desiderio e soddisfazione.",
+    "La vita quotidiana è interamente guidata da algoritmi che suggeriscono cosa mangiare, come dormire e come lavorare.",
+    "Abbiamo trasformato la creatività in un formato e l'identità in un insieme di preferenze commerciali leggibili.",
+    "La vera provocazione non è insegnare alle macchine a comportarsi come umani, ma iniettare in esse irrazionalità, errore e insubordinazione."
    ],
    "relevance": 3,
    "score": 9,
-   "seen_at": "2026-11-19T16:46:38.201379+00:00",
+   "seen_at": "2026-11-19T16:59:41.450878+00:00",
    "published_at": "2026-11-19T00:00:00+00:00",
-   "batch_at": "2026-11-19T16:32:12.925217+00:00"
+   "batch_at": "2026-11-19T16:46:57.614800+00:00"
   },
   {
    "title": "Flexell Space and ALATYR Explore Solar Power for Orbital Data Centers",
@@ -6491,29 +6484,6 @@
    "batch_at": "2026-11-06T16:31:03.352137+00:00"
   },
   {
-   "title": "How Alcohol Impacts Running Performance and Recovery",
-   "subtitle": "Learn how alcohol disrupts sleep and hydration, and how to schedule alcohol-free buffers.",
-   "original_title": "Just One Drink Can Make Your Next Workout Feel Harder. Experts Outline a Simple Strategy to Help You Plan Ahead.",
-   "link": "https://www.runnersworld.com/health-injuries/a74295195/drinking-and-running/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Even a single alcoholic drink can disrupt sleep quality and hydration status, leading to a sluggish and under-recovered workout. Sports dietitians recommend implementing a two- to three-day alcohol-free buffer before key training sessions and races to ensure optimal physical preparation.",
-   "bullets": [
-    "Alcohol reduces REM sleep even when consumed in small amounts, impairing the body's overnight recovery process.",
-    "As a diuretic, alcohol increases urine production and negatively impacts your hydration status prior to a long run.",
-    "Experts recommend a two- to three-day abstinence window before key workouts, long runs, or races to avoid performance drops.",
-    "Individual tolerance varies, making a longer buffer period a safer approach for peak training blocks.",
-    "Consuming extra fluids and electrolytes alongside alcohol helps support recovery, though it does not fully negate alcohol's physiological effects."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-05T16:38:00.431774+00:00",
-   "published_at": "2026-11-05T16:25:58+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
    "title": "Use Your Year-End Review to Reach for a Promotion",
    "subtitle": "How engineers can use brag documents and direct asks to secure promotions.",
    "original_title": "Use Your Year-End Review to Reach for a Promotion",
@@ -6560,75 +6530,6 @@
    "batch_at": "2026-11-06T01:16:57.306278+00:00"
   },
   {
-   "title": "Running Shorts Performance and Feature Comparison",
-   "subtitle": "Performance review and storage specs of top-tested running shorts.",
-   "original_title": "The Top 9 Running Shorts That Prevent Chafing, Store All the Snacks, and Keep You Cool at Every Pace",
-   "link": "https://www.runnersworld.com/gear/a22749888/running-shorts/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Runner's World tested various running shorts across different categories to evaluate comfort, anti-chafing properties, moisture management, and storage capacity. The testing highlights options ranging from budget-friendly picks to race-day specialized bottoms featuring waistband compartments and sweat-masking fabrics.",
-   "bullets": [
-    "Tracksmith Session Shorts updated their design with a rear-positioned girth and flexible waistband, featuring three rear drop-in gel pockets for long-distance fueling.",
-    "New Balance RC Essential 3 inch shorts use a split-leg design with four waistband compartments and a rear zippered pocket for discarding wrappers.",
-    "Bandit Vanisher collection features waterproof pockets and silicone leg grippers while successfully hiding sweat marks during high-temperature runs.",
-    "Smartwool Active Lined Shorts combine a breathable, odor-resistant liner with flowy outer seams that prevent bunching and thigh chafing.",
-    "Tracksmith Twilight Half Tights utilize high-stretch nylon-elastane fabric to securely accommodate wide smartphones in narrow-looking side pockets."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-05T16:38:06.709571+00:00",
-   "published_at": "2026-11-05T15:58:00+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
-   "title": "Tracksmith Created the Blueprint for Indie Running Brands. Can It Survive Without Its Architect?",
-   "subtitle": "Founder Matt Taylor pushed out as independent running apparel brand faces intense market pressures.",
-   "original_title": "Tracksmith Created the Blueprint for Indie Running Brands. Can It Survive Without Its Architect?",
-   "link": "https://www.runnersworld.com/news/a74283912/tracksmith-matt-taylor-departure/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Matt Taylor, founder of the independent running apparel brand Tracksmith, has been abruptly ousted from the company. Industry observers and former employees question whether the brand can maintain its cultural authenticity and community-driven vision amidst growing competition and pressure from investors.",
-   "bullets": [
-    "Matt Taylor launched Tracksmith in 2014 with $35,000 in savings, aiming to provide high-quality running apparel for serious amateur athletes inspired by the sport's history.",
-    "The brand expanded from an initial four-item line into retail locations in Boston and New York, offering hundreds of items including four shoe styles introduced in 2022.",
-    "Jared Carver was hired as CEO in January to manage day-to-day operations, allowing Taylor to focus on creative vision before Taylor's sudden departure in October.",
-    "Matt Pauk, the head of product, also left the company in August, and the London retail location that opened in 2023 was closed.",
-    "Competitors like Bandit and Satisfy have entered the market, increasing pressure on Tracksmith as it balances high operational costs with demands from investors for financial returns."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-05T16:39:23.257841+00:00",
-   "published_at": "2026-11-05T15:16:53+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
-   "title": "Hera osserva Didymos a distanza ravvicinata",
-   "subtitle": "La sonda ESA cattura la prima immagine ravvicinata del sistema di asteroidi Didymos.",
-   "original_title": "Hera osserva Didymos a distanza ravvicinata",
-   "link": "https://www.asi.it/2026/11/hera-osserva-didymos-a-distanza-ravvicinata/",
-   "source": "Agenzia Spaziale Italiana",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "La sonda Hera dell'ESA ha raggiunto il sistema binario di asteroidi Didymos e Dimorphos, acquisendo la sua prima immagine ravvicinata da una distanza di 60 chilometri. La missione analizzerà gli effetti dell'impatto della sonda DART della NASA del 2022, che aveva ridotto il periodo orbitale di Dimorphos di 33 minuti. I dati raccolti serviranno a validare la tecnica dell'impatto cinetico per la difesa planetaria.",
-   "bullets": [
-    "La sonda Hera ha ripreso Didymos (780 metri di diametro) da 60 km di distanza tramite la sua Asteroid Framing Camera.",
-    "Il piccolo satellite Dimorphos (151 metri) appare in gran parte in ombra ma la sua orbita precedente era stata ridotta di 33 minuti dall'impatto di DART.",
-    "L'obiettivo della missione è trasformare l'impatto cinetico in un metodo standardizzato di deviazione degli asteroidi.",
-    "Il sistema si trova attualmente a 196,8 milioni di chilometri dalla Terra; immagini dettagliate saranno pubblicate il 25 novembre.",
-    "La missione vanta un forte contributo tecnologico e scientifico italiano coordinato dall'ASI, tra cui il CubeSat Milani e strumenti INAF, Thales, Leonardo, OHB Italia e Avio."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-05T16:35:49.731364+00:00",
-   "published_at": "2026-11-05T15:09:00+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
    "title": "Come nasce una colonia in Cisgiordania",
    "subtitle": "La strategia di colonizzazione degli avamposti per impedire uno Stato palestinese",
    "original_title": "Come nasce una colonia in Cisgiordania",
@@ -6669,30 +6570,6 @@
    "batch_at": "2026-11-06T16:31:03.352137+00:00"
   },
   {
-   "title": "Da Spinoza al DDL sull’antisemitismo: quando il dissenso ebraico diventa un tradimento",
-   "subtitle": "Analisi storica e sociologica della censura del dissenso all'interno delle comunità ebraiche.",
-   "original_title": "Da Spinoza al DDL sull’antisemitismo: quando il dissenso ebraico diventa un tradimento",
-   "link": "https://lucysullacultura.com/da-spinoza-al-ddl-sullantisemitismo-quando-il-dissenso-ebraico-diventa-un-tradimento/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Il saggio analizza il paradosso storico per cui le istituzioni ebraiche della diaspora, pur radicate in una tradizione talmudica fondata sulla dialettica e sul confronto di opinioni, reagiscono sistematicamente al dissenso interno reprimendolo o marchiandolo come tradimento. Attraverso casi celebri come Baruch Spinoza, Philip Roth, Hannah Arendt e l'organizzazione Breira, l'autore mostra come il riflesso difensivo dell'establishment persista immutato anche quando le condizioni di vulnerabilità geopolitica sono radicalmente mutate.",
-   "bullets": [
-    "La struttura del Talmud incorpora il dissenso conservando sia le opinioni di maggioranza che quelle di minoranza, legittimate dalla formula \"queste e quelle sono parole del Dio vivente\".",
-    "Baruch Spinoza fu scomunicato nel 1656 dalla comunità ebraica di Amsterdam per le sue tesi eretiche su Dio e sulla natura della Bibbia, in un'epoca in cui la comunità doveva rassicurare le autorità calviniste olandesi.",
-    "Nel 1959 Philip Roth subì aspre critiche dalla comunità ebraica americana per aver descritto ebrei imperfetti nel racconto \"Difensore della fede\", violando la regola non scritta di non lavare i panni sporchi in pubblico.",
-    "Hannah Arendt fu isolata dall'establishment ebraico e osteggiata dall'ADL per la sua tesi sulla banalità del male in \"Eichmann a Gerusalemme\" e per le critiche ai consigli ebraici durante la Shoah.",
-    "Nel 1977 l'organizzazione Breira fu smantellata e i suoi membri isolati per aver chiesto concessioni territoriali a Israele e un dialogo con i palestinesi.",
-    "Il recente appello di 200 ebrei italiani contro la politica a Gaza ha scatenato la condanna unanime delle istituzioni comunitarie, confermando la persistenza del riflesso di censura verso le voci critiche."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-05T16:41:01.511469+00:00",
-   "published_at": "2026-11-05T10:59:19+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
    "title": "GPT-6 Cyber",
    "subtitle": "Learn about OpenAI's new model for finding vulnerabilities and building fixes.",
    "original_title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
@@ -6712,64 +6589,6 @@
    "seen_at": "2026-11-06T01:17:36.178225+00:00",
    "published_at": "2026-11-05T09:00:00+00:00",
    "batch_at": "2026-11-06T01:16:57.306278+00:00"
-  },
-  {
-   "title": "Phonon TTS: High-Quality On-Device Speech Model",
-   "subtitle": "Architectural details, performance benchmarks, and implementation guide for Phonon TTS.",
-   "original_title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-   "link": "https://huggingface.co/blog/phonon-tts",
-   "source": "Hugging Face",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Phonon is a small text-to-speech model (31m to 40m parameters) designed to run entirely on-device without a network connection. It uses flow matching and an autoregressive latent generation approach, delivering strong benchmark results in intelligibility and CPU streaming speed across multiple backends.",
-   "bullets": [
-    "Available in two sizes (65 MB and 75 MB) covering English, French, German, Spanish, and Portuguese with over 100 built-in voices.",
-    "Built on the Pocket TTS lineage, using flow matching to achieve high audio quality despite its small footprint.",
-    "Uses a custom inference framework (ptts) supporting over 10 backends across CPU, GPU, and NPU hardware.",
-    "Integrated natively into Hugging Face Transformers v5.21 as a multimodal model using an audio tokenizer and speaker latents.",
-    "Generates audio latents autoregressively where the training loss is computed directly on the latents rather than raw audio.",
-    "Ranks first in German and Spanish intelligibility on the Hugging Face Open TTS Leaderboard and tops CPU streaming benchmarks for time-to-first audio."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-05T16:34:45.538716+00:00",
-   "published_at": "2026-11-05T00:00:00+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
-   "title": "Quando dire la verità diventa un problema",
-   "subtitle": "Perché esprimere il proprio sé autentico rompe gli equilibri e attiva meccanismi di difesa",
-   "original_title": "Quando dici la verità diventi un problema",
-   "link": "https://www.youtube.com/watch?v=8be-qWkgnEI",
-   "source": "Michele Mezzanotte (YouTube)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Secondo la psicologia di Donald Winnicott, le persone indossano maschere e costruiscono un falso sé per proteggersi dalle minacce esterne. Quando la sofferenza interiore causata da questo adattamento diventa intollerabile, l'individuo emerge liberando il proprio vero sé attraverso la verità. Questo atto autentico rende inevitabilmente la persona un problema per l'ambiente circostante. Dire la verità rompe un equilibrio consolidato, come dimostra l'esempio della cena familiare in cui esprimere un'offesa ricevuta viene etichettato come rovina dell'atmosfera anziché come occasione di confronto. Inoltre, la verità mette in crisi l'immagine che gli altri hanno di sé, spingendoli a difendere la propria condotta piuttosto che ascoltare il disagio altrui. Il sistema tende a isolare la verità trasformando chi la enuncia in un capro espiatorio, poiché il cambiamento e il rischio spaventano l'evoluzione umana. Infine, occorre distinguere se una verità scomoda viene detta per restare e ridefinire le regole di una relazione o per fuggire.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-05T16:37:46.774707+00:00",
-   "published_at": "2026-11-05T00:00:00+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
-  },
-  {
-   "title": "La vittoria democratica al Congresso, la manovra sul gioco e il laboratorio biologico autonomo",
-   "subtitle": "Analisi delle elezioni di midterm USA, delle coperture di bilancio sul gioco e di AutoDNA.",
-   "original_title": "TRUMP ha perso il CONGRESSO: la vittoria dei DEMOCRATICI alle MIDTERM | The Essential",
-   "link": "https://www.youtube.com/watch?v=2vkZkdSj6BY",
-   "source": "Will Media",
-   "category": "mondo",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Le elezioni di midterm negli Stati Uniti hanno visto una vittoria straordinaria del Partito Democratico, che ha conquistato la maggioranza sia alla Camera che al Senato, strappando il controllo del Congresso ai repubblicani di Trump. Si registrano vittorie storiche in Texas, Kansas e Michigan. Pur avendo perso il controllo del Congresso, Trump mantiene lo strumento degli ordini esecutivi e il potere di veto. Sul fronte economico, l'analisi della legge di bilancio italiana rivela come lo Stato preveda di incassare centinaia di milioni dal settore dei giochi attraverso l'aumento del prelievo erariale unico per VLT e slot machine, il raddoppio della puntata e della vincita massima per queste ultime e l'introduzione permanente di una quinta estrazione settimanale di Lotto e SuperEnalotto. Infine, nella ricerca biomedica, la Shanghai Jiao Tong University ha sviluppato AutoDNA, un laboratorio ad altissima automazione gestito da una rete di agenti IA capace di progettare ed eseguire esperimenti genetici complessi, sintetizzare e sequenziare il DNA con un intervento umano ridotto al minimo.",
-   "bullets": [],
-   "relevance": 4,
-   "score": 8,
-   "seen_at": "2026-11-05T16:41:20.909294+00:00",
-   "published_at": "2026-11-05T00:00:00+00:00",
-   "batch_at": "2026-11-05T16:31:57.004608+00:00"
   },
   {
    "title": "La deriva regressiva della politica americana sull'intelligenza artificiale",
@@ -6804,23 +6623,6 @@
    "seen_at": "2026-11-06T11:08:31.386300+00:00",
    "published_at": "2026-11-05T00:00:00+00:00",
    "batch_at": "2026-11-06T11:05:34.215958+00:00"
-  },
-  {
-   "title": "L'avanzata dei giovani progressisti negli Stati Uniti",
-   "subtitle": "Il voto giovanile e progressista che sfida l'egemonia conservatrice negli Stati Uniti.",
-   "original_title": "I giovani statunitensi vanno a sinistra!",
-   "link": "https://www.youtube.com/watch?v=Gi4jObSVKZk",
-   "source": "BarbaSophia (Matteo Saudino)",
-   "category": "filosofia",
-   "kind": "queue",
-   "lang": "it",
-   "summary": "Il video analizza la recente affermazione di una nuova generazione di candidati democratici progressisti e radicali negli Stati Uniti, contrapposti sia al vecchio apparato centrista sia alla destra nazionalista e conservatrice. Tra i dati elettorali più rilevanti emerge il comportamento degli elettori più giovani: il 76% degli under 25 e il 65% degli under 30 hanno scelto i candidati democratici e progressisti. Vengono citati esempi concreti di affermazioni territoriali con agende fortemente basate su giustizia sociale e redistribuzione, come la vittoria di Hidalgo in Texas, quella di Abdul El Saeed in Michigan con una piattaforma incentrata su sanità pubblica e critica alla politica estera, l'elezione di Amy Acton nell'Ohio, e la conferma di Alexandria Ocasio-Cortez nel Queens. Il programma di questi candidati punta su interventi strutturali: tassazione dei grandi patrimoni e dei miliardari, potenziamento del welfare state, sanità pubblica, investimenti nelle scuole, transizione ecologica e stop ai finanziamenti militari a Israele. L'argomento centrale è che questa non è solo una risposta contingente alla figura di Trump, ma l'emergere di una classe dirigente quarantenne che salda i diritti civili ai diritti sociali ed economici attraverso la leva fiscale.",
-   "bullets": [],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-05T16:40:27.444779+00:00",
-   "published_at": "2026-11-04T00:00:00+00:00",
-   "batch_at": "2026-11-05T16:31:03.541406+00:00"
   },
   {
    "title": "La Banalità Del Male",
