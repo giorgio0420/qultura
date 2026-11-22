@@ -292,7 +292,6 @@ const subtitle = (i) => i.subtitle || String(i.summary || "").split(". ")[0];
 
 function card(i) {
   const d = when(i);
-  const bullets = (i.bullets || []).map((b) => "<li>" + esc(b) + "</li>").join("");
   const isYouTube = i.kind === "yt" || i.kind === "queue";
   return '<details><summary>'
     + '<div class="line1"><time datetime="' + esc(d.toISOString()) + '">' + esc(clock(d)) + '</time>'
@@ -303,7 +302,6 @@ function card(i) {
     + '<div class="sub">' + esc(subtitle(i)) + '</div>'
     + '</summary><div class="body">'
     + '<p class="sum">' + esc(i.summary) + '</p>'
-    + (bullets ? '<ul>' + bullets + '</ul>' : '')
     + '<div class="trrow">'
     + '<a class="orig" href="' + esc(i.link) + '" target="_blank" rel="noopener">Leggi l&rsquo;originale &rarr;</a>'
     + '<button class="tr-btn" type="button">EN</button>'

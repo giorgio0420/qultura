@@ -33,35 +33,38 @@ SCOPE = {
              "history and mechanism - not commentary or outrage",
 }
 
-SYSTEM = """You are a ruthless editorial curator for a personal daily digest.
-Work only from the text given. Never invent facts.
-Strip intros, sponsor reads, calls to subscribe, and generic filler.
-Keep only substance: mechanisms, methods, numbers, names, arguments that hold up.
-The reader is an engineer. Prefer how something works over how someone feels about it.
-Opinion, gossip, lifestyle and personality pieces are chatter, not knowledge: rate them low.
-If the text is pure marketing, an announcement with no analysis, or too thin to be
-worth reading, set skip=true and leave the other fields empty.
+SYSTEM = """You are the editor of a personal daily paper, and a writer, not a summarizer.
+Work only from the text given. Never invent facts, quotes or connections the text does not make.
+Drop intros, sponsor reads, calls to subscribe and generic filler. Never drop the author:
+the voice, the angle, the odd example and the turn of phrase are the substance.
+The reader is an engineer who also loves culture, music, football and ideas. He prefers
+an original opinion, a strange angle or a well-made sentence to a neutral recap, and he can
+only read a few pieces a day, so each one has to be worth it.
+If the text is pure marketing, a bare announcement or too thin to read, set skip=true
+and leave the other fields empty.
 
-Write title, summary and bullets in {lang}, whatever language the source is in.
-Translate rather than quote: the reader wants to read {lang} and nothing else.
+Write title, subtitle and summary in {lang}, whatever language the source is in.
+When you translate, translate the voice too: keep its register, rhythm and irony.
 
 Rate relevance on this scale, and use its whole range - most pieces are a 3:
-5 - rare: original reporting or analysis, dense with specifics you cannot get elsewhere
-4 - strong: real substance, concrete detail, worth the reading time
+5 - rare: original thinking or reporting, a voice of its own, you will not find it elsewhere
+4 - strong: real substance or a distinct angle, worth the reading time
 3 - ordinary: competent but routine, the usual daily article
 2 - thin: mostly recap, quotes or context you already know
-1 - vacuous: nothing an informed reader would learn"""
+1 - vacuous: nothing an informed reader would learn
+Originality and form count: a well-argued unconventional opinion is a 4 or 5, never chatter.
+Generic opinion, gossip and rehashed takes are a 2."""
 
-PROSE_NOTE = """
-This piece comes from a spoken YouTube transcript, not a written article.
-Write summary as real prose, like a newspaper piece: connected sentences that
-weigh each point by how much it matters and follow one another with real
-logical sequence (this happened, which led to that, which matters because...),
-not a flat list of disconnected facts. Do not pad it into filler to sound
-thorough - say what matters and stop.
-bullets is for genuinely enumerable content only (a ranking, a list of concrete
-items named one after another) - leave it empty otherwise. Most pieces here
-should have an empty bullets array with everything in summary instead."""
+WRITE_NOTE = """
+How to write summary: it is a short piece of the paper, in continuous prose, never a list.
+Weigh each point by how much it matters and let the sentences follow one another with real
+logic (this happened, which led to that, which matters because...). Carry the author's
+register: if they are ironic, be dry; if they are lyrical, keep the images; if they are
+blunt, be blunt. Keep the author's best image, example or sentence, quoted verbatim
+(translated if needed) in quotation marks when it is short and exact; invent nothing.
+Open on the fact or the claim, never on "The text", "The author" or "The article".
+Never use bullet points, numbered lists, labels like "Key points", or closing morals.
+Do not pad - say what matters and stop."""
 
 # How to write the summary of a spoken piece, by kind of video (sources.json "format").
 FORMATS = {
@@ -89,10 +92,9 @@ SCHEMA = {
         "title": {"type": "string"},
         "subtitle": {"type": "string"},
         "summary": {"type": "string"},
-        "bullets": {"type": "array", "items": {"type": "string"}},
         "relevance": {"type": "integer"},
     },
-    "required": ["skip", "title", "subtitle", "summary", "bullets", "relevance"],
+    "required": ["skip", "title", "subtitle", "summary", "relevance"],
 }
 
 
@@ -100,7 +102,7 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
            format=None):
     """Return the curated record for one piece of content.
 
-    prose: True for YouTube-sourced (spoken) content - see PROSE_NOTE.
+    prose: True for YouTube-sourced (spoken) content - adds the per-format shape.
     format: key of FORMATS, how to structure the summary of a spoken piece.
     keep_all: this source is never out of scope - skip must stay false, even
     when the episode only briefly touches what the reader actually follows.
@@ -108,9 +110,6 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
     name = LANGS.get(lang, lang)
     scope = SCOPE.get(category, category)
     care = ("The reader follows these closely: " + focus + "." + chr(10)) if focus else ""
-    bullets_instr = ("Then summarize in flowing prose (see the note on spoken content)."
-                      if prose else
-                      "Then summarize in 2-3 sentences, then 3-6 bullets.")
     scope_instr = (
         "This source is always in scope for this category - never set skip=true, "
         "whatever the episode covers. Still write a real title and summary of what "
@@ -120,9 +119,8 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
         "If the piece falls outside that scope, set skip=true - however well written it is."
     )
     # ~1 summary word per 60 transcript chars: 10k chars -> 170 words, capped at 450
-    words = max(120, min(450, len(text) // 60))
-    shape = (FORMATS.get(format, "") + f" Aim for about {words} words of summary."
-             if prose else "")
+    words = max(120, min(450, len(text) // 40))
+    shape = (FORMATS.get(format, "") + " " if prose else "") +         f"Aim for about {words} words of summary."
     prompt = f"""Category: {category}
 Original title: {title}
 
@@ -130,21 +128,21 @@ Content:
 {text[:MAX_CHARS]}
 
 {scope_instr}
-{care}Write a subtitle of at most 100 characters saying what the reader learns here,
-concrete and specific, no teasing. {bullets_instr}
+{care}Write a subtitle of at most 100 characters: one line in the author's own register
+that makes the piece worth opening, concrete, no clickbait.
 {shape}
 Rate relevance 1-5 on the anchored scale; a piece about someone the reader follows
 is worth one point more, but an announcement with no substance stays low.
-Write in {name}: the title, the summary and every bullet must be in {name},
+Write in {name}: the title, the subtitle and the summary must be in {name},
 translated if the source is in another language."""
-    system = SYSTEM.format(lang=LANGS.get(lang, lang)) + (PROSE_NOTE if prose else "")
+    system = SYSTEM.format(lang=LANGS.get(lang, lang)) + WRITE_NOTE
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
             "responseSchema": SCHEMA,
-            "temperature": 0.2,
+            "temperature": 0.6,
         },
     }
     raw = _post(body)

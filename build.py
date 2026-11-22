@@ -118,7 +118,6 @@ def run():
                 "kind": src["kind"],
                 "lang": src.get("out_lang", "en"),
                 "summary": c["summary"],
-                "bullets": c["bullets"],
                 "relevance": c["relevance"],
                 "score": score(c, src["weight"]),
                 "seen_at": datetime.now(timezone.utc).isoformat(),
