@@ -1,6 +1,29 @@
 {
- "generated_at": "2026-11-22T11:14:17.128119+00:00",
+ "generated_at": "2026-11-22T12:23:49.126140+00:00",
  "items": [
+  {
+   "title": "Un'esplosione nucleare nello spazio distruggerebbe il 98% dei satelliti",
+   "subtitle": "Simulazione degli effetti di un ordigno da 1Mt sui satelliti in orbita terrestre bassa.",
+   "original_title": "Una sola esplosione nucleare nello spazio da 1Mt metterebbe fuori uso il 98% dei satelliti: lo studio",
+   "link": "https://www.geopop.it/una-sola-esplosione-nucleare-nello-spazio-da-1mt-metterebbe-fuori-uso-il-98-dei-satelliti-lo-studio/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Un nuovo studio simula l'impatto di un'esplosione nucleare da un megatone a 500 km di quota, dimostrando che il 98% dei satelliti in orbita bassa verrebbe distrutto entro una settimana. Il danno principale non sarebbe causato dall'esplosione iniziale, ma dalle particelle radioattive intrappolate dal campo magnetico terrestre che danneggiano progressivamente l'elettronica.",
+   "bullets": [
+    "La detonazione di un ordigno da 1 Mt a 500 km di quota farebbe fallire il 99,4% dei 13.000 satelliti in orbita terrestre bassa nel giro di 15 giorni.",
+    "L'impulso iniziale di raggi X danneggerebbe solo il 2,9% dei satelliti, mentre il danno maggiore deriverebbe da una fascia artificiale di radiazioni prodotta dai prodotti di fissione intrappolati dal campo magnetico.",
+    "Il tasso di guasto stimato sale al 25% dopo un giorno, al 78% dopo tre giorni e al 98% dopo una settimana di esposizione cumulativa.",
+    "Il precedente storico risale al test Starfish Prime del 1962, che creò una fascia di radiazioni capace di danneggiare i satelliti dell'epoca.",
+    "La perdita massiccia di controllo e propulsione dei satelliti innescherebbe circa 20 collisioni nei primi due anni, aggravando il problema dei detriti spaziali."
+   ],
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-22T12:24:02.488785+00:00",
+   "published_at": "2026-11-22T12:00:01+00:00",
+   "batch_at": "2026-11-22T12:23:49.126140+00:00"
+  },
   {
    "title": "La moviola di Parma-Roma: insufficienza per Sozza e il VAR",
    "subtitle": "Analisi degli errori arbitrali in Parma-Roma e dei rossi mancati",
