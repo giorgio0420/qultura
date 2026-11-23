@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-23T16:40:28.812468+00:00",
+ "generated_at": "2026-11-23T19:26:34.198816+00:00",
  "items": [
+  {
+   "title": "The Best Folding Treadmills for Runners",
+   "subtitle": "How to get a serious running deck into a tiny apartment without getting crushed.",
+   "original_title": "The 6 Best Folding Treadmills for Runners, Tested by a Treadmill Expert",
+   "link": "https://www.runnersworld.com/gear/a36384002/best-folding-treadmills-for-runners/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Folding treadmills promise a real workout without permanently swallowing your floor space, solving the winter dilemma of sleet, snow, and zero square footage. The engineering compromise has always been clear: compact size and light weight usually mean fewer features, smaller inclines, and lower top speeds. Yet the best models handle the basics effectively before disappearing into a closet when you are done.\n\nThe Echelon Stride-6 hits the sweet spot for marathon training in tight quarters, featuring a full-size running deck that drops to under eleven inches tall when folded. It requires zero assembly and utilizes an autofold feature where you simply press a foot pedal and the crossbar and board collapse onto the surface. At full speed with a twelve percent incline, it gives as good as it gets, offering low-response cushioning that creates a ride feeling closer to outdoor road running.\n\nFor those who want serious machinery that also folds, the NordicTrack Commercial 1750 provides \"Goldilocks\" cushioning that is firm enough to avoid feeling like mush yet soft enough to save your joints. Though its massive three-hundred-pound frame makes moving it tricky, it features quick controls and a large running surface. Meanwhile, the Urevo CyberMega folds down smaller than a card table, proving surprisingly stable and smooth despite its diminutive stature.\n\nWhen evaluating these machines, size, feel, portability, and the folding mechanism are make-or-break features. Folding and unfolding should be straightforward and easy, because as testers have noted, nothing kills motivation quite like the thought, \"This is where I die, crushed under a treadmill.\" A great folding treadmill lets you maintain your mileage without turning your home into a permanent gym.",
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-23T19:35:34.207126+00:00",
+   "published_at": "2026-11-23T19:00:17+00:00",
+   "batch_at": "2026-11-23T19:26:34.198816+00:00"
+  },
+  {
+   "title": "Supercharging transformer residual connections",
+   "subtitle": "Replacing static skip connections with dynamic cross-attention routing",
+   "original_title": "Supercharging transformer residual connections",
+   "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "source": "Google Research",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Traditional transformers rely on residual connections as an information highway, but point-wise summation treats all prior representations with equal weight. This rigid pipeline leads to information dilution in deep networks, as high-resolution details from earlier layers are averaged out and forced to be recomputed.\n\nTo fix this, Google Research introduces DeepCrossAttention, which reframes residual learning as a dynamic routing problem. Instead of a blanket sum, a lightweight module computes unique mixing weights per token, applying attention across layers in depth to selectively retrieve past embeddings.\n\nTested across language and image benchmarks, DCA reaches standard transformer performance in up to five times fewer steps. Retrofitting it onto a pre-trained model reduces perplexity instantly, proving that moving from static addition to dynamic retrieval unlocks deep network efficiency.",
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-23T19:29:55.123734+00:00",
+   "published_at": "2026-11-23T17:21:12+00:00",
+   "batch_at": "2026-11-23T19:26:34.198816+00:00"
+  },
+  {
+   "title": "La guida assistita di Tesla arriva in Italia",
+   "subtitle": "Il Full Self-Driving sbarca in Italia, ma il volante resta affar vostro.",
+   "original_title": "La Tesla con guida assistita supervisionata arriva in Italia: cosa cambia per chi guida un Model 3 o Model Y",
+   "link": "https://www.geopop.it/la-tesla-con-guida-assistita-supervisionata-arriva-in-italia-cosa-cambia-per-chi-guida-un-model-3-o-model-y/",
+   "source": "Geopop",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Il Ministero delle Infrastrutture e dei Trasporti ha autorizzato l'impiego del Tesla Assisted Driving, la versione europea del sistema di guida supervisionata che permette alle vetture di gestire incroci, rotatorie e cambi di corsia grazie all'intelligenza artificiale. L'Italia diventa così il dodicesimo Paese dell'Unione Europea ad adottare la tecnologia, recependola attraverso un'omologazione provvisoria rilasciata dai Paesi Bassi e valida fino al 2029.\n\nNonostante l'automazione, il sistema richiede la costante attenzione del conducente, che «resta responsabile della guida: deve sempre tenere le mani sul volante, mantenere l'attenzione sulla strada ed essere pronto a intervenire». Per il mercato europeo sono stati introdotti parametri più rigidi rispetto agli Stati Uniti, come una tolleranza ridotta sulla velocità e l'obbligo di tenere le mani ben salde sopra i 130 km/h.\n\nIl sistema si basa su una rete neurale end-to-end addestrata «sulla base dell'equivalente di oltre 100 anni di scenari di guida anonimi effettuati nel mondo reale dalla nostra flotta di oltre sei milioni di veicoli». L'attivazione avverrà tramite un aggiornamento software OTA per i possessori di Model 3 e Model Y con hardware HW4, al costo di 99 euro al mese.",
+   "relevance": 3,
+   "score": 9,
+   "seen_at": "2026-11-23T19:28:22.436220+00:00",
+   "published_at": "2026-11-23T16:30:34+00:00",
+   "batch_at": "2026-11-23T19:26:34.198816+00:00"
+  },
   {
    "title": "Da Trento a Roma: l'International Space Forum torna in Italia",
    "subtitle": "Quarantacinque nazioni riunite a Roma per il capitolo romano dello Space Forum.",
@@ -16,6 +64,22 @@
    "seen_at": "2026-11-23T16:42:09.112418+00:00",
    "published_at": "2026-11-23T15:38:52+00:00",
    "batch_at": "2026-11-23T16:40:28.812468+00:00"
+  },
+  {
+   "title": "Totti a nudo tra lacrime e rimpianti: \"Con mio padre sono stato una testa di cazzo\"",
+   "subtitle": "L'ex capitano della Roma si confessa tra tradimenti, dolori familiari e addii.",
+   "original_title": "<p>Francesco Totti in lacrime tra il padre, i tradimenti di Ilary Blasi e la Roma: &quot;Sono stato una testa di caz...&quot;</p>",
+   "link": "https://www.corrieredellosport.it/news/calcio/2026/11/23-152785716/francesco_totti_in_lacrime_tra_il_padre_i_tradimenti_di_ilary_blasi_e_la_roma_sono_stato_una_testa_di_caz_/",
+   "source": "Corriere dello Sport",
+   "category": "calcio",
+   "kind": "rss",
+   "lang": "it",
+   "summary": "Ospite sullo sgabello di Belve, Francesco Totti ripercorre le tappe della sua vita privata e professionale alternando risate e lacrime sincere. L'ex capitano giallorosso ammette di aver subito tradimenti da \"persone impensabili, familiari, amici, parenti\" che \"hanno mangiato in tanti\", ammettendo che con il senno di poi non rifarebbe molte scelte.\n\nIl momento più intenso tocca il ricordo del padre Enzo, la cui assenza lascia un vuoto incolmabile. \"Non gli ho mai detto ti voglio bene\", confessa con gli occhi lucidi, aggiungendo di sentirsi \"una testa di cazzo\" per non averlo fatto e di ripetere lo stesso errore con i propri figli.\n\nSulla fine del matrimonio con Ilary Blasi la linea è netta e senza appello: \"È successo. Non riesco a perdonare\". E sullo strappo dagli ultimi mesi in giallorosso, l'amarezza resta intatta: \"Avrei preferito che la società mi rispettasse di più\".",
+   "relevance": 3,
+   "score": 6,
+   "seen_at": "2026-11-23T19:33:14.692480+00:00",
+   "published_at": "2026-11-23T15:18:12+00:00",
+   "batch_at": "2026-11-23T19:26:34.198816+00:00"
   },
   {
    "title": "Allarme a Parigi per Psg-Roma: il fattore Napoli agita la DNLH",
@@ -6473,30 +6537,6 @@
    "seen_at": "2026-11-10T15:46:18.326405+00:00",
    "published_at": "2026-11-09T19:51:47+00:00",
    "batch_at": "2026-11-10T15:45:12.791549+00:00"
-  },
-  {
-   "title": "Top Men's Running Shoes of 2026",
-   "subtitle": "Analysis of 10 recommended running shoes for men across training categories.",
-   "original_title": "From the Brooks Ghost 18 to Adidas Adizero Evo SL, These Are the 10 Best Men’s Running Shoes We Recommend",
-   "link": "https://www.runnersworld.com/gear/a26028922/running-shoes-for-men/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "This editorial reviews ten top-performing men's running shoes for 2026, categorized by use case from daily trainers to marathon racers. It details specific midsole foams, carbon and nylon plate updates, and tester feedback regarding fit, responsiveness, and cushioning.",
-   "bullets": [
-    "Nike Pegasus 42 features a full-length Air Zoom unit, slightly modified last for wider feet, and a rocker bottom for smoother transitions.",
-    "New Balance Ellipse utilizes a retooled Fresh Foam X midsole with new geometry for trampoline-like bounce during group runs.",
-    "Brooks Ghost 18 offers reliable, well-cushioned heel support for easy recovery miles, though testers noted a slightly narrow toe box.",
-    "Adidas Adizero Evo SL pairs marathon-grade Lightstrike Pro foam with a more affordable nylon shank instead of a carbon-fiber plate.",
-    "Saucony Triumph 24 drops weight to 8.8 ounces for a men's size 9 while using new IncrediLux foam for high-rebound cushioning.",
-    "Adidas Adizero Adios Pro 5 replaces internal carbon rods with a carbon rim to achieve a 12.5 percent weight savings and an explosive, snappy ride."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-09T17:46:20.672323+00:00",
-   "published_at": "2026-11-09T16:43:00+00:00",
-   "batch_at": "2026-11-09T17:45:39.662433+00:00"
   },
   {
    "title": "AI Agents and the Limits of Zero-Trust Security",
