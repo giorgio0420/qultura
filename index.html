@@ -301,7 +301,7 @@ function card(i) {
     + '<h2>' + esc(i.title) + '</h2>'
     + '<div class="sub">' + esc(subtitle(i)) + '</div>'
     + '</summary><div class="body">'
-    + '<p class="sum">' + esc(i.summary) + '</p>'
+    + String(i.summary).split(/\n\s*\n/).map((p) => '<p class="sum">' + esc(p) + '</p>').join('')
     + '<div class="trrow">'
     + '<a class="orig" href="' + esc(i.link) + '" target="_blank" rel="noopener">Leggi l&rsquo;originale &rarr;</a>'
     + '<button class="tr-btn" type="button">EN</button>'

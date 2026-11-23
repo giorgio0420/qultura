@@ -5,6 +5,7 @@ Needs GEMINI_API_KEY (https://aistudio.google.com/apikey). No SDK: plain REST.
 
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.request
@@ -64,6 +65,8 @@ blunt, be blunt. Keep the author's best image, example or sentence, quoted verba
 (translated if needed) in quotation marks when it is short and exact; invent nothing.
 Open on the fact or the claim, never on "The text", "The author" or "The article".
 Never use bullet points, numbered lists, labels like "Key points", or closing morals.
+Return the summary as the "paragraphs" array: 2-4 short paragraphs for anything over
+~120 words, each one a beat of the story, never a wall of text.
 Do not pad - say what matters and stop."""
 
 # How to write the summary of a spoken piece, by kind of video (sources.json "format").
@@ -91,10 +94,10 @@ SCHEMA = {
         "skip": {"type": "boolean"},
         "title": {"type": "string"},
         "subtitle": {"type": "string"},
-        "summary": {"type": "string"},
+        "paragraphs": {"type": "array", "items": {"type": "string"}},
         "relevance": {"type": "integer"},
     },
-    "required": ["skip", "title", "subtitle", "summary", "relevance"],
+    "required": ["skip", "title", "subtitle", "paragraphs", "relevance"],
 }
 
 
@@ -120,7 +123,7 @@ def curate(title, text, category, lang="en", focus=None, prose=False, keep_all=F
     )
     # ~1 summary word per 60 transcript chars: 10k chars -> 170 words, capped at 450
     words = max(120, min(450, len(text) // 40))
-    shape = (FORMATS.get(format, "") + " " if prose else "") +         f"Aim for about {words} words of summary."
+    shape = ((FORMATS.get(format, "") + " ") if prose else "") +         f"Aim for about {words} words of summary, split into paragraphs."
     prompt = f"""Category: {category}
 Original title: {title}
 
@@ -142,7 +145,7 @@ translated if the source is in another language."""
         "generationConfig": {
             "responseMimeType": "application/json",
             "responseSchema": SCHEMA,
-            "temperature": 0.6,
+            "temperature": 0.4,
         },
     }
     raw = _post(body)
@@ -150,7 +153,24 @@ translated if the source is in another language."""
         # blocked prompt or empty answer: say why instead of a bare KeyError
         raise RuntimeError("Gemini returned no candidates: "
                            + json.dumps(raw.get("promptFeedback", raw))[:300])
-    return json.loads(raw["candidates"][0]["content"]["parts"][0]["text"])
+    r = json.loads(raw["candidates"][0]["content"]["parts"][0]["text"])
+    r["summary"] = _unfake_quotes(chr(10).join(p + chr(10) for p in r.pop("paragraphs")).strip(), text)
+    return r
+
+
+def _norm(t):
+    return " ".join("".join(c for c in t.lower() if c.isalnum() or c == " ").split())
+
+
+def _unfake_quotes(summary, text):
+    """Keep quotation marks only around words the source really contains.
+
+    The model sometimes paraphrases inside quotes; a quote the reader cannot find in
+    the original is a small lie, so it loses its marks and stays as plain prose.
+    """
+    src = _norm(text)
+    keep = lambda m: m.group(0) if _norm(m.group(1)) in src else m.group(1)
+    return re.sub(r'["«“]([^"»”]+)["»”]', keep, summary)
 
 
 def _post(body, tries=4):
