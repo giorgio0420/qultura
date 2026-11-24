@@ -1,6 +1,22 @@
 {
- "generated_at": "2026-11-24T11:06:15.671445+00:00",
+ "generated_at": "2026-11-24T14:41:36.417221+00:00",
  "items": [
+  {
+   "title": "Like Jess McClain, I Took Time Off From Running—and Came Back Stronger",
+   "subtitle": "When training stops being a pursuit and starts feeling like a prison sentence.",
+   "original_title": "Like Jess McClain, I Took Time Off From Running—and Came Back Stronger. These Signs Mean It’s Time to Step Away.",
+   "link": "https://www.runnersworld.com/training/a74479224/time-off-running-faster/",
+   "source": "Runner's World",
+   "category": "running",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Marathon training had become a grueling chore, driven by relentless weekly mileage and heavy lifting sessions that left the runner staring at the couch in sheer exhaustion. Paces stagnated, workouts felt like punishments, and stepping up to the starting line provoked nothing more than quiet dread.\n\nSports psychologist Erin Ayala identifies three distinct markers of athletic burnout: stunted growth despite best efforts, sustained physical and emotional exhaustion, and an identity crisis where the runner questions the entire point of the endeavor. Trying to push through this wall with pure discipline relies on shame rather than joy, turning a beloved pursuit into a maladaptive trap of perfectionism.\n\nStepping away for nine months meant letting running shoes gather dust while turning attention toward mundane comforts, pottery classes, and virtual pet games. Stepping off the treadmill of obligation allowed the intrinsic motivation to finally return, proving that burnout is not a personal failure, but a normal, expected phase of an athletic life.",
+   "relevance": 3,
+   "score": 3,
+   "seen_at": "2026-11-24T14:44:54.624691+00:00",
+   "published_at": "2026-11-24T13:00:00+00:00",
+   "batch_at": "2026-11-24T14:41:36.417221+00:00"
+  },
   {
    "title": "Piloti, macchine e l'ironia dell'automazione in volo",
    "subtitle": "Più il software fa tutto, più serve un pilota capace di rimediare.",
@@ -224,6 +240,22 @@
    "seen_at": "2026-11-24T10:02:39.047271+00:00",
    "published_at": "2026-11-23T17:20:37+00:00",
    "batch_at": "2026-11-24T10:01:51.680879+00:00"
+  },
+  {
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "subtitle": "Gemini agents and Lean prove faster quantum circuits for fusion and drug design",
+   "original_title": "Finding faster quantum algorithms with agents and formal verification",
+   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "kind": "rss",
+   "lang": "en",
+   "summary": "Quantum computers promise to solve problems beyond classical supercomputers, but even the best algorithms demand more resources than early hardware can support. To bridge this gap, teams of Gemini agents were deployed to improve well-known quantum circuits, creating highly efficient instructions for future scientific simulations.\n\nBecause resource-intensive quantum circuits cannot be tested on classical hardware, the agent teams proved each result mathematically using Lean, a formal theorem prover. This approach cut computing costs by nearly twelve times for inertial confinement fusion models, made light-sensitive molecule simulations eight times cheaper, and found a massive two hundred and ninety times speedup for the arcsin routine.\n\nProof-checked AI search compresses work that once took years of manual design, shifting the human role toward setting problems and interpreting results. To help the community build on this foundation, the research team is open-sourcing their Lean library, problem specifications, and verified solutions on GitHub.",
+   "relevance": 4,
+   "score": 12,
+   "seen_at": "2026-11-24T14:43:09.099400+00:00",
+   "published_at": "2026-11-23T16:59:40+00:00",
+   "batch_at": "2026-11-24T14:41:36.417221+00:00"
   },
   {
    "title": "La guida assistita di Tesla arriva in Italia",
@@ -6432,142 +6464,6 @@
    "batch_at": "2026-11-10T15:45:12.791549+00:00"
   },
   {
-   "title": "AlphaProof Code Formally Verifies Signal Protocol Implementation",
-   "subtitle": "How AI agents generated millions of lines of Lean proof to verify Signal's compiled code.",
-   "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Google DeepMind researchers used a multi-LLM framework called AlphaProof Code to formally verify the compiled code of the Signal protocol. By combining human specification with Gemini Carbon-powered agents, the system generated over six million lines of Lean mathematical proofs in four weeks, reducing human review to just one percent of the codebase.",
-   "bullets": [
-    "AlphaProof Code is a multi-LLM agentic framework designed for deep formal verification of complex software.",
-    "The system generated over six million lines of Lean code to mathematically prove the accuracy of Signal's implementation down to the compiled binary.",
-    "Human experts translated security goals into formal specifications and reviewed AI-highlighted areas, reducing manual audit effort to one percent of the codebase.",
-    "The verification process took four weeks, a task that historically required years of manual expert labor.",
-    "When tested on isolated code containing two previously fixed real-world bugs, the system successfully generated machine-checked proofs showing the insecure states."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-10T12:23:06.994365+00:00",
-   "published_at": "2026-11-10T12:02:28+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Aerei cargo senza pilota: come funzionano e quali sono i rischi di sicurezza",
-   "subtitle": "Funzionamento, affidabilità e minacce informatiche del volo autonomo cargo.",
-   "original_title": "Quanto sono affidabili gli aereo cargo senza pilota e come funzionano: i rischi per la sicurezza",
-   "link": "https://www.geopop.it/quanto-sono-affidabili-gli-aereo-cargo-senza-pilota-e-come-funzionano-i-rischi-per-la-sicurezza/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "I test sui velivoli cargo a pilotaggio autonomo dimostrano che i sistemi di bordo e le stazioni di terra possono gestire interamente le operazioni di volo, dal rullaggio all'atterraggio. Tuttavia, persistono sfide critiche legate alla gestione del traffico aereo non cooperativo, alla perdita di feedback sensoriale umano e alla vulnerabilità ai segnali GPS falsificati.",
-   "bullets": [
-    "I sistemi di volo autonomo utilizzano computer e attuatori integrati con GPS e sensori di bordo, supervisionati da una stazione di terra e dotati di tecnologie radar e ADS-B per il rilevamento degli ostacoli.",
-    "Il trasporto merci viene scelto per la sperimentazione per ridurre i rischi dovuti all'assenza di passeggeri e perché molte tratte avvengono di notte o a bassa quota.",
-    "Lo spoofing del GPS rappresenta una minaccia concreta: la trasmissione di segnali falsi può alterare i calcoli di navigazione senza attivare allarmi immediati nei sistemi automatici.",
-    "Le autorità aeronautiche come EASA e FAA richiedono standard di sicurezza rigidissimi, stimati in una probabilità di guasto catastrofico inferiore a uno ogni miliardo di ore di volo.",
-    "La certificazione del volo autonomo richiede di dimostrare l'affidabilità non solo dell'aereo, ma dell'intera infrastruttura, inclusi i collegamenti di comunicazione e la gestione dei velivoli non tracciati."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-10T12:22:35.143866+00:00",
-   "published_at": "2026-11-10T11:30:30+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "OpenAI lancia GPT-6 Cyber e individua centinaia di falle nel kernel Linux e in Firefox",
-   "subtitle": "Il nuovo modello AI di OpenAI rileva falle software e genera exploit con precisione record",
-   "original_title": "OpenAI lancia GPT-6 Cyber e scova 948 falle in Linux: come l’AI cambia la sicurezza informatica",
-   "link": "https://www.geopop.it/openai-lancia-gpt-6-cyber-e-scova-948-falle-in-linux-come-lai-cambia-la-sicurezza-informatica/",
-   "source": "Geopop",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "OpenAI ha presentato GPT-6 Cyber, un modello di intelligenza artificiale progettato per la sicurezza informatica e la ricerca di vulnerabilità. Il sistema ha ottenuto risultati notevoli nei benchmark di settore e ha individuato centinaia di problemi di sicurezza precedentemente sconosciuti in software complessi come Linux e Firefox.",
-   "bullets": [
-    "GPT-6 Cyber ha raggiunto il 48,5% nel benchmark ExploitGym, migliorando il 32,1% del predecessore.",
-    "Il modello ha individuato il 40,3% delle vulnerabilità nei penetration test senza accesso al codice sorgente.",
-    "Sono state scoperte 81 nuove vulnerabilità ad alta gravità in Mozilla Firefox e 948 potenziali problemi nel kernel Linux.",
-    "Nel test RemoteExploitBench, il sistema ha completato con successo il 95% delle attività di sviluppo di exploit.",
-    "OpenAI ha classificato il modello al livello \"Critical\" nel proprio Preparedness Framework e ha implementato misure per limitare gli abusi e prevenire attacchi non autorizzati."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-10T12:22:40.814327+00:00",
-   "published_at": "2026-11-10T10:30:41+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Il ritorno al tavolo: perché i giochi di ruolo non si abbandonano mai",
-   "subtitle": "Un autore riflette sul ritorno ai giochi di ruolo e alla scrittura fantasy",
-   "original_title": "Chi ama i giochi di ruolo non può smettere davvero di giocarci",
-   "link": "https://lucysullacultura.com/chi-ama-i-giochi-di-ruolo-non-puo-smettere-davvero-di-giocarci/",
-   "source": "Lucy sulla cultura",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Il testo esplora il legame indissolubile tra i giocatori e i giochi di ruolo, analizzando le ragioni che spingono a smettere e inevitabilmente a ricominciare. Attraverso il filtro di un'esperienza personale che attraversa videogiochi moderni, lockdown e la nascita di un figlio, l'autore mostra come la creazione di mondi ludici e la scrittura di romanzi fantasy si alimentino reciprocamente.",
-   "bullets": [
-    "I giochi di ruolo si abbandonano solitamente per ragioni logistiche o di tempo, come la disgregazione del gruppo o l'arrivo di impegni familiari, ma la passione di fondo rimane intatta.",
-    "Strumenti digitali come Discord e Roll20 hanno permesso di mantenere attiva la pratica del gioco a distanza durante i periodi di isolamento forzato.",
-    "L'autore descrive il parallelo tra la stesura di un romanzo fantasy e la progettazione di una campagna da Dungeon Master, partendo dalla costruzione cartografica del mondo.",
-    "I videogiochi moderni, dai rogue-like come Hades a colossi come Baldur's Gate III, offrono meccaniche ed elementi narrativi che intercettano lo stesso bisogno di esplorazione tipico dei GdR.",
-    "Il gioco di ruolo viene definito come l'arte più effimera e pura, basata sulla dialettica tra idee del master e dei giocatori, irriproducibile da qualsiasi medium digitale."
-   ],
-   "relevance": 4,
-   "score": 4,
-   "seen_at": "2026-11-10T12:24:46.045526+00:00",
-   "published_at": "2026-11-10T09:15:28+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Neuralink gioca con i neuroni ignorando le regole della scienza",
-   "subtitle": "Critica metodologica ai trial clinici di Neuralink e al ruolo della FDA.",
-   "original_title": "Neuralink gioca con i neuroni ignorando le regole della scienza",
-   "link": "https://lucysuimondi.com/neuralink-gioca-con-i-neuroni-ignorando-le-regole-della-scienza/",
-   "source": "Lucy sui mondi",
-   "category": "filosofia",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "L'analisi critica dei trial clinici di Neuralink evidenzia una preoccupante priorità delle logiche di mercato rispetto al rigore scientifico e alla sicurezza. Vengono sollevati interrogativi sui rischi emersi già nei test sugli animali e sulla gestione delle tempistiche da parte degli enti regolatori.",
-   "bullets": [
-    "Il primo paziente è stato annunciato il 29 gennaio 2024, mentre i trial clinici ufficiali sono stati registrati soltanto a maggio.",
-    "Si sono concretizzati rischi clinici che erano già emersi durante le fasi di sperimentazione animale.",
-    "L'approvazione della FDA solleva interrogativi sulla priorità accordata alle dinamiche di mercato rispetto alla cautela scientifica in ambito sanitario."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-10T12:24:36.103037+00:00",
-   "published_at": "2026-11-10T08:57:15+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "ESCAPADE SmallSats Head to Mars Following Powered Earth Flybys",
-   "subtitle": "NASA's ESCAPADE spacecraft executed powered Earth flybys to set a Mars trajectory.",
-   "original_title": "ESCAPADE on its way to Mars after Earth flybys",
-   "link": "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/",
-   "source": "SpaceNews",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "NASA's two ESCAPADE smallsats have successfully completed powered Earth flybys, utilizing the Oberth effect to set a course for Mars outside traditional launch windows. Built by Rocket Lab and following a trajectory designed by Advanced Space, the spacecraft are scheduled to arrive at Mars in September 2027 to study space weather.",
-   "bullets": [
-    "The Gold and Blue spacecraft performed Earth flybys at altitudes of roughly 1,050 and 1,600 kilometers, respectively.",
-    "Both spacecraft fired their main engines during the flybys, marking NASA's first use of a powered Earth flyby to reach Mars.",
-    "The maneuver utilized the Oberth effect to maximize performance and enable launch flexibility outside traditional two-year alignment windows.",
-    "The spacecraft are scheduled to arrive at Mars in September 2027, where they will execute 11-minute orbital insertion burns.",
-    "The mission will study how solar wind interacts with the Martian magnetosphere and atmosphere using dual-orbit configurations."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-10T12:23:20.758000+00:00",
-   "published_at": "2026-11-10T08:01:39+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
    "title": "Decision Models in Hugging Face",
    "subtitle": "Learn how decision models output typed probabilities instead of generating text.",
    "original_title": "Decision Models in Hugging Face",
@@ -6710,52 +6606,6 @@
    "batch_at": "2026-11-13T16:32:11.270655+00:00"
   },
   {
-   "title": "Marathon Preparation Guide",
-   "subtitle": "Essential preparation steps for training for a 26.2-mile marathon.",
-   "original_title": "Inspired by Fall Marathon Season? Here’s What You Need to Do to Prepare for 26.2",
-   "link": "https://www.runnersworld.com/training/a74287251/how-to-prep-for-marathon-training/",
-   "source": "Runner's World",
-   "category": "running",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Preparing for a marathon requires a solid aerobic base, structured resistance training, and a well-tested fueling strategy to avoid injury and deficits. Coaches recommend starting with three months of base building, committing to a 16-week training plan, and testing all gear and nutrition well before race day.",
-   "bullets": [
-    "Build a steady foundation by spending at least three months gradually reaching 20 to 25 miles per week before starting a formal marathon plan.",
-    "Incorporate two to three weight workouts per week focusing on core, hips, plyometrics, and single-leg exercises to prevent injuries and improve running economy.",
-    "Carry water and sports drinks for sips every 10 to 15 minutes, and consume gels or gummies every 30 minutes during long runs to stay ahead of hydration and nutritional deficits.",
-    "Commit to a 16-week training block that accounts not only for running mileage, but also for prehab, strength training, and recovery.",
-    "Purchase and test all gear, clothing, shoes, and anti-chafing sticks during training runs to prevent blisters and raw skin before race day."
-   ],
-   "relevance": 3,
-   "score": 3,
-   "seen_at": "2026-11-10T12:24:13.708377+00:00",
-   "published_at": "2026-11-09T20:48:33+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Exploring the world's languages with Language Explorer",
-   "subtitle": "Google's Language Explorer visualizes global linguistic diversity using the LinguaMeta dataset.",
-   "original_title": "Exploring the world's languages with Language Explorer",
-   "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-   "source": "Google Research",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Google has developed Language Explorer, an interactive web platform that visualizes global linguistic diversity using data from the open-source LinguaMeta dataset. Built as part of the 1,000 Languages Initiative, the tool maps speech diversity and is featured as an installation in a Berlin museum exhibition. The initiative relies on community partnerships, grassroots data collection projects like Project Vaani and Project Waxal, and collaborations with native speakers to support hundreds of language varieties.",
-   "bullets": [
-    "Google Translate expanded from two languages in 2006 to nearly 250 languages today, translating around a trillion words monthly.",
-    "Grassroots initiatives like Project Vaani in India and Project Waxal in Africa gather thousands of hours of open speech data for underserved languages.",
-    "Gboard currently supports over 900 language varieties through global linguistic diversity research.",
-    "The Language Explorer web platform is powered by the open-source LinguaMeta dataset developed under the 1,000 Languages Initiative.",
-    "The interactive tool is featured in the Real Talk! Language. Power. World. exhibition at the Museum of Communication in Berlin and Frankfurt."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-10T12:23:13.776447+00:00",
-   "published_at": "2026-11-09T20:29:39+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
    "subtitle": "Google DeepMind unveils Gemini Robotics 2.5, detailing metrics, hardware integration, and safety data.",
    "original_title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
@@ -6777,29 +6627,6 @@
    "seen_at": "2026-11-10T15:46:18.326405+00:00",
    "published_at": "2026-11-09T19:51:47+00:00",
    "batch_at": "2026-11-10T15:45:12.791549+00:00"
-  },
-  {
-   "title": "AI Agents and the Limits of Zero-Trust Security",
-   "subtitle": "Security challenges, context recovery attacks, and trust limits in multi-agent AI systems.",
-   "original_title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-   "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-   "source": "IEEE Spectrum",
-   "category": "ai",
-   "kind": "rss",
-   "lang": "en",
-   "summary": "Multi-agent AI systems introduce significant security challenges, including context recovery attacks, zero-day vulnerabilities, and the limitations of zero-trust architectures in asynchronous environments. Experiments at Queen's University Belfast show that agentic orchestration can execute de-authentication attacks in 2 to 3 seconds, leaving little time for patching. Solutions such as AI-bills of material, distributed ledger technology, and adversarial distillation are required to establish verifiable trust and traceabiity.",
-   "bullets": [
-    "Context recovery attacks can force AI agents to reveal previously deleted historical information through future prompts.",
-    "Zero-trust architectures rely on Policy Enforcement Points (PEPs), but trusting a single enforcement entity creates single points of failure in scalable agentic ecosystems.",
-    "Experiments at Queen's University Belfast demonstrated that agentic orchestration can execute de-authentication attacks in 2 to 3 seconds.",
-    "Asynchronous autonomy makes it computationally expensive to verify every query in real-time, forcing trade-offs between memory and execution.",
-    "Proposed mitigations include AI-bills of materials, distributed ledger technology for immutability, and balancing adversarial accuracy with certified robustness."
-   ],
-   "relevance": 4,
-   "score": 12,
-   "seen_at": "2026-11-10T12:22:23.119719+00:00",
-   "published_at": "2026-11-09T16:25:06+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
   },
   {
    "title": "Localization of Wireless Devices Using TOA and TDOA",
@@ -6896,28 +6723,6 @@
    "seen_at": "2026-11-13T11:04:35.415521+00:00",
    "published_at": "2026-10-30T00:00:00+00:00",
    "batch_at": "2026-11-13T11:01:49.957846+00:00"
-  },
-  {
-   "title": "Ridateci Miss Italia",
-   "subtitle": "Riflessione sul declino dei concorsi di bellezza e sulla spettacolarizzazione del quotidiano",
-   "original_title": "Ridateci Miss Italia",
-   "link": "https://ilnemico.it/blogs/news/ridateci-miss-italia",
-   "source": "Il Nemico",
-   "category": "mondo",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "L'articolo analizza la trasformazione e la marginalizzazione di Miss Italia, criticando la ricerca forzata di inclusività e poliedricità nelle concorrenti a scapito della semplice bellezza estetica. L'autrice sostiene che laテレビ e i giocattoli contemporanei riflettano un'isterica necessità di rappresentare ogni condizione reale, tradendo la funzione originaria dell'astrazione e della fantasia.",
-   "bullets": [
-    "La nuova vincitrice di Miss Italia 2026, Sarah Rizea, rappresenta un canone estetico più vicino alla normalità rispetto alle dive del passato.",
-    "Il concorso ha perso centralità e senso originario nel tentativo di adeguarsi a standard politicamente corretto e inclusivi.",
-    "L'evoluzione dei giocattoli Mattel, come le Barbie con disabilità, viene criticata come operazione di marketing forzata che snatura il gioco inteso come spazio di fantasia e astrazione.",
-    "Si evidenzia un cortocircuito culturale: mentre si vieta l'auto-oggettificazione televisiva tradizionale, i social media e le piattaforme digitali ne promuovono forme estreme e filtrate."
-   ],
-   "relevance": 2,
-   "score": 6,
-   "seen_at": "2026-11-10T12:25:35.722279+00:00",
-   "published_at": "2026-10-26T11:00:18+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
   },
   {
    "title": "Africa Skate costruisce un'industria dello skateboard in Africa",
@@ -7080,73 +6885,20 @@
    "batch_at": "2026-11-21T16:43:58.106950+00:00"
   },
   {
-   "title": "Il rapporto strutturale tra velocità, tempo e qualità nell'ingegneria e nell'orologeria",
-   "subtitle": "Come la cura del tempo e la precisione tecnica definiscono la performance meccanica.",
-   "original_title": "È nell’equilibrio tra velocità e tempo che si misura la qualità di ciò che costruiamo",
-   "link": "https://thevision.com/innovazione/audi-origin-milano-design-week-2026/",
-   "source": "The Vision",
-   "category": "mondo",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Analisi del paradosso contemporaneo della velocità e del tempo attraverso il parallelismo tra alta orologeria e ingegneria automobilistica. Viene esaminato come la performance reale sia il risultato di processi rigorosi e non comprimibili, illustrato dai casi storici di Breguet e dalle novità tecnologiche di Audi presentate alla Milano Design Week 2026.",
-   "bullets": [
-    "La velocità acritica consuma valore, cura e innovazione, riducendosi a rumore.",
-    "L'alta orologeria e l'ingegneria automobilistica condividono la necessità di processi lunghi e rigorosi per raggiungere la vera performance.",
-    "Abraham-Louis Breguet ha rivoluzionato il design orologiero eliminando gli ornamenti superflui e inventando il tourbillon nel 1801 per contrastare gli effetti della gravità.",
-    "La monoposto Audi R26 di Formula 1 e la nuova Audi RS 5 ibrida plug-in traducono la ricerca della massima efficienza e della precisione tecnica in contesti diversi.",
-    "La RS 5 monta un motore V6 2.9 TFSI biturbo abbinato a un propulsore elettrico, erogando complessivamente 639 cavalli e 825 Nm di coppia."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-10T12:25:41.981297+00:00",
-   "published_at": "2026-04-23T17:30:50+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Il ritorno all'essenziale nel design e nella velocità",
-   "subtitle": "Come Audi e Zaha Hadid interpretano la sottrazione e la quiete contro il rumore digitale",
+   "title": "Il rumore del mondo e la forma del vuoto",
+   "subtitle": "Nel caos dell'accelerazione perenne, la vera sfida del design è sottrarre",
    "original_title": "In una società dominata dal rumore e dalla velocità, serve tornare all’essenziale",
    "link": "https://thevision.com/innovazione/audi-milan-design-week-2026/",
    "source": "The Vision",
    "category": "mondo",
    "kind": "rss",
    "lang": "it",
-   "summary": "In un'epoca dominata dal sovraccarico sensoriale e dalla velocità costante, il design industriale e l'architettura devono adottare la sottrazione come metodo rigoroso. Durante la Milan Design Week 2026, Audi e Zaha Hadid Architects hanno presentato l'installazione Origin per esplorare il valore della quiete e della durata, affiancata da progetti ingegneristici estremi come la monoposto F1 R26 e la nuova RS 5 ibrida plug-in.",
-   "bullets": [
-    "L'installazione Origin, progettata da Zaha Hadid Architects per Audi nel cortile dell'ex Seminario Arcivescovile, utilizza proporzioni, luce e silenzio per stimolare la riflessione contro la frenesia del contesto urbano.",
-    "La filosofia progettuale presentata punta sulla sottrazione matematica e sulla chiarezza, eliminando il superfluo per focalizzarsi unicamente su ciò che è essenziale.",
-    "L'Audi RS 5 adotta un sistema ibrido plug-in con motore V6 2.9 TFSI biturbo e motore elettrico, erogando complessivamente 643 cavalli e 825 Nm di coppia con controllo dinamico della coppia.",
-    "La monoposto R26 dell'Audi Revolut F1 Team applica lo stesso principio di ottimizzazione estrema dei pesi e dei tempi di risposta al contesto competitivo della Formula 1.",
-    "Durante i talk della manifestazione, Stefano Domenicali ha ribadito che la tecnologia e l'intelligenza artificiale non possono sostituire l'uomo, il cui compito resta quello di generare emozione."
-   ],
+   "summary": "Viviamo in una condizione di sovraccarico sensoriale permanente, un rumore costante in cui la quantità di stimoli ha superato la nostra capacità di filtrarli. La stanchezza contemporanea non nasce dal fare troppo, ma dall'essere attraversati da migliaia di input non scelti che consumano l'attenzione prima ancora che il corpo. In questo flusso continuo che cancella la differenza tra segnale e rumore, la velocità non è più una qualità del presente ma la sua struttura, lasciandoci addosso la sensazione perenne di essere in ritardo su tutto.\n\nContro questa urgenza, la risposta non può essere estetica ma metodologica. Progettare per l'essenziale significa applicare una disciplina di sottrazione rigorosa, rinunciando all'effetto immediato per trovare chiarezza. Come ha osservato Massimo Frascella, \"in un mondo che diventa ogni giorno più frenetico e complesso, il design deve aiutare le persone a filtrare la confusione, a trovare chiarezza e a riconnettersi con ciò che è essenziale\". Questa priorità progettuale si ritrova tradotta in scale diverse, dall'installazione architettonica di Zaha Hadid Architects fino alla ricerca esasperata di efficienza in una monoposto di Formula 1 o nel primo sistema ibrido plug-in di una RS.\n\nLa tecnologia accelera e calcola con precisione millimetrica, ma il perimetro umano resiste nel bisogno di emozione. La velocità tecnologica non può soppiantare l'uomo perché la gente vuole sentire l'emozionalità, come ricorda Stefano Domenicali. In un sistema che occupa ogni ora e ogni spazio mentale con la performance, rallentare e costruire oggetti capaci di durare non è un esercizio nostalgico, ma la forma di design più radicale e necessaria che esista.",
    "relevance": 4,
    "score": 12,
-   "seen_at": "2026-11-10T12:25:48.036118+00:00",
+   "seen_at": "2026-11-24T14:51:59.599856+00:00",
    "published_at": "2026-04-22T16:31:33+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
-  },
-  {
-   "title": "Sirât: il nuovo film di Oliver Laxe tra rave, deserto e riti di passaggio",
-   "subtitle": "Un'analisi del film Sirat di Oliver Laxe, tra musica elettronica e deserto marocchino.",
-   "original_title": "In “Sirât”, per schivare la morte, bisogna attraversare la vita a occhi chiusi",
-   "link": "https://thevision.com/atlas/sirat-oliver-laxe-recensione/",
-   "source": "The Vision",
-   "category": "mondo",
-   "kind": "rss",
-   "lang": "it",
-   "summary": "Il film Sirât del regista spagnolo Oliver Laxe racconta la storia di un padre e un figlio alla ricerca della figlia scomparsa in un rave in Marocco. La narrazione unisce l'energia della musica elettronica a un aspro viaggio nel deserto, esplorando temi come il lutto, i limiti umani e i riti di passaggio.",
-   "bullets": [
-    "Il film è stato presentato al Festival di Cannes, dove ha ricevuto il premio della Giuria ex-aequo.",
-    "La trama segue Luis e suo figlio Esteban mentre cercano la figlia scomparsa in un rave nel sud del Marocco.",
-    "Il titolo Sirât fa riferimento al concetto islamico del sentiero sottile e pericoloso che l'anima deve attraversare.",
-    "Il regista Oliver Laxe esplora il tema della morte e dei riti di passaggio in una società che tende a rimuoverli.",
-    "Il viaggio nel deserto diventa una prova di verità, un confronto con il dolore e una dissoluzione dell'ego."
-   ],
-   "relevance": 3,
-   "score": 9,
-   "seen_at": "2026-11-10T12:26:01.264018+00:00",
-   "published_at": "2025-12-29T09:47:58+00:00",
-   "batch_at": "2026-11-10T12:22:06.487381+00:00"
+   "batch_at": "2026-11-24T14:41:36.417221+00:00"
   },
   {
    "title": "Most Wanted Terrorists",
